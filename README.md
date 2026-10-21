@@ -1,234 +1,454 @@
-# 夏末白夜 · 小米手环 9 Pro 版（Vela 快应用）
+# 夏末白夜 · 小米手环 9 Pro 版
 
-把 PC 版 Ren'Py 视觉小说《夏末白夜》搬到 **小米手环 9 Pro（336×480 方屏）** 上阅读。
-剧本解释器与手环适配思路参照 [galgod-band](https://github.com/mcpotato1123/galgod-band)，
-界面按 [limelight-lemonade-jam-miband](https://github.com/mcpotato1123/limelight-lemonade-jam-miband)
-的浅色卡片风格重做；剧本、立绘、背景、CG 全部从 PC 版解包得到，代码按本作数据重写。
+把 PC 版 Ren'Py 视觉小说 **《夏末白夜》** 移植成能在**小米手环 9 Pro**（336×480 矩形 AMOLED）上阅读的 **Vela 快应用**。
 
-> 仓库里已包含处理好的素材与编译后的剧本，**只想打包上手表的人不需要原作文件**；
-> 只有要重新解包时才需要自备 PC 版《夏末白夜》。
+**引擎与 UI**
+> 剧本解释器与手环适配思路参照开源工程 [mcpotato1123/galgod-band](https://github.com/mcpotato1123/galgod-band)：**索引 + 分块剧本的流式阅读器**、固定槽位渲染、`protected` 页面状态、`storage` 存档。
+
+> 界面按 [mcpotato1123/limelight-lemonade-jam-miband](https://github.com/mcpotato1123/limelight-lemonade-jam-miband) 的浅色风格重做：白色卡片、淡黄菜单条、顶部装饰条、半透明对白板。
 
 ```
-25 章 / 19,404 条指令 / 13,162 句台词（约 33.4 万字）· 指令可达率 99.4%
-30 张背景 · 13 张 CG（16:9 原图缩到 853×480，鉴赏页可拖动看全）· 4 名角色整身立绘 + 店长 4 姿
-仓库 9.1 MB · 打出的 rpk ≈ 5.7 MB
+剧本数据  19,404 条指令 / 25 章 / 152 个分块（每块 128 条）
+对话      13,162 句（333,680 字），指令可达率 99.4%
+美术      背景 30（672×480）· 立绘 4 名角色 213 张表情差分 + 店长 4 姿（210×420 整身）
+          CG 13 张（16:9 原图，鉴赏页 853×480 可拖动看全）
+分支      10 个菜单 + 1 处好感度条件跳转，2 条结局线
+页面      7 个：主页 / 正文 / 章节 / 存档 / CG 鉴赏 / 设置 / 关于
+协议      代码 MIT（见 LICENSE）；剧本与美术资源不在 MIT 范围内（见 NOTICE.md）
+产物      dist/com.thewhitenightInlatesummer.band.debug.1.0.rpk   5.73 MB
 ```
+
+> **免责声明**：本项目是非官方的个人移植，仅供学习交流。
+> 剧本文字与全部美术资源（背景 / 立绘 / CG）版权归《夏末白夜》原作方所有。
+> 本仓库出于「可运行」的需要收录了转码后的资源，请不要用于任何商业用途。
+> 本仓库的**代码**部分可自由参考。详见文末「九、版权与开源协议」。
+
+---
+
+## 故事梗概
+
+> 以下为原作设定的简介。
+
+**世界观**
+
+暑假第三天，白月高中的周腾照旧和葛城昼夜颠倒地打着游戏，直到白月公园那个怪谈又被提起——
+**在 8 月 31 日留下深刻遗憾的人，会被永远困在 8 月 32 日。**
+
+开学报到当天，一名男学生失踪了。自称「看得见」的后辈、总是笑着的少女，还有那间叫「星期八」的咖啡厅，
+把这个夏天一点点拖向不对劲的地方。
+
+**主要角色**
+
+| 角色 | 简介 |
+|---|---|
+| **周腾**（主角） | 白月高中学生。暑假和葛城通宵打游戏，被卷进「8 月 32 日」的怪谈。 |
+| **常夏** | 总在笑的少女，在「星期八」咖啡厅帮忙。序章里名字显示为「？？？」，身份揭晓后才变成常夏。 |
+| **辉夜奏** | 自称「看得见」的后辈，把周腾一步步拖进不对劲的地方。 |
+| **葛城** | 周腾的死党，昼夜颠倒的游戏搭子。 |
+| **余洛琛** | 咖啡厅店长，4 种姿势立绘。 |
+
+**主线**
+
+两条线：**常夏线**与**辉夜奏线**，在第 5 章末按好感度（`kanade_love > tsangxia_love`）分流，
+各有第 6–10 章，共 25 章。
+
+---
+
+## 一、目录结构
+
+```
+thewhitenightInlatesummer-band/
+├─ package.json              npm 脚本与 aiot-toolkit 依赖
+├─ LICENSE                   本项目**代码**的 MIT 协议（附素材说明）
+├─ NOTICE.md                 素材版权说明（哪些内容不在 MIT 范围内）
+├─ src/                      快应用源码（Vela 固定目录名）
+│  ├─ manifest.json          应用清单：包名/图标/路由/features/designWidth
+│  ├─ app.ux                 应用入口（本工程不用全局生命周期）
+│  ├─ common/
+│  │   ├─ assets.js          ← 生成：图片索引表 + 立绘元数据（脸的位置）
+│  │   ├─ reader.js          公共逻辑：设置项、storage、换行与分页、自动播放时长
+│  │   ├─ vm.js              剧本解释器（纯逻辑，页面与模拟器共用）
+│  │   ├─ img/b/*.png        ← 生成：背景 30 张 672×480
+│  │   ├─ img/s/<角色>/      ← 生成：整身立绘 210×420 + 脸部差分 + meta.json
+│  │   ├─ img/w/*.png        ← 生成：CG 原图 853×480
+│  │   ├─ img/t/*.png        ← 生成：CG 鉴赏缩略图 96×54
+│  │   ├─ img/ui/            ← 生成：首页画、logo、headbar/footbar/board、锁定占位
+│  │   └─ story/
+│  │       ├─ index.txt      ← 生成：章节表 + 分块表（内容是 JSON，用 .txt 扩展名）
+│  │       └─ chunk-000.txt… ← 生成：152 个分块，每块 128 条指令
+│  └─ pages/
+│      ├─ index/             主页：开始 / 继续 / 章节 / CG / 设置 / 关于 / 退出
+│      ├─ game/              正文阅读器（引擎核心）
+│      ├─ chapters/          章节选择（25 章）
+│      ├─ saves/             存档 / 读档（6 个手动槽 + 自动存档）
+│      ├─ cg/                CG 鉴赏（13 张，大图可拖动看全）
+│      ├─ settings/          设置（字号 / 播放速度 / 自动播放 / 屏幕常亮 / 长按行为）
+│      └─ about/             关于（故事简介 / 移植说明 / 操作提示 + 彩蛋）
+├─ sim/                      浏览器模拟器（file:// 直接打开）
+│  ├─ index.html             336×480 表盘壳
+│  ├─ app.js                 渲染与交互（与 .ux 同一套几何常量）
+│  ├─ data.js                ← 生成：整份剧本（1.3 MB）
+│  ├─ vm.bundle.js           ← 生成：vm.js 去掉模块语法
+│  └─ assets.bundle.js       ← 生成：assets.js 去掉模块语法
+├─ tools/
+│  ├─ build_story.py         Ren'Py AST → 手环指令流（含选项/跳转/立绘状态）
+│  ├─ build_assets.py        背景、整身立绘拆脸、CG、主页素材、装饰条
+│  ├─ check_story.py         剧本校验：分块、跳转、章节、素材引用、可达率
+│  ├─ build_sim.py           产出 sim/ 的三份生成文件
+│  ├─ preview_ui.py          用真实素材按 CSS 数值合成 10 张界面图
+│  ├─ build.js               构建前静态检查 + 构建包装 + 产物校验
+│  └─ _renpy/                解包阶段复用的 RPA / RPC2 读取器
+└─ preview/                  界面预览图（README 首图引用其中的总览）
+```
+
+**仓库里已经带了生成好的剧本与美术资源**（`src/common/story/`、`src/common/img/`），
+所以只想改代码的话直接 `npm install && npm run build` 就行，不需要原版游戏。
+`build_story.py` / `build_assets.py` 是**溯源用**的——它们记录了资源是怎么从原版转出来的。
+
+界面效果预览（`preview/ui-preview.png`，用真实资源按页面 CSS 数值 1:1 合成）：
 
 ![界面预览](preview/ui-preview.png)
 
 ---
 
-## 一、目录
-
-```
-thewhitenightInlatesummer-band/
-├─ package.json             aiot-toolkit 依赖与构建脚本
-├─ src/
-│  ├─ manifest.json         包名 com.thewhitenightInlatesummer.band / 路由 / designWidth:336
-│  ├─ app.ux                应用入口
-│  ├─ common/
-│  │  ├─ reader.js          字号/速度/自动、分页算法、storage 封装、存档槽
-│  │  ├─ vm.js              剧本解释器（纯逻辑，页面与模拟器共用）
-│  │  ├─ assets.js          生成：BG/CG/SPRITES 清单 + 路径函数
-│  │  ├─ story/
-│  │  │  ├─ index.txt       生成：章节表 + 分块表（内容是 JSON，用 .txt 扩展名）
-│  │  │  └─ chunk-000.txt…  生成：152 个分块，每块 128 条指令
-│  │  └─ img/
-│  │     ├─ b/ 背景 30 张（672×480）├─ s/ 整身立绘 210×420 + 脸部差分 + meta.json
-│  │     ├─ w/ CG 原图（853×480）├─ t/ CG 缩略图（96×54）
-│  │     ├─ ui/ 首页图、官方 logo、headbar/footbar/board 装饰、锁定占位、icon
-│  └─ pages/                index / game / chapters / saves / cg / settings / about
-├─ sim/                     浏览器模拟器（file:// 直接打开，无需服务器）
-│  ├─ index.html            336×480 表盘壳，桌面预览
-│  ├─ app.js                渲染与交互（与 .ux 同一套几何常量）
-│  ├─ data.js               生成：整份剧本（1.3 MB）
-│  ├─ vm.bundle.js          生成：vm.js 去掉模块语法
-│  └─ assets.bundle.js      生成：assets.js 去掉模块语法
-├─ tools/
-│  ├─ build_story.py        Ren'Py AST → 手环指令流（含选项/跳转/立绘状态）
-│  ├─ build_assets.py       背景 672×480、立绘 143×380 拆脸、CG、图标
-│  ├─ check_story.py        校验：分块、跳转、章节、素材引用、可达率
-│  ├─ build_sim.py          产出 sim/ 的三份生成文件
-│  ├─ preview_ui.py         用真实素材合成 7 张界面图（preview/）
-│  ├─ build.js              构建包装（预检 + aiot build + 产物校验）
-│  └─ _renpy/               解包阶段复用的 RPA/AST 读取器
-└─ preview/                 界面预览图
-```
-
-## 二、怎么跑
-
-### 浏览器里先看（不需要任何环境）
-
-双击 `sim/index.html`。点画面推进，向下拖动开菜单，菜单里可选章节。
-模拟器与手环版共用 `vm.js`、同一份剧本、同一套像素几何，看到什么就是手环上什么。
-
-### 构建 rpk
-
-要求 Node 18+、npm（首次需要联网装 `aiot-toolkit`）：
+## 二、构建
 
 ```bash
-npm install
-npm run build        # → dist/com.thewhitenightInlatesummer.band.debug.1.0.rpk
+npm install                    # 真正的依赖只有 aiot-toolkit
+npm run build                  # → dist/com.thewhitenightInlatesummer.band.debug.1.0.rpk
+npm run release                # → release 包（需要 sign/ 下的证书）
+npm run check                  # 剧本校验（分块、跳转、章节、素材引用、可达率）
+npm run sim                    # 刷新模拟器数据
+npm run preview                # 重新合成 preview/ 的界面图
 ```
 
-- **debug 包可直接侧载**，不需要签名证书；`npm run release` 才要 `sign/private.pem` + `sign/certificate.pem`。
-- 包名是 `com.thewhitenightInlatesummer.band`（按你给的写法保留大小写）。
-  若 `aiot` 校验包名只认小写（部分版本是 `^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$`），
-  把 `src/manifest.json` 里改成全小写 `com.thewhitenightinlatesummer.band` 即可，
-  `tools/build.js` 自动跟随 manifest 取名，不用改别处。
-- `aiot` 每次构建都会清空 `dist/`，要留旧包先拷走。
-- Windows 上 aiot 收尾 `rimraf` 临时目录会报 EPERM（`node_modules` 是 junction），
-  **此时 rpk 已经生成**，`tools/build.js` 已经把这种情况当成成功。
-- 侧载：手表装 Astrobox → 设置里打开「蓝牙与安全」→ 登录小米账号 → 连上设备 →
-  「探索」→「安装快应用」→ 选 rpk。官方文档说目前只支持 Xiaomi Watch S4，
-  9 Pro 不在列表里，能不能装只能试；装完在应用列表里找「夏末白夜」。
+> ⚠️ `aiot` **每次构建都会清空 `dist/`**。debug 和 release 都要留的话，构建完一个先把 rpk 挪出 `dist/`。
 
-### 重新生成数据
+`npm run build` 走的是 `tools/build.js` 而不是直接 `aiot build`，原因见第五节第 1 条。
+
+| 命令 | 作用 |
+|---|---|
+| `npm run build` / `npm run release` | 出 debug / release 包 |
+| `npm run check` | 剧本校验：152 块完整性、跳转目标、章节表、素材引用、全图可达 |
+| `npm run story` / `npm run assets` | 从 PC 版重新编译剧本 / 重新出图 |
+| `npm run sim` / `npm run preview` | 刷新模拟器数据 / 重新合成界面图 |
+
+从 Ren'Py 原始资源重新生成（需要 Python 3 + Pillow，以及 PC 版解包结果）：
 
 ```bash
-python tools/build_story.py     # 从 ..\TheWhiteNightInLateSummer\game\*.rpa 重新编译剧本
-python tools/build_assets.py    # 从 ..\解包输出 重新出图（依赖上一步的立绘组合表）
-python tools/build_sim.py       # 刷新模拟器数据
-python tools/preview_ui.py      # 重新出预览图
-python tools/check_story.py     # 校验（应为 RESULT OK）
+set XBY_GAME=D:\path\to\TheWhiteNightInLateSummer\game
+set XBY_SRC=D:\path\to\解包输出
+python tools/build_story.py     # 先编译剧本（立绘组合表来自剧本）
+python tools/build_assets.py    # 再出图
+python tools/check_story.py     # 应输出 RESULT OK
+python tools/preview_ui.py
 ```
 
-顺序很重要：`build_assets.py` 要读 chunk 里的表情组合来决定生成哪些脸部差分。
+> 顺序不能反：`build_assets.py` 要读分块里的表情组合，来决定给每个角色生成哪些脸部差分。
+> `build_assets.py` 结尾会自动重打模拟器 bundle，避免 `sim/` 里的立绘元数据落后于 `src/`。
 
-## 三、实现要点（照 galgod-band 的做法）
+---
 
-屏幕按 **336×480、designWidth 336** 写，1px = 1 物理像素，所有 CSS 数值直接写像素。
+## 三、安装到手环（以 **Astrobox** 为例）
 
-- **界面风格**：照 limelight 版改成浅色系 —— 页面底 `#f5f5f7`，卡片是 `rgba(255,255,255,.92)`
-  + `1px #e0e0e0` 描边 + 12px 圆角，菜单用淡黄条 `rgba(226,216,120,.27)` 配 24px 黑色 800 字重，
-  顶部一条深色渐变条承载浅灰标题，阅读页用 `board.png` 做半透明对白板。
-- **背景**：整屏 `object-fit: cover` 铺满（不再做 672 宽全景平移，那是上一版 galgod 风格的做法）。
-- **立绘**：整身立绘，画布 210×420（0.5 比例）。裁切窗口取角色所有图层的**并集包围盒**
-  （含双臂与脚），再按比例补足宽度——之前按胸像裁、按眼睛居中，结果手被切在框外、腿也没有，
-  看着像个长方形。同台人数决定显示尺寸：1 人 200×400 居中、2 人 168×336 左右、3 人以上
-  110×220 并排；**底边对齐屏幕底部（480）**，脚踩在画面下沿，对白板改成自上而下的透明渐变，
-  腿透过板子仍可见，又不会在人物身上切出一条硬缝。
-  源文件里的 `arm up/down` 是**姿势差分**（不是缺失的胳膊），底图本身双臂俱全，故不再叠加。
-- **排版**：`lineH = 字号+4`、`cpl = floor(310/字号)`、`lpp = min(6, floor(144/lineH))`
-  （20px 字号时每页 6 行 ≈ 90 字），分页按当前字号现算，字号 14–30 可无级调；
-  断行优先落在 `，。！？；：、）」』…—` 之后；一句话超一页时**均分**（7 行拆 4+3 而不是 6+1），
-  短尾巴并回上一页。
-- **正文**：6 个固定 `<text>` 槽位，位置/字号/行高由 `s0..s5` 动态注入（避免动态节点）。
-- **打字机**：`speed` 毫秒/字，50ms 一跳按 `elapsed/speed` 追进度；快进时 0 延迟、220ms 连播，
-  遇选项/结局自动停。
-- **半透明一律 rgba**，不用 `opacity`（真机会把整棵子树离屏合成，带子节点的容器画成横条纹）。
-- **页面只用 `protected`**，不写 `data`（两者共存会直接让页面 VM 创建失败）。
-- **所有点击入口 400ms 防抖**（`lockTap`）：一次触摸可能同时触发 touchend 与 click。
-- **只用 `<list>`**，不用 `<scroll>`；立绘/正文用固定槽位，不做动态增删。
-- **页面里的元素一律写绝对定位（`position:absolute` + top/left），或者塞进 `<list>`**，
-  不依赖 `<div>` 的默认排版方向。设置页原来用一排带 `margin` 的 `.row` 靠流式排布，
-  在真机上全叠在一起、加减号也点不动——改成逐行绝对定位后正常。
-- **`<scroll>` 里必须写 `flex-direction: column`**：Vela 默认是横向排列，设置页原来只显示
-  第一块（字体大小）就是漏了这句；普通 `<div>` 容器同理。
-- **改完素材要重打模拟器**：`tools/build_assets.py` 结尾会自动跑一遍 `build_sim`，
-  但如果你只手动跑了 `build_story.py`，`sim/assets.bundle.js` 里的立绘元数据（脸的位置）
-  会停留在上一版，浏览器里就会看到五官跑到胸口——`tools/build.js` 现在会做这项一致性检查。
-- **别把颜色写在行内 style 里跨主题复用**：关于页的行内样式还留着旧深色主题的浅色字，
-  换成白底后就糊了——主题色统一放 CSS class，行内只留字号/行高。
-- **别把状态挂在没声明的属性上**（比如 `this.settings`）：页面 VM 不保证保留，
-  读写就会抛 `TypeError`、点了没反应。状态统一写进 `protected`，处理函数直接算新值。
-- **主界面用原作素材**：背景取自 `gui/lapis_lazuli/main_menu/background_t.webp`，标题是官方
-  `pc/logo/logo_o.png`（浅色版，压暗背景后才读得清），应用图标是 `gui/window_icon.png`
-  （辉夜奏头像）。三张图都从 `gui.rpa` 里抽出来放在 `..\解包输出\其他\原作UI`，由
-  `tools/build_assets.py` 的 `build_title()` 裁成 336×480 / 192×192。
-- **退出**：主页菜单最后一行「退出应用」（红色，避免和「关于」误触）、阅读菜单右下也有一个，
-  都调用 `this.$app.exit()`
-  （README 里记过：Vela 只能用 `$app.exit()`，没有别的方式关掉快应用）。
+`dist/` 里的 **debug rpk 可以直接侧载**，不需要签名证书。
 
-## 四、剧本是怎么来的
+1. 手机装 **Astrobox**
+2. 【设置】→【账号与安全】→ 登录小米账号 → 导入在小米运动健康绑定的设备 → 连接手环
+3. 【探索】→ 点 `安装快应用` → 找到 rpk 文件（可能在「最近项目」或 `Download` 目录里）
+4. 等 Astrobox 右下角的圆环跑满
+5. 手环应用列表里出现 **夏末白夜**
 
-`build_story.py` 直接把 Ren'Py 的 `.rpyc`（`RENPY RPC2` 容器里的 pickle AST）展开成指令流：
+> 官方 FAQ：<https://iot.mi.com/vela/quickapp/zh/guide/other/faq.html>
+> 官方真机调试目前只支持 Xiaomi Watch S4，**9 Pro 不在其列**，所以只能走上面这条侧载路径；
+> 查看运行日志要用小米运动健康里的「拉取固件日志」。
 
-| 指令 | 含义 | 来源 |
-| --- | --- | --- |
-| `s` | 台词 | `Say` / `TranslateSay`（两者互补，同一行不会重复） |
-| `b` `p` `h` `g` | 背景 / 立绘 / 隐藏 / CG | `Scene` / `Show` / `Hide`，含 `at` 位置与 `e_/eb_/m_` 表情属性 |
-| `m` | 选项 | `Menu`，选项块编译成独立分支并回落到菜单之后 |
-| `j` `q` | 跳转 / 条件跳转 | `Jump` 与 `kanade_love > tsangxia_love` 这条分歧 |
-| `v` `n` `d` `c` `e` | 好感度 / 常夏改名 / 日期 / 章节名 / 结局 | `Python` 赋值与章节变量 |
+**release 包**需要签名证书：
 
-- 230 个标签、197 处跳转全部在编译期解析成下标，运行时不查表。
-- `changxia_name` 的改写被保留：序章开头显示「？？？」，身份揭晓后才变成「常夏」。
-- 章节名取自脚本里的 `chaptername`（如「星星也有眼睛吗」），会显示在顶部胶囊里。
-- 只有一条分歧（第 5 章末按好感度进常夏线 / 辉夜奏线），编译成 `q` 指令；
-  菜单里也可以直接跳任意一章。
+```bash
+mkdir sign
+openssl req -newkey rsa:2048 -nodes -keyout sign/private.pem -x509 -days 3650 -out sign/certificate.pem
+npm run release
+```
 
-## 五、已知限制
+> `sign/` 已在 `.gitignore` 里，**不要把它提交上来**。
+> 包名是 `com.thewhitenightInlatesummer.band`（保留大小写）。若某个 aiot 版本只认全小写，
+> 把 `src/manifest.json` 里改成 `com.thewhitenightinlatesummer.band` 即可，
+> `tools/build.js` 会自动跟随 manifest 取名，不用改别处。
 
-- **只有文本**，没有语音/音乐/视频（`audio.rpa`、`music.rpa`、`video.rpa` 未解包）。
-- 立绘只有 3 个槽位：个别场景 4 人同框时第 4 个会被挤掉（原作是全屏自由位置）。
-- `cg4_r` 这类 CG 差分件在原素材里缺图，显示时直接略过。
-- 章节从任意处进入时，若该章开场就是台词（而非先切背景），会沿用上一场景背景一瞬。
-- 真机适配仍在打磨：模拟器与校验脚本覆盖了数据与交互逻辑，字体、性能、滑动手感仍需实机确认。
-- 没有语音/音乐，也不含原作 UI 图片（除首页背景、logo、图标三张）。
-- 非官方同人移植，素材版权属原作方，仅供个人学习交流。
+---
 
-## 六、彩蛋与捷径
+## 四、运行时的设计
 
-**连点标题「关于」7 下**会弹出解锁面板（和 galgod 版一样的彩蛋位置）。
-面板打开后 0.9 秒内不响应点击、关闭后 0.5 秒冷却，刚开/刚关那一下不会被同一串连点反复触发；
-「关于」页的返回手势也会在刚点过标题的 1.5 秒内被吞掉，避免连点被系统判成返回把页面带走。
+### 屏幕与单位
+
+手环 9 Pro：**336×480、矩形 AMOLED**。
+`manifest.json` 里 `designWidth: 336`，所以 **1px = 1 物理像素**，所有 CSS 数值直接按像素写。
+
+### 画面分层
+
+| 层 | 元素 | 位置/尺寸 |
+|---|---|---|
+| 背景 | `<image>` `object-fit: cover` | 0,0 · 336×480 |
+| 立绘 | 3 个固定槽位，每槽 base + 脸 + 红晕三层 | 见下「立绘」 |
+| CG | `<image>` 铺满 | 0,0 · 336×480 |
+| 顶部信息 | 章节名 + 日期 | 10,10 · 胶囊底 |
+| 对白板 | 渐变半透明图 `board.png` | 300,0 · 336×180 |
+| 说话人 | 白字 24px + 深色胶囊 | 300,18 |
+| 正文 | 6 个固定槽位 `<text>` | 338 起，行距 = 字号 + 4，宽 300 |
+| 继续提示 | `▼` | 454,306 |
+| 选项 | 白卡片，最多 4 张 | 186 起，每张 52 高 + 10 间距 |
+
+### 剧本数据格式
+
+`index.txt` 是索引（JSON 内容，`.txt` 扩展名是为了避免被当成模块打包），每块 128 条指令，制表符分隔：
+
+| 指令 | 字段 | 含义 |
+|---|---|---|
+| `s` | 说话人、文本 | 一句台词（说话人为空 = 旁白） |
+| `b` | 背景 id | 切背景 |
+| `p` | 角色、位置、眼睛、眉毛、嘴、附加 | 显示/更新立绘（附加里带 `flush` 等） |
+| `h` | 角色 | 隐藏立绘 |
+| `g` | CG id | 全屏 CG |
+| `m` | 若干「文本<US>目标」 | 选项菜单 |
+| `j` / `q` | 下标 / 比较后跳转 | 无条件跳转 / 好感度分歧 |
+| `v` / `n` / `d` / `c` / `e` | 变量、名字、日期、章节名、结局 | 其余状态 |
+
+台词存的是**原始文本**，分页由运行时按当前字号现算。
+
+画面变化**只在真的变化时**才写进指令流，运行时继承上一个状态——原作是「每个场景一份全量快照」，这里是增量。
+
+### 排版与分页
+
+正文**不用滚动**，而是在运行时按当前字号切页：
+
+```
+cpl   = floor(310 / 字号)          # 每行字数
+lineH = 字号 + 4
+lpp   = min(6, floor(144 / lineH)) # 每页行数，20px 时是 6 行 ≈ 90 字
+```
+
+一句太长就变成多次点击；分页时**均分**（7 行拆 4+3，而不是 6+1），末尾只剩一行的短尾巴会并回上一页。
+断行优先落在 `，。！？；：、）」』…—` 之后，避免标点跑到行首。
+
+字号 14–30 时行宽天然 ≤ 310 ≤ 正文框 316，**数学上不会出现意外折行**；
+6 个正文槽位的位置/字号/行高由 `s0..s5` 动态注入，不动态增删节点。
+
+### 立绘
+
+画布 **210×420（0.5 比例）**，裁切窗口取角色所有图层的**并集包围盒**（含双臂与脚），
+再按比例补足宽度——按胸像裁、按眼睛居中会把外侧那只手切在框外，看着像「没有手的长方形」。
+
+同台人数决定显示尺寸与位置：
+
+| 同台人数 | 尺寸 | 位置 |
+|---|---|---|
+| 1 人 | 200×400 | 居中，top 80 |
+| 2 人 | 168×336 | 左 0 / 右 168，top 144 |
+| 3 人以上 | 110×220 | 2 / 113 / 224，top 260 |
+
+**底边对齐屏幕底部 480**，脚踩在画面下沿。底图是「无五官的素体」，眼睛/眉毛/嘴是分开的差分图，
+运行时按 `meta.json` 里的脸方框 × 缩放系数贴上去；红晕是整幅画布的独立图层。
+
+源文件里的 `arm up/down` 是**姿势差分**（不是缺失的胳膊），底图本身双臂俱全，故不再叠加。
+
+### 对白板
+
+`board.png` 是一张 **180 高的竖向渐变**：顶部几乎透明（人物腿部透出来），到文字区约 85% 不透明。
+之前是实心圆角块，顶边会在人物大腿上切出一条硬缝，而且整块压住腿部显得「人浮在空中」。
+
+### 性能与内存
+
+- 一次只读一个分块（约 8 KB），命中已加载块时零 I/O；同块的并发请求会合并等待者
+- 分块缓存最多保留 **4 块**（超出按载入顺序淘汰最旧的），每进入一个新块就后台预读下一块
+- 打字机用 50ms 一次的时间校正循环（不是每个字一个定时器），并用自增 token 取消过期回调
+- 自动存档：每次进入新的一句写一次快照（`writeAuto()`），菜单/读档前也会落盘一次
+- 所有点击入口加 400ms 点击锁：Vela 的 click 会冒泡到根节点的「轻触前进」，不加锁一次点击会同时触发按钮和翻页
+
+### 交互
+
+| 操作 | 行为 |
+|---|---|
+| 轻触任意处 | 文字没打完 → 立即显示完整；本页还有 → 下一页；否则进入下一句 |
+| 下滑 / 右上菜单 | 阅读菜单：继续 / 保存 / 读取 / 自动 / 快进 / 回退一句 / 章节 / CG / 设置 / 主页 / 退出 |
+| 右滑 | 回退一句 |
+| 长按 | 按设置里的「长按画面」：关 / 隐藏界面 / 按住快进 |
+| 系统返回手势 | 打开/关闭阅读菜单（不会误退出） |
+
+### 设置项（−／＋ 步进）
+
+入口有两个：主页「设置」、阅读菜单「设置」。改完立刻生效并写盘。
+
+| 设置 | 范围 | 显示 |
+|---|---|---|
+| **字体大小** | 14 – 30 px，步长 2 | 当前 px 数值 + 实时预览 |
+| **文本播放速度** | 0 – 120 毫秒/字，步长 4 | 0 显示「瞬间」 |
+| **自动播放** | 0 – 200 毫秒/字，步长 20 | 0 显示「关」 |
+| **屏幕常亮** | 开 / 关（默认开） | 走 `@system.brightness` 的 `setKeepScreenOn` |
+| **长按画面** | 关 / 隐藏界面 / 按住快进（三态循环） | 防误触用 |
+
+> 没用原生 `<slider>`：参考工程里它**不能把 `value` 绑成实时值**（会变成受控组件、拖动被弹回），
+> 所以这里用普通 `div` + `onclick` 的 −／＋ 按钮，任何固件都能用。
+
+### CG 鉴赏
+
+原作 CG 是 16:9（3840×2160 / 3820×2160）。构建时**不裁剪**，只缩放到 **`img/w/<id>.png`（853×480）**：
+正文里用 `object-fit: cover` 显示（等于居中裁切，但文件就是原图），鉴赏页打开同一张。
+
+点开任一 CG 后全屏显示，**左右拖动**平移看全；拖不动（部分固件不派发 `touchmove`）时，
+点左右各 48px 热区或轻扫一下，每次平移半屏。底部进度条指示看到长图的哪一段，右上角 `×` 关闭。
+所有平移都改 `left`，**不用 `transition`**（真机上补间会画出接缝）。
+
+鉴赏列表是 3 列 16:9 缩略图（96×54），和原作 CG 的比例一致，不把 CG 竖着裁成窄条。
+
+### 关于页与彩蛋
+
+关于页是 `<list>` 里一行行 `<text>`：小节标题 17px 加粗、正文 15px，按 38 个半角单位预折行
+（CJK 算 2、ASCII 算 1），不依赖自动折行。
+
+#### 彩蛋：连点「关于」7 次
 
 | 按钮 | 作用 |
-| --- | --- |
-| 解锁全部 CG | 一次点亮全部 13 张（等价原作 `persistent.cgs` 全开） |
+|---|---|
+| 解锁全部 CG | 一次点亮全部 13 张 |
 | 标记已通关 | 写入 `cleared` 标记 |
 | 清空 CG 记录 | 把 `cgSeen` 清空，方便重试 |
 | 关闭 | 收起面板 |
 
-面板里还会显示当前 `CG x / 13` 与是否通关。底部另有「常夏结局 / 奏结局」两个快捷键，
-直接跳到两条线的第 10 章下。
+面板打开后 0.9 秒内不响应点击、关闭后 0.5 秒冷却；「关于」页的返回手势会在刚点过标题的
+1.5 秒内被吞掉——避免连点被系统判成「返回」把页面带走。
 
-> 本作 PC 版在现有归档里没有独立的「后日谈」剧本（25 个 `_story/*.rpyc` 里搜不到相关标签或文本），
-> 所以没有做「后日谈解锁」，只给了直达两条线结局的按钮。
+底部另有「常夏结局 / 奏结局」两个快捷键，直达两条线的第 10 章下。
 
-## 七、CG 鉴赏的翻页
+> 本作 PC 版现有归档里**没有独立的「后日谈」剧本**（25 个 `_story/*.rpyc` 里搜不到相关标签或文本），
+> 所以没有做「后日谈解锁」，只给了直达结局的按钮。
 
-原作 CG 是 16:9 的长图（3840×2160 / 3820×2160），构建时**不再裁剪**，只缩放到 **`img/w/<id>.png`（853×480）**：
-正文里用 `object-fit: cover` 显示（视觉上等于居中裁切，但文件就是原图），鉴赏页打开同一张，
-用 `left` 平移看全。
+---
 
-点开任一 CG 后进入全屏，**左右拖动**平移画面；拖不动（部分固件不派发 `touchmove`）时，
-点左右各 48px 的热区或轻扫一下，每次平移半屏。底部进度条显示当前看到长图的哪一段，
-右上角 `×` 关闭。所有平移都改 `left`，不用 `transition`（真机上补间会画出接缝）。
+## 五、已知的坑（都已在代码里绕过）
 
-## 八、排障（真机踩过的坑）
+**1. `aiot` 在 Windows 上构建收尾会报 EPERM。**
+它先把工程复制到同级 `../.temp_<工程名>` 再编译，收尾用 rimraf 删临时工程，
+而里面的 `node_modules` 是软链接（junction），删它必报 `EPERM: operation not permitted`。
+此时 **rpk 其实已经生成好了**，但退出码是 1。
+`tools/build.js` 在构建前后各清一次临时目录，并在构建后校验产物，遇到「rpk 在、退出码非 0」按成功处理。
 
-**症状：装好能打开、能翻页，但一进正文就黑屏/只剩错误提示。**
-真机日志里是这两行：
+**2. 分块路径写成裸文件名 → 真机一进正文就黑屏。**
+固件日志里是这两行：
 
 ```
 jse_file open file: .../common/story/index.txt, 1, 0
 ===Error:=== file.readText call success callback error: InternalError: invalid parameter :path
 ```
 
-原因：`index.txt` 里分块路径写成了裸文件名 `chunk-000.txt`，`@system.file.readText` 只认
-以 `/` 开头的应用资源路径（`/common/story/chunk-000.txt`），于是读完索引、读第一块时就抛
-`invalid parameter :path`，页面停在初始化。已修复（`tools/build_story.py` 写入完整
-路径，`vm.js` 对裸文件名兜底补前缀）。
+`@system.file.readText` 只认以 `/` 开头的应用资源路径（`/common/story/chunk-000.txt`）。
+现在 `build_story.py` 写完整路径，`vm.js` 对裸文件名兜底补前缀。
 
-**症状：`[AIOTJS] Unknown style - textShadow`** —— Vela 不支持 `text-shadow`，只会打日志
-并丢弃；现已从 `.logo` / `.name` 里去掉（改用深色底衬托字）。
+**3. 不要给「有子节点」的容器加 `opacity`。**
+真机上会整棵子树离屏合成，结果是横向条纹、内容被压扁。
+所有半透明一律用 `rgba()`：
 
-其它确认正常、不用再查的日志：`i18n` 目录缺失、`__create_dir ... ,17`（errno 17 = 已存在）、
-`setDesignResolution` 连续多次切换，这三个参考工程也有，属正常。
+```css
+/* 不要这样 */
+.panel { background-color: #150f19; opacity: 0.94; }
+/* 要这样 */
+.panel { background-color: rgba(21, 15, 25, 0.94); }
+```
 
-## 九、参考与致谢
+**4. `data` 不能与 `public / protected / private` 同时出现。**
+页面 VM 直接建不起来：界面停住、点了没反应，每次点击只重复抛同一个错。
+本工程每个页面**只用 `protected`**，`tools/build.js` 的构建前检查会拦住两者共存的情况。
 
-- [mcpotato1123/galgod-band](https://github.com/mcpotato1123/galgod-band)：336×480 手环版 Vela 引擎
-  结构、点击/分页/存档等实现思路的来源（MIT）。
-- [mcpotato1123/limelight-lemonade-jam-miband](https://github.com/mcpotato1123/limelight-lemonade-jam-miband)：
-  当前界面（浅色卡片、淡黄条菜单、顶部装饰条）的样式参照。
-- 剧本与美术资源版权归《夏末白夜》原作方所有。
+**5. 写在 `export default` 顶层的非绑定属性不保证挂在页面实例上。**
+`this.settings` 这类没声明的字段会让处理函数抛 `TypeError`、点了没反应。
+状态统一写进 `protected`，或者在使用前显式初始化。
 
-## 十、许可
+**6. `<scroll>` / `<div>` 里必须写 `flex-direction: column`。**
+Vela 默认是**横向**排列。设置页一度只剩「字体大小」一块，就是因为四张卡片横着排到屏幕外了。
 
-- **代码**（`src/`、`tools/`、`sim/` 下的程序与脚本）以 MIT 许可发布，见 [LICENSE](LICENSE)。
-- **游戏素材**（`src/common/img/`、`src/common/story/` 里的剧本文本、立绘、背景、CG）版权归原作方，
-  这里仅作非商业同人移植使用；如版权方要求，会立即删除相关文件。
-- 仓库不含签名私钥（`sign/` 已在 `.gitignore` 中）；`aiot` 首次构建会自行生成。
+**7. 主题色别写在行内 style 里。**
+关于页每一行的颜色原来写在行内样式里，换浅色主题后那段还是旧的浅灰字，
+行内优先级高于 class，白底上直接糊成一片。
+
+**8. 改完素材要重打模拟器。**
+`sim/assets.bundle.js` 里存着立绘元数据（脸的位置）。只重跑 `build_story.py` 而不跑 assets，
+模拟器里就会用旧坐标——五官被贴到胸口，看着像「眼睛和嘴没了」。
+现在 `build_assets.py` 结尾会自动重打，`build.js` 也会比对 `assets.js` 与 `meta.json`。
+
+**9. 立绘按「眼睛」居中裁会缺手，按「胸像」裁会没腿。**
+裁切窗口必须取所有图层的并集包围盒，再按画布比例补宽——这是两次返工换来的结论。
+
+**10. 立绘底边压在对话框上沿，人物会「浮空」。**
+背景里的地板在画面下方，立绘底边却停在上沿，看着像站在对话框顶上。
+现在底边对齐 480，对白板改成渐变，腿透得出来。
+
+---
+
+## 六、和参考工程不一样的地方（以及为什么）
+
+| 项 | 参考工程 | 本工程 | 原因 |
+|---|---|---|---|
+| 界面风格 | 深色紫（galgod 版） | **浅色卡片 + 淡黄菜单条**（limelight 版） | 小屏上浅色更耐看，字大、对比高 |
+| 设计宽度 | 336 | 336（1:1 物理像素） | 相同，不用换算 |
+| 长文本 | 固定视口 + 分页 | 运行时分页，**均分 + 短尾巴合并** | 小屏上一句话被切成「满页 + 一个字」很别扭 |
+| 每页行数 | 5 行（20px 时） | **6 行** | 去掉「一句话两页」的大半场景 |
+| 背景 | 672 宽全景定时推进 | 静态 `cover` | 横移收益小，且 `transition` 在真机有接缝 |
+| 立绘 | 半身 143×380 | **整身 210×420，按人数缩放** | 半身裁切会吃掉手臂，整身才像 VN 里的人物 |
+| 立绘锚点 | 顶部 100 | **底边 480** | 贴上沿会浮空 |
+| 对白板 | 实心圆角块 | **竖向渐变** | 不切人物、腿还能透出来 |
+| 设置控件 | 滑块 + 步进 | **只用 −／＋ 步进** | `<slider>` 的 `value` 绑定在真机不可靠 |
+| CG | 满屏 336×480 | **853×480 长图，拖动看全** | 原作 CG 就是 16:9，不该裁成竖条 |
+| CG 缩略图 | 96×54 | 96×54 | 一致 |
+
+---
+
+## 七、验证情况
+
+| 验证 | 手段 | 结果 |
+|---|---|---|
+| 剧本完整性 | `tools/check_story.py` | 152 块、25 章、19,404 条指令；跳转/章节/素材引用全部命中；**可达率 99.4%** |
+| 构建前静态检查 | `tools/build.js` | 校验 `data`/`protected` 共存、关于页版本号与 manifest 一致、`assets.js` 与立绘 `meta.json` 一致、分块节点数与索引一致 |
+| 语法 | `node --check` + webpack | 7 个页面的 `<script>` 与 `tools/*.js`、`sim/app.js` 全部通过 |
+| 运行逻辑 | `sim/`（浏览器模拟器） | 与页面共用 `vm.js` 与同一份剧本数据，可完整走剧情、存档、鉴赏 |
+| 界面 | `tools/preview_ui.py` | 用真实素材按页面 CSS 数值 1:1 合成 10 张图 |
+| 素材一致性 | `build.js` 预检 + 抽样 | 立绘元数据、CG 索引、背景索引与磁盘文件对得上 |
+| 真机 | 使用者侧载 | 抓出过分块路径 bug（第五节第 2 条），修复后正文可正常翻页 |
+
+**仍需真机确认的点**
+
+- 立绘按人数缩放的观感（1/2/3 人三档尺寸是否合适）
+- CG 的 `<image>` 拖动：`touchmove` 是否派发、坐标字段叫什么都没有文档，已同时挂了拖动 / 轻扫 / 左右热区三条路
+- 字号 28–30 时每页只剩 4 行，长句翻页次数会变多
+- 连续高频换图时的内存表现
+
+---
+
+## 八、操作提示
+
+- 只想改剧情文字：直接改 `src/common/story/chunk-*.txt`（制表符分隔），或从 PC 版重跑 `npm run story`
+- 想改正文版面：`src/common/reader.js` 顶部的 `TEXT_TOP / TEXT_BOX_W / TEXT_BOX_H / MAX_LINES`，
+  同步改 `src/pages/game/game.ux` 里 `.ln` 与 `.name` 的坐标
+- 想改字号/速度范围：`src/common/reader.js` 的 `SIZE_MIN/MAX`、`SPEED_MIN/MAX`、`AUTO_MIN/MAX`
+- 想改立绘尺寸：`tools/build_assets.py` 的 `SW / SH`，同步改 `game.ux` 的 `sizes`（三档尺寸与 top）
+- 想改 CG 取景宽度：`build_assets.py` 的 `fit_height()` 与 `cg.ux` 的 `CG_W`
+- 想改章节标题：`tools/build_story.py` 的章节表
+- 想改关于页内容：`src/pages/about/about.ux` 的 `ABOUT` 数组与 `MAXU`（每行半角单位数）
+- **改版本号要改两处**：`src/manifest.json` 的 `versionName`，以及 `src/pages/about/about.ux` 的 `APP_VERSION`；
+  不一致时构建直接失败
+- 想改画质与体积：`build_assets.py` 里各 `quantize(colors=…)` 的色数
+
+---
+
+## 九、版权与开源协议
+
+- **这是非官方的个人移植项目**，与《夏末白夜》原开发商、小米公司均无关联。
+- **剧本文字与美术资源**（背景、立绘、CG、首页画）版权归原作所有。
+  `src/common/story/`、`src/common/img/` 都是 PC 版解包并转码而来的衍生文件——
+  收录它们只是为了让仓库**能直接构建出可运行的包**。
+  请勿用于商业用途；如版权方有异议，删除相应目录即可（代码本身不依赖具体内容，换个剧本照样能跑）。
+- **代码部分采用 [MIT 协议](LICENSE)**：`src/pages/`、`src/common/*.js`、`src/app.ux`、
+  `tools/`、`sim/`、`src/manifest.json` 以及全部文档，可自由使用、修改、再分发。
+  架构思路来自 [galgod-band](https://github.com/mcpotato1123/galgod-band)，
+  界面样式参照 [limelight-lemonade-jam-miband](https://github.com/mcpotato1123/limelight-lemonade-jam-miband)。
+- ⚠️ **MIT 只覆盖代码，不覆盖素材。** 详见 [NOTICE.md](NOTICE.md)。
+- 侧载第三方应用到手表属于非官方途径，**风险自负**。
