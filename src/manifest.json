@@ -3,7 +3,7 @@
   "name": "夏末白夜",
   "icon": "/common/icon.png",
   "versionName": "1.0",
-  "versionCode": 20,
+  "versionCode": 21,
   "minPlatformVersion": 1100,
   "deviceTypeList": [
     "watch"

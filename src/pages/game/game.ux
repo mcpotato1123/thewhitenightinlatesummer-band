@@ -3,8 +3,10 @@
        ontouchstart="onTouchStart" ontouchend="onTouchEnd" ontouchcancel="onTouchEnd"
        onswipe="onSwipe">
 
-    <!-- 背景：整屏铺满（limelight 风格，不做全景平移） -->
-    <image class="bg" src="{{bgSrc}}" if="{{bgSrc}}" onswipe="onSwipe"></image>
+    <!-- 背景：672 宽的长图塞进裁剪窗，定时推进 left 做全景播放 -->
+    <div class="bgclip" onswipe="onSwipe">
+      <image class="bgwide" style="{{bgStyle}}" src="{{bgSrc}}" if="{{bgSrc}}" onswipe="onSwipe"></image>
+    </div>
     <div class="solid" if="{{showBlack}}"></div>
 
     <!-- 立绘：3 个槽位，每槽 base + 脸 + 红晕三层；位置与缩放按同台人数算 -->
@@ -93,7 +95,11 @@
 <style>
   .page { width: 336px; height: 480px; background-color: #ffffff; position: relative;
           overflow: hidden; }
-  .bg { position: absolute; top: 0px; left: 0px; width: 336px; height: 480px; object-fit: cover; }
+  .bgclip { position: absolute; top: 0px; left: 0px; width: 336px; height: 480px;
+            overflow: hidden; }
+  /* 672×480 原图按 1:1 铺开，只挪 left；不要加 transition（真机会画出接缝） */
+  .bgwide { position: absolute; top: 0px; left: 0px; width: 672px; height: 480px;
+            object-fit: fill; }
   .solid { position: absolute; top: 0px; left: 0px; width: 336px; height: 480px;
            background-color: #ffffff; }
   .layer { position: absolute; top: 0px; left: 0px; width: 336px; height: 480px;
@@ -390,8 +396,15 @@ export default {
 
   applyStage() {
     const s = this.reader.state
-    this.bgSrc = s.bg && s.bg !== 'black' ? bgPath(s.bg) : ''
+    const nextBg = s.bg && s.bg !== 'black' ? bgPath(s.bg) : ''
+    if (nextBg !== this.bgSrc) {
+      this.bgOffset = 0
+      this.bgDir = 1
+      this.bgStyle = 'left: 0px;'
+    }
+    this.bgSrc = nextBg
     this.showBlack = !this.bgSrc
+    if (this.bgSrc) this.startPan()
     this.cgSrc = s.fg ? cgPath(s.fg) : ''
 
     if (s.fg) this.markSeen(s.fg)
@@ -405,6 +418,24 @@ export default {
     this.paintSlot('L', slots.l, cast, order.indexOf('L'))
     this.paintSlot('C', slots.c, cast, order.indexOf('C'))
     this.paintSlot('R', slots.r, cast, order.indexOf('R'))
+  },
+
+  // ---------------------------------------------------------------- 全景背景
+  startPan() {
+    if (this.bgTimer) return
+    const STEP = 4          // 每帧 4px
+    const TICK = 100        // 100ms 一帧 → 40px/s，336px 走完约 8.4 秒
+    this.bgTimer = setInterval(() => {
+      let off = this.bgOffset + this.bgDir * STEP
+      if (off <= -336) { off = -336; this.bgDir = 1 }
+      if (off >= 0) { off = 0; this.bgDir = -1 }
+      this.bgOffset = off
+      this.bgStyle = 'left: ' + off + 'px;'
+    }, TICK)
+  },
+
+  stopPan() {
+    if (this.bgTimer) { clearInterval(this.bgTimer); this.bgTimer = null }
   },
 
   paintSlot(slot, ch, cast, slotIndex) {

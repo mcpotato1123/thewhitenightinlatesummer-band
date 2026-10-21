@@ -348,9 +348,13 @@ def build_title():
         with Image.open(icon_src) as im:
             ic = im.convert('RGBA').resize((192, 192), Image.LANCZOS)
         bgc = Image.new('RGBA', (192, 192), (255, 255, 255, 255))
-        ic = Image.alpha_composite(bgc, ic).convert('RGB')
-        ic.quantize(colors=128, method=Image.MEDIANCUT, dither=Image.FLOYDSTEINBERG).save(
-            icon_path, optimize=True)
+        ic = Image.alpha_composite(bgc, ic).convert('RGBA')
+        # 方形原图 → 23% 圆角（表盘桌面图标没有系统遮罩，圆角得自己切）；
+        # 保留抗锯齿的 alpha，所以存真彩 PNG，不量化
+        mask = Image.new('L', (192, 192), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, 191, 191), radius=44, fill=255)
+        ic.putalpha(mask)
+        ic.save(icon_path, optimize=True)
 
 
 def build_theme():
