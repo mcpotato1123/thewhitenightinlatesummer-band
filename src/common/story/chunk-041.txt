@@ -1,0 +1,128 @@
+s	@	没什么……总之，对不起啊。现在想来，道歉的应该是我才对。
+p	changxia	c	normal	sad	speak_angry	
+s	@	我不该因为这种事情和你置气的。
+p	changxia	c	normal	sad	sad	
+s	周腾	……
+s	葛城	周腾，你在里面吧！？
+s		卧室的房门再一次地被推了开来，然而出现在我和常夏面前的人，我却怎么都没有想到……
+h	changxia
+p	gecheng	c	happy	sad	happy	
+s	葛城	不好意思啊，今天过来没和你提前打招呼，但我确实有比较重要的事情和你说。啊……
+p	gecheng	c	normal	normal	speak	
+s	葛城	常夏也在啊，我…应该没有打扰到你们俩吧？
+j	5261
+p	gecheng	c	normal	normal	sad	
+s	周腾&常夏	没有！
+p	gecheng	c	normal	confused	speak	
+s	葛城	总感觉气氛有些怪怪的，你俩吵架了？
+s		葛城没有绕弯子，而是直接说出了自己心中的真实想法。又或者说……
+s		我和常夏两人之间现在的气氛的确太差了，差到连葛城都能一眼看出来。
+s	@	想什么呢，我为什么要和周腾这头猪吵架啊。
+p	gecheng	c	happy	sad	speak	
+s	葛城	你都叫他‘猪’了……
+s	周腾	总之没什么事，别想太多了葛城。
+p	gecheng	c	normal	normal	speak	
+s	葛城	我倒希望是我自己想太多了。
+h	gecheng
+s		葛城叹了口气，毫不客气地坐到了我的床上，位置间隔常夏大概有半个人的距离。
+s		后来像是觉得有什么不妥一样，葛城又站起了身，把我从电脑前的椅子上拉了起来。
+p	gecheng	c	normal	normal	speak	
+s	周腾	你干嘛？
+p	gecheng	c	normal	normal	speak	
+s	葛城	你坐过去，这位置让我坐。
+s	周腾	什么意思，鸠占鹊巢啊？
+p	gecheng	c	happy	angry	speak	
+s	葛城	哎呀，要你坐过去就坐过去，哪儿那么多话呢？
+p	gecheng	c	happy	angry	speak	
+s	葛城	我来了是客人，我就是要坐你的椅子，你就说让不让吧。
+s	周腾	你坐你坐，我让给你还不行嘛。
+h	gecheng
+s		卧室里除了一把椅子之外，就只剩床上可以坐人了。我有些不好意思地坐在了常夏旁边，刻意地和她间隔了差不多一个人的距离。
+s		我也不清楚自己为什么要这么做。虽然很不愿意承认，但刚刚和常夏两人之间的对话确实有些影响我的心情。
+s		在我看来，常夏发火是莫名其妙的、没有来头的。当然也可能确实是我迟钝到忽略掉了某些关键信息也说不定。
+s	@	哼……
+s		常夏没有说话，只是哼唧了两声，然后便朝着我坐近了一些。就这么一瞬间，我和她之间的距离便再一次地变得暧昧了起来。
+p	gecheng	c	normal	normal	speak	
+s	葛城	我有时候就挺搞不懂你们俩的，尤其是这个暑假……
+s	葛城	当我觉得你们生疏了的时候，你俩却又亲近了起来。
+p	gecheng	c	normal	confused	speak	
+s	葛城	当我觉得你们关系变好了的时候，你们却又开始吵架。
+p	gecheng	c	normal	normal	speak	
+s	葛城	怎么说呢，总感觉在我看不到的地方，你俩背地里好像发生了很多事情。
+p	gecheng	c	happy	normal	speak	
+s	葛城	说实话，有一种被抛弃了的感觉。但也没什么办法，毕竟我不是主角嘛~
+p	gecheng	c	happy	normal	sad	
+s	周腾	……
+s		葛城的语气莫名有些抱怨。一开始我以为他只是开玩笑，但看他的表情，他似乎对此真的有些不满。
+s	周腾	先不说这个了，你是怎么进来的？
+p	gecheng	c	normal	normal	speak	
+s	葛城	当然是你爸把我放进来的啊。
+s	葛城	刚看到我的时候，你爸还挺惊讶，但也没多说什么。我和他简单打了个招呼就进你房来找你了。
+p	gecheng	c	normal	normal	sad	
+s	@	别闲聊了，你不是有很重要的事要说吗？
+p	gecheng	c	normal	confused	speak	
+s	葛城	哦，差点忘了，我想说什么来着？
+p	gecheng	c	normal	normal	speak	
+s	葛城	对了，我听辉夜奏那边说，你们31号要去星期八那边？
+p	gecheng	c	normal	normal	sad	
+s	周腾	她告诉你了？
+p	gecheng	c	normal	normal	speak	
+s	葛城	嗯，前两天去她家上围棋课的时候听她说了。说什么星期八咖啡月底就关门了，还提了关于都市传说和你们这段时间发生的事情。
+p	gecheng	c	normal	normal	sad	
+s	周腾	然后呢？
+p	gecheng	c	normal	normal	speak	
+s	葛城	我的建议是，不要去。
+p	gecheng	c	normal	normal	sad	
+s	@	为什么？
+p	gecheng	c	normal	normal	speak	
+s	葛城	反正店长也说了你们去不去都无所谓的吧，我是觉得这事情发展到现在有些太奇怪了。更重要的是……
+p	gecheng	c	normal	angry	speak	
+s	葛城	辉夜老师可能和这个都市传说也有些关联。
+p	gecheng	c	normal	angry	sad	
+s	周腾	啊？？
+s		葛城的话让我坐直了身子，刚刚还有些发散了的注意力也很快地集中了起来。
+p	gecheng	c	normal	angry	speak	
+s	葛城	事先声明啊，我接下来和你们说的东西可谁都不要传出去，和谁都不能说！
+s	葛城	就连辉夜奏也不行。
+s	@	行了，你快说吧！
+p	gecheng	c	normal	normal	speak	
+s	葛城	大概就是两天前我去辉夜老师家里上围棋课时的事情。当天因为我有事儿，所以去得比较晚，课也就被排在了最后一个。
+s	葛城	等我上完课之后，其他学生也基本都走完了，辉夜奏也回房休息了。
+s	葛城	正当我准备走的时候，我在卧室门口听到了辉夜老师打电话的声音。
+s	葛城	我不知道他在和谁打电话，因为房门关着，所以说话的声音也很小很小。
+p	gecheng	c	normal	angry	speak	
+s	葛城	但我可以明确肯定的是，辉夜老师一定提到了‘8月32’和‘都市传说’这几个词。
+p	gecheng	c	normal	angry	sad	
+s	周腾	然后呢？
+p	gecheng	c	normal	normal	speak	
+s	葛城	然后我就走了啊。
+p	gecheng	c	normal	normal	sad	
+s	周腾	你这就走了？你这说了和没说完全没区别啊！
+p	gecheng	c	happy	sad	speak	
+s	葛城	大哥，那我哪敢多听啊！本身偷听就很不好，而且偷听的还是这么关键的内容……
+p	gecheng	c	normal	sad	speak	
+s	葛城	说真的，我现在有些后背发凉，离31号还有半个多月，你们最好彻底把这件事忘掉，也别去赴约了。
+p	gecheng	c	normal	sad	speak	
+s	葛城	还有一句话，我知道这话你们可能不爱听，但……
+p	gecheng	c	normal	angry	speak	
+s	葛城	最好少和辉夜奏来往了，或者说尽量对她有些防备。
+p	gecheng	c	normal	normal	sad	
+s	周腾	不是…！算了……
+s		刚听完葛城的话我确实有些生气，至少我的第一反应是他在胡说八道。
+s		但是仔细思考之后……
+s		为什么之前店长在听到辉夜奏的名字之后会有那么大的反应…？
+s		为什么辉夜老师也会知道8月32？这种只在年轻人群里流传的都市传说，按道理来说不应该是辉夜老师会关心的事情啊？
+s		08年的失踪案到底和这个都市传说有关联吗？
+s		还有，辉夜老师不让辉夜奏与太多人交往接触，单纯只是家教严格吗？这是否也和都市传说有关系？
+s		这几件事单拎出来都可以是巧合，但结合在一起似乎就有些奇怪了。
+s		或许辉夜奏真的有什么事情在瞒着我们也说不定，当然更坏的可能……或许辉夜奏本身就是
+s		。
+s	@	照葛城你这么说的，我们就更应该赴约了。
+p	gecheng	c	normal	surprise	speak	
+s	葛城	为什么，叛逆期到了？
+s	@	如果事情真有这么可怕，那更应该去搞清楚真相才对吧。
+s	@	先说清楚啊，我不是不要命，也不是不害怕，我只是觉得……
+s	@	这事情要真像你说的那么吓人和诡异，那我们也跑不掉了啊。
+s	@	这段时间发生了这么多事情，我和周腾估计早就被盯上了，就算31号不去，估计也没办法摆脱坏结果了。
+s	葛城	……
+s	@	所以说啊，与其担惊受怕，还不如祈祷这所有的事情就只是一场闹剧呢。

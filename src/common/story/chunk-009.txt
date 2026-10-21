@@ -1,0 +1,128 @@
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+p	changxia	c	normal	normal	speak	
+s	@	比如说桂花就不错啊！桂花年糕、桂花乌龙茶、桂花鸳鸯拿铁、桂花冰激凌……光是想想就流口水啊！
+p	changxia	c	normal	normal	smile	
+s		常夏的回答让我有些意外，但仔细想想，似乎也在情理之中。料理社的副社长，喜欢的花是能吃的花，好像确实没什么问题。
+j	1178
+s	周腾	我可能还是会更喜欢假花一点吧。
+p	changxia	c	normal	normal	speak	
+s	@	理由呢？
+p	changxia	c	normal	normal	smile	
+s	周腾	理由刚刚也已经说过了。假花不需要打理，就能够永远保持自己最好看的状态。而真花却需要每天浇水晒太阳，需要专门护理。
+s	周腾	最重要的是，假花可以一直陪着我。
+p	changxia	c	normal	normal	speak	
+s	@	唔…算是意料之中的答案吧~
+p	changxia	c	normal	normal	smile	
+s	周腾	常夏呢，更喜欢真花还是假花？
+p	changxia	c	happy	normal	speak	
+s	@	我？我更喜欢能吃的花…！
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+p	changxia	c	normal	normal	speak	
+s	@	比如说桂花就不错啊！桂花年糕、桂花乌龙茶、桂花鸳鸯拿铁、桂花冰激凌……光是想想就流口水啊！
+p	changxia	c	normal	normal	smile	
+s		常夏的回答让我有些意外，但仔细想想，似乎也在情理之中。料理社的副社长，喜欢的花是能吃的花，好像确实没什么问题。
+j	1178
+h	changxia
+b	black
+j	1181
+s		...
+b	street_afternoon
+s		在又步行了一段时间的路程之后，星期八咖啡厅的招牌总算是出现在了我们的眼前。
+s		相比以往，今天的咖啡厅门口围着不少正在交谈说笑的学生，大概是因为放暑假了的缘故吧。
+s		喜欢喝咖啡的常夏率先一步地跑在最前面，推开了咖啡厅有些厚重的玻璃门。挂在门沿上的风铃也因常夏的动作发出了清脆好听的声响。
+b	coffee_afternoon
+p	dianzhang					speak
+s	店长	欢迎光临星期八咖啡，啊……
+p	dianzhang					
+s	店长	原来是小夏啊~
+p	dianzhang					speak
+s	店长	今天还是老样子吗？
+s		门刚被推开，咖啡店店长那充满磁性的声音便传了过来。随后扑面而来的便是咖啡那浓郁焦香的气息。
+p	dianzhang					normal
+p	changxia	r2	happy	normal	speak	
+s	@	今天就不喝那个啦。店里不是出新品了吗，就喝新品好了！
+p	dianzhang					speak
+s	店长	那甜度和冰度……
+p	changxia	r2	normal	normal	smile	
+s		常夏没有说话，只是笑着对店长点了点头。
+p	dianzhang					
+s		随后店长这边露出了一副“我完全理解了”的表情，也笑着对常夏点了点头。
+s		两个人并没有太多的交流，但却好像完全明白了对方想要什么。
+h	changxia
+p	dianzhang					speak
+s	店长	那，小夏的两位朋友呢，有没有什么想喝的？如果不知道点什么的话，我也可以给你们推荐几款哦。
+p	dianzhang					normal
+s	周腾	我就和常夏喝一样的吧，冰度和甜度也完全和她一样。
+p	dianzhang					speak
+s	店长	哦？你确定吗？
+p	dianzhang					normal
+s	周腾	呃……当然确定啊，有什么问题吗？
+p	dianzhang					speak
+s	店长	别在意别在意，我就只是确认一下而已。
+h	dianzhang
+s		店长笑着对我摆了摆手之后，便将视线望向了站在我身后的辉夜奏。
+s		店长眼神里的意思很明显，如果辉夜奏再不开口的话，恐怕店长就要主动上前询问了。
+p	kanade	c	normal	sad	sad	
+s		然而，辉夜奏这边的眼神却有些躲闪，整个人看起来也有些不太自在。
+s		她本想开口说些什么，但思考了片刻之后，还是缓缓地闭上了自己的嘴巴。
+h	kanade
+s	周腾	啊！那个…店长我想问一下，有没有那种‘不苦’的咖啡啊。
+s	店长	不苦的咖啡…？
+s	店长	小伙子还真是会开玩笑，咖啡怎么会有不苦的呢。
+s	周腾	我、我的意思是想说，有没有那种苦味比较淡的咖啡？
+s	周腾	因为怎么说呢，咖啡这个东西并不是所有人一开始就能全盘接受的嘛，肯定要先从苦涩度低一点的咖啡来入门。
+s		店长刚听完我的话时还有些茫然，但他很快的注意到了站在我身后的辉夜奏的表现。
+s	店长	哦，我大概明白你的意思了。
+s	店长	如果是第一次喝咖啡的话，我这边会推荐‘榛果拿铁’。
+s	店长	拿铁在制作的过程中，会加入大量的牛奶，所以味道喝起来也会是以牛奶的乳香味为主，咖啡的苦涩味道会比较少。
+s	店长	再加上榛果的香味，这款咖啡的整体风味会让人更加容易接受。
+s	周腾	我明白了，那就再来一杯榛果拿铁吧。糖度可以甜一些，冰块可以少放一点。
+s	店长	明白了，那么三位就先找个位置坐一下吧，之后咖啡做好了我会给你们送过来的。
+s	周腾	谢谢~
+s		简单地和店长道了谢之后，我便暂时离开了前台，一边走着一边开始观察起了这家咖啡馆。
+b	coffee_afternoon
+s		虽然我并不是第一次到这家咖啡馆来，但之前来这里的大多数时候我都比较赶时间，并没有太在意店内的装饰和整体布局。
+s		现在细细地看来，这家咖啡厅要比我记忆里所想的有格调的多。
+s		咖啡厅所有的墙上都被贴上了复古风格的墙纸，在此基础上，店长还在墙上贴了不少的外国车牌和名画仿品。
+s		天花板上吊着的样式精美的水晶吊灯，散发着橘黄色的温柔灯光，给整个咖啡厅蒙上了一层慵懒的感觉。
+s		另外一提，店长虽然年过四十，但听歌的品味却很不错。
+s		咖啡厅里时而会循环一些老派的经典爵士乐，时而会循环一些听起来有些晦涩难懂的古典音乐。
+s		爵士乐可能还好，但在白月高中的学生圈子里，古典音乐的接受程度并没有那么的高。
+s		记得常夏以前和我说过，有不少顾客都求着店长把古典乐给换成“抖手”上的流行音乐，说这样子可以更吸引年轻人一些。
+s		但最后的结果，基本都是被店长笑着一口否决了。
+s		店长虽然人老心不老，但在音乐方面却有着自己的喜好和坚持。在咖啡制作上也是一直保持着一丝不苟的专业态度。
+s		这大概也是“星期八咖啡”为什么能这么火爆的原因之一吧。
+s		……
+b	coffee_afternoon
+p	changxia	l	normal	normal	speak	
+s	@	就坐这边好了。这个位置旁边靠着落地窗，视野和光线都非常不错。
+p	changxia	l	normal	normal	smile	
+s		在我还在观察整个咖啡厅布局的时候，常夏已经熟练地找好了空位坐了下来。
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	常夏姐经常来这里喝咖啡吗？
+p	kanade	r	normal	surprise	confused	
+p	changxia	l	happy	normal	speak	
+s	@	那当然，我可是这里的常客！我的口味爱好店长那边清楚的很，只要我点点头，店长就能很快地明白我的意思~
+p	changxia	l	happy	normal	smile	
+s		听常夏这么一说，我才算是明白刚刚前台发生的那一幕究竟是怎么一回事……
+p	changxia	l	normal	normal	speak	
+s	@	话说回来，小奏还是第一次到这家咖啡厅来吧。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	嗯，之前班上有同学推荐我来过，不过我对咖啡没什么兴趣，所以就回绝了。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	看来小奏你是真的不喜欢喝咖啡啊。
+p	kanade	r	normal	sad	speak	
+s	辉夜奏	我不知道该怎么说，可能是我对咖啡有些阴影吧。
+p	kanade	r	normal	sad	confused	
+s	周腾	阴影…？
+p	kanade	r	normal	sad	speak	
+s	辉夜奏	以前我还在上小学的时候，我爸骗过我。
+s	辉夜奏	他递给我一杯装满着黑色液体的杯子，骗我说里面是好喝的饮料。
+s	辉夜奏	我看着很像可乐，里面还有冰块，所以就闷了一大口。
+p	kanade	r	happy	sad	speak	
+s	辉夜奏	那个味道，比中药还要难喝一万倍……
+p	changxia	l	happy	sad	speak	
+p	kanade	r	happy	sad	sad	

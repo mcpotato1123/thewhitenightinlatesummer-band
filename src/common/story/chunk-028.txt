@@ -1,0 +1,128 @@
+s		店长话罢，将放着三杯咖啡的托盘推到了我们的面前。
+p	changxia		normal	normal	speak	
+s	@	这次我们就不在店里喝了，还是帮我们打包吧店长~
+p	dianzhang					speak
+p	changxia		normal	normal	smile	
+s	店长	打包吗？不尽快喝掉的话味道会越来越差的。
+p	dianzhang					normal
+p	changxia		normal	normal	speak	
+s	@	没事没事，主要是我和周腾等会还有点事要做，打包带走还是方便一些。
+s	@	之后有时间再来店里慢慢喝啦。
+p	changxia		normal	normal	smile	
+s		店长没有说话，转身默默地开始打包。
+s	周腾	等会还有事要做吗，你怎么没和我说过？
+p	changxia		normal	normal	speak_angry	
+s	@	嘘…出去再聊。
+j	3600
+b	street_afternoon
+p	changxia	l	happy	sad	smile	
+p	yuluoshen	r2			speak_angry	
+s	余洛琛	怎么了突然？走得急匆匆的，我咖啡都差点泼出来了。
+p	changxia		happy	sad	speak	
+p	yuluoshen				close	
+s	@	没什么，就是突然想起来还有些急事没有做。走吧周腾！时间来不及了~
+s	周腾	喂！别拽我袖子啊！
+p	yuluoshen			confused	speak_angry	
+s	余洛琛	不是……你们两个倒是把事情说清楚再走啊！到底是什么情况，搞得我都有些摸不清楚头脑了……
+p	changxia		happy	sad	speak	
+s	@	等之后有机会再和你说明吧！啊，要不就等开学之后吧，开学之后我请你吃食堂的鸡腿饭！
+p	yuluoshen		happy	sad	speak	
+p	changxia		happy	sad	smile	
+s	余洛琛	等到开学未免也太晚了吧，而且我不爱吃食堂的鸡腿饭，那个太腻了！
+p	yuluoshen		happy	sad	smile	
+p	changxia		normal	normal	speak	
+s	@	那就请你吃别的~
+h	yuluoshen
+h	changxia
+s		在丢下这句话之后，常夏便开始朝着街道的另一头加速狂奔了起来。
+s		为了跟上她的步伐，我也不得不加快了自己的脚步，尽管我还有很多问题没来得及问出口。
+s		……
+p	changxia	c	happy	normal	speak_angry	
+s	@	呼……哈啊……就、就先坐这休息一会儿吧……
+s		大概跑了一段时间之后，常夏开始有些体力不支了，她随便在路边找了个长椅瘫坐在上面，大口的喘着粗气。
+s	周腾	所以你到底……到底在跑什么啊…？
+s		因为跑得太久，一时半会我也有些喘不过气，尽管知道自己说话会因此受到影响而断断续续的，但我也还是没忍住地对着常夏问出了这个问题。
+p	changxia		normal	normal	confused	
+s		常夏并没有立刻回答我，只是看了我一眼，随后又看向了自己手里提着的咖啡。
+p	changxia		normal	normal	speak	
+s	@	还好还好，泼出来的不是特别多~
+p	changxia		normal	normal	smile	
+s	周腾	这是重点吗？
+p	changxia		normal	normal	speak	
+s	@	哎呀，我会和你解释清楚的，这么着急干什么。
+s	@	话说回来，周腾你平时锻炼的太少了吧，这才跑了多大一会儿就开始喘气，以后还是得多锻炼锻炼身体才行啊。
+p	changxia		normal	normal	smile	
+s	周腾	你刚刚不也喘得上气不接下气的，还好意思说我？
+p	changxia		normal	normal	speak	
+s	@	我是女孩子嘛，女孩子体力要稍微差一些也是没办法的事情。
+s	周腾	行了行了，这都不重要，赶紧解释一下刚刚的情况。
+p	changxia		normal	normal	confused	
+s	@	……
+p	changxia		normal	angry	speak_angry	
+s	@	你不觉得店长隐瞒了很多事情吗，不觉得他很可疑吗？
+s	@	先不谈一开始，就刚刚最后那几段话，他说他从来没有听说过白月高中失踪案的事情，你觉得可能吗？
+p	changxia		normal	surprise	speak_angry	
+s	@	要是其他地方的人倒还可以理解，但他可是‘星期八咖啡’的店长诶！在白月高中开了这么多年咖啡厅，平时那么多学生去他店里消费…
+s	@	他就算再怎么‘两耳不闻窗外事’，也不至于一点都不了解吧。
+p	changxia		normal	angry	speak_angry	
+s	@	所以说，我的结论就是……
+s	@	店长很可疑！十分可疑！
+p	changxia		normal	angry	confused	
+s	周腾	是啊，店长真是可疑，太可疑了…！可疑到让你把我之前说的话全部忘记了是吗？
+s	周腾	我早就和你说过了那个店长肯定隐瞒了什么，让你不要去问他和8月32日有关的事情，尤其是那个失踪案，最好提都不要提一嘴！
+s	周腾	余洛琛就算了，她毕竟不知道‘信使’的事情，就只是单纯好奇，一些事情她没有想得那么深。
+s	周腾	但是你，我早就提醒过你了，你为什么还要去添油加醋？
+s	周腾	添油加醋就算了，最后从星期八离开的时候还那么的不自然，还随随便便地就把人家余洛琛丢在原地…
+s	周腾	说真的，要是店长真的是什么幕后凶手的话，你这次就真的闯祸了啊！
+p	changxia		normal	sad	confused	
+s	@	……
+p	changxia		normal	sad	speak_angry	
+s	@	……对不起啊，当时我也是头脑一热，所以才……
+s	@	我也没想到你会这么生气……
+p	changxia		normal	sad	confused	
+s	周腾	我是有些生气，但我是在担心你！
+s	周腾	尽管我不相信都市传说是真的，但这个世界上每天都在发生着比都市传说离奇一万倍的事情。
+s	周腾	就像你在咖啡厅说的那样，‘至少失踪案是真实存在的’。
+s	周腾	说不准我们哪一天真就成了失踪案的主角，这也不是不可能的事情……
+p	changxia		normal	sad	speak_angry	
+s	@	对不起，我知道周腾你是在担心我……
+s	@	你把这件事情看得这么重，但我却……
+p	changxia		normal	sad	confused	
+s	周腾	……
+s		常夏的话让我有些心情复杂。
+s		不知道为什么，从走进星期八咖啡的那一刻，我就感觉心情莫名的慌张和激动，整个人都有些不受控制……
+s		虽然我确实是对店长抱有一丝戒心，但这种慌张和激动的心情好像有些太过了，就好像是要从身体里溢出来一样。
+s		常夏说的确实没错，我把这件事情看得太重了。但这好像并不是我本身的意愿，反而更像是一种……“本能”？
+s		潜意识提前一步预知到了危险的存在，但我自身却没有感知到，所以只能无所适从地慌张和激动，甚至不受控制地对常夏发了火。
+s		……
+s		这种奇怪的感觉到底从何而来，而且我……
+s		是不是…忘记了什么很重要的事情？
+p	changxia		normal	sad	speak_angry	
+s	@	那个，周腾你、你没事吧？
+p	changxia		normal	sad	sad	
+m	……3687我没事。3688......3700我好像忘了什么事情……3711
+j	3718
+p	changxia		normal	sad	confused	
+s	周腾	我没事。
+p	changxia		normal	sad	speak_angry	
+s	@	真的没事吗？你刚刚…那副表情真的挺吓人的……
+s	@	我知道你还在生我的气，但这么久了也该消消气了吧。
+p	changxia		normal	sad	confused	
+s		常夏好像有些担心我的状况，但也没有说更多了。
+p	changxia		normal	surprise	speak_angry	
+s	@	啊…！我突然想起来，我们还得找葛城问下小奏的情况呢，他今天是去小奏家上围棋课了吧？
+p	changxia		normal	sad	speak_angry	
+s	@	小奏这么久都没消息了，应该不会有事吧……
+j	3718
+s	周腾	……
+p	changxia		normal	sad	speak_angry	
+s	@	你、你别不说话啊！说真的，你刚刚…那副表情真挺吓人的……
+s	@	我知道你还在生我的气，但这么久了也该消消气了吧。
+p	changxia		normal	sad	confused	
+s		常夏好像有些担心我的状况，但也没有说更多了。
+p	changxia		normal	surprise	speak_angry	
+s	@	啊…！我突然想起来，我们还得找葛城问下小奏的情况呢，他今天是去小奏家上围棋课了吧？
+p	changxia		normal	sad	speak_angry	
+s	@	小奏这么久都没消息了，应该不会有事吧……
+j	3718
+s	周腾	我好像忘了什么事情……

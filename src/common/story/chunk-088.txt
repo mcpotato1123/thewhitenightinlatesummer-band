@@ -1,0 +1,128 @@
+s		对、对吧…？
+s		……
+s		换好了拖鞋，我有些无所适从。
+s		衣服和裤子都被雨水淋得透湿，我不敢四处走动，怕把常夏的客厅弄得到处都是水。
+s		站也不是，站太久了水会顺着衣服滴到原地；坐也不是，坐着会把沙发和板凳打湿。
+s		回家就更不可能了，按照现在外面的这个降水量，这种时候回家，搞不好会被淹死在路上……
+s	@	唉，我换好衣服了。
+p	changxia	c	normal	sad	confused	
+s		正当自己还在左右为难的时候，常夏已经换好衣服从卧室里走了出来。
+s		只是让我有些奇怪的是，常夏怎么换好衣服之后身上穿着的还是校服？
+s		她有两套校服吗，还是说…这也是“小世界”所带来的某种幻觉？
+s	周腾	你干嘛叹气？
+p	changxia	c	normal	normal	speak_angry	
+s	@	没什么，想叹气就叹气了。倒是你，拖鞋都换好了，怎么还站在原地不动啊？
+p	changxia	c	normal	normal	confused	
+s	周腾	我身上都是水，怕把你家给弄脏了。
+p	changxia	c	normal	normal	sad	
+s	@	……
+p	changxia	c	normal	angry	speak_angry	
+s	@	大哥，都这种时候了，你干嘛还死脑筋啊。
+s	@	我们又不是第一天认识了，还搞得这么客气，弄脏了就弄脏了呗，之后我打扫一下不就好了。
+s	@	行了，你赶紧去厕所里换身衣服吧。
+p	changxia	c	normal	angry	confused	
+s	周腾	那个，我没有能换的衣服了……
+p	changxia	c	happy	sad	speak	
+s	@	呃，差点忘了……那要不，你先穿我爸的衬衫将就一下？
+h	changxia
+s		常夏似乎并没有打算征求我的意见，丢下这句话之后，便转身走进了常叔的卧室。
+s		过了许久才翻出来一条白色衬衫和黑色长裤，然后甩给了我。
+s		她并没有再多说些什么了，只是用大拇指往厕所的方向指了指，示意我赶紧进去换衣服。
+b	black
+s		……
+s		一段时间过后。
+s		……
+b	changxia_livingroom_night_light
+s		虽然换的时候有些笨拙，不过换好衣服，身上确实变得轻松了许多。
+s		常叔的衣服上带着些许烟酒的气息，闻起来不太习惯，但这种时候也没有什么可挑剔的了。
+p	changxia	c	normal	normal	smile	
+s		至于常夏这边，则是盘坐在沙发上，一边翻看着我送她的精装笔记本，一边吃着从冰箱里刚拿出来的切块西瓜。
+s		电视里的综艺节目依然还在播放，虽然自己一直有在看，但还是有些不太记得节目的内容究竟是什么了，或者说…
+s		我的心思已经不在电视节目上了。
+s	周腾	我就很好奇，这个笔记本上到底写了什么内容，能够让你一直这么津津有味的看下去？
+p	changxia	c	normal	normal	confused	
+s	@	……
+s		常夏没有立刻回答我，只是撇过头来看了我一眼，随后将笔记本放在了一旁，然后往我嘴里塞了一块冰西瓜。
+s	周腾	唔…你还没回答我的问题呢！
+s		常夏仍旧没有回答，再一次地往我嘴里塞了一块冰西瓜，这一块比之前的都要大得多。
+s	周腾	不是…咕呜，你还没…呃呜，回答我的问题……
+p	changxia	c	normal	angry	speak_angry	
+s	@	西瓜都堵不住你的嘴吗？
+s	@	上面写了什么你难道不知道？
+p	changxia	c	normal	angry	confused	
+s	周腾	我真不知道啊，我又没看过……
+p	changxia	c	normal	normal	confused	
+s	@	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	也没什么不得了的东西，就是这次比赛要唱的歌的歌词而已。
+p	changxia	c	normal	normal	confused	
+s	周腾	歌词的话干嘛不让我看。
+p	changxia	c	normal	angry	speak_angry	
+s	@	因为我的字很丑，所以不想让你看，这个理由可以吗？
+p	changxia	c	normal	angry	confused	
+s		常夏的语气有些生气，尽管我并不是很清楚她为什么突然就发脾气了。
+p	changxia	c	normal	normal	confused	
+s		她将笔记本收了起来，放在了一旁，然后装作若无其事的吃起了西瓜。
+s		外面雨声很大，可天色依旧还是阴沉沉的。
+s		无论天气怎么变化，无论时间过了多久，“小世界”里的天色永远都处于白夜的状态。
+s		小世界的一切都那么的虚假，但又那么的真实。
+s		过往的记忆碎片越聚越多，没能解决的谜题也越来越多……
+s		这种状态，还要持续多久呢？
+j	11335
+b	black
+s		……
+b	changxia_livingroom_night_light
+s		虽说常夏家没有自己家呆着习惯，但这种情况也不好挑剔什么。
+s		简单地休息了一会之后，我和常夏又各自去浴室洗了个澡。
+s		大概因为是女生的原因吧，常夏洗了将近半个小时才搞定，等她从浴室里出来的时间，电视上的综艺节目都已经放完了。
+s		我这边倒是比较迅速，前后加起来也就花了十来分钟，出来的时候还被常夏训斥说自己不好好洗澡什么的……
+s		再往后，气氛则是又变得沉默了起来。
+s		我与常夏并排坐在沙发上，间隔的距离不远也不近。
+s		她仍在看着我之前送给她的那本精装笔记本，摆出一副若有所思的表情，一边想着还一边往上面不停地写东西。
+p	changxia	c	normal	sad	confused	
+s	周腾	外面的雨完全没有要变小的意思啊。
+p	changxia	c	normal	sad	speak_angry	
+s	@	不把我们家淹了都算是好事儿了，这个降雨量一时半会停不下来的。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你老在意雨停不停干嘛？
+p	changxia	c	normal	confused	confused	
+s	周腾	呃，因为雨一直下这么大的话，我今天就回不去了啊。
+s		虽然现在时间还早，才刚过晚饭的点，但就像常夏说的那样……这个雨短时间内是不会变小了，我自己也很清楚这些。
+s		只是，如果今天不能回去的话，就代表着……
+p	changxia	c	normal	normal	speak_angry	
+s	@	那暂时住在我家里不就好了。
+p	changxia	c	normal	normal	confused	
+s	周腾	啊？
+p	changxia	c	normal	angry	speak_angry	
+s	@	啊什么啊，你不今晚不睡在我家还能睡在哪，你别告诉我你打算游泳游回去。
+p	changxia	c	normal	angry	confused	
+s	周腾	好像也是，不过不要紧吗？
+p	changxia	c	normal	normal	speak	
+s	@	你放心好了，我爸妈不会介意的，都认识这么久了。
+s	@	晚上你就去他们卧室里睡就好了。
+p	changxia	c	normal	normal	smile	
+s	周腾	好吧，这种事情也没什么办法。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊等一下——！
+p	changxia	c	normal	surprise	confused	
+s		常夏像是突然想起来了什么很重要的事情一样，坐直了自己的身子，朝着我这边靠近了几分。
+s	周腾	怎、怎么了突然？
+p	changxia	c	normal	sad	speak_angry	
+s	@	你…不能睡我爸妈的房！
+p	changxia	c	normal	sad	sad	
+s	周腾	为什么？
+p	changxia	c	normal	sad	speak_angry	
+s	@	你要是把他们的床弄脏了怎么办？
+p	changxia	c	normal	sad	sad	
+s	周腾	我刚洗过澡啊，而且你刚刚不是还说你爸妈不介意的吗？
+p	changxia	c	happy	sad	speak	
+s	@	是这样没错，但还是会有些不好……
+p	changxia	c	normal	sad	speak_angry	flush
+s	@	所以，你还是到我房里来睡吧…
+p	changxia	c	normal	sad	confused	flush
+s		常夏就这么脱口而出了一句差点让我惊掉下巴的话，我看着她，她看着我……
+s		她的脸颊红的有些吓人，甚至连耳根都明显地变红了，她不可能不知道自己说的话有多么羞耻，但她还是说出口了……
+s	周腾	哦…啊！你的意思是让我去你房里打地铺对吧，我明白的，但是打地铺睡觉有点硬啊。
+s	周腾	要不我睡沙发吧，帮我拿张毯子，我就直接在沙发上睡了。
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	不行！你来了好歹也是客人，怎么能让你睡沙发呢？这岂不是显得我很没有礼貌？

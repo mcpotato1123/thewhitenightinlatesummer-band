@@ -1,0 +1,128 @@
+s	周腾	你怎么在这，我不是让你先去上学了吗？
+p	changxia	c	normal	angry	speak_angry	
+s	@	别说话了，赶紧再喝一口！
+p	changxia	c	normal	sad	sad	
+s		常夏手端着碗，里面装着的不知道是粥还是什么其他的食物。
+s		她舀了一大勺，先是放在了自己的嘴边吹吹，等到温度稍微降下来了一些之后，才伸到了我的嘴边。
+s		虽然被女孩子喂食什么的让人有些羞耻，但这种时候我也懒得再去思考这么多事情了。
+s		我最终还是张开了嘴，接下了常夏递过来的食物。
+p	changxia	c	normal	sad	speak_angry	
+s	@	味道可能不是很好啊，因为你家里的食材有限，所以做不出特别好吃的粥。
+p	changxia	c	normal	sad	sad	
+s	周腾	已经很好吃了。
+p	changxia	c	happy	sad	speak	
+s	@	你喜欢就好~
+p	changxia	c	happy	sad	smile	
+s		常夏笑了笑，她的脸色稍微有些难堪。
+s		碗里的粥冒着热气，她就这样看着往外飘的热气发呆，没有作声……
+p	changxia	c	normal	sad	sad	
+s	@	……
+p	changxia	c	normal	sad	speak_angry	
+s	@	我一开始看你倒在地上的时候，还以为是得了什么病。
+s	@	后来看你嘴里一直念叨着‘好饿好饿’，我才喂了点自己刚买回来的面给你吃。
+p	changxia	c	normal	sad	sad	
+s	周腾	是吗，我都不记得自己之前说过什么了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	所以，你是不是低血糖了…？但感觉也不像啊，我印象里你好像从来没有低血糖过。
+s	@	再吃一口吧。
+p	changxia	c	normal	sad	sad	
+s		常夏又舀了一勺粥，吹了吹递到了我面前，我也是自然地张嘴接了下来。
+s	周腾	你不去学校真的不要紧吗？
+p	changxia	c	normal	normal	speak_angry	
+s	@	没事的，我给老师打过电话了，说家里临时有点事，一时半会来不了学校。
+p	changxia	c	normal	normal	confused	
+s	周腾	我这也算是‘家里有事’么…
+p	changxia	c	normal	normal	speak	
+s	@	怎么不算呢？
+p	changxia	c	normal	normal	smile	
+s		常夏抚了抚我的脸颊，用着一副宠溺的眼神看着我。
+s		或许只是我想多了，其实并没有什么宠溺的意味在其中，单纯只是关心的眼神……？
+s		……
+s		自己容易多想的习惯又犯了，明明自己的精力才刚刚恢复一点，这种时候填饱肚子才是最重要的。
+p	changxia	c	normal	normal	speak	
+s	@	我和周腾你呀，都已经认识这么久了，说是‘半个家人’也完全没有问题吧。
+s	@	而且你也不用太担心老师那边会批评我，我平时在学校里还是很听话很受老师信赖的。
+s	@	偶尔突击请假，他们那边也不会太计较。
+p	changxia	c	normal	normal	smile	
+s	周腾	当了两三年的好学生，就是为了在这种时候派上用场？
+p	changxia	c	happy	angry	speak	
+s	@	你管我呀，我照顾你我乐意~真是的，人不舒服还这么嘴贫。
+p	changxia	c	happy	angry	smile	
+s		常夏又塞了一勺粥到我的嘴里。
+s	周腾	不过还是很好奇，你后来为什么又转过头重新到我家来了？当时你明明答应我要去学校的。
+p	changxia	c	normal	normal	speak_angry	
+s	@	怎么说呢，当时确实是已经准备去学校报道了，但是…
+p	changxia	c	normal	confused	speak_angry	
+s	@	路走到一半的时候，我总感觉心里有些闷闷的。
+s	@	我也不知道该怎么形容，就好像是和你感应上了吧，觉得你可能会出事。
+p	changxia	c	normal	sad	speak_angry	
+s	@	再加上今天早上看到你的时候，你脸色确实很差很差，所以就想着临时请假回来看看你了。
+p	changxia	c	normal	sad	confused	
+s	周腾	之后就是看到我倒在地上？
+p	changxia	c	normal	sad	speak_angry	
+s	@	嗯，一进门就看在你倒在地上，当时我就知道出事儿了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	哦对了，你家的门不知道为什么，锁好像坏了。
+s	@	我第一次来得时候能进来，是因为刚好碰到了你爸出门上班，他给我开了门。
+s	@	后来第二次我转头过来想敲门的时候，才发现门锁坏了，一推就可以推开门。
+p	changxia	c	normal	normal	confused	
+s		常夏的话让我有些摸不着头脑，我本想起身走出卧室去看看大门的情况，却被常夏一只手给按了回来。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我去看看吧，你在这儿好好躺着。
+h	changxia
+s		丢下这句话之后，常夏便朝着门口小跑了过去，过了十几秒钟才回来。
+p	changxia	c	normal	confused	speak_angry	
+s	@	门锁……好像没坏？
+p	changxia	c	normal	confused	confused	
+s	周腾	啊？
+p	changxia	c	normal	confused	speak_angry	
+s	@	不知道，我刚刚去检查的时候，发现锁是没问题的。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	但我来的那会儿，明明门一推就打开了啊，难不成是我走的时候忘记关门了？
+j	9682
+p	changxia	c	normal	confused	confused	
+s		常夏盘弄了一会儿自己的辫子，思考了半晌，最后也没能给出一个准确的答案。
+p	changxia	c	normal	normal	speak_angry	
+s	@	算了，不想了。
+s	@	可能是我搞忘记关门了吧，总之没事就好。
+p	changxia	c	normal	normal	confused	
+s	周腾	晚点我自己再去检查一下那个门吧，如果有问题的话也好及时换锁。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你啊，就先好好躺在床上休息吧，先把这碗粥吃完了再说其他的事情~
+p	changxia	c	normal	normal	smile	
+s		常夏把勺子伸了过来，又打算重复前几次的喂食操作，但这次却被我给伸手拒绝了。
+s	周腾	还是我自己来吧，以现在的力气我可以自己端着碗把粥喝完了。
+p	changxia	c	normal	angry	speak_angry	
+s	@	不行！病人就乖乖听话，你自己要是没拿稳泼在床上了怎么办？
+p	changxia	c	normal	angry	confused	
+s	周腾	不会的，我的力气已经恢复不少了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你怎么证明呢？
+p	changxia	c	normal	normal	confused	
+s	周腾	我……
+p	changxia	c	normal	angry	speak	
+s	@	要不这样吧，来和我比试掰手腕，如果你赢了我，我就答应让你自己喝粥，怎么样？
+p	changxia	c	normal	angry	smile	
+s	周腾	你这…未免也有些太看不起我了吧，比就比！
+s		我十分果断地接下了常夏的挑战。尽管自己的身体因为能量还没有完全补充到位，现在还处于十分虚弱的状态。
+s		但自己男子汉大丈夫，好歹也有这么大个块头，随便用点力气，赢个常夏还是轻轻松松的。
+s		我坐直了身子，摆好姿势，向常夏伸出了自己的手。
+p	changxia	c	normal	normal	speak	
+s	@	你准备好了吗？
+p	changxia	c	normal	normal	smile	
+s	周腾	你说呢，我姿势都摆好了，就等你了。
+p	changxia	c	normal	normal	speak	
+s	@	那就…开始吧~
+p	changxia	c	normal	normal	smile	
+s		坐在床边上的常夏朝着我凑近了一些，她也伸出了自己的手，不过，姿势并不是那种掰手腕的姿势。
+s		她握住了我的手掌，然后…
+s		和我十指相扣……？
+s		我怎么都没有想到会是这样的发展。常夏就这样温柔地抓着我的手掌，手指与手指之间紧密贴合着。
+s		这种最简单最直接的肌肤接触，要比热粥来得更让我温暖和安心。
+s		我抬头诧异地望了她一眼，常夏也对视了过来。她甜甜地笑了一下，似乎并没有回避我眼神的打算。
+p	changxia	c	normal	normal	speak	
+s	@	你啊，平时也不多好好保养一下你的手，现在皮肤都有些糙糙的。
+s	@	我去年冬天还让你多涂一下护手霜的，你根本就没听进去吧。
+p	changxia	c	normal	normal	smile	
+s	周腾	重点不是这个吧…
+p	changxia	c	happy	normal	speak	

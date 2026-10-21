@@ -1,0 +1,128 @@
+s	周腾	你怎么出来了，我以为你趴桌子上睡觉休息呢。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我没有在睡觉……
+p	changxia	c	normal	normal	sad	
+s		常夏的表情看起来有些别扭，脸色也有些不好。她望着我，好像有很多话想说。
+s		路过的学生从我们两人身旁擦肩而过，我们就这样站在走廊的正中央，像是什么障碍物。
+p	changxia	c	normal	normal	confused	
+s	@	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	那个，你刚刚…去哪里了？
+p	changxia	c	normal	normal	confused	
+s	周腾	我吗？
+p	changxia	c	normal	angry	speak_angry	
+s	@	不是问你我还能问谁啊！
+p	changxia	c	normal	angry	confused	
+s	周腾	没去哪啊，就随便逛了逛，去操场啊、社团教室啊，这附近稍微转了两圈。
+p	changxia	c	normal	normal	confused	
+s		我一脸笃定地对着常夏说出了这句话。
+s		我没有去操场，但我确实去了一趟围棋社，甚至还和葛城吵了一架。这种半真半假的话，希望常夏看不出来。
+p	changxia	c	normal	normal	speak_angry	
+s	@	哦……
+p	changxia	c	normal	normal	confused	
+s	周腾	你怎么了，感觉心情不是很好？
+p	changxia	c	normal	normal	speak_angry	
+s	@	没有，就是……
+s	@	对不起，我也不知道该怎么说，你就当是我心情不好吧。
+p	changxia	c	normal	normal	confused	
+s		常夏别扭了半天，还是没有对着我说出自己的真实想法。
+s		经验告诉我，女孩子暂时不愿意说的事情就不要一直追问下去了，等到时机成熟之后她们自然会告诉你。
+s		贯彻着这样的想法，我撇开了话题。
+s	周腾	既然心情不好的话，要不要一起出去玩？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊？
+p	changxia	c	normal	surprise	sad	
+s	周腾	……
+s		我到底在说些什么……
+s		常夏看着我，就像是在看傻子一样。不过我也不是不能理解她的想法就是了。
+s		现在可还是上学时间啊，课都还没有上完就说出去玩的事情，那不是相当于在主动邀请人家翘课嘛…
+s		虽然对于现在的我来说，翘课已经是无关紧要的事情了。
+s		和葛城吵完架之后，我的一些想法似乎也被他所影响了。
+s		一开始的时候，即使在8月32日里我也在习惯性地好好上课好好听讲，扮演一个好学生的样子。
+s		但现在不一样了，虽然我心里还是会有些不安，但…
+s		这可是8月32日啊！每到晚上十二点，前一天的记忆就会全部被清除的8月32日。
+s		反正等到第二天，所有投影就都不记得前一天发生的事情了，既然如此，我为什么还要在意那么多形同虚设的规矩呢？
+s		并不是说不去寻找离开8月32日的方法了，只是稍微给自己放松一下，转换一下心情，这种事情应该……无所谓吧？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	你是…认真的么？
+p	changxia	c	normal	surprise	confused	
+s		常夏沉默了好久，才从嘴里吐出这一句话。不过和刚刚稍微有些不同的是…
+s		现在的常夏，脸上的表情没有之前那么别扭了，反而是舒展了开来。甚至…
+s		我能从之中看到一丝期待的神情？
+j	8372
+s	周腾	这个，肯定不是认真的啊！呃，也不能说一点都不认真吧……
+p	changxia	c	happy	sad	speak	
+s	@	呃…所以到底是认真还是不认真…？
+p	changxia	c	happy	sad	smile	
+s	周腾	一半一半吧。
+p	changxia	c	normal	normal	confused	
+s	@	……
+s		我有些不好意思地尬笑了起来，常夏这边也是低着头不知道在思考些什么。
+p	changxia	c	normal	normal	speak	
+s	@	那我们走吧。
+p	changxia	c	normal	normal	smile	
+s	周腾	啊？
+p	changxia	c	normal	normal	speak_angry	
+s	@	啊什么，不是你问我要不要一起出去玩的嘛。
+p	changxia	c	normal	normal	confused	
+s	周腾	但是等会还要上课吧，现在出去的话不相当于是翘课了？
+p	changxia	c	normal	confused	speak_angry	
+s	@	翘课？我以为你刚刚问我的时候就已经做好了翘课的打算了呢，结果我答应你了你却又说这种话。
+p	changxia	c	normal	confused	confused	
+s	周腾	没有，我只是搞不清楚你究竟是在开玩笑还是在……
+s	周腾	虽然翘课对我来说已经无所谓了，但还是会影响到你的吧，万一你翘课了之后班主任打电话给你爸了怎么办。
+p	changxia	c	normal	normal	speak_angry	
+s	@	这种事情之后随便找个理由不就好了，只要说是和你在一起，我爸也不会说什么的。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	不过等等，你刚刚说…‘翘课对你来说已经无所谓了’，是什么意思？
+p	changxia	c	normal	surprise	confused	
+s	周腾	……
+s	周腾	我的意思是说，只要我有合适的理由，我爸也不会说我的，他这方面管我管得还算是比较松吧。
+p	changxia	c	normal	normal	confused	
+s		我说谎了。
+s		虽然我爸平时确实不会太管我学习上的事情，但是翘课什么的要是被他知道了，肯定也会狠狠骂我一顿的。
+s		只是对于还在8月32日里的我来说，骂我也好，不骂我也好，我也没那么在乎了。
+s		反正第二天，所有投影都会把前一天的事情忘得干干净净，到时候还是会像什么都没有发生过一样。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你最好不要骗我哦，我看得出来的。
+p	changxia	c	normal	normal	confused	
+s	周腾	这不重要啦，反正我总有理由可以找的，主要是你……
+s	周腾	你刚刚真的没有在开玩笑吗？
+p	changxia	c	normal	normal	speak	
+s	@	嗯，没有哦，你如果真的想和我出去玩的话，陪你翘课也不是不可以。
+p	changxia	c	normal	normal	smile	
+s	周腾	真的？
+p	changxia	c	normal	angry	speak_angry	
+s	@	当然是真的啊！我答应过你的事情什么时候反悔过，你是第一天认识我吗？
+p	changxia	c	normal	angry	confused	
+s		怎么说呢，我确实和常夏已经认识很久很久了，但是和常夏的“投影”也只不过是刚刚才认识了几天。
+s		事到如今，我还是没能完全弄明白投影和真人之间的差别到底有多大。
+s		或许这次和常夏一起出去，能顺带找到一些新的发现吧。
+s	周腾	那我们，现在就出发…？
+p	changxia	c	normal	normal	speak_angry	
+s	@	现在吗？
+p	changxia	c	normal	normal	confused	
+s	周腾	对啊，要不然还等到啥时候。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你已经找好理由了？
+p	changxia	c	normal	normal	speak_angry	
+s	@	等会出校门的时候我们肯定会碰到保安的，你要是找不到什么合适的理由，保安是不会放你出去的。
+p	changxia	c	normal	normal	confused	
+s	周腾	就说你肚子痛，然后有点发烧，得赶紧回家休息？
+p	changxia	c	normal	normal	speak_angry	
+s	@	没有老师的请假条是出不去的吧，这种简单的理由保安肯定不会信的。
+p	changxia	c	normal	normal	confused	
+s	周腾	不试试怎么知道呢，要是实在不行就再想别的办法嘛。
+h	changxia
+s		常夏没有回话，只是点了点头表示赞同，随后便跟在我后面一起往学校门口的方向走去了。
+s	保安	站住！你们两个，哪个班的——！？
+s	周腾	那个，我们……
+s	保安	嘶……一个高个子男生和一个双马尾女生，好了我知道了，你们走吧。
+s	周腾	啊…？
+s	保安	啊什么，赶紧回去休息吧。
+s	保安	刚刚有人过来和我打过招呼了，说等会儿会有一男一女两个学生因为身体不舒服要离校。
+s	保安	赶紧休息去吧，别在校门口久留。
+s		保安招呼着将我和常夏送了出去，本来还想问问是谁提前过来打了招呼，但因为保安的态度稍微有些不耐烦，所以最后也没问出口。
+b	black
+s		……
+j	8448

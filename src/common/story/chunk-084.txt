@@ -1,0 +1,128 @@
+p	changxia		happy	sad	speak	
+s	@	你怎么还在演啊…行吧，你想演我就在陪你演一会。
+p	changxia		normal	normal	speak_angry	
+s	@	今天是年月号。
+p	changxia		normal	normal	confused	
+s	周腾	多、多少？
+s		不知道是不是我耳朵出问题了，每当常夏说到和数字有关的地方时，声音就变得有些模糊不清。
+p	changxia		normal	angry	speak_angry	
+s	@	唉呀，是年月号！
+s	@	演失忆就演呗，怎么还要装作听不懂人话的样子啊。
+p	changxia		normal	angry	confused	
+s		听完常夏的话，我下意识开始掏起了自己的口袋。只要打开，就能够看到准确的年月日了。
+s		然而，我的口袋里除了几张皱巴巴的卫生纸之外，什么也没有……
+s	周腾	常夏，把你手机拿出来看看。
+p	changxia		normal	surprise	speak_angry	
+s	@	干嘛？
+p	changxia		normal	surprise	confused	
+s	周腾	看看日期。
+p	changxia		happy	sad	speak	
+s	@	行了别装啦，演戏还没演够啊……
+p	changxia		happy	sad	smile	
+s	周腾	那也给我看看手机。
+p	changxia		normal	normal	speak_angry	
+s	@	没带。
+p	changxia		normal	normal	confused	
+s	周腾	真的？
+p	changxia		normal	angry	speak_angry	
+s	@	大哥，我才初二啊，你觉得我爸会让我现在就把手机带到学校里来吗？
+p	changxia		normal	angry	confused	
+s		这个时候，我才意识到自己刚刚为什么没从口袋里找到自己的手机。
+s		如果现在的时间段是初中的话，那么我的手机应该也是被家里人给扣留下来了。
+s		更何况在“小世界”里，就算找到了自己的手机应该也是用不了的。
+j	10785
+s		又思考了半晌，我才算是彻底想清楚。
+s		在“小世界”里思考和时间有关的事情并没有意义，即使知道了今天是几年几月几号也无济于事。
+s		倒不如今天先这样过下去，之后再根据情况慢慢想办法。
+p	changxia		normal	confused	speak_angry	
+s	@	不知道是不是我想多了，总感觉你今天有点怪怪的。
+p	changxia		normal	normal	speak_angry	
+s	@	怎么说呢，感觉你和我平时认识的那个你有些不太一样？
+p	changxia		normal	angry	speak_angry	
+s	@	喂，你是不是被什么东西附体了，老实交代！
+p	changxia		normal	angry	confused	
+s	周腾	附体个头啊，我就是我，我从来就没有变过。
+p	changxia		normal	angry	speak_angry	
+s	@	切，没有就没有，那么凶干什么……
+p	changxia		normal	normal	confused	
+s		常夏趴在桌子上，一边玩弄着橡皮擦，一边看着窗外的夕阳。
+s		操场上已经开始播放起了课间操的音乐，这个音乐确实是我还在上初中的时候每天都能听到的。
+s		这算是再一次验证了，这个时候我确实是在上初中，而不是高中……
+s		教室里只有我和常夏两个人，时间的流速好像变得很慢，但也可能只是我的错觉。
+p	changxia		normal	normal	speak	
+s	@	对了周腾，那件事你考虑好了没？
+p	changxia		normal	normal	smile	
+s	周腾	哪件事？
+p	changxia		happy	sad	speak	
+s	@	不是昨天你还来问了我的吗，怎么这么快就忘了。
+s	@	就是歌手大会的那个事情啊，真是搞不懂~
+p	changxia		normal	confused	speak_angry	
+s	@	你说这马上都要放暑假了，怎么突然要在暑假之前插一个歌手大会呢？
+p	changxia		normal	confused	confused	
+s		常夏的话让我有些恍惚。
+s		“歌手大会”……那些出于各种原因被我忘掉的事情，却再一次地在“小世界”里上演了，还真是戏剧性……
+p	changxia		normal	angry	speak_angry	
+s	@	说话呀，周腾，你到底打不打算参赛！
+p	changxia		normal	angry	confused	
+s	周腾	啊？
+p	changxia		happy	normal	speak_angry	
+s	@	之前说好了的，你报名我就报名~
+p	changxia		normal	confused	speak_angry	
+s	@	你说陈老师也真是的，明知道我不喜欢参加这种杂七杂八的活动，还非要来劝我，我唱歌又不是很好听。
+s	@	自己劝不动就算了，还让你来劝我。
+p	changxia		normal	angry	speak_angry	
+s	@	不就是看我和你关系好，听你求情耳根子会软呗。
+p	changxia		normal	angry	confused	
+s		常夏坐直了身子，用手掌撑着脸颊。她时不时地会撇头过来看看我的反应，但和我对视上之后又会立马害羞地把视线移开。
+s		这种时候我应该怎么做？让常夏参加歌手大赛，还是劝说她遵从本意不要参加…？
+s		话说之前我是怎么做的来着。
+p	changxia		normal	normal	speak_angry	
+s	@	想好了没呀，别发呆了，我还在等你的答复呢！
+p	changxia		normal	normal	confused	
+s	周腾	那个…如果你喜欢唱歌的话就自己报名呗，为什么一定要我报名了你才报？
+p	changxia		normal	angry	speak_angry	
+s	@	这问的算是什么问题，这么长时间以来，参加什么活动不都是我们两个一起吗。
+s	@	运动会也是，大扫除也是，就连值日我们也是被分在同一组。
+s	@	这次歌手大会要来了，我们当然也得同进退啊！
+p	changxia		normal	angry	confused	
+s		……
+s		原来，我初中的时候和常夏关系这么好吗，无论什么活动都要一起参加……
+s	周腾	这次就你自己参加吧，我就算了。
+p	changxia		normal	normal	speak_angry	
+s	@	那我也不参加了。
+p	changxia		normal	normal	confused	
+s	周腾	我和你又不一样，你唱歌那么好听，班上不是老有人说你是什么大明星大歌手吗，你去怕什么。
+s		不知道为什么，这句话不受控制地脱口而出了，明明现在的我记不起以前初中时候发生的事情……
+p	changxia		normal	normal	speak_angry	
+s	@	其他人夸我，那是因为想逼着我让我报名参加比赛。
+p	changxia		normal	angry	speak_angry	
+s	@	你怕是不知道吧，每个班都有硬性指标的，最少最少也得有一个学生参加！
+p	changxia		normal	angry	confused	
+s	周腾	那不挺好的，刚好你一个人就足够。
+s	周腾	反正我是觉得你唱歌很好听的，我有时候晚上睡觉都会梦到你唱歌呢！
+s		身体又开始不受控制地说一些奇怪的话了……
+p	changxia		normal	confused	speak	
+s	@	噫做梦都能梦到我呀，你确定…你梦到的是我在唱歌，而不是其他的事情？
+p	changxia		normal	confused	smile	
+s	周腾	反正你自己一个人报名，我不想参加。
+p	changxia		normal	angry	speak	
+s	@	不行，我必须要和你一起~
+p	changxia		normal	angry	smile	
+s	周腾	那这样，我来当你的教练吧，每天放学之后辅导你练歌！
+p	changxia		normal	surprise	speak_angry	
+s	@	你不是说你不会唱歌吗，不会唱歌还当教练啊。
+p	changxia		normal	surprise	confused	
+s	周腾	你管我呢！
+p	changxia		normal	confused	speak	
+s	@	我看你就是想找理由和我呆在一起，口是心非的男人！
+p	changxia		happy	normal	speak	
+s	@	噗~
+p	changxia		happy	normal	smile	
+s		说完这句话，常夏没忍住地笑了出来。她一只手捂着嘴，一只手扶着我的肩膀，笑得前仰后翻的。
+s		看着这幅场景，我也跟着笑了起来，紧张的心情也放松了不少。
+s		虽然有些话确实是在我不受控制地情况下说出来的，但是怎么说呢…
+s		我又觉得，在这种时候就应该去说这些话。
+s		或许，和常夏有关的初中时候的记忆并没有消失，只是因为“小世界”的影响，被封印在了心灵深处？
+s		不过好消息是，我也能借此机会找回自己缺失的记忆。
+s		说不定，离开“小世界”的方法，就藏在过去里。
+j	10880

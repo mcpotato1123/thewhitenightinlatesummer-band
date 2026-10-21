@@ -1,0 +1,128 @@
+s		稍微花了点力气，我和辉夜奏总算是走到了“茶千道”的正门前。
+s		在我印象里，奶茶是常见的饮品里热量最高，最能够补充能量的那一类了。
+s		主要目的还是为了补充能量，当然不是因为我自己想喝。
+s	周腾	我要一杯芝士奶盖奥利奥芋圆奶茶，大杯正常糖正常冰。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我也一样。
+p	kanade	c	normal	normal	confused	
+s	周腾	那就来两杯刚刚那个。
+s	店员	这边扫码可以线上点单哦。
+s		店员指了指招牌上的二维码，示意我们用手机扫码下单，随后便走到了后台开始忙起了自己的事情。
+s		如果是平时，我可能就坦然接受了，但是这一次不行，我和辉夜奏两人的手机都是无法正常使用的。
+s	周腾	我们就直接正常下单吧，就要刚刚点的那个。
+s	店员	线上点单更方便一些呢~
+s	周腾	我知道，我们…现在不是很方便，就麻烦你帮我们用机器点一下单吧。
+s	店员	哦？哦……哦~
+s		店员楞了一下，然后低头看向了我和辉夜奏的手，发出了三个语调完全不同的“哦”字。
+s		之后，才笑着帮我们下了单，然后转身继续做起了奶茶。
+s	周腾	店员是不是误会了什么……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	会出现这种误会也挺合理的吧，毕竟我们从出门到现在一直都牵着手呢。
+s	辉夜奏	而且，就算你和店员解释，说自己是因为手机坏了才不能线上点单的，她可能会误会得更加厉害吧。
+s	辉夜奏	两个人的手机同时坏掉了，鬼才会信。
+p	kanade	c	normal	normal	confused	
+s	周腾	你就不觉得不好意思么？一直牵着手……
+s	周腾	就像……
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	就像‘情侣’一样。
+p	kanade	c	normal	normal	confused	
+s	周腾	你、你别这么自然地把这两个字给说出来啊！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	有什么关系，在别人眼里我们就是这种状态吧。
+p	kanade	c	normal	normal	confused	
+s		本来还没觉得有太多不妥，辉夜奏的一番话彻底让我意识到了问题的严重性。
+s		是啊，从出门到现在一直都牵着手，在路人眼里我们不就是情侣嘛。
+s		只能说还好没碰见什么熟人，要是碰到熟人的话，真是跳进黄河都洗不清了。
+s		等等，其实洗不洗清好像也没什么关系吧。
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	前辈被误会了，所以觉得很不舒服吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	也没有…
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那会心里暗自窃喜吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	啊？
+p	kanade	c	normal	surprise	surprise	
+s	辉夜奏	我、我就随便问问，还是忘了刚才的话吧。
+p	kanade	c	normal	surprise	confused	
+s	店员	你好，两杯的大杯芝士奶盖奥利奥芋圆奶茶打包好了。
+s	店员	两位…呃，要用谁的手拿呢？
+p	kanade	c	normal	normal	sad	
+s		辉夜奏看了一眼我，没有作声，我也朝着她望了一眼。
+s		因为和辉夜奏一直保持着牵手的状态，所以只好用另外一只手来接奶茶。
+s		该说是巧合还是心有灵犀呢，我和奏几乎同时伸出了自己空出来的那只手，然后同时地接过了服务员手里的奶茶。
+s		有那么一瞬间，我们的四只手彼此相连，连成了圆环状……
+s	店员	……
+s	店员	现在的年轻人，还真是有意思~
+j	16697
+b	street_afternoon
+s		在买完奶茶之后，我和辉夜奏又花了一些时间在附近的便利店大吃了一顿。
+s		虽然便利店的盒饭不如自家和餐馆里来的好吃，但味道总归还是过得去的。
+s		再说了，人都已经饿到这个地步了，还挑剔些什么呢？
+s		唯一让我有些难接受的是，这次吃饭的钱花的又是辉夜奏的。总感觉…从各种意义上来说都很对不起她，但我却又不能为她做些什么。
+p	kanade		normal	normal	confused	
+s	周腾	我就送到这附近了，你赶紧回家好好休息吧。
+p	kanade		normal	normal	speak	
+s	辉夜奏	不上来坐坐吗？
+p	kanade		normal	normal	confused	
+s	周腾	啊？
+s	周腾	老师还在家里吧，现在上去了肯定会打扰他上课的。
+p	kanade		normal	normal	speak	
+s	辉夜奏	不会，今天没有围棋课。毕竟是开学第一天嘛，学生们也都在学校里上课呢。
+p	kanade		normal	normal	confused	
+s		辉夜奏的话让我稍微安心了一点，但我还是有些犹豫。
+s		我已经有很一段时间没有见过辉夜老师了，自从上次彻底推掉围棋课的课程之后，我就再也没有去过辉夜奏家。
+s		去辉夜奏家里难免会和老师碰面，那种尴尬的场景我简直想都不敢想。
+p	kanade		normal	normal	speak	
+s	辉夜奏	摆出这副表情，前辈就这么不情愿到我家里去么。
+p	kanade		normal	normal	confused	
+s	周腾	不是的！我只是觉得…会有些尴尬，因为我已经很久没有来上过课了嘛。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	这个课程不是前辈自己推掉的吗？
+p	kanade		normal	normal	confused	
+s	周腾	话虽这么说，但我心里总会有种感觉，感觉自己辜负了辉夜老师的期待。
+s	周腾	明明他一直都很认可我的天赋的，结果我就这么说走就走了。
+s	周腾	而且最重要的一点是，我们两个今天可是翘课了。
+s	周腾	一起出现在你家里肯定会被骂的！
+p	kanade		normal	normal	speak	
+s	辉夜奏	这方面前辈放心好了，我有理由可以蒙混过去，父亲不会因为这种事就对我大发雷霆，更何况你也在场。
+s	辉夜奏	至于天赋的话题……
+s	辉夜奏	坦率地说，我和父亲都觉得十分可惜，但…人是要遵从自己的意志前进的。
+s	辉夜奏	你一直以来都是这么做的吧，做自己喜欢的事情，做自己认为对的事情。
+s	辉夜奏	如果你觉得放弃围棋是正确的选择，那我不会多说些什么。
+p	kanade		normal	normal	confused	
+s	周腾	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	别犹豫了，一起上去吧。
+p	kanade		normal	normal	confused	
+s		虽然辉夜奏说了很多尊重我意见的话，但是最后做出来的行为却一点也不“尊重”我。
+s		明明自己已经很没有力气了，但最后却还是牵着我的手，把我硬是拽进了电梯，带到了自己家里。
+b	kanade_home_afternoon
+p	kanade		normal	normal	speak	
+s	辉夜奏	爸爸，我回来了。
+p	kanade		normal	normal	confused	
+s	辉夜苍介	……
+p	kanade		normal	sad	speak	
+s	辉夜奏	呃，因为我今天身体很不舒服，所以就拜托周腾把我送回来了。
+p	kanade		normal	sad	confused	
+s	辉夜苍介	……
+p	kanade		normal	surprise	speak	
+s	辉夜奏	爸爸…？
+p	kanade		normal	surprise	confused	
+s	辉夜苍介	好歹是当着我的面，手就别牵得这么紧了吧。
+j	16753
+s	周腾	抱歉！因为小奏一直不是很舒服，所以我才牵着她，怕她摔跤……
+s	辉夜苍介	小奏？
+s	周腾	啊，啊……
+s	辉夜苍介	没事，赶紧在沙发上坐会，休息一下吧。
+p	kanade		normal	normal	confused	
+s		辉夜老师摆了摆手，随意地对着我们丢下了这句话，之后便一个人钻进了厨房，不知道在鼓捣些什么。
+s	辉夜苍介	家里只剩椰汁了，喝这个没关系吧？
+s	周腾	我都可以的。
+s	辉夜苍介	奏呢？
+p	kanade		normal	normal	surprise	
+s	辉夜奏	我也一样。
+s	辉夜苍介	……
+s		老师沉默了一会，没有回应辉夜奏的话，过了好久才端了两杯冰凉的椰汁过来，放在了我们面前的茶几上。
+s		虽然已经不是第一次到辉夜奏家里做客了，但无论什么时候过来，看到这么精致古雅的装修，心里也还是会忍不住地赞叹一番。
+s		在招待客人这方面老师好像也比较特殊，会给经常来自己家里做客的人提供一个专属茶具。

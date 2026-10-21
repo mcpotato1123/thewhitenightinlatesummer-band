@@ -1,0 +1,128 @@
+s	周腾	你不要紧吧，我看你走路晃来晃去的。
+p	gecheng	c	normal	normal	speak	
+s	葛城	没事，就是身上有点使不上劲儿，也没有太多不舒服的感觉就是了。
+p	gecheng	c	normal	normal	sad	
+s	周腾	真的不要紧？我看你都有点打醉拳的架势了啊。
+p	gecheng	c	normal	angry	speak	
+s	葛城	真的不要紧！再说了…哥们儿的身体素质不比你强的多？你这担心有点太多余了~
+p	gecheng	c	normal	angry	sad	
+s		葛城有些嘴硬，当然也可能是真的没什么事，单纯只是在沙发上坐太久把腿坐麻了？
+s	周腾	没事就行，我先回去了。
+p	gecheng	c	normal	confused	speak	
+s	葛城	回哪去？
+p	gecheng	c	normal	normal	sad	
+s	周腾	肯定是回教室去啊。
+p	gecheng	c	normal	angry	speak	
+s	葛城	你还真准备回去上课啊，那我刚刚那些话岂不是白说给你听了——！？
+p	gecheng	c	normal	angry	sad	
+s	周腾	你不怕班主任给你爸打电话，我还怕呢！而且不上课我现在也没地方去啊。
+p	gecheng	c	normal	normal	happy	
+s	葛城	过来陪陪我呗，喏，我手机借你玩。
+s	葛城	你应该也好几天没玩手机了吧，就不手痒么？我新买的这个手机刷短视频也好，玩游戏也好，都可以的！
+p	gecheng	c	normal	normal	smile	
+s	周腾	你自己玩吧，我没那么多闲心思刷什么短视频了。
+p	gecheng	c	normal	normal	sad	
+s		丢下这句话，我便朝着社团大门走去。
+s		要说自己想不想玩手机，肯定还是想的，只是现在这种状态和情绪……
+s		我果然还是没办法做到像葛城那样子放空大脑，全身心地去娱乐。
+s		当然还有一点原因，就是…我实在是听不下去葛城的那些“乐观”发言了
+s		每当自己闭眼，常夏的惨状便会出现在自己面前。
+s		如果我当时能够做些什么就好了，即使是直到现在，过去了好几天，我也依然是这样的想法。
+s		怎么说呢，总有种自己被葛城看透了的感觉吧。
+p	gecheng	c	normal	normal	surprise	
+s	葛城	周腾…！
+p	gecheng	c	normal	normal	sad	
+s	周腾	……
+s		半只脚刚踏出教室，葛城就喊住了我。
+p	gecheng	c	normal	normal	speak	
+s	葛城	我不知道你到底是怎么想的，你总是表面上装作很冷静的样子，实际上心里打着一万个算盘，但总之……
+s	葛城	别做傻事。
+p	gecheng	c	normal	normal	sad	
+s	周腾	什么意思？
+p	gecheng	c	normal	normal	speak	
+s	葛城	当时事发之后，你和余洛琛是第一时间赶到现场的吧。
+s	葛城	你应该知道，那种程度的伤，可能很难救回来了。
+s	葛城	因为被迫进入8月32日了，所以我们都不知道常夏抢救之后的状况如何，但……
+p	gecheng	c	normal	normal	sad	
+s	周腾	你想说什么？
+p	gecheng	c	normal	normal	speak	
+s	葛城	周腾，人死不能复生，我希望你至少能做好这个思想准备。
+p	gecheng	c	normal	normal	sad	
+s	周腾	思想准备，做什么思想准备？你一个打算一辈子留在8月32日摆烂的人现在反倒开始对我说教了？
+s	周腾	你有这个时间劝我乐观，不如自己多去找找回去的线索！
+p	gecheng	c	normal	normal	speak	
+s	葛城	我哪里打算一辈子留在这边了，说话也别乱说啊！
+p	gecheng	c	normal	normal	sad	
+s	周腾	新手机都买了还没这个打算呢，你说的话和做的事自己不觉得前后矛盾吗！？
+p	gecheng	c	normal	angry	speak	
+s	葛城	我当然是想回到现实的啊！但、但我们现阶段又能做到什么事情！？继续在围棋社开会，还是在食堂开会？
+p	gecheng	c	shocked	angry	speak	
+s	葛城	什么线索不线索……我只知道我们已经过了三轮8月32日了！
+p	gecheng	c	shocked	normal	sad	
+s	周腾	想回去但又不付出行动，大上午不来学校结果是跑去买新手机了……
+s	周腾	你若真心有不甘就不会在这里坐以待毙——！
+p	gecheng	c	normal	normal	sad	
+s	葛城	……
+s		气氛变得让人窒息了起来，我有些后悔自己说出刚刚那段话了。
+p	gecheng	c	normal	sad	speak	
+s	葛城	……我不想和你吵架，至少我本意不是如此。
+s	葛城	你知道的，我从来就不是那种很有能力的人，总是安于享乐，能逃避问题就逃避问题……
+s	葛城	所以我真的很嫉妒你周腾，嫉妒你围棋天赋好，嫉妒你身边有一堆女孩子围着，嫉妒你做事有着十足的行动力。
+s	葛城	我也很不理解你，不理解你为什么有着那么好的围棋天赋，却不想着打比赛提升段位，甚至放弃了围棋课的学习。
+s	葛城	后来我知道了，你有着自己的想法，会去做自己认为正确的事情，或许这就是你比我厉害的地方吧。
+s	葛城	但身为朋友，我只想让你冷静下来。无论你多不爱听我的话，我都得提醒你……
+s	葛城	常夏已经不在了，不要试图去做一些违反常规的傻事，不要有这种想法…
+s	葛城	不要想着做出任何违背常规的事情。
+p	gecheng	c	normal	normal	sad	
+s	周腾	……
+p	gecheng	c	normal	normal	speak	
+s	葛城	等今天过去了，之后我会回来和你们一起找线索的，哪怕最后还是什么都找不到，最后还是什么进展都没有…
+p	gecheng	c	normal	sad	speak	
+s	葛城	至少今天，让我好好休息一下吧，我真的很累……
+p	gecheng	c	normal	sad	sad	
+s		我没有回应，而是摔门离开了。
+s		说实在的，我有些不太理解葛城话里的意思，他到底要提醒和警告我什么？
+s		究竟怎么样的事情，才算是违反常规的事情？
+s		他是预料到了什么事么？
+b	corridorB_afternoon
+s		走廊上空无一人。不过也正常，现在是午休时间，谁会没事到社团这边来乱晃？
+s		不过，隔壁社团门口的立牌，位置是不是被挪动了一下？
+j	14938
+b	corridorA_afternoon
+s		回教室之前，我稍微绕了一会儿路，特地去常夏的班上看了一眼她的状况。
+s		当然，我没有进班和她打招呼，只是站在窗口简单地看了几眼。
+s		常夏趴在桌子上，似乎并没有注意到我的到来。因为脸朝下的缘故，所以我也完全看不清现在的常夏究竟是怎样的一种表情。
+s		累了，所以睡着了么？
+b	black
+s		我没有想太多，总之在确认完常夏这边没有任何问题之后，我便朝着自己教室的方向走去了。
+s		只是让我稍有些意外的是……
+s		……
+b	corridorA_afternoon
+p	kanade	c	normal	normal	confused	
+s	周腾	奏？
+p	kanade	c	surprise	surprise	speak	
+s	辉夜奏	你回来了周腾，我刚还在想要去哪里找你呢。
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	手机坏掉了，所以只能到你班上来找你，结果你又不在。
+p	kanade	c	normal	sad	confused	
+s	周腾	是有什么事吗？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	一起出去找线索吧。
+p	kanade	c	normal	normal	confused	
+s		我有些愣住了。
+p	kanade	c	normal	normal	smile	
+s		奏双手背在身后，温柔地对着我笑了起来。
+s		不知道是不是因为我还没从刚刚的争吵中缓过神……看着辉夜奏的笑容，我有些背脊发凉。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	怎么不说话了？看你脸色好像不太好的样子。
+p	kanade	c	normal	surprise	confused	
+s	周腾	没有没有，我只是在想…下午还要上课吧，要找线索也只能放学了再去找吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	把下午的课翘掉不就好了？
+p	kanade	c	normal	normal	confused	
+s	周腾	？
+s		奏用着一脸平静的表情说出了和葛城类似的话。
+s	周腾	你认真的？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我干嘛要开这种玩笑啊，既然都这么说了当然是认真的啊。
+p	kanade	c	normal	normal	confused	

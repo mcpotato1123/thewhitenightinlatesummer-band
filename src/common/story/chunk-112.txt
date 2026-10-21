@@ -1,0 +1,128 @@
+p	changxia		normal	angry	speak_angry	
+s	@	这问的是什么问题，我自己手机里的照片我肯定有看过啊，不就是一些自拍和生活日常吗？
+p	changxia		normal	confused	speak	
+s	@	哦~你是失望了？以为里面会有些奇怪的照片但结果没有？
+p	changxia		normal	confused	smile	
+s	周腾	不是……我没有开玩笑，我是认真地在问你！
+s	周腾	你手机里有个相册你知道吗，里面有很多很多标注了时间的照片！
+p	changxia		normal	surprise	speak_angry	
+s	@	怎么可能啊，我从来没有创建相册的习惯好不好…
+p	changxia		normal	surprise	confused	
+s	周腾	你自己看——！
+s		我稍微有些烦躁地将手机递给了常夏，常夏也是一脸懵，但还是接过了手机开始上下翻看了起来。
+p	changxia		normal	surprise	confused	
+s	@	……
+p	changxia		normal	normal	speak_angry	
+s	@	什么都没有啊。
+p	changxia		normal	normal	confused	
+s	周腾	啊？
+p	changxia		normal	confused	speak_angry	
+s	@	哪里有相册了？手机里没有相册啊。
+p	changxia		normal	confused	confused	
+s		常夏说谎的表情实在是太过于自然，自然到我有那么一瞬间真的相信她的话了。
+s	周腾	我找给你看吧。
+s		甩出这句话之后，我便站到了常夏的跟前，接过手机开始在屏幕上划来划去。
+s		照片几乎被我从头翻到了尾，但就如常夏所说的那样，手机里并没有单独的相册，只有一些之前看过的照片。
+s	周腾	你把那个相册删了？
+p	changxia		normal	angry	speak	
+s	@	我还想说是你把相册删了呢~
+p	changxia		normal	angry	speak_angry	
+s	@	哪有什么相册啊，你自己也看过了，手机里就只有我说的那些照片啊。
+s	@	你该不会又闲着没事寻我开心吧……
+p	changxia		normal	angry	confused	
+s		这下我彻底说不出话了。
+s		“记忆是不会骗人的……”
+s		那我刚刚看到的那个相册怎么消失了？难道真的是我精神不好出现幻觉了？
+s		思考了半晌之后，我又拿着常夏的手机开始查看了起来，这一次我还仔细地检查了一遍相册自带的“最近删除”功能。
+s		不知道该说是意料之中还是意料之外，我什么都没有找到，“最近删除”功能里一张照片都没有。
+p	changxia		normal	angry	speak	
+s	@	这下你相信了吧，根本就没有什么单独的相册。
+p	changxia		normal	sad	speak_angry	
+s	@	不过周腾你今天到底怎么了？给我的感觉好奇怪啊，不是日期搞错就是揪着相册的事情不放……
+s	@	如果只是单纯的身体不舒服没休息好的话，不至于会弄出这么大的精神错乱吧。
+p	changxia		normal	sad	confused	
+s	周腾	可能只是我看错了吧……
+s		我揉了揉自己的太阳穴，对着常夏如此回复到。
+s		我的确是开始怀疑是不是我自己看错了。类似的事情发生太多了，说不定真的只是我没休息好、精神错乱、才出现了这么多的幻觉。
+p	changxia		normal	sad	speak_angry	
+s	@	嗯…不管怎么说，要是有什么不舒服的地方一定得说出来啊。
+s	@	我知道你可能怕我担心，所以不告诉我自己身体不舒服的事情，但……
+s	@	我们好歹也认识这么久了，不说‘青梅竹马’这种有些令人害臊的称呼吧，就算是作为好朋友，你也不能瞒着我吧？
+p	changxia		normal	sad	confused	
+s	周腾	没有的事，我可能真的只是最近太累了，没什么精力，肚子现在也挺饿的。
+p	changxia		normal	normal	speak	
+s	@	我倒还好啦，肚子不算饿，明明早上没吃什么东西来着。
+s	@	不过你这么一说我好像想起来，小奏是不是也说过自己没什么精力之类的话？
+p	changxia		normal	normal	smile	
+s	周腾	‘假期综合征’吧，大家放了这么久的暑假，突然开学肯定不适应。
+s	周腾	走吧，先去食堂随便吃点东西填填肚子。
+j	14395
+b	black
+s		……
+b	canteen
+p	yuluoshen		normal	surprise	speak	
+s	余洛琛	哟，这么巧，就你俩来了？
+p	yuluoshen		normal	normal	close	
+s		刚和常夏买完饭准备坐下来，熟悉的声音便从身后传进了耳朵里。
+s		余洛琛看起来比较随意，心情也挺正常。唯一不正常的便是她手里拿着的餐盘了……
+s		酸辣粉、包子、珍珠奶茶、烤肠、蛋挞……各种各样的食物把餐盘堆得满满的。
+s		当然，得再强调一下的是，白月高中食堂的食物并不算好吃，只是种类比较多。
+s		余洛琛一餐吃这么多，说实话有些吓到我了。
+s	周腾	怎么吃这么多，你干脆放一头牛在餐盘上好了。
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	怎么说话呢，懂不懂尊重女孩子啊~
+s	余洛琛	我只是今天刚好比较饿，胃口好想多吃点。
+p	yuluoshen		normal	normal	smile	
+s		余洛琛话罢，十分自然地坐在了我旁边的位置。
+s		我倒是不太在意，只是常夏就坐在我的另一侧。现在这幅画面……
+s		很难说会不会遭到部分男学生的敌视。
+p	yuluoshen		normal	normal	happy	
+s	余洛琛	另外别说我了周腾，你看看你自己餐盘里有多少吃的，比我还要多一点吧。
+p	yuluoshen		normal	normal	close	
+s	@	是我让他吃这么多的。
+p	yuluoshen		normal	surprise	close	
+s	余洛琛	……
+p	yuluoshen		normal	surprise	speak	
+s	余洛琛	是吗。
+p	yuluoshen		normal	surprise	close	
+s		余洛琛稍微顿了顿，好几秒之后才做出回应。
+s	@	周腾最近休息得不是很好，精神状况也不是很稳定，所以就想着让他多吃点好吃的补一补。
+p	yuluoshen		normal	normal	happy	
+s	余洛琛	先不提这个食堂里的饭到底‘好不好吃’，常夏你知道周腾为什么最近没休息好，为什么精神状况一直不稳定吗？
+p	yuluoshen		normal	normal	close	
+s		余洛琛放下了自己手中还夹着酸辣粉的筷子，直勾勾地看向了常夏。
+s		眼神十分严肃，严肃得不像是我认识的那个余洛琛。
+s		难道…要在这里向常夏坦白？
+s	周腾	那个，余洛琛…！
+p	yuluoshen		happy	normal	speak	
+s	余洛琛	因为啊，他天天晚上都会偷偷地打游戏~
+p	yuluoshen		normal	normal	close	
+s		余洛琛耸了耸肩，似乎是在宣告这个话题的结束。
+s	@	……
+p	yuluoshen		normal	confused	happy	
+s	余洛琛	不过这么一说我才想起来，最近怎么回事，感觉今天小奏精神好像也不太好？
+s	余洛琛	就连葛城那个天天玩幽默的人今天都蔫了吧唧的。
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	嗯…我虽然能理解一些原因，但这么久了也该调整过来了吧？
+p	yuluoshen		normal	normal	close	
+s		刚说完没多久，余洛琛又开始大口地吃起了酸辣粉。
+s		平时以淑女作为代名词的她，今天意外表现地一点都不淑女，就好像自己不吃快一点，这个酸辣粉就会跑掉一样。
+s	@	因为‘假期综合征’吧，不是说刚开学了大家还不是太适应吗？反正周腾是这么说的。
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	……是吧，应该是吧。
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	你不饿吗？
+p	yuluoshen		normal	normal	close	
+s	@	我？我还好吧，不是特别有胃口，也不算很饿，虽然周腾说这餐请我，但也确实没什么想吃的东西就是了。
+s	@	就喝杯饮料算了。
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	葛城呢，葛城没和你们一起？
+p	yuluoshen		normal	normal	close	
+s	@	葛城…？我不太清楚他去哪了，反正我来周腾教室找他的时候，葛城就不在了。
+s	周腾	我也没注意，上课的时候一直在开小差，下课之后回过神来才发现教室里已经看不到他人了。
+s	@	我就说把手机借给你玩是正确的吧，你还不乐意！
+s	周腾	是是是~感谢常夏大小姐的鼎力相助，让我上课不会那么无聊~
+s	@	不过你们要是找葛城有事的话，给他发个短信不就好了？
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	啊，这个……他今天没带手机出门吧，好像被家里人没收了？
+p	yuluoshen		normal	normal	close	

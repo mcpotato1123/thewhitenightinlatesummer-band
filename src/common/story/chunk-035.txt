@@ -1,0 +1,128 @@
+s	辉夜奏	我和同龄人交流的很少很少，一般都是用‘您’，或者是‘前辈’去称呼对方。
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+s	周腾	那这样吧，你就把我当做是你最亲密的人，然后试着用本名来称呼我。
+p	kanade	c	happy	normal	surprise	
+s	辉夜奏	周…周腾……前辈……
+p	kanade	c	normal	normal	confused	
+s	周腾	不是说了不要加前辈两个字嘛！就直接喊我周腾就好了！
+p	kanade	c	normal	normal	surprise	flush
+s	辉夜奏	知道了，前辈。
+p	kanade	c	normal	normal	confused	flush
+s	周腾	不是吧……
+s		不知道是太害羞了还是什么其他的原因，辉夜奏的脸颊涨得通红。
+s		在和我对上视线的一瞬间，辉夜奏立刻低下了头，对我有礼貌地浅浅地鞠了一躬。
+s	周腾	你来中国也有很长一段时间了吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	是的，大概快两年了。
+p	kanade	c	normal	normal	confused	
+s	周腾	说真的，你的中文流利得已经不像是个日本人了，但是你举手投足之间还是有着很强烈的日本气息。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	气息……是香气还是臭气？
+p	kanade	c	normal	surprise	confused	
+s	周腾	气息在这个语境里不是这个意思……总之，就是说你还是没有适应这边的生活。
+s	周腾	你不是九月份就要入学了吗，如果在这之前不能把习惯改过来的话，很有可能会被班上的同学当做怪胎的。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	没关系的，我爸说，辉夜家族的人天生就是怪物。
+p	kanade	c	normal	normal	confused	
+s	周腾	啊？？
+s		辉夜奏再一次一脸严肃地从嘴里说出了令人匪夷所思的话。
+s		我大概能够理解辉夜奏的意思吧，毕竟“辉夜”这个姓氏在日本好像是神姓，确实十分十分地罕见。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	而且我爸说过了，不让我在外面交朋友。
+p	kanade	c	normal	normal	confused	
+s	周腾	他只是不让你交很多朋友，交一两个那种优质的朋友还是没问题的。
+p	kanade	c	normal	surprise	surprise	
+s	辉夜奏	是这样吗…？
+p	kanade	c	normal	surprise	confused	
+s	周腾	大概…是吧？
+s	周腾	虽然我也不太能理解，但他毕竟是你爸爸，可能……他也有自己的考虑。
+s	周腾	总而言之言而总之，不管怎么样，在开学之前你都必须要把你的习惯给改正过来。
+s	周腾	比如说，同学之间要互称本名、和老师打招呼的时候不用鞠躬、吃饭之前不用双手合十说‘我开动了’，等等等等还有很多。
+s	周腾	这些条条框框全——部——都可以丢掉。
+p	kanade	c	normal	normal	sad	
+s	辉夜奏	……
+s		辉夜奏的表情似乎有些为难。
+s	周腾	没关系，我会陪你一起的。
+s	周腾	给我两个月时间，我保证把你打造成一个地地道道的江城美少女！
+p	kanade	c	happy	normal	speak	flush
+s	辉夜奏	明白了，前辈！
+p	kanade	c	happy	normal	smile	flush
+s	周腾	都说了要喊本名了！
+j	4532
+b	black
+s		...
+b	chess_club_afternoon
+p	kanade	c	normal	normal	confused	
+s	周腾	对了奏，你来这里也有这么长时间了，有没有什么特别喜欢吃的江城菜？
+s		今天是带辉夜奏参观学校的第二天。本以为辉夜老师会和上次一样安排辉夜奏在放学的时候过来，结果没想到……中午她就联系上了我。
+p	kanade	c	normal	surprise	surprise	
+s	辉夜奏	喜欢吃的江城菜？我好像没有什么特别喜欢的。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	在家里每天都是吃寿司或者是蛋包饭，没机会出门所以完全吃不到江城的特色菜。
+p	kanade	c	normal	normal	confused	
+s	周腾	可以点外卖的吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我爸说不健康。他说外卖用的都是地沟油啊，预制菜啊什么的。
+p	kanade	c	normal	normal	confused	
+s	周腾	从某种意义上来说，你爸比你融入江城的速度快多了……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	总之我无所谓的，吃什么都行，我不挑食。
+p	kanade	c	normal	normal	confused	
+s	周腾	嗯……要不我带你去吃白月高中的食堂吧！虽然食堂大部分的菜都很难吃，但还是有几个很不错的。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	不要紧么，我还不是白月高中的学生啊，去食堂会不会有点……
+p	kanade	c	normal	surprise	confused	
+s	周腾	本来是有问题的，但是嘛……
+s		我从上往下地打量了一下辉夜奏的穿着，除了鞋子之外，上衣和裙子全部都是白月高中的校服。
+s		虽然没有细问，但估计多半是辉夜老师那边动用了关系，提前帮辉夜奏搞到了校服。
+s		再加上辉夜奏这一口流利的中文，如果不说辉夜奏是日本人，估计没几个学生能看出来吧。
+s	周腾	总之没问题的，你全程跟在我后面，食堂买饭刷我的饭卡，你只需要负责吃吃吃就可以了~
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	谢谢前辈。
+s	周腾	咳咳……
+p	kanade	c	happy	sad	speak	
+s	辉夜奏	呃，谢谢周腾…前辈……
+s	周腾	算了，先吃饭吧。
+h	kanade
+b	canteen
+p	kanade	c	normal	normal	confused	
+s		不得不说，辉夜奏在某些方面真是极其的死板。
+s		刚刚说让她全程跟在我后面，她居然真的像老鹰捉小鸡一样地跟在我正后方。
+s	周腾	那边还有几个空位，你先去帮我占住位置吧，我帮你买好饭之后就过来。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	知道了前辈。
+p	kanade	c	normal	normal	confused	
+s		在收到我的指示之后，辉夜奏便像只小兔子似地朝着空位跑了过去，安稳端正地坐了下来。
+h	kanade
+s		……
+s		食堂一如既往的人多，除了来买饭的学生之外，部分老师也会选择在这里就餐。
+s		大概花了快二十分钟的时间排队，我才买好了两份盒饭，开始在食堂里找起了辉夜奏的身影。
+s		然而就是这短短的二十分钟，辉夜奏不知为何地被一群学生给围了起来，场面一片混乱……
+p	kanade	c	normal	normal	confused	
+s	男学生A	请问同学，你旁边的位置有人吗，如果没人的话可以让我坐下吗？
+s	辉夜奏	……
+s	男学生A	不说话就是同意咯。
+s	男学生B	同意个鬼啊，没看见她摇头吗？
+s	男学生B	打扰一下，请问你是高一的学妹吗？高一的女孩子我都见过，但我好像对你没有印象，可以加个联系方式吗？
+s	辉夜奏	……
+s	女学生A	不好意思打扰到你！姐妹你真的好可爱呀——！！皮肤又白又嫩，要不要加入我们美妆社呀，我保证把你打造成白月高中的校花！
+s	女学生B	行了社长，别白费功夫了，人家在这里坐半天没说一句话，识趣就赶紧走吧。
+s	女学生A	我给社团拉人碍着你了啊？这么好看的女孩子你知道在白月高中有多难找吗？机会放在眼前哪有不争取的…！
+s	周腾	……
+s	周腾	辉夜奏——！！
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	啊！
+s		不知道是不是我说话的声音太大了，一瞬间，几乎全食堂的人都朝着我这边望了过来。
+p	kanade	c	normal	normal	sad	
+s		在听到我的声音之后，辉夜奏立马从人群里冲了出来，快步地跑到了我的身后，两手紧紧地抓着我的衣角，一句话也没有说。
+s		食堂一下子变安静了，就是周围人看我的眼神好像有些更加的惊讶和不满了。
+s	周腾	要不，还是去围棋社吃吧？那里人少清净。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	听你的，前辈。
+h	kanade
+j	4604
+b	black
+s		……
+b	chess_club_afternoon
+p	kanade	c	normal	normal	confused	

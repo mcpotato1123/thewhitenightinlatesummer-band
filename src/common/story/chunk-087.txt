@@ -1,0 +1,128 @@
+p	changxia	c	normal	normal	confused	
+s	周腾	‘公主与王子的童话，结局半真半假……’
+s	周腾	没问题吧。
+p	changxia	c	normal	confused	speak_angry	
+s	@	怎么会没问题呢，既然是童话故事，那结局肯定不会差啊，童话故事不都是好结局嘛！
+p	changxia	c	normal	confused	confused	
+s	周腾	童话故事就是这样的啊，不都是作者杜撰出来的，说半真半假我觉得也合理吧。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	为什么？
+p	changxia	c	normal	surprise	confused	
+s	周腾	很简单啊，你觉得它是真的，那它就是真的，觉得是假的那就是假的。
+s	周腾	就比如说《美人鱼》，故事的改编结局是美人鱼最终变成了人类，和王子结婚幸福地住在了一起。
+s	周腾	但也有人说，《美人鱼》的原版结局不是这样的，而是美人鱼看到男主角王子迎娶了公主，彻底感到了绝望。
+s	周腾	只有杀了王子，她才能够得救。
+s	周腾	但最后她没有这么做，而是跳进了大海里，变成了泡沫……
+p	changxia	c	normal	normal	confused	
+s	@	……
+s	周腾	一个是广为人知的改编结局，一个是原版结局，你觉得那个才算是真结局呢？
+s	周腾	如果你认为两个结局都是真的，那不就正对应上了这首歌的歌词吗。
+s	周腾	‘——公主与王子的童话，结局半真半假’
+p	changxia	c	normal	sad	speak	
+s	@	道理我是都懂啦，但我还是……
+p	changxia	c	normal	normal	speak	
+s	@	我还是会愿意相信，美人鱼真的和王子在一起了吧。
+s	@	我相信故事的最后是这样一个美好的结局，或者说…我希望它是一个美好的结局。
+s	@	就算最后美人鱼真的没能和王子在一起，我也不相信她跳进大海之后就直接变成了泡沫，而是继续保持美人鱼的形态……
+s	@	在若干年后，她一定还会再遇到一个喜欢自己并且自己也喜欢的另一个‘王子’，然后幸福地在一起。
+p	changxia	c	normal	normal	smile	
+s	周腾	你的想法还真是……应该怎么说呢，太正能量了？
+p	changxia	c	normal	angry	speak	
+s	@	硬要说的话，周腾你的想法才不正常吧！
+s	@	悲观得像个大人，装成熟！一点儿初中生的样子都没有~
+p	changxia	c	normal	angry	smile	
+s	周腾	成熟点不好吗？
+p	changxia	c	normal	normal	speak_angry	
+s	@	知道的太多反而会活得很累吧，我反正是只想接触那些开心的事情。
+p	changxia	c	normal	normal	confused	
+s	周腾	但人生这么长，难过的事情总会出现的，而且会越来越多。
+p	changxia	c	normal	normal	speak	
+s	@	不是还有你陪着我吗？
+p	changxia	c	normal	normal	smile	
+s		常夏双手背在身后，看着我甜甜地笑了起来。
+p	changxia	c	normal	normal	speak	
+s	@	悲伤的事情呢，我们两人将他一分为二，一同承担，这样难过的情感就只有一半啦。
+p	changxia	c	happy	normal	speak	
+s	@	高兴的事情呢我们一同享受，这样快乐的情绪就是双倍了！
+p	changxia	c	normal	normal	speak	
+s	@	你看，是不是很划算？
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+s		有那么一瞬间，我突然产生了一种想要冲上去抱紧常夏，然后狠狠大哭一场的冲动。
+s		但我还是忍住了……
+p	changxia	c	normal	normal	speak	
+s	@	你会一直陪着我的吧，周腾？
+s	@	就算初中毕业了，高中我们也还是会在一起的吧？
+p	changxia	c	normal	normal	smile	
+s	周腾	嗯，当然~
+b	black
+s		……
+s		…………
+s		………………
+s		江城市突发特大暴雨，此次降雨是从1951年有气象资料记录以来，历史同日雨量最大的一次……
+s		江城多地出现渍水，32条公交线路被迫临时停运，24架航班备降外地……
+s		…
+s		……
+s		和“初中常夏”相识后的第十天。
+s		今日无事，但有特大暴雨……
+b	changxia_livingroom_night_light
+p	changxia	c	happy	sad	speak_angry	
+s	@	终于到家了终于到家了……
+p	changxia	c	circle	sad	speak_angry	
+s	@	天啊，还好吃饭的地方离我家近，要不然照这个程度，搞不好要被淹死在外面……
+p	changxia	c	circle	sad	confused	
+s	周腾	雨下得太大了，感觉喉咙里都被灌了水……
+s		听完我的话，常夏过来拍了拍我的后背。我咳嗽了两声，嗓子稍微没那么难受了。
+h	changxia
+s		……
+s		说实话，从来没有见过这么大的雨。
+s		不，不应该说是下雨，感觉说是有人从天上往下面泼水也不为过。
+s		跑步往常夏家里赶的时候，眼睛都不能完全睁开，一旦睁大了眼睛，雨水就会哗哗地直往眼睛里流。
+s		流进眼睛里、流进耳朵里、嘴巴里、衣服裤子里……
+s		感觉和游泳已经没有任何区别了……
+p	changxia	c	normal	normal	confused	
+s	周腾	对了，你爸妈呢？
+p	changxia	c	normal	normal	speak_angry	
+s	@	他们估计今天回不来了。
+p	changxia	c	normal	normal	confused	
+s	周腾	啊！？
+p	changxia	c	normal	sad	speak_angry	
+s	@	没办法啊，他们现在还在公司上班呢，外面交通都停滞了，今天大概率要住在公司了。
+p	changxia	c	normal	sad	confused	
+s	周腾	不要紧吗，那边的吃住方便吗？
+p	changxia	c	normal	normal	speak_angry	
+s	@	这个倒没问题，公司还算是比较大的那种吧，吃喝都有保障，我也不太懂。
+s	@	不过刚刚我已经跟爸妈报过平安了，他们也都说自己没事，要我们照顾好自己就行。
+p	changxia	c	normal	normal	confused	
+s		常夏脱掉了自己被水淋得透湿的鞋子，然后换上了干净的棉拖鞋。
+s		脏的鞋子被她拿到阳台上暂且搁置了起来，至少不会把家里给弄脏。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你站着干嘛呀，不换上拖鞋吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	拖鞋…？
+p	changxia	c	normal	normal	speak_angry	
+s	@	就是之前和你一起去买的那个轻松熊棉拖鞋，你不是一直都在穿吗，怎么淋个雨把人淋傻了？
+p	changxia	c	normal	normal	confused	
+s		听到这里我才反应过来，自己还有一双棉拖鞋在常夏家里。
+s		我倒并不是真的忘记了这件事，只是…应该怎么说呢？
+s		感觉换拖鞋这件事情从常夏的嘴里说出来实在是太过于自然了，让我稍微有些不太适应吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你自己在鞋柜里找下鞋子吧，我先去卧室换个衣服。
+p	changxia	c	normal	sad	speak_angry	
+s	@	真是难受，突然下这么大雨，身上全湿透了……
+p	changxia	c	normal	angry	speak	
+s	@	哦对了，不许偷看！我会把门反锁的，你可别想着进来~
+p	changxia	c	normal	angry	smile	
+s	周腾	你把我当成什么人了啊……
+p	changxia	c	normal	angry	speak	
+s	@	只是叮嘱你几句而已。
+p	changxia	c	normal	angry	smile	
+h	changxia
+s		丢下这句话之后，常夏便小跑着进了卧室，关上了房门。
+s		不知道是忘了还是怎么，我并没有听到卧室门被反锁的声音。
+s		难道说，常夏其实是故意没上锁的…？
+j	11260
+s		有那么一瞬间，我产生了想要闯进常夏卧室的冲动。
+s		但这个想法仅仅只是出现了那么几秒钟，就被我给打消了。
+s		毕竟现在的常夏还只是初中生的心智，以她现在的思想，应该不太会做出故意不锁卧室门，然后引狼入室的行为吧……
+s		她应该只是单纯地忘了吧……

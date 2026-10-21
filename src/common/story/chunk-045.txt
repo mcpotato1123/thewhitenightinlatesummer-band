@@ -1,0 +1,128 @@
+s	店长	你们三人的关系如何？
+p	kanade	c	happy	angry	speak	
+s	辉夜奏	好的不得了！！！
+b	street_noon
+s		在甩出这句话之后，辉夜奏便头也不回地朝着门外冲了出去。
+s		我本想抓着常夏一起追上去，但又觉得刚刚奏的做法实在是不礼貌，于是转头对着店长道歉加鞠了个躬，这才和常夏一起推开玻璃门追了出去。
+s		奇怪的是临走之前，我似乎并没有从店长的脸上察觉到一丝生气的神情，就像是辉夜奏的行为完全在他意料之中一样。
+s		当然，也可能是因为上了年纪的人，待人处事都会习惯性地保留着一份从容吧。
+s	周腾	等一下啊奏，怎么突然就跑出来了。
+s		辉夜奏跑得很快，我花了点劲儿才追上她。在我印象里她从来没有跑得这么快过。
+p	changxia	r	normal	surprise	confused	
+p	kanade	l	normal	angry	speak	
+s	辉夜奏	还呆在店里干嘛，那店长嘴里说出来的没有一句真话，听到一半我就知道那都市传说都是他自己编的了！
+p	kanade	l	normal	angry	sad	
+s	周腾	就算真的是这样，也不能这么没礼貌的对着人家大吼大叫吧……我们也不是第一天认识店长了，这样关系搞下去大家都很难看。
+p	kanade	l	normal	angry	speak	
+s	辉夜奏	反正他今天就是最后一天营业了，关系难看就难看呗，怎么…
+s	辉夜奏	你还打算继续和他保持联系？
+p	kanade	l	normal	angry	sad	
+s	周腾	我不是这个意思……
+s		我确实不是这个意思，我只是觉得奇怪，无法理解的奇怪。
+s		在我看来，这次的矛盾发生的莫名其妙，并且没有任何征兆。以往性情温和沉默寡言的辉夜奏，没道理突然对店长发这么大的火。
+s		除非，店长说的某些话真的踩到了辉夜奏的雷点，又或者……
+s		是我对辉夜奏还有很多不了解的地方。
+p	changxia	r	normal	normal	speak_angry	
+s	@	周腾说得对，就算再怎么不相信店长说的话，也不至于到翻脸不认人的程度吧。
+p	changxia	r	normal	sad	speak_angry	
+s	@	这次的谈话本来就是我们双方一起商量好的，这样做实在是有些……
+p	changxia	r	normal	sad	confused	
+p	kanade	l	normal	sad	speak	
+s	辉夜奏	对不起，我刚刚可能确实太冲动了……
+p	kanade	l	normal	sad	confused	
+s		常夏简单地两句话就让辉夜奏平复了下来，反而让我有些心情复杂。
+p	kanade	l	normal	sad	speak	
+s	辉夜奏	我刚刚……不应该对周腾你那么大声的…
+p	kanade	l	normal	sad	confused	
+s	周腾	没事，我没放在心上。
+p	changxia	r	normal	confused	speak_angry	
+s	@	话说回来。奏你为什么会觉得店长是在撒谎呢，我其实听着…不太像假的？
+p	kanade	l	normal	angry	speak	
+p	changxia	r	normal	confused	confused	
+s	辉夜奏	那么离奇的事情，怎么可能是真的！就算是真的，这也只是店长自己的猜测，8月32日是不是真的存在还是不清楚啊。
+p	kanade	l	normal	angry	confused	
+p	changxia	r	normal	confused	speak_angry	
+s	@	有怀疑很正常，但也不至于这么大反应吧。
+p	kanade	l	normal	sad	speak	
+p	changxia	r	normal	confused	confused	
+s	辉夜奏	其实我也不知道刚刚为什么会那么急，就像是触发了某种应激反应一样？
+p	kanade	l	normal	sad	confused	
+s	周腾	对了，店长最后不是提到他女朋友了吗，他女朋友怎么了？
+p	changxia	r	normal	normal	speak_angry	
+s	@	不知道，店长还没说完就被打断了。
+p	kanade	l	normal	angry	speak	
+s	辉夜奏	别管这些了！不管怎么说，都市传说的事情算是划上句号了。
+p	kanade	l	normal	normal	speak	
+s	辉夜奏	而且咱们等下不是还和余洛琛她们一起约了饭的嘛，还是先想想开心的事情吧。
+p	changxia		normal	surprise	speak_angry	
+p	kanade	l	normal	normal	confused	
+s	@	话虽如此，但现在离晚饭的时间还太早吧。
+p	changxia		normal	surprise	confused	
+p	kanade	l	normal	normal	speak	
+s	辉夜奏	那要不…先各自回家休息一下，等时间快到了再去集合？
+p	changxia		normal	normal	speak_angry	
+p	kanade	l	normal	normal	confused	
+s	@	也行吧。
+p	changxia		normal	normal	confused	
+s	周腾	我无所谓，外面确实太热了，一直待着也不是个事儿。
+s		我简单地表示了赞同，但我对辉夜奏的提议感到有些不安。
+s		在我的认知里，奏一直不是这种会去主动提出建议的人。
+s		大多数时候，她都是那种去附和别人想法的人。随波逐流、顺其自然，才更像是辉夜奏应该有的样子。
+p	kanade		happy	normal	speak	
+s	辉夜奏	那今天就先这样吧，周腾，常夏，我先回去啦~
+p	kanade		happy	normal	smile	
+p	changxia		normal	normal	smile	
+s		临走之前，辉夜奏笑着对常夏挥了挥手。常夏愣了好一会之后，才笑眯眯地和奏说了再见。
+h	kanade
+p	changxia	r	normal	normal	confused	
+s	@	……
+p	changxia	r	happy	sad	speak_angry	
+s	@	头有些痛，好像晒太阳晒太久了…
+p	changxia	r	happy	sad	confused	
+s	周腾	那还是先早点回去休息吧。
+p	changxia	r	normal	normal	speak_angry	
+s	@	那个……
+s	周腾	嗯？
+p	changxia	r	happy	sad	speak	
+s	@	我、我也不是说非要纠结这种问题啦，但小奏她…
+p	changxia	r	normal	surprise	speak_angry	
+s	@	刚刚是不是没有叫我常夏姐？
+h	changxia
+j	5851
+b	black
+s		……
+s	余洛琛	周腾未免也太慢了吧，离时间就只剩十分钟不到了，怎么还没来？
+s	葛城	这不是还没到约定时间么……
+b	street_night
+p	yuluoshen	l	normal	normal	speak	
+p	gecheng	r2	normal	normal	sad	
+s	余洛琛	我就只是稍微吐槽一下，毕竟一直站着也挺累的。
+p	yuluoshen	l	normal	normal	close	
+p	gecheng	r2	normal	normal	speak	
+s	葛城	那你坐会呗，这旁边不都是长椅嘛。
+p	gecheng	r2	normal	normal	sad	
+p	yuluoshen	l	normal	normal	speak	
+s	余洛琛	旁边有人，我不太想和别人挨着坐。
+p	yuluoshen	l	normal	normal	close	
+p	gecheng	r2	normal	normal	speak	
+s	葛城	那你坐花坛上也行，那里没人。
+p	gecheng	r2	normal	normal	sad	
+p	yuluoshen	l	normal	normal	speak	
+s	余洛琛	上面灰太多了，我可不想把衣服弄脏。
+p	gecheng	r2	happy	angry	speak	
+p	yuluoshen	l	normal	normal	close	
+s	葛城	那下次就请您别来这么早了！来得又早，等人又嫌累……我寻思这离约定时间也没多久啊，不就是几分钟的事情嘛。
+p	gecheng	r2	normal	normal	speak	
+s	葛城	啊，他们好像来了。
+p	yuluoshen	l	normal	confused	speak	
+s	余洛琛	哪里呢？
+s	葛城	喏，就那儿呢，他们三个一起来的。
+s	余洛琛	没看见啊，到底在哪？
+p	gecheng	r2	normal	normal	happy	
+s	葛城	那个被‘黄色面包’和‘白色沙拉酱’夹在中间的超大号肉饼那么显眼，你这都看不到？
+p	yuluoshen	l	normal	normal	speak	
+s	余洛琛	啧…
+p	yuluoshen	l	happy	normal	speak	
+s	余洛琛	看到了！我过去和他们打个招呼~
+p	gecheng	r2	normal	normal	sad	
+s	葛城	……

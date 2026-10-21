@@ -1,0 +1,128 @@
+s	周腾	唉，还好围棋社中午没人，总算是可以清净一会了。
+s		我随便找了个就近的位置坐了下来，辉夜奏这边则是有些拘谨，朝着四周看了半天，才选了个离我稍有些距离的位置入座。
+s		辉夜奏对我还是抱有戒心的，尽管我们认识已经有段时间了。
+s	周腾	哦对了，这个盒饭是给你的，就是刚刚在食堂排队买的，你拿着赶紧吃吧。
+s	周腾	因为你说你不挑食嘛，我就随便买了些大众口味的菜。
+s	周腾	你这个是番茄炒鸡蛋拼糖醋里脊，应该会合你的胃口。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	谢谢前辈。
+p	kanade	c	normal	normal	confused	
+s	周腾	嗯。
+s		辉夜奏接过盒饭，有些笨拙地揭开了塑封盖。
+s		让我有些惊讶的是，辉夜奏并没有直接开吃，而是先闻了闻盒饭的味道。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	酸甜酸甜的，是我比较喜欢的口味。
+p	kanade	c	normal	normal	smile	
+s	周腾	那就好，赶紧吃吧。
+p	kanade	c	normal	normal	surprise	
+s		我就这样看着辉夜奏，直到她拿起筷子吃进了第一口菜，我才算是松了口气。
+s		不知道为什么，我总感觉她有些不自在。或许是因为在食堂里发生的事情，又或者说不挑食其实只是客气话，实际上她并不喜欢吃酸甜口的菜。
+s		想得越多脑子越乱，我知道这不是什么好习惯，但在面对很多事情的时候，我又不自觉地会去过度思考。
+s		我再一次地朝着辉夜奏看了过去。
+s		她半低着头，吃饭的速度不快不慢，那不是在假装矜持，而是习惯如此。
+s		辉夜奏家教严格，辉夜老师对她的管理也过于病态，恐怕这种优雅的吃饭方式是在无数次日常的责骂之中培养出来的吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	前辈，为什么要一直看着我？
+p	kanade	c	normal	normal	confused	
+s	周腾	我没有啊，我是在看你后面墙上挂着的锦旗。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	前辈也是，食堂里的那些学生也是……
+s	辉夜奏	我在大家眼里就这么奇怪么？
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+s		看来我的借口并没有骗到辉夜奏，她直接忽略了我刚刚说的那句话，将话题给继续了下去。
+s	周腾	大家又不是因为你奇怪才看你的。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那能是因为什么？
+p	kanade	c	normal	normal	confused	
+s	周腾	具体的我也不太清楚，但就单从我听来的只言片语来说的话，他们可能只是觉得你很好看很可爱吧。
+s	周腾	不是有男生搭讪找你要联系方式吗，肯定是觉得你好看才会找你搭讪的嘛。
+s	周腾	还有那个什么美妆社的学姐，不也是觉得你可爱，想找你去当模特吗？
+s	周腾	所以说别想太多了，大家对你没什么恶意的。
+p	kanade	c	normal	surprise	confused	
+s	辉夜奏	……
+p	kanade	c	normal	normal	sad	
+s		辉夜奏的脸色有些难堪，可能是回想起了以前还在日本时的经历。
+s	周腾	以前的事情我不知道，但至少这里没有，现在没有。
+s	周腾	总之放心吧，没事的。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那…周腾前辈是怎么看我的呢？
+p	kanade	c	normal	normal	confused	
+s	周腾	嗯？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	周腾前辈也是因为觉得我可爱，想和我搭讪所以才一直看我的吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	不、不是……我和你已经互相认识了，再怎么样也不能说‘搭讪吧’。‘搭讪’是对不认识的异性做的事情。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	那就是觉得我‘可爱’…？
+p	kanade	c	normal	surprise	confused	
+s	周腾	……
+s		如果问出刚刚那几个问题的人是常夏，我百分之一百会觉得她在挑逗我。但如果是辉夜奏的话……
+s		那她可能确实是在被这几个问题所困扰。
+s	周腾	不能这么问吧，我要说觉得你不可爱的话，就有些太失礼和虚伪了；但我要说你可爱的话，看起来又有点像是性骚扰……
+s	周腾	总之，可爱确实是…可爱，但我看你是因为怕你和我呆在一起觉得很不高兴。
+s	周腾	虽然我还挺乐意带你到处逛逛的，但说到底，这只是你爸爸交给我的任务而已。
+s	周腾	如果和我呆在一起很难受的话，那不就有些本末倒置了吗？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我并没有觉得难受，我只是…稍微有些不习惯……
+s	辉夜奏	我已经很久没有和家人之外的人单独相处这么长时间了。
+s	辉夜奏	因为父亲的指令，以前在日本上学的时候，大家都会主动避开我，我也会有意识的躲开和其他学生的相处。
+s	辉夜奏	习惯了这么久的独来独往，现在突然这样，我确实会很不习惯……
+s	辉夜奏	包括在食堂的时候也是，虽然前辈已经把误会说明了，但他们一个个凑上来的时候，我也还是会忍不住地想……
+p	kanade	c	happy	sad	speak	
+s	辉夜奏	他们，是不是有什么恶意……
+s	辉夜奏	往我背上吐痰、偷偷剪掉我的头发、又或者是趁我不注意的时候在我的衣服上写字……
+p	kanade	c	happy	sad	confused	
+s	周腾	好了好了！别想这些了，还是想想明天中午吃什么吧。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	啊？
+p	kanade	c	normal	surprise	surprise	
+s		看着辉夜奏说出来的内容越来越重量级，我连忙打断了她的话，将话题岔了开来。
+s	周腾	让我想想，食堂的饭你已经吃过了，要不然明天去吃校门口的‘垃圾食品’吧！
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	垃圾食品？
+p	kanade	c	normal	surprise	surprise	
+s	周腾	对！我觉得既然是来体验和适应新学校的，那肯定得体验一下校门口的小吃啊。
+s	周腾	在我看来，一个高中好不好，就得看它校门口的炸串好不好吃，冲粉奶茶好不好喝。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	是、是这样吗…
+p	kanade	c	normal	normal	confused	
+s	周腾	当然，就这样决定了，明天中午在校门口等我，带你打开新世界的大门~
+j	4699
+b	black
+s		本以为隔天中午就能和辉夜奏再见面，可没想到，这一等就是四天……
+b	street_morning
+p	kanade	c	happy	sad	speak	
+s	辉夜奏	不好意思前辈，我来晚了…！
+p	kanade	c	happy	sad	confused	
+s	周腾	没事，我也刚来没多久。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	刚到？前辈今天早上没有去学校上课吗？
+p	kanade	c	normal	surprise	confused	
+s	周腾	呃，不是这个意思，我的意思是说，我才刚到校门口……
+s		因为辉夜奏迟到了，所以想着说出刚刚那句话来缓解一下她的尴尬，结果话都说完了，才考虑到自己一整天都在学校里上课。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那就好，我还以为前辈已经等了我很久呢。
+p	kanade	c	normal	normal	confused	
+s	周腾	虽然很不想一直重复，但我和你说过很多遍了吧，以后直接叫我本名‘周腾’就行了。
+s	周腾	况且这还是在学校附近，要是被白月高中的学生听到你一口一个‘前辈’的叫我，可能会引发一些奇怪的误会……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	什么误会？
+p	kanade	c	normal	normal	confused	
+s	周腾	谁知道呢，但保险起见还是得避嫌的嘛。
+s		辉夜奏似懂非懂地点了点头，摆出了一副沉思的表情，就好像是真的弄懂了我说的话一样。
+s		和往常一样，辉夜奏还是穿着校服来的。只不过和以前稍有些不同的是，她的精神状态不是特别好，头发也轻微有些凌乱。
+s		联想起辉夜老师这几天的突然停课，会不会是辉夜奏家里出了什么事情。
+s	周腾	对了奏，这段时间你都在干什么呢?
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	嗯，怎么了吗？
+p	kanade	c	normal	surprise	surprise	
+s	周腾	我就随便问问，因为之前约定好的是周二中午见面嘛，结果拖到现在。
+s	周腾	而且辉夜老师这几天也停课了吧，我这周有两节围棋课也被取消了。
+p	kanade	c	normal	normal	confused	
+s		辉夜奏没有立刻回答我，而是半低着头沉默了好一会。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	因为，我父亲他……“病症”又发作了。
+p	kanade	c	normal	normal	confused	
+s	周腾	‘病症’…？
+p	kanade	c	normal	sad	speak	

@@ -1,0 +1,128 @@
+s	葛城	你已经情绪不稳定到了分不清电影和现实的地步了吗？
+p	yuluoshen		happy	angry	speak	
+p	gecheng		normal	confused	sad	
+s	余洛琛	闭上你的嘴吧~！
+s	辉夜奏	……
+p	gecheng		normal	confused	sad	
+s	辉夜奏	真羡慕你们俩，这个时候还能开得起玩笑。要知道……我们可是很有可能一辈子都回不去了。
+s		奏说得没错，现在的状况确实很糟糕。
+s		葛城和余洛琛虽然表面上看起来还能开开玩笑互相调侃两句、心态很好的样子。
+s		但如果不这么打趣一下的话，恐怕自身的情绪阈值可能很快就要爆掉了……
+s	周腾	还是少说两句吧奏……
+s	余洛琛	没事没事，大家就乐观一点嘛。哈哈……反正最差的情况也就是在这里呆一辈子，再说了……
+s	余洛琛	这里有吃有喝，至少是不会饿死的。
+p	gecheng		normal	normal	speak	
+s	葛城	人也好，设施也好，周围的一切都在正常运转，除了一些常识上的不同，这里和现实几乎也没什么区别了。
+p	kanade		normal	angry	speak	
+p	gecheng		normal	normal	smile	
+s	辉夜奏	所以你们真的打算在这里呆一辈子？
+p	gecheng		normal	normal	sad	
+p	kanade		normal	angry	confused	
+s	周腾	奏…！
+p	kanade		normal	sad	speak	
+s	辉夜奏	对不起……
+p	kanade		normal	sad	confused	
+p	yuluoshen		normal	normal	close	
+s	余洛琛	……
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	当然想回去啊，谁会不想回去呢…？
+s	余洛琛	自己就这样不清不楚到了这边来，也没办法和爸爸妈妈联系打招呼。
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	搞不好，他们现在还在到处打电话找我呢~
+p	yuluoshen		normal	sad	smile	
+s		余洛琛自嘲地笑了笑，叹了口气；葛城也是把头撇向了一旁，沉默着没说话。
+s		奏的发言果然还是把气氛给拉到了最低点。
+s		……果然还是有些地方搞不清楚。
+s		自从到这边来之后，奏的情绪就有些阴晴不定的，偶尔崩溃大哭像是哄不好的小孩子，偶尔又沉着冷静的像个侦探。
+s		不…不是从到这边之后才开始的，在进入8月32日之前的那一段时间，奏的情绪就开始不正常了。
+s		结合这些现象，我好像能得出一些令人脊背发凉的猜想。但这个思绪仅仅只是在我的大脑里出现了一瞬间，便奇怪地消失了。
+s		之后再怎么使劲回想，也想不到刚刚自己得出的结论。
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	没事吧周腾？
+p	yuluoshen		normal	sad	close	
+s	周腾	……
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	周腾……？
+p	yuluoshen		normal	sad	close	
+s	周腾	……
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	我说周腾，你到底有没有在听我说话啊...！
+p	yuluoshen		normal	sad	close	
+s	周腾	啊...！？
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	你…呃，要不我送你回去休息吧，和老师请个假。
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	不对，应该不请假也没什么事，反正这里也不是现实世界……
+s	周腾	没事的，我没什么问题，单纯只是在想事情而已。
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	所以你在想什么？
+s	周腾	我在想……嘶，我在想什么来着？
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	唉，要不然我还是送你回家休息吧，你要说你身体没问题我可不信……
+s		余洛琛微微附过身来，试图伸手用手背碰触我的额头。
+s		然而还没等皮肤之间接触，这个行为便很快地被奏给拦了下来。
+p	kanade		normal	normal	speak	
+s	辉夜奏	没事的，周腾没发烧，也没生怪病。
+p	kanade		normal	normal	confused	
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	好、好的吧……
+n	？？？
+s	@	好你个周腾！约好了中午一起的，结果一个人先跑到食堂来吃饭了！
+s	@	哦，好像不是一个人？怎么感觉更生气了……
+s	@	说！为什么放我鸽子——！！
+s		这个声音，即使再过十年我也不会忘记的，但它却恰恰出现在了这个不妙的时候。
+n	常夏
+s		常夏就这样站在我们四人面前，依旧活力满满。但如果她能笑一下而不是瞪着我的话，我可能会更欣慰好受一些。
+p	yuluoshen		normal	sad	speak	
+s	余洛琛	唉，我大概知道周腾你刚刚是在想什么事情了…
+b	black
+s		……
+j	13264
+b	canteen
+p	changxia		normal	normal	speak_angry	
+s	@	说周腾在想事情，想什么事情？
+p	changxia		normal	normal	confused	
+s	余洛琛	啊？就、就是在想……
+s	余洛琛	在想今天中午吃什么饭啊，青椒炒肉还是蒸鸡蛋之类的~
+p	changxia		normal	normal	speak	
+s	@	周腾不爱吃蒸鸡蛋，至少不爱吃食堂里的。那个对他来说有点腥了。
+p	changxia		normal	normal	smile	
+s	余洛琛	我只是随便举个例子而已，你还真是…了解得够清楚啊。
+p	changxia		normal	normal	speak	
+s	@	那肯定，我认识他这么久了，他腿上有几个痣我都知道。
+p	changxia		normal	normal	smile	
+s	周腾	啊？
+s	辉夜奏	所以周腾，你腿上有几颗痣？
+s	周腾	不是，为什么要纠结这个问题啊！我自己都不知道我腿上到底有多少痣好不好，有些地方我是看不见的！
+s	葛城	哦~我懂了。
+s	余洛琛	嗯……
+p	changxia		happy	sad	speak	
+s	@	开个玩笑而已，大家别当真呀！其实我也不知道到底有多少，只是随口一说而已。
+p	changxia		normal	normal	speak_angry	
+s	@	啧，打住打住——！差点被你们绕进去了，我来不是问你们这个问题的。
+p	changxia		normal	angry	speak_angry	
+s	@	小奏，回答我！周腾为什么和你们呆在一起？
+p	changxia		normal	angry	confused	
+s		常夏学着名侦探柯南的招牌动作，用食指指向了坐在一旁的辉夜奏。
+s		虽然只是简单的问问题，但从常夏的语气看来，她好像已经认定了真正的“凶手”。
+s	辉夜奏	……
+p	changxia		happy	sad	speak	
+s	@	呃，你…就没什么想说的吗？
+p	changxia		happy	sad	smile	
+s	辉夜奏	……
+s		辉夜奏没有说话，只是死死地盯着常夏。眼神算不上有多么凶狠，但看久了还是会让人有些背脊发凉。
+s		对于辉夜奏来说，此刻站在大家面前的常夏并不是真正的常夏。尽管她的行为举止性格等等方面都和常夏一模一样，但假的就是假的。
+s		奏大概觉得，自己很多话说了也白说，再加上言多必失，索性就闭嘴装哑巴了。
+s	@	别这样盯着我啊，不想说就不说呗，真是……
+s	@	葛城~
+s	葛城	啊…到！
+p	changxia		happy	sad	speak	
+s	@	搞得这么紧张干嘛，我就只是单纯想知道周腾为什么和你们在一起而已啊。
+p	changxia		normal	angry	speak_angry	
+s	@	他早上和我约好了中午要一起的，我跑教室去半天没找到他人，你也不在，所以我就猜是不是都在食堂了。
+p	changxia		normal	angry	speak_angry	
+s	@	果然啊果然……
+p	changxia		normal	angry	confused	
+s	葛城	哎呀，也没多大事儿嘛，这今天开学第一天，光开学典礼都要浪费不少体力了。
+s	葛城	周腾他就是肚子饿了提前下来跟我一起买饭，然后我们又刚好在食堂里碰到了余洛琛和辉夜奏。
+s	葛城	所以就一起吃了嘛。

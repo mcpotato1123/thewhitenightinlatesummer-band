@@ -1,0 +1,128 @@
+b	white
+n	？？？
+c	“白月”之下无新事
+b	black
+s	@	周腾，在看什么呢？
+s	@	周腾...？
+s	@	...
+s	@	我说周腾，你到底有没有在听我说话啊...！
+s	周腾	啊...！！
+b	canteen
+p	changxia	c	normal	sad	confused	
+n	常夏
+d	6
+d	6月30日
+d	6月30日 周五中午
+s		食堂里学生嘈杂的聊天声让我稍微有些心烦，但在这噪声之中，似乎还夹杂着些许耳熟的声音从正前方传了过来。
+s	周腾	常夏...？
+p	changxia	c	normal	sad	speak_angry	
+s	@	亏你还能看向我这边来，我还以为你眼睛里除了手机屏幕之外什么都装不下呢...
+p	changxia	c	normal	sad	sad	
+s		奶茶色头发的少女在叹了口气之后，便朝着我对面的座位走了过去，整理了一下自己的裙摆，坐了下来。
+s		她一手撑着脸，一手平放在餐桌上，就这样呆呆地看着我。和我对视了差不多四五秒之后，常夏才脸颊微红的撇过了头去，假装镇定地看起了食堂四周的风景。
+s		气氛一时有些怪异，为了缓解这种尴尬的气氛，我也装作若无其事地将视线望向了周围。
+s		......
+h	changxia
+s		每到中午饭点，白月高中的食堂就会出现这种人挤人的难堪状况，几乎每个打饭的窗口前都排满了由学生和教师组成的长队。
+s		中午用餐人数太多，但整个学校的食堂却又只有这么一个。因为这种原因，之前食堂里发生过不少次学生之间因为排队打饭的问题而发生争吵的事件。
+s		我也一直想不明白，白月高中的学生每年都招的那么多，结果学校却从来没有过想要再建一个食堂的打算。甚至还立下了“中午不准出校门”、“外卖不准进学校”的奇葩规定。
+s		——说到底，这不就是把“只准吃食堂”这五个字给摆在你面前了嘛......
+p	changxia	c	normal	normal	confused	
+s	周腾	话说回来，你怎么知道我在这里？
+p	changxia	c			speak	
+s	@	葛城说的啊。我一下课就过来找你了，结果却没在教室看见你人，所以就问了一下葛城。
+s	周腾	这样啊...
+p	changxia	c	happy	sad	speak	
+s	@	我说周腾...你就一直坐在这里，饭也不吃水也不喝，空占着座位，也不怕其他学生过来找你麻烦啊。
+p	changxia	c	normal	sad	speak_angry	
+s	@	学校食堂的情况你又不是不清楚，那么多买了饭的学生没有座位坐，结果你还在这里‘占着茅坑不......’
+p	changxia	c	happy		speak	
+s	@	呃...在饭点说这个好像有些让人倒胃口，但总之，如果周腾你不吃饭的话，我建议你还是早些把位置让出来比较好，我已经看见有好几个学生在盯着你这边看了。
+s	周腾	我也不是不想吃饭啊，你自己看看这个队伍有多长，光是看着就不想排......
+p	changxia	c	normal	normal	speak_angry	
+s	@	懒得排队？那你来食堂干什么？为什么不去小卖部随便买点零食或者泡面什么的凑合一下？
+p	changxia	c	normal	normal	confused	
+s	周腾	我以为今天食堂人会很少的，毕竟今天是暑假前的最后一天课嘛.....
+s		在对着常夏抱怨完之后，我便有些无奈地站起了身，朝着整个食堂人最少的窗口快步走了过去。
+h	changxia
+s		谁知道，还没等自己走出去几步，常夏便抓着我的胳膊一把将我拉了回来，重新按在了座位上。
+p	changxia	c	normal	confused	smile	
+s	周腾	怎么，刚刚损我半天还不过瘾，现在连饭也不想让我吃了吗？
+p	changxia	c	normal	confused	speak	
+s	@	嗯？原来...我在周腾你心里就是这么恶毒的一个人啊~
+p	changxia	c	normal	confused	smile	
+s		......
+s		常夏用着略带笑意的表情朝我这边看了过来，见我半天没有反应，常夏才弯下了腰，从放在她脚边的一个浅棕色的包里，拿出了一个疑似是饭盒的东西放在了桌面上。
+s	周腾	这是......
+p	changxia	c	happy	surprise	speak	
+s	@	特地为你准备的午饭~
+p	changxia	c	happy	surprise	smile	
+s	周腾	诶？
+p	changxia	c	normal	normal	speak	
+s	@	我知道你这个怕麻烦的笨蛋中午肯定会随便凑合凑合就完事，所以我做便当的时候就给你顺便做了一份。
+s	@	饭盒里装的是青椒炒肉盖饭，和我自己吃的那份一样。哦，对了！
+p	changxia	c	happy	normal	speak	
+s	@	听你的好兄弟葛城说，你最近好像挺喜欢吃鸡蛋饼的，所以我就自己学着做了一下，往便当里放了两份鸡蛋饼！
+p	changxia	c	happy	normal	smile	
+s	周腾	葛城怎么连这种事都和你说了...
+p	changxia	c	normal	angry	speak_angry	
+s	@	就不能是我自己去问的吗...！真是的...身为青梅竹马，了解一下你喜欢吃什么东西有什么问题啊。
+p	changxia	c	normal	angry	confused	
+s		常夏捋了捋自己的刘海，微嘟着嘴，似乎对我刚刚的话感到有些气愤。
+s	周腾	我只是不想麻烦你而已......
+p	changxia	c	normal	angry	speak_angry	
+s	@	你看你，又在说这种话了，什么‘害怕麻烦我’啊，‘不想让我费心’啊，这种话听得我耳朵都快起茧了，你也不嫌烦啊。
+s	周腾	那、那我应该怎么说？
+p	changxia	c	normal	confused	speak	
+s	@	来，我教你怎么说，我说一句你学一句~
+p	changxia	c	happy	normal	speak	
+s	@	——‘谢谢小夏，我最喜欢吃小夏做的饭了~’
+p	changxia	c	happy	normal	smile	
+s	周腾	谢谢小夏，我......
+s		不行不行！实在是太羞耻了...！
+p	changxia	c	normal	normal	speak	
+s	@	这有什么可羞耻的嘛，人家动漫电影里的台词不都是这么说的吗。
+s	周腾	可这是现实，你又不在二次元，在当面说出这种话还是很让人不好意思的好不好...
+p	changxia	c	happy	sad	speak	
+s	@	哎~算了算了，不和你纠结这些了。饭盒你拿过去吧，赶紧吃饭，一会别饿死在食堂里了。
+p	changxia	c	normal	normal	smile	
+s		话罢，常夏将饭盒轻轻地推到了我的面前。可还没来得及等我伸手去拿，常夏这边却将饭盒给收了回去，用着一种意味深长的眼神看着我。
+p	changxia	c	normal	normal	smile	
+s	周腾	怎、怎么突然把饭收回去了，不是说是特地为我准备的么？
+p	changxia	c	normal	surprise	speak	
+s	@	当然是为你准备的，但是在吃之前，你先得回答我一个问题——
+p	changxia	c	happy	angry	speak	
+s	@	老实交代！你刚刚一直盯着手机那么投入地在看些什么东西？和你说话你也不理...
+p	changxia	c	happy	angry	confused	
+s	周腾	......
+p	changxia	c	happy	angry	speak	
+s	@	怎么不说话？喔，我知道了，你刚刚是在看一些少儿不宜的东西对吧！所以才心虚了不敢告诉我对吧！！
+s	周腾	谁没事会在学校里看这种东西啊！我刚刚就只是看了一眼学校论坛上最近发的帖子而已......
+p	changxia	c	normal	surprise	speak_angry	
+s	@	学校论坛...？你说的是那个叫做“白月公园”的论坛么？
+p	changxia	c	normal	surprise	confused	
+s		就像常夏所说的那样，这个论坛的名字叫做“白月公园”。这并非是学校官方的论坛，而是由白月高中的学生自发组织建起的开放式论坛。
+s		一开始，在这个论坛里发帖聊天的也就那么几十个学生，但是随着学生的换届和传播，这个论坛渐渐开始被更多白月高中的学生所熟知。随着使用人数的增多，论坛里帖子的内容也变得丰富了起来。
+s		从一开始的‘校园吐槽’专版，到后来的‘表白墙’，再到前段时间新增加不久的‘深夜怪谈’专版......“白月公园”的内容开始变得越来越丰富。
+s		而我刚刚看的，就是这个才刚开不久、被称之为‘深夜怪谈’的专版。
+p	changxia	c	normal	normal	speak	
+s	@	‘白月公园’啊...我还以为以周腾你这样的性格，不会关注这种东西呢。
+s	周腾	一开始确实没怎么关注，不过用这个论坛的学生实在是太多了，连部分老师也潜入进去...我虽然是比较怕麻烦，也不是很喜欢这种网上发帖的聊天方式，但总归还是要紧跟潮流的嘛。
+p	changxia	c	happy	normal	speak	
+s	@	所以......我亲爱的周同学，能不能告诉我，到底是‘白月公园’上的哪条帖子这么吸引你呢？
+p	changxia	c	happy	normal	smile	
+s		常夏说话的语气里带着些许调侃的意味，让我有些不知道该做出什么反应。
+s		但即便如此，我也还是点进了“白月公园”的网页，打开了我刚刚看的那个帖子，将手机推到了常夏面前。
+p	changxia	c	normal	normal	speak_angry	
+s	@	唔......
+p	changxia	c	normal	surprise	speak_angry	
+s	@	深夜怪谈hot热帖——「你知道吗？在8月31号留下深刻遗憾的人，可能会在当天晚上十二点过后，被困在8月32号，永远与现实脱轨......」
+s		常夏一边看着发着白光的手机屏幕，一边轻声地读着帖子的内容。过了好久，常夏才放下手机，抬起头来用着一种比帖子内容还要更为古怪一些的眼神，上下打量着我。
+p	changxia	c	normal	confused	speak	
+s	@	没想到啊没想到，周腾你居然还看着这种东西啊。
+p	changxia	c	normal	confused	smile	
+s	周腾	我为什么不能看...？
+p	changxia	c	normal	normal	speak	
+s	@	倒也不是说不能看，只是...在我的印象里，不是一般只有女生才会喜欢看这种所谓的‘鬼故事’和‘都市传说’么。
+s	@	比如说晚上熄灯了，整个寝室里只开了一盏微弱的台灯。然后一群女生围坐在一起，互相讨论着白天从论坛上看来的鬼故事和都市传说...大概就是这样的场景。
+p	changxia	c	normal	normal	smile	

@@ -1,0 +1,128 @@
+b	street_afternoon
+p	changxia	c	normal	confused	speak_angry	
+s	@	听保安刚刚那话的意思是，有人知道我们要翘课…？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	而且不仅知道，还提前在保安面前给我们找好了理由！
+p	changxia	c	normal	surprise	confused	
+s	周腾	可能是葛城干的？
+p	changxia	c	normal	confused	speak_angry	
+s	@	怎么可能，你俩不是刚……呃，不是一直都没在一起吗，他怎么会知道你要翘课出学校。
+p	changxia	c	normal	confused	confused	
+s	周腾	那还能是谁啊，其他人更不可能了吧。
+p	changxia	c	normal	confused	speak_angry	
+s	@	我也想不出来，主要是这个人还得是那种特别有面子的，就是随便说两句话保安都会听他的那种人。
+p	changxia	c	normal	normal	speak_angry	
+s	@	可能是某个老师或者领导吧。
+p	changxia	c	normal	normal	confused	
+s	周腾	你认真的吗，老师明知道我们要翘课出去怎么可能还不拦着我们，想什么呢。
+p	changxia	c	normal	angry	speak_angry	
+s	@	我也只是列举一种还算是有可能的可能性嘛…！
+p	changxia	c	normal	normal	speak_angry	
+s	@	好了不说这些了，你说要翘课出来玩，去哪里玩你想好了吗？
+p	changxia	c	normal	normal	confused	
+s	周腾	实话说，还没有。
+s		我有些不好意思地对着常夏丢出了这句话，她看着我，脸上的表情很是惊讶。
+s		我们就这样尬站在离学校不远处的人行道上，像个傻子一样互相望着对方。
+s		一旁的小卖部老板看着我们，眼神也变得有些疑惑了起来。
+s		倒也正常，现在不管怎么说都还是上课的时间。两个白月高中的学生上课的时间点站在学校附近，肯定会惹人注意。
+p	changxia	c	normal	confused	speak_angry	
+s	@	我说周腾，你真的假的呀……
+p	changxia	c	normal	angry	speak_angry	
+s	@	我好不容易才做足了心理准备和你一起翘课出来玩，结果你告诉我你连去什么地方都没有想好！？
+s	@	你该不会脑子一热突发奇想，就决定要翘课了吧。
+p	changxia	c	normal	angry	confused	
+s	周腾	还真是这么一个过程。
+p	changxia	c	normal	angry	speak_angry	
+s	@	我…！
+s	@	揍你哦！
+p	changxia	c	normal	angry	confused	
+s		常夏抡起拳头就朝着我打了过来，看起来用了很大的力气，但实际上也只是在我的胸口处轻轻地捶了一下。
+s		不痛不痒，甚至还有些舒服…？
+s		……
+s		这个场景有些似曾相识，我突然想起来上次在常夏家里也经历过类似的桥段。
+s		回想起来，稍微有些怀念。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你怎么了，怎么又发起呆了？
+s	周腾	没，单纯就是在想…常夏你这么暴力，以后肯定没有男孩子会喜欢的吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	有病啊！我刚刚打你打得那么轻还说我…！
+s	@	周腾你该不会是真的皮痒痒了吧！
+p	changxia	c	normal	angry	confused	
+s		常夏有些生气地再一次对我抡起了拳头，当然这一次她的拳头并没有砸下来，只是象征性地吓了我一下，随后便收回去了。
+s	周腾	你看看，我刚刚说什么来着。
+p	changxia	c	normal	angry	speak_angry	
+s	@	还不是因为你故意惹我生气！
+s	@	虽然不知道你到底是怎么想的，但有时候真的觉得…你就是在故意惹我不开心。
+p	changxia	c	normal	angry	confused	
+s	周腾	……
+s		我有些不知道该怎么说了。
+s		常夏的意外车祸直到现在我都无法完全接受，尽管在8月32日里，我见到了另一个看起来和常夏别无二致的“投影”。
+s		逗她开心或是惹她生气，也算是我麻痹自我的一种方式吧。
+s		只有这样，才能让我有常夏还在健康活着的错觉，才能让我在这个虚拟的夏天，找到一丝生活的实感。
+j	8510
+s	周腾	我也不是故意惹你生气，就是……
+p	changxia	c	normal	angry	speak_angry	
+s	@	就是什么？
+p	changxia	c	normal	angry	confused	
+s	周腾	我也不知道该怎么描述自己心里的想法，要不这样吧。
+s	周腾	今天你难得翘课出来和我一起，今天剩下的时间，就由我来做你的导游，带你好好地玩上一整天！
+p	changxia	c	happy	normal	speak	
+s	@	噗~
+p	changxia	c	happy	normal	smile	
+s		常夏扭过头去，虽然我看不到她的表情，但我还是听到了她那没憋住的笑声。
+s	周腾	你笑什么…？
+p	changxia	c	normal	normal	speak	
+s	@	就是觉得，刚刚的你还挺可爱的~
+p	changxia	c	normal	normal	smile	
+s	周腾	啊？
+p	changxia	c	normal	normal	speak	
+s	@	笨蛋周腾，我也是江城人啊，我也是在江城生活了十几年的本地人了，还用得着你做我的导游啊~
+s	@	你啊，之后不惹我生气我就满意了，今天就好好跟着我，还是我来当你的导游吧~
+p	changxia	c	normal	normal	smile	
+s		常夏笑着用食指点了点我的鼻子，不知道是下意识的行为还是故意挑逗我。
+s	周腾	所以导游，我们接下来要去哪？
+p	changxia	c	normal	normal	speak	
+s	@	不要问，跟在我后面就好了。
+p	changxia	c	normal	normal	smile	
+s	周腾	嗯……
+s		不知不觉间，自己的主导地位好像全被常夏给夺走了。一开始自己还能占据一下主动权，现在看来…完全是被她给牵着鼻子走。
+s		虽然我也不讨厌这种感觉就是了。
+h	changxia
+s		常夏话罢，便带着我朝着地铁站走去。
+s		她并没有说要带我去什么地方，只是让我跟在她身后。
+b	black
+s		不知道是害怕我走丢了还是怎么，常夏走上十几步便会回头看我两眼，来确定我是不是真的在跟着她，颇有一种“母亲”的感觉。
+s		一段时间的车程之后，常夏带着我下了车，走出了地铁站。
+s		虽说上车的时候就有预想到会不会是这个地方，但真走到这里之后，才发现自己比自己想象的要更加感慨
+s		……
+b	street_afternoon
+p	changxia	c	normal	normal	speak	
+s	@	下了地铁空气总算是清新一些了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	地铁里虽然有空调，但大热天的那么多人挤在一起，酸臭味实在是有些太重了。
+p	changxia	c	normal	sad	confused	
+s	周腾	江城的夏天不就是这样嘛，在外面走两步就会出一身汗，身上的味道可不是随便喷点香水就能遮盖住的。
+p	changxia	c	happy	sad	speak	
+s	@	那也没办法啦。
+p	changxia	c	normal	normal	speak	
+s	@	话说回来，你有没有想过我会带你到这里来？
+p	changxia	c	normal	normal	smile	
+s	周腾	还是想过的。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	真的？我们已经很久没有来这里玩儿了吧，上次来这里可还是初中开庆功会的时候！
+p	changxia	c	normal	surprise	confused	
+s	周腾	啊？
+p	changxia	c	normal	normal	speak_angry	
+s	@	你不记得了吗…？
+p	changxia	c	normal	normal	confused	
+s		常夏的一番话让我有些愣住了。
+s		我努力回想自己初中时和常夏一起经历的各种事情，却发现自己怎么也想不起来了。
+s		只记得一个歌手大赛的事情，除此之外，其他的记忆都变得有些模糊不清。
+s		嘶，常夏在歌手大赛上唱的什么歌来着？又拿了第几名…？
+s		好像是第二名吧，记得之前暑假去常夏家里的时候，她和我提过这个事。
+s		但我怎么记得好像又不是第二名…？
+s		脑子变得有些乱糟糟的，明明很多事情都有个大概的印象，但具体的发展却怎么都想不起来了。
+s		我好像忘记了什么很重要的事情……
+s	周腾	我好像…确实有点忘记了。
+p	changxia	c	normal	normal	sad	
+s	@	……

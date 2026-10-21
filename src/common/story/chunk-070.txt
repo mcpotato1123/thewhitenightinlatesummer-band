@@ -1,0 +1,128 @@
+p	changxia	c	happy	angry	speak_angry	
+s	@	谁、谁跟你说我害怕啦！
+p	changxia	c	happy	angry	confused	
+s	周腾	都在发抖了，还说没有呢……
+p	changxia	c	happy	angry	speak_angry	
+s	@	那也是因为你害的！
+p	changxia	c	normal	angry	speak_angry	
+s	@	为什么和我在一起的事情都被你忘得这么干净，明明就连店员都记得我之前来这里买过冰激凌…！
+p	changxia	c	normal	angry	confused	
+s	周腾	……
+p	changxia	c	normal	angry	speak_angry	
+s	@	我只是有些不甘心而已，回头看…认识周腾你已经十年了。
+s	@	虽然这期间我们也不是一直都关系那么好吧，但也一起经历了不少事情。
+s	@	那些过去的事情，那些只属于我们两人的回忆，原本应该是我的‘优势’才对。
+s	@	可现在，这些全都被你忘记了，我连这唯一的‘优势’都没有了……
+p	changxia	c	normal	angry	sad	
+s		常夏的情绪又变得有些激动了起来，我意识到自己可能说错了话。
+s		但说出去的话就像是泼出去的水，很多事情不是后悔就能解决问题的。
+s		不过…刚刚常夏所说的“优势”是什么意思？
+s	周腾	对不起，我不知道为什么自己会突然不记得这些事情了，就像是突然失忆了一样。
+s	周腾	你说的所有的这些事情，我都只有一个十分模糊的印象。唯一记得的，也就只有初中时的‘歌手大会’了。
+p	changxia	c	normal	surprise	sad	
+s		听到“歌手大会”这四个字的时候，常夏的眼睛都在放光。
+s	周腾	但我也仅仅只是知道，自己有和你一起参加过这个活动。具体拿了多少名、中间都发生了什么事情…我真的不记得了……
+p	changxia	c	normal	normal	speak_angry	
+s	@	看来你不是故意想要忘掉的，而是真的因为某种原因不记得之前的事情了？
+s	@	至少歌手大会你还记得。
+p	changxia	c	normal	normal	confused	
+s	周腾	初中的事情怎么可能说忘就忘啊，又没有过去那么久。
+p	changxia	c	normal	confused	speak_angry	
+s	@	唔…但你看起来，也不像是失忆了的样子啊。
+p	changxia	c	normal	sad	speak_angry	
+s	@	啊！完了，冰激凌化掉了…！
+p	changxia	c	normal	sad	sad	
+s		常夏话说到一半突然开始惊叫起来，这个时候我才注意到，一直沉迷于聊天的我们，完全把冰激凌的事情忘在了一旁。
+j	8996
+p	changxia	c	normal	sad	speak_angry	
+s	@	全部化成奶油了，怎么办…
+p	changxia	c	normal	sad	sad	
+s	周腾	要不…
+s	周腾	就这样一口气喝掉？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊？虽然觉得，这样子喝掉就完全没有吃冰激凌的意义了，但是好像也没有其他办法。
+p	changxia	c	normal	sad	confused	
+s		常夏的表情看起来有些遗憾，但还是举起了装着冰激凌的纸碗，伸到了嘴边。
+p	changxia	c	normal	normal	smile	
+s		正当我以为她要大口喝下去的时候，她看向了我。
+s	周腾	怎、怎么停住了？
+p	changxia	c	normal	normal	speak	
+s	@	干杯~
+p	changxia	c	normal	normal	smile	
+s		她将自己的冰激凌碗凑了过来，碰了碰我手中的那一份。就好像我们手中拿着的不是什么冰激凌，而是装着高档红酒的玻璃高脚杯。
+s		只可惜，纸碗和纸碗相撞，并不能发出什么清脆的声音。
+s		碰“杯”之后，常夏才一口气的喝掉了自己碗里的冰激凌。
+p	changxia	c	happy	surprise	speak	
+s	@	咕呜，好冰…！
+p	changxia	c	happy	surprise	smile	
+s	周腾	一口气喝完当然会冰啊。
+p	changxia	c	normal	normal	speak	
+s	@	不过口感并没有想象的那么差，有点像是…奶昔的感觉？
+p	changxia	c	normal	normal	smile	
+s		听完常夏的评价，我也一口闷掉了自己碗里的冰激凌，正如她所说的那样，尝起来就像奶昔。
+s		抹茶和香芋的味道完全融合在了一起，算是一种还不错的新奇体验。
+s	周腾	接下来去哪，你想好了吗？
+p	changxia	c	normal	confused	speak	
+s	@	嗯？我来想吗…？
+p	changxia	c	normal	confused	smile	
+s	周腾	是你说的今天要做我的导游的。
+p	changxia	c	normal	normal	speak	
+s	@	做你的导游嘛…可以是可以，但相对的，你也得付出点什么东西来做交换。
+p	changxia	c	normal	normal	smile	
+s	周腾	什么意思？
+p	changxia	c	normal	normal	speak	
+s	@	还记得你刚刚跟冰激凌店员说的话吗，才过去这么点时间，应该不会忘吧。
+p	changxia	c	normal	normal	smile	
+s	周腾	记得是记得…不就是说了什么和情侣有关的事情嘛，怎么还在惦记这个……
+p	changxia	c	happy	angry	speak	
+s	@	当然得惦记啦！你可是白占了我个便宜呢，所以说…
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	惩罚你，今天…做、做我一天……男朋友……
+p	changxia	c	happy	angry	speak_angry	
+s	@	当、当然一天就可以了——！！毕竟你占了我便宜，某种程度上来说肯定得让我占回来才行……
+p	changxia	c	normal	angry	confused	
+s	周腾	……
+s		该怎么说呢，从来没有过这么心动的感觉…
+s		有那么一瞬间，浑身就像是触电了一般。很难想象，我居然会对着一个“投影”心跳加速…
+s		不过还是想稍微吐槽一下，不管是之前买冰激凌那次还是这一次，好像都是我在占常夏的便宜啊…
+p	changxia	c	normal	angry	speak_angry	
+s	@	为什么每次说到这种话题的时候你就装哑巴不说话啊，我…我可是做了很足的心理准备才说这些的！
+p	changxia	c	normal	normal	speak_angry	
+s	@	反正就只是一天男友而已，你…应该不会不情愿吧？
+p	changxia	c	normal	normal	confused	
+s	周腾	怎么会不情愿呢，我只是有些被吓到了……
+p	changxia	c	normal	normal	speak	
+s	@	啊，看出来了，之前从来没有见过周腾你的耳根这么红呢…
+p	changxia	c	normal	confused	speak	
+s	@	难道说，其实你也在期待发生这种事情？
+p	changxia	c	normal	normal	smile	
+s		常夏朝着我扑了过来，环住了我的胳膊，就好像我们两个人真的是情侣一样。
+s		柔软的触感从我的手臂传来，稍微让我有些飘飘然…
+s		江城的夏天已经很热了，现在更是有了种要中暑了的感觉，无论是心理上还是生理上。
+s	周腾	行了，你的要求我也答应你了，接下来要去哪你总该想想了吧。
+p	changxia	c	normal	normal	speak	
+s	@	唔…其实我很早就想好了要去的地方了，就是不知道周腾你愿不愿意一起。
+p	changxia	c	normal	normal	smile	
+s	周腾	什么地方？
+p	changxia	c	happy	normal	speak	
+s	@	一个可以让你很凉快的地方！
+p	changxia	c	happy	normal	smile	
+s	周腾	大商场吗？
+p	changxia	c	normal	normal	speak	
+s	@	不是啦~是沙滩水上乐园——！！
+j	9073
+b	black
+s		炽烈的阳光晒得人睁不开眼，淡黄的沙子都被烤的温热。
+s		熟悉的江风朝着我扑面而来，但除了江腥味之外，我从中感受不到任何其他的东西。
+b	beach_afernoon_1
+s		如果不是常夏主动提出，我可能一辈子都不会到这个地方来。
+s	@	看你的样子，好像不是很情愿来这里一样。
+s	周腾	这么热的天，到露天水上乐园来玩，回家了不得被晒脱层皮啊……
+s	周腾	更何况我们两个什么都没有准备吧。
+s		是的，我们什么都没有准备，之所以会来这里玩，单纯就是常夏突然一拍脑门想出来的事情。
+s	周腾	你看，没准备防晒霜，也没准备吃的喝的，甚至连泳装我们都没有！
+s	周腾	得亏这里不是那种传统意义上的水上乐园，是和江滩连在一起的，我们还能坐在旁边的沙滩上看看风景…
+s	周腾	换成别的水上乐园，连泳装都没准备怕是根本就入不了场吧！
+s	@	哎呀，出来玩重要的是情调嘛！你可别忘了，你现在的身份是我的男朋友！
+s	周腾	那又怎么了。
+s	@	身为男友，你至少得照顾一下我的心情啊，既然是出来玩，一直丧着个脸有什么用。

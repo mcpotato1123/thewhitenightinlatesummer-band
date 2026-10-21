@@ -1,0 +1,128 @@
+s	辉夜奏	自从我母亲去世之后，我父亲就时不时地会犯病……情绪失控，开始砸东西扔东西。
+s	辉夜奏	再就是莫名发笑、莫名大哭、又或者是突然开始专心致志地在网上搜索和查看一些有关心理学的知识和论文。
+s	辉夜奏	发病的间隔是随机的不确定的，可能是一周，也可能是半年。持续的时间也不长，一两天就结束了。
+s	辉夜奏	但一旦这种病症出现，父亲就得停下手里的所有工作。
+p	kanade	c	normal	sad	confused	
+s	周腾	等一下，原来你母亲……很早就去世了吗？
+s	周腾	抱歉，我不是有意要揭你伤口，我只是第一次听说这件事情。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	前辈不知道也很正常，父亲从来不会和其他人说这些。
+s	周腾	可以理解…
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	我母亲08年春天的时候，就因为一场车祸去世了。
+s	辉夜奏	当时父亲在中国有一场围棋比赛，我母亲为了照顾他，就和他一起到中国来了。
+s	辉夜奏	结果在晚上比完赛准备离场回家的路上，发生了车祸……
+s	辉夜奏	司机和坐在副驾驶的母亲都没能抢救成功，只有坐在后排复盘比赛的父亲活了下来。
+s	辉夜奏	那个时候我还在日本上小学，因为父母出远门，所以只有保姆负责照顾我的起居。
+s	辉夜奏	没想到，之后居然会发生这样的事情。
+p	kanade	c	normal	sad	confused	
+s	周腾	话说凶手找到了吗，应该说是肇事者？
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	找是找到了，但…我知道的也仅仅只是‘找到了’而已……
+s	辉夜奏	凶手是男是女、是否和父亲有仇、是意外还是谋杀……父亲什么事情都瞒着我，我除了知道凶手被缉拿归案了之外，什么都不知道……
+s	辉夜奏	母亲就这样走了，我不仅连她最后一面都没见到，甚至连她的葬礼都没能参加。
+p	kanade	c	normal	sad	sad	
+s		辉夜奏的情绪有些失控，这还是我认识她以来第一次见她这样。
+p	kanade	c	sad	angry	speak	
+s	辉夜奏	我有时候会想，会不会母亲根本就没死？会不会出车祸去世这件事情本身就是一个骗局？
+s	辉夜奏	如果不是的话，为什么所有和母亲有关的事情都要瞒着我，难道作为她的女儿，我连知道这些事情的权利都没有吗…？
+p	kanade	c	sad	angry	sad	
+s		渐渐地，周围开始有学生注意到辉夜奏的异常情绪了，不少人开始有意识地围了上来。
+s		为了避免情况愈演愈烈，我暂时将辉夜奏带到了一个学生较少的位置……
+j	4768
+b	black
+s		...
+b	street_morning
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	对不起前辈，我有些太激动了……
+s	辉夜奏	自顾自地说这么多，你一定听得很烦吧…？
+p	kanade	c	normal	sad	sad	
+s	周腾	怎么会呢，而且这话题也是我挑起来的，你只是为了回答我的问题而已。
+s	周腾	而且说实在的，你能对我说这些事情我还挺惊讶的。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	惊讶？
+s	周腾	因为在我印象里，你是真的不爱和人说话。
+s	周腾	我在辉夜老师家里上了也很有一段时间的围棋课了，但你和我打招呼的次数其实并不多吧。
+p	kanade	c	happy	sad	speak	
+s	辉夜奏	我只是有些不好意思……
+p	kanade	c	happy	sad	confused	
+s	周腾	在加上辉夜老师也和我说了一些关于你的事情，所以我潜意识里就会觉得‘辉夜奏一直都是这样沉默寡言’的啊。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	父亲没有说错，我不是那种特别健谈的人，其他人来找我聊天我也会主动避开。
+s	辉夜奏	一开始是因为父亲的命令，后来渐渐地…就养成一种习惯了。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	另外，说起来前辈可能觉得不信，不知道为什么……
+s	辉夜奏	和前辈呆在一起不会有那种特别难受的感觉？
+s	辉夜奏	一些平时不会说或者不敢说的话，也能够顺利说出来了。说真的，我自己都有些惊讶。
+p	kanade	c	normal	normal	confused	
+s	周腾	有人曾经和我说，‘心有灵犀的人是会不自觉的互相靠近的’。说不定在某些程度上我们还挺合拍的？
+s	周腾	我的意思是说，聊得来的那种合拍…！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我明白的，前辈。对了…
+s	辉夜奏	是你的朋友告诉你的这句话吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	朋友……该说是朋友吗？用朋友两个字来形容我和她的关系，总感觉有些奇怪。
+s	周腾	我也不知道该怎么说，我们大概是比朋友还要亲密的关系吧，从小学认识到现在，前前后后也有快十年了。
+s	周腾	现在虽然也还在一个高中上学，但平时已经很少见面了。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	为什么，你们吵架起冲突了？
+p	kanade	c	normal	surprise	confused	
+s	周腾	那倒没有，单纯只是因为大家越来越忙了吧。她有她的社团工作要忙，班上的各种事情也需要她来打理。
+s	周腾	久而久之的大家就很少联系了，虽然她还是会抽空来找我。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	嗯，我明白了。
+p	kanade	c	normal	normal	confused	
+s	周腾	你明白什么了？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	不知道。但是脑海里确实有一种顿悟的感觉。
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	或许就是前辈说的心有灵犀吧。但我很笨，用话解释不清。
+p	kanade	c	normal	normal	smile	
+s		辉夜奏对着我浅浅地笑了笑，嘴角上扬幅度不大，但确实是笑了。
+s		看着她笑，我心情好像也没有那么郁闷了。
+s	周腾	所以你应该没那么激动了吧？你告诉了我很多事，我也和你说了一部分我的事情……
+s	周腾	这样我们两个就扯平了，等价交换嘛。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	嗯，确实感觉更了解前辈了~
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	所以前辈还可以告诉我更多你的事情吗？
+p	kanade	c	normal	normal	smile	
+s	周腾	可以啊，互相交换吧，你先来。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	小学的时候，有同班同学往我的便当里偷放了一整条芥末……
+p	kanade	c	normal	normal	confused	
+s	周腾	停停停——！别说这些啊，这种校园欺凌的事情有反复提起来的必要吗？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这算是欺凌吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	为什么不算？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	因为是我主动不和她们说话的，她们对我有意见、对我做恶作剧也是合情合理的吧？
+s	辉夜奏	是我先排挤了她们，她们才会欺凌我。
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+s		辉夜奏的话，让我突然不知道该说些什么好，想了很多说辞，但最终还是如鲠在喉。
+s		与其说是校园欺凌，不如说是家庭问题更多。
+s		毕竟，不让辉夜奏和其他人打交道的不是辉夜奏自己，而是他的父亲。
+s		可辉夜老师……究竟是打着什么样的算盘，才会逼着自己的女儿隔开与外界的一切交往？
+s		我想不到有什么理由可以说服我，什么理由都想不到……
+s	周腾	这不是你的错，也不是你排斥了她们，是辉夜老师叫你这么做的，所以无论如何，错都不在你。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我明白的，前辈。
+p	kanade	c	normal	normal	confused	
+s	周腾	还有，以后和我一起的时候不要再提以前学校的事情了，你现在不是暂时定居在这边了吗…
+s	周腾	到了新地方，自然就要过一段新生活，找些新朋友嘛！
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	可是父亲说了，不让我和其他人交往。
+p	kanade	c	normal	sad	confused	
+s	周腾	那是以前的事情了，你爸和我说的是，让我保护好你，提前带着你融入校园，带你结交一两个新的朋友。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	新的朋友吗……我明白了，前辈。
+p	kanade	c	happy	normal	confused	
+s	周腾	明白了就好，还有……
+s	周腾	叫我本名就行了，不要叫我前辈，毕竟……
+s	周腾	我可是你的第一个朋友。
+j	4863
+b	black

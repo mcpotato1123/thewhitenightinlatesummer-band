@@ -1,0 +1,128 @@
+s		常夏拍了拍我的肩膀后，便笔直地朝着前方走去，连头也不回。
+p	yuluoshen		happy	happy	speak	
+s	余洛琛	你们这是要去‘星期八’喝咖啡？
+p	yuluoshen		happy	happy	smile	
+p	changxia		normal	normal	speak_angry	
+s	@	你怎么知道？
+p	yuluoshen		normal	happy	speak	
+p	changxia		normal	normal	confused	
+s	余洛琛	这个嘛，葛城之前和我说的。他说你初中的时候总是会带着周腾一起去‘星期八’喝咖啡，当然上高中之后次数就很少了。
+p	changxia		normal	surprise	speak_angry	
+s	周腾	他连这也说了？
+p	yuluoshen		normal		speak	
+s	余洛琛	我觉得，这应该不算是不能说的事情吧？
+s	余洛琛	另外，你们现在要去喝咖啡的话，也带上我一起吧。
+s	余洛琛	好不容易碰到一次料理社的副社长，不一起聊聊天可就太浪费了~
+p	yuluoshen		normal	happy	smile	
+p	changxia		normal	normal	speak_angry	
+s	@	我已经卸任料理社的副社长了。啊，当然得等到开学之后才卸任。
+p	yuluoshen		normal	normal	speak_angry	
+p	changxia		normal	normal	confused	
+s	余洛琛	为什么？
+p	yuluoshen		normal	normal	close	
+p	changxia		normal	normal	speak_angry	
+s	@	不为什么，可能是比起花时间管理社团，我更愿意把时间花在其他喜欢的事情上吧。
+j	3353
+p	yuluoshen		normal	surprise	speak	
+p	changxia		normal	surprise	confused	
+s	余洛琛	其他喜欢的事情上？嗯…虽然不知道说的是什么，但管理社团确实要比想象中的累多了。
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	当然，我不像常夏一样是什么社团内的干部，我就是个普通社员。但我们那两个社长平时可真的是累得要死要活。
+s	余洛琛	高三的学习任务本身就重，还要整天考虑社团的发展和运营。
+s	余洛琛	学校的那些领导也是烦得很，动不动就把我们社长叫过去开会，要求文学社组织各种‘正能量’活动。
+s	余洛琛	别说是社长了，我一个普通社员都觉得过分。
+p	yuluoshen		normal	normal	close	
+s	周腾	话说回来，文学社的社长和副社长都已经高三了吗？
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	是啊，怎么了？
+p	yuluoshen		normal	normal	close	
+s	周腾	我记得好像到高三之后，社长就可以把自己的职位转交给下一届了吧。
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	话是这样说，但我们社长不是那种会简简单单把事情交给其他人的人。
+s	余洛琛	想当上社长，光有能力可是不行的，还得会说话、会交际、会讨好领导老师……
+p	yuluoshen		normal	normal	close	
+s	周腾	在我印象里，你应该算是那种能力很强的人了，你们社长没和你谈过接任的事情吗？
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	谈过啊。
+s	余洛琛	不过被我给友好拒绝了。
+p	yuluoshen		normal	normal	close	
+s	周腾	为什么？
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	我能力不差是事实，在这一点上我不会妄自菲薄。但我不是那种会喜欢迁就别人的人，周腾你大概能明白吗？
+s	余洛琛	如果有人要我去做一件我很不情愿的事情，我极大概率是会回绝的。但是当社长管理社团，有些时候又不得不去做很多我不情愿的事情。
+s	余洛琛	处理各种人情世故，讨好领导讨好老师……我是真的不擅长也不愿意。
+s	周腾	说白了就是‘直来直往，爱憎分明’？
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	你也可以用那些长辈的话来形容我，叫‘情商低’。
+p	yuluoshen		happy	sad	smile	
+s		余洛琛耸了耸肩，有些无奈地笑了笑。
+s		这家伙平时强势得很，即使她不说我也能够大概猜到事情的发展。被长辈评价为‘情商低’也算是意料之中的事情了。
+s		不过，只是不愿意讨好大人就要被叫做‘情商低’吗？或许有些不太妥当吧。
+p	yuluoshen		normal	normal	speak_angry	
+s	余洛琛	啊，那个，我是不是话说得有些太多了？
+p	yuluoshen		happy	sad	close	
+s		余洛琛转头望向常夏，我这才意识到，常夏已经很久没有开口说话了。
+s		也许是出于礼貌不想打断我们的谈话，也有可能只是单纯地不知道该说些什么。
+p	changxia		happy	sad	speak	
+s	@	没有没有！说这种话就有些太见外了，而且，你刚刚说的那些事情我也确实很感同身受。
+p	changxia		normal	happy	speak	
+s	@	该怎么说呢？我当料理社副社长的时候，也确实碰见过很多类似的事情。
+s	@	比如说要我们搞些什么正能量活动啊，开展一些正能量教育啊~
+p	changxia		happy	sad	speak	
+s	@	我就纳闷儿了，我们一个做饭的社团要怎么弘扬正能量啊？
+s	@	总不能让每个社员都亲自做一份蛋包饭，然后在上面用番茄酱写上‘努力学习！’‘高考加油！’之类的话，最后送给高三备考的学生们吃吧……
+p	changxia		happy	sad	smile	
+p	yuluoshen		happy	normal	speak	
+s	余洛琛	诶，不得不说你这个想法很天才啊！既能让每个社团成员参与其中，又能鼓励到高三学子，两全其美啊！
+p	yuluoshen		normal	normal	smile	
+s	周腾	展示社团特色有了，传播正能量有了，还能拉近学长学姐和学弟学妹的们的关系…
+s	周腾	你确实是个当社长的料啊！我觉得你不应该卸任副社长，反而应该把现任料理社社长的位置干下来！
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	只要常夏姐你一声令下，我们就立马拥护你为新的白月高中料理王！！!
+p	changxia		happy	sad	speak_angry	
+s	@	唉，得了吧，就算你们这样讲我也不会再回去当副社长的。还有……
+p	changxia		happy	angry	speak_angry	
+s	@	怎么余洛琛你也开始‘常夏姐常夏姐’的叫了啊！这又是从哪里学来的？
+p	changxia		normal	normal	speak_angry	
+s		常夏瞟了余洛琛一眼，随后心情复杂地叹了口气。
+p	changxia		normal	normal	confused	
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	呃，我看小奏提起你的时候老是说‘常夏姐’，我还以为这是你的绰号呢。
+p	yuluoshen		happy	sad	smile	
+p	changxia		happy	angry	speak_angry	
+s	@	这、这怎么想也不可能会是绰号吧，哪有这么直白简单又无聊的绰号啊！
+p	changxia		happy	angry	confused	
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	还是有的吧，就比如那些黑帮题材的电影里，不是老有那种长得漂亮又心狠手辣的大姐大吗。
+s	余洛琛	其他的小喽啰碰到这种女角色之后，就会一脸恭敬地‘xx姐xx姐’地叫，我还以为你们都是这样想的。
+p	yuluoshen		normal	normal	smile	
+p	changxia		normal	normal	confused	
+s	@	……
+s	周腾	……
+s		常夏的嘴角微微抖了抖，她没有直接回答余洛琛的话，反倒是看向了我这边。
+p	changxia		normal	normal	speak_angry	
+s	@	来，周腾你说说，我看起来很像什么帮派里的大姐大吗？
+p	changxia		normal	normal	confused	
+s	周腾	……本来不像的，现在有些像了。
+p	changxia		happy	angry	speak_angry	
+s	@	去死！今天的咖啡自己买单吧——！
+j	3438
+e
+b	coffee_afternoon
+p	dianzhang					speak
+s	店长	欢迎光临，好久不见二位。
+s	店长	嗯…还有个新面孔呢。
+p	dianzhang					normal
+p	changxia	r	normal	normal	speak	
+s	@	好久不见店长！
+p	changxia		normal	normal	smile	
+s		刚一推开星期八的大门，店长的声音便从吧台处传了过来。
+s		相比前些日子白月高中还没放假的时候，今天店里的咖啡气味要淡上不少。
+s		我朝着四周望了望，确实有些冷清，只有几个一边喝咖啡一边看笔记本电脑的中年人还在店里安静地坐着。
+p	dianzhang					
+s	店长	今天要喝些什么，还是老样子？
+p	changxia				speak	
+p	dianzhang					
+s	@	唔……有些不太想喝之前喝过的了，有没有什么我没有喝过的新品？
+p	dianzhang					speak
+s	店长	新品确实是有，不过暂时还没有上架。

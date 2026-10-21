@@ -1,0 +1,128 @@
+s		因为不是休息日的缘故，所以排队来买冰激凌的人不是特别多。
+s		当然，我这也是第一次来这家冰激凌店就是了，这家店之前排队严不严重我也不清楚。
+s		不对，严格来说，我是不是第一次来这家冰激凌店还不好说，毕竟初中时候的事情我已经记不太清了。
+s		如果按照常夏的说法，这应该至少是我第二次来这家店光顾了。
+s		大概排了不到十分钟的队，我和常夏总算是走到了收银台的面前。
+p	changxia	c	normal	angry	speak	
+s	@	说好了今天我请客的，周腾你可别想着买单！
+p	changxia	c	normal	normal	speak	
+s	@	您好，请给我来两份冰激凌。
+s	@	一份海盐香草巧克力曲奇口味的。
+p	changxia	c	normal	normal	smile	
+s	店员	另一份呢？
+p	changxia	c	normal	normal	speak	
+s	@	另一份就要香芋抹茶的吧，抹茶的多一些。
+p	changxia	c	normal	normal	smile	
+s	店员	好的，这里扫码付一下款，冰激凌很快就好。
+s		店员招了招手，示意我和常夏到一旁等待，给后面排队买冰激凌的人腾出了位置。
+s	周腾	话说回来，你怎么知道我爱吃香芋和抹茶这两种口味的？
+p	changxia	c	normal	normal	speak_angry	
+s	@	你的喜好我当然知道啊，我又不是第一天认识你了。
+p	changxia	c	normal	normal	confused	
+s	周腾	但我记得…我没有告诉过你吧？
+p	changxia	c	normal	normal	speak_angry	
+s	@	你喝奶茶要点抹茶味的，吃巧克力也要吃抹茶的，去麦当当吃快餐也总是要加一个香芋派……
+s	@	这种情况就算换做其他人来，也能看得出你的口味偏好吧。
+j	8858
+p	changxia	c	normal	normal	confused	
+s	周腾	好像确实是这样没错。
+s		如果不是常夏刚刚替我回答了店员，我还真的打算说香芋加抹茶。
+s		虽然从来没有总结过自己的偏好是什么样子的，但平时在生活里总会潜意识地去选择自己喜欢的口味。
+s		这种情况就连我自己都没有注意到，而常夏却细心地把这一切都看在了眼里。
+s	店员	两位，你们的冰激凌做好啦~
+p	changxia	c	normal	normal	speak	
+s	@	谢谢~
+p	changxia	c	normal	normal	smile	
+s		服务员将两份做好了的冰激凌端了过来，常夏见状就要伸手去取。
+s		然而，一只手只能拿一个碗，她的另一只手还迟迟牵着我不肯放……
+p	changxia	c	normal	angry	speak_angry	
+s	@	你好歹有点眼力见呀，拿一下你自己的那份嘛。
+p	changxia	c	normal	angry	confused	
+s	周腾	抱歉抱歉……
+s		常夏的语气有些埋怨，我这才反应过来，伸手将属于自己的那份冰激凌拿了过来。
+s	店员	两位关系还真是好呢，这种时候都不愿意松手~
+p	changxia	c	happy	sad	speak	flush
+s	@	谢、谢谢……
+p	changxia	c	happy	sad	smile	flush
+s	店员	嘶，等等…我是不是在哪里见过你来着？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊？
+p	changxia	c	normal	surprise	confused	
+s		店员小姐姐皱了皱眉，朝着常夏凑近了几分，对着她上下打量了起来。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你……见过我吗？
+p	changxia	c	normal	confused	confused	
+s	店员	好像对你有点儿印象，我想想……
+s	店员	啊我想起来了！你是之前中了一等奖的那个女学生！
+p	changxia	c	normal	surprise	speak_angry	
+s	@	一等奖…就是那个每种口味的冰激凌都可以吃到的那个奖吗？
+p	changxia	c	normal	surprise	confused	
+s	店员	对对对！当时这家店刚开业嘛，我那个时候刚过来实习一个月。
+s	店员	本来马上都要换班了，结果突然来了个双马尾的姑娘抽到了一等奖，可把我烦死了。
+p	changxia	c	happy	sad	speak	
+s	@	不好意思啊，我也没想到我的运气那么好……
+p	changxia	c	happy	sad	smile	
+s	店员	我没有怪你的意思啦，只是这件事让我印象非常深刻，没想到过去这么久了还能碰到你。
+p	changxia	c	normal	normal	speak	
+s	@	我也是，没想到这么久了你还能记得我。
+p	changxia	c	normal	normal	smile	
+s	店员	也不是很久吧，就两三年的样子？当时你来的时候个子还没长这么高呢。
+s	店员	啊，我要是没记错的话，上次陪你一起来的也是这个男生吧。
+s		店员看着我，常夏也望向了我，似乎都在等待着我的答复。
+s		尽管说那段记忆是否真实存在我还无法确定，但现在这种情况…我也只能先给出肯定的回答了。
+s	周腾	对，上次也是我和她一起来的。
+s	店员	那看来我没有记错呢。
+s	店员	你俩关系还真是好，没想到过去这么久了还是小情侣。
+p	changxia	c	normal	surprise	speak_angry	flush
+s	@	诶…啊！那个，我们不是…情侣……
+s	店员	不是吗，但我看你们一直牵着手啊？
+p	changxia	c	normal	sad	speak	flush
+s	@	这个……
+p	changxia	c	happy	sad	smile	flush
+s		店员的表情有些诧异，虽然一句话都没有说，但她已经把心里想说的话全写在脸上了。
+s	周腾	没有没有，我们确实是男女朋友，只是她比较腼腆害羞，所以才…
+p	changxia	c	happy	sad	speak_angry	flush
+s	@	周腾…！
+p	changxia	c	happy	sad	confused	flush
+s	店员	原来是这样，不过也可以理解啦，学生嘛，会不好意思也很正常。
+s	店员	哎呀，这么一说，我还真是怀念我自己的青春时代啊。
+s	店员	以前自己也有很喜欢的男生，但是无论自己怎么暗示对方都像是木头一样无动于衷。
+s	店员	现在回头看来，可能只是人家单纯不喜欢我吧。
+s		店员苦笑了一番，没有继续和我们寒暄下去了，只是对着我们摆了摆手，便到后台去忙了。
+b	black
+s		……
+j	8926
+b	street_afternoon
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	你刚刚……干嘛要那样子说啊……
+p	changxia	c	normal	angry	confused	flush
+s	周腾	抱歉，我只是想要帮忙解围而已，毕竟店员都用那样子的表情看我们了，如果不说是情侣的话，会被瞎想的吧。
+s		其实不光是这一点，硬要说的话，我也有一些自己的私心吧。
+s		平时看的很多动漫和电影里面，都有那种男女主明明不是情侣，但是却被误会成情侣的桥段。
+s		虽然自己看的时候会默默地吐槽这种桥段好烂俗，但真等到自己有这个机会的时候，却又忍不住地想要尝试一番？
+s		我的小心思，可能比我自己想象的还要更多……
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	没想到居然被你在这种地方占到了便宜，有些生气呢。
+p	changxia	c	normal	angry	confused	flush
+s	周腾	我、我是真的没想那么多啊！而且你看，我们不是一直牵着手吗，这种情况肯定得骗一骗店员才行嘛。
+p	changxia	c	normal	normal	speak	flush
+s	@	我没有要怪你的意思，其实我也还…挺高兴的……
+p	changxia	c	normal	normal	smile	flush
+s		常夏说话的声音变得又轻又柔，听得人都快要化掉了，可我明明不是冰激凌…
+s		不知道为什么，看着她满脸害羞的样子，我也有些忍不住地心跳加速了起来。
+s		有些事情不反应过来还好，一旦自己反应了过来，就会感觉特别的羞耻，我现在大概就是这样的一种状况。
+s	周腾	所以，我们还要牵着手到什么时候…？
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	怎么，你想松手了？
+p	changxia	c	normal	angry	confused	flush
+s	周腾	也不是……
+p	changxia	c	happy	angry	speak_angry	flush
+s	@	不许松！哪有占了便宜就想走的道理啊…
+s	@	手也被你牵了，女朋友的名头也给我带上了，结果现在说松手就松手……
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	我才不许你这样…
+p	changxia	c	normal	angry	confused	flush
+s		常夏嘟囔着，虽然说出来的话有些不满，但听起来就像是在撒娇一样。
+s		不…好像就是在撒娇吧。
+p	changxia	c	normal	angry	confused	flush
+s	周腾	撒谎说是情侣的理由刚刚已经提过了，牵手是因为…当时看你很害怕的样子，所以我就下意识那么做了……

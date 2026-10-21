@@ -1,0 +1,128 @@
+p	changxia	c	sad	angry	speak_angry	
+s	@	就算是比起科学，我也更愿意相信你的话！
+s	@	但周腾，你刚刚撒谎了，你一直在骗我…！我能够感觉到……
+s	@	我了解你的，你从来就不是什么演戏的好料子，你是那种心里想什么脸上就一定会摆出什么表情的人。
+s	@	不记得了吗，初中老师让我们排练话剧的时候，大家都能把自己的角色演好，只有你一个人演谁都像‘周腾’你自己。
+s	@	班上课代表作业没收齐的时候，所有人都能找理由说自己忘带了，只有你什么借口都不愿意找，就站在原地硬挨老师批评。
+s	@	你不情愿撒谎，所以你很少对其他人撒谎。
+p	changxia	c	sad	sad	speak_angry	
+s	@	但你从来不会骗我的！为什么这次…为什么这次无论我怎么问你，你都要想个办法找个借口拖下去——！？
+s	@	你越是不情愿说实话，我就越是觉得你们瞒着我的事情很重要很关键。
+s	@	求你了周腾，告诉我好吗…？
+s	@	无论什么事情我都会去接受，无论你说的事情有多荒谬、有多离奇、有多违背科学不符合常理……
+s	@	只要是你说的，我一定会去相信！
+p	changxia	c	sad	sad	sad	
+s	周腾	……
+s		常夏朝着我走近了几步，试图抓着我的手。
+s		但不知为何，常夏悬在半空中的手却突然停住了，反倒是抓住了我的衣角。
+s		谎言，还是被识破了。
+s		十年以来，我撒的每一个谎都能被常夏轻松识破。
+s		那些没能被常夏揭穿的谎言，也单纯只是因为常夏给我留了面子，所以最后才不了了之。
+s		她好像能看透我的心，但她……
+s		明明只是‘投影’而已啊。
+s	周腾	你真的愿意听吗，无论我说什么，你都愿意相信吗？
+p	changxia	c	sad	sad	speak_angry	
+s	@	愿意！我当然愿意…！
+p	changxia	c	sad	sad	sad	
+s	周腾	……
+s	周腾	这件事情，我暂时还不知道该怎么告诉你才好。
+s	周腾	能先让我回去组织一下语言么，等到明天放学的时候，我一定会把所有实情告诉你。
+p	changxia	c	sad	normal	confused	
+s		常夏犹豫了一会，最后还是点了点头表示同意。
+s		也是在说完这段话之后，我才敢抬起头来和她对视。
+s		也是这个时候我才发现……她的脸上不知道从什么时候开始，早已布满了泪痕……
+p	changxia	c	sad	angry	speak_angry	
+s	@	就这样说定了，明天放学，明天放学你一定要把所有的事情都如实给我交代清楚！
+p	changxia	c	sad	angry	confused	
+s	周腾	我答应你。
+p	changxia	c	sad	angry	speak_angry	
+s	@	那来拉钩盖章！
+p	changxia	c	sad	angry	confused	
+s	周腾	拉钩盖章就算了，毕竟都是高中生了，没有必要做这些幼稚的事。
+s	周腾	如果常夏你真的相信我，那么盖不盖章都无所谓，对吧？
+p	changxia	c	sad	normal	smile	
+s		常夏没有作声，而是笑了笑。
+s	周腾	早点回家吃饭吧，我也得回去了，实在是饿得不行。
+p	changxia	c	sad	normal	speak	
+s	@	那我，就先走了…？
+p	changxia	c	sad	normal	smile	
+s	周腾	明天见。
+p	changxia	c	sad	normal	speak	
+s	@	明天见~
+p	changxia	c	normal	normal	smile	
+s		常夏擦了擦眼角残余的泪水，之后便朝着自家方向走去了。
+h	changxia
+s		我望着她的背影，直到视线范围内完全看不到她之后，才从路口快步离开。
+s		…
+s		……
+s		…………
+s		这一次，我既说了实话，又撒了谎。
+s		我确实觉得拉钩盖章没有必要，但我不拉钩其实是因为心虚。
+s		我也确实会在明天把所有的事情都如实交代给常夏，但……
+s		常夏所期望着的那个明天，永远永远都不会到来。
+s		凌晨12点过后，时间会再一次回到8月32日。
+s		在新一天的早晨，我和她还会再见面，或是在我自己的卧室，或是在那家老汤面馆。
+s		常夏也还会是那个常夏，只是今天的记忆会如尘埃一般，一吹就散，不复存在。
+s		谎言固然会被揭穿，但如果……我说的都是实话呢？
+j	16195
+b	black
+s		……
+b	zhou_teng_bedroom_noon
+b	zhou_teng_bedroom_noon
+s		十分自然地，我再一次从床上醒了过来，迎来了第四次8月32日。
+s		不过今天好像醒得比平时稍晚一些，看样子…应该是来不及提前去面馆赴常夏的约了。
+s		我呆坐在床上，看了一会儿秒针来回走动，估摸着时间差不多了之后，望向了卧室门口，默数了五个数。
+s	@	别睡觉啦，快起床小懒虫！
+s	@	诶，门没锁啊，那我进来咯。
+s	@	应该…没关系吧？反正我也不是第一回到你房间来了。
+p	changxia	c	normal	surprise	confused	
+s		卧室的木门缓缓被推开，看着正在床上呆坐着的我，常夏的表情好像有些惊讶。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	我以为你还在睡觉呢，没想到已经醒了。
+p	changxia	c	normal	surprise	confused	
+s	周腾	嗯，刚醒没多久。
+p	changxia	c	normal	angry	speak_angry	
+s	@	哟？你还挺骄傲啊，你该不会忘了昨天和我约了什么事情吧。
+p	changxia	c	normal	angry	confused	
+s	周腾	我记得，今天早上七点钟在学校附近的汤面馆一起吃早饭，对吧？
+p	changxia	c	normal	angry	speak_angry	
+s	@	你记得这么清楚你还不准时赴约！
+p	changxia	c	normal	angry	confused	
+s	周腾	这不是不小心睡过头了嘛。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你手机呢，没定闹钟吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	手机坏了。
+p	changxia	c	normal	angry	sad	
+s	@	骗鬼…！
+p	changxia	c	normal	angry	confused	
+s		常夏一边抱怨着，一边抢走了我放在床头柜上的手机，拿在手上鼓捣了半天。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	还真的坏掉了啊，充电也充不进去……
+s	@	那照这样说，我还得夸周腾你今天醒得早啊。
+p	changxia	c	normal	normal	speak	
+s	@	没有闹钟都能七点多醒来，看来你还是有把我和你的约定放在心上的嘛~
+p	changxia	c	normal	normal	smile	
+s	周腾	行了行了，不聊这些闲话了，等我起床洗漱一下就去学校吧。
+s		我对着常夏摆了摆手，准备下床整理东西。
+s		可还没等我穿上拖鞋走上两步，一股剧烈的无力感便朝着我袭涌了过来。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	周腾，你走路别晃来晃去的啊，周腾…？喂周腾——！？
+p	changxia	c	normal	surprise	sad	
+s		……
+s		莫名其妙地，我摔倒在了自家卧室的门口。脑袋还因此撞在了门框上，虽然有些疼，但好歹没流血。
+p	changxia	c	normal	sad	speak_angry	
+s	@	你没事吧周腾，呸呸呸…我说什么呢！都摔这么响了怎么可能没事！
+s	@	对不起对不起！我去帮你拿点药来吧…！但是我好像不知道你家药放在哪里……
+p	changxia	c	normal	sad	sad	
+s	周腾	没事，我就被绊了一下，等我去洗漱马上回来。
+s		我不愿意承认自己的身体出了问题，于是从地上挣扎着爬了起来。
+s		最后倒是站起来了，只不过光是站起来就已经花费掉了我全身的力气。
+s		一切来得既突然又莫名其妙，明明自己前一天也没有做什么特别浪费体力的事情，怎么会突然就像休克了一样，直不起身子站不稳脚了呢？
+p	changxia	c	normal	sad	speak_angry	
+s	@	你、你你你还是赶紧回床上躺着吧，你这状态哪还能去学校啊！
+s	@	我打电话帮你跟班主任请个假好了，你今天就乖乖在家里休息吧，明天如果情况好转了再去上课。
+p	changxia	c	normal	sad	sad	
+s	周腾	不要紧的，你先赶紧去学校吧，去学校了当面跟老师请假不就好了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	我今天也不去了，留下来照顾你。

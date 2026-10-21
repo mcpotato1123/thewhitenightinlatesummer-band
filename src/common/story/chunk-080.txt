@@ -1,0 +1,128 @@
+s		我无法相信和自己相处了这么久的人，她的所作所为都是假的，她的一切言行举止只是为了达成自己的目的而演的一场戏。
+s		我无法接受这样的事实……
+s		尽管自己在家里的时候已经吃过很多东西了，但我也还是能够很明显地感觉到自己的体力正在不断加速流逝。
+s		我从口袋里掏出了几条提前准备好的巧克力，拆开包装大口地吃了起来。
+s		体力开始恢复了，虽然这种状态维持不了多久，但足够我完成接下来的事情。
+s	@	周腾…？
+s	周腾	……
+s		熟悉的声音突然从我身后的不远处传来，我知道是谁，这个声音我一辈子也不可能忘掉。
+s		但此时此刻的我，无法转身面对她。我只想逃跑，让自己狼狈的身影离她远一点，再远一点……
+p	changxia		normal	sad	speak_angry	
+s	@	你怎么在外面？身体已经恢复好了吗？
+s	@	虽然你下午是吃了很多东西，但还是要保持休息啊，要是不小心倒在路边了怎么办。
+p	changxia		normal	sad	confused	
+s		常夏小跑着过来抓住了我的胳膊，然后摸了一下我的脸颊，不知道是在感受些什么。
+p	changxia		normal	normal	speak_angry	
+s	@	回家吧，先回去好好休息。
+p	changxia		normal	normal	confused	
+s	周腾	你不是回家吃饭了吗，这么快就吃完了？
+p	changxia		normal	normal	speak	
+s	@	吃个饭能花我多久时间啊，我还说准备吃完饭买杯咖啡就去你家里看你的，没想到直接在外面碰到了你。
+s	@	怎么说呢，你现在看起来状态还行，但还是先和我一起回家休息吧，毕竟身体是革命的本钱~
+j	10262
+p	changxia		normal	normal	smile	
+s	周腾	对不起，常夏……
+p	changxia		normal	surprise	confused	
+s		我甩开了常夏抓着我胳膊的手。可能是害怕弄疼我，所以常夏抓着的时候也没有花多大力气。
+p	changxia		normal	surprise	speak_angry	
+s	@	突然说对不起是干什么…
+p	changxia		normal	angry	speak_angry	
+s	@	你要真觉得自己没有听话偷偷跑出来是很对不起我的事，那你从一开始的时候就应该在家里好好呆着的啊！
+p	changxia		normal	angry	sad	
+s	周腾	我不是在为这个事情道歉。
+s	周腾	对不起常夏，我昨天骗了你。
+p	changxia		normal	surprise	speak_angry	
+s	@	昨天…？
+p	changxia		normal	confused	confused	
+s		常夏半低着头开始沉思了起来。
+p	changxia		normal	confused	speak_angry	
+s	@	你昨天哪有对我撒过谎啊，昨天还在放暑假吧。再说了……
+p	changxia		normal	angry	speak_angry	
+s	@	就算你真的撒谎了，我难道看不出来？别以为你能随随便便地骗过我的眼睛！
+p	changxia		normal	angry	sad	
+s	周腾	确实是昨天，不过，是一个你已经记不得了的昨天。
+p	changxia		normal	angry	speak_angry	
+s	@	怎么开始讲些奇奇怪怪的胡话了，该不会真的是生了什么大病吧？
+p	changxia		normal	angry	sad	
+s	周腾	我说的到底是不是胡话，常夏你应该一眼就能够看得出来吧。
+p	changxia		normal	surprise	speak_angry	
+s	@	我……
+p	changxia		normal	surprise	speak_angry	
+s	@	那、那是当然，除了你父母之外，我可以说是这个世界上最了解你的人了…！
+p	changxia		normal	surprise	confused	
+s	周腾	那就请你看着我的眼睛，先好好地听完我接下来的这段话。
+p	changxia		normal	normal	confused	
+s	@	……
+s		常夏沉默着没有作声，只是照做望向了我。
+s		她的眼里透露出一丝不安，但我也从她的眼中看到了认真与信任。
+s	周腾	我的体力有限，脑子转不太过来，想到什么我就说些什么了。总之……
+s	周腾	接下来，我有很重要的事情要去做，我还有必须要去弄清楚的问题没弄清楚…
+s	周腾	8月32日，这里不是现实，而是另一个和现实几乎毫无差别的独立空间。
+p	changxia		normal	surprise	confused	
+s	周腾	这里所有的一切，既是虚假的也是真实的。我也…曾不止一次地想过要不要永远留在这里。
+s	周腾	毕竟至少在这里，你没有满身伤痕，你也不会抱着后遗症度过自己的余生。
+s	周腾	至少在这里，你还能安稳地活着，我还能看到你活蹦乱跳地出现在我的面前。
+s	周腾	8月32日循环往复，没有尽头，我每天醒来都会经历同样的事情。
+s	周腾	‘既然如此，那我每天都去做不一样的事不就好了，这样就不会觉得腻了。’，我一开始是这么想的。
+s	周腾	但最后还是打消了这个念头。
+s	周腾	你问过我，我到底是喜欢真花还是假花，对吧？
+p	changxia		normal	surprise	speak_angry	
+s	@	我……有问过你这个问题么？
+p	changxia		normal	sad	speak_angry	
+s	@	对不起，我不记得了。
+p	changxia		normal	sad	sad	
+s		常夏的回答让我有些愣神，但我也很快地反应了过来。
+s		“投影”并没有现实里真身的记忆，就算有，也因为各种原因而被篡改得面目全非了。
+s		在常夏的“投影”看来，自己是从来没有问过我这个问题的。
+s	周腾	那……
+s	周腾	我现在把这个问题交给你，常夏。
+s	周腾	如果是你的话，更喜欢真花还是假花呢？
+s		我也不明白自己为什么要在这个问题上这么执着。我在期待着常夏的答案，期待她能说出我心中所想的那个答案。
+p	changxia		normal	surprise	speak_angry	
+s	@	我……
+s	周腾	不必多想，说出自己心中认为最正确的那个答案就好。
+p	changxia		normal	normal	speak_angry	
+s	@	我大概…
+p	changxia		happy	sad	speak	
+s	@	会更喜欢能吃的花吧~
+p	changxia		happy	sad	smile	
+s	周腾	啊…
+s		常夏对着我笑了笑，只不过，这一次是苦笑。
+s		没想到即使是“投影”，她也能给出我心中所想的那个答案。
+s		正如无论是在现实还是8月32日，常夏总能一眼就看破我的谎言一样。
+s		或许，有些东西真的是无法改变的吧。
+s		真花还是假花真的有那么重要吗？
+s		跳出框架，撕去参考答案，然后交上属于自己的答卷。
+s		而我接下来要做的，就是这样的一件事情。
+p	changxia		normal	sad	speak_angry	
+s	@	我也不知道我的回答有没有让你满意，只不过对于我自己来说…
+p	changxia		normal	normal	speak_angry	
+s	@	我确实更喜欢能吃的花，比如…
+p	changxia		normal	normal	confused	
+s	周腾	比如桂花？
+p	changxia		normal	surprise	speak	
+s	@	啊！你怎么知道我想说什么！
+p	changxia		normal	surprise	smile	
+s	周腾	你不也能一眼看出来我到底撒没撒谎吗。
+s	周腾	我没什么想说的话了，那么，告诉我吧。
+s	周腾	我有没有在说谎？
+p	changxia		normal	normal	confused	
+s		常夏就这样望着我，思考了很久。
+s		我不知道她在思考些什么事情，有时候我也会想，常夏是不是真的有什么超能力，能够一眼看穿别人的心思？
+p	changxia		normal	normal	speak	
+s	@	我所认识的那个周腾啊，是不会骗我的。就算撒谎了，我也能一眼看出来。
+s	@	虽然你刚刚说的那些话，就像是发烧烧了42度的病人说出来的一样。
+s	@	但你，并没有在骗我呢~
+p	changxia		normal	normal	smile	
+s	周腾	你就这么肯定？我说的事情那么假，那么天马行空，你就不会怀疑我么？
+p	changxia		happy	sad	speak	
+s	@	我是搞不懂你说的那些话的意思啦，反正总之就是，你还有很重要的事情要做吧？
+p	changxia		normal	normal	speak	
+s	@	那就去做吧！但一定不能勉强自己的身体啊…！
+p	changxia		normal	normal	speak_angry	
+s	@	如果你身体不行了，或者是发生了什么事情，一定要一定要第一时间联系我！
+s	@	无论我手头在做什么，我都会停下来去照顾你的！
+p	changxia		normal	normal	confused	
+s	周腾	你就不怕我做的这些都是对你的恶作剧？
+p	changxia		normal	angry	speak_angry	
+s	@	我还巴不得是恶作剧呢！至少这样说明你人没事。

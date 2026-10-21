@@ -1,0 +1,128 @@
+p	changxia	l	normal	confused	speak	
+s	@	一下子就能把两个女孩子给惹生气，周腾你也是真够厉害的。
+s	@	唉，有时候也不知道，周腾你是真傻还是假傻~
+p	changxia	l	normal	normal	confused	
+s		常夏单手托着脸颊，似乎想要多说些什么。但犹豫了片刻之后，她也还是撇过了头，假装毫不在意地望着咖啡厅里的其他风景。
+p	kanade	r	happy	normal	surprise	
+s	辉夜奏	咕呜……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	其实，味道还不错…
+p	kanade	r	normal	normal	confused	
+s	周腾	啊？
+s		在沉默了一小会之后，辉夜奏总算是开口表了态。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	牛奶甜甜的，榛子的味道也很香。
+s	辉夜奏	咖啡的苦味并没有想象中的那么难喝，反倒是有点像巧克力的感觉……
+p	kanade	r	happy	normal	confused	
+p	changxia	l	normal	normal	speak	
+s	@	看吧，凡事都还是要尝试尝试才能知道结果嘛。
+p	changxia	l	happy	normal	speak	
+s	@	怎么样，小奏是不是和我一样，也爱上了喝咖啡呢？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	并没有。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	confused	speak_angry	
+s	@	哈？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	我只是觉得不难喝而已，但并没有到喜欢的那种程度。不过……
+p	kanade	r	happy	normal	speak	
+s	辉夜奏	如果周腾之后还会请我喝咖啡的话，我还是很乐意接受的~
+h	changxia
+h	kanade
+j	1568
+s		咖啡厅里依然十分吵闹，而且比起早些时候，咖啡厅里聚集着的学生更多了。
+s		这些学生大多穿着白月高中的校服，他们三五成群的围坐在一起，一边喝着咖啡，一边饶有兴趣地在谈论着什么。
+s		……
+s	男学生A	欸，最近白月公园上很火的那个都市传说帖子你们有没有人看过？我跟你们说，真的巨恐怖！看得我晚上都睡不着觉！
+s	女学生A	差不多得了吧你，你一个大男生还会怕这种玩意儿？都市传说鬼故事什么的，我们女生都懒得看这些。
+s	男学生B	你说的这个都市传说，是那个和八月三十二号有关的吗？
+s	男学生A	对对对！就是那个！怎么，你也看到这个帖子啦？
+s	男学生B	我倒不是对这个东西感兴趣，只不过是在刷论坛的时候偶然刷到了，所以就看了一下。
+s	男学生B	怎么说呢，‘在八月三十一号留下深刻遗憾的人，可能会永远被困在八月三十二号里出不去。’，你不觉得这个编的很奇怪吗？
+s	女学生A	哪里奇怪了？
+s	男学生B	你想想看，这个都市传说的前因后果完全就是模糊的啊。
+s	男学生B	在八月三十一号留下深刻遗憾的人多了去了，难不成全世界这么多人都要被困到八月三十二号里去？
+s	男学生B	要我说啊，这个东西就是编得莫名其妙！这种东西被称之为都市传说，我都觉得是在侮辱‘都市传说’这四个字！
+s	男学生A	你这么说的话，确实是有点……不过我看了一下这个都市传说的后续，还是有点意思的啊。
+s	男学生A	我看评论说，白月高中以前确实有失踪过人啊。
+s		……
+s		旁边几个学生的聊天内容让我有些不自觉的皱了皱眉头。
+s		一开始的时候，我以为他们只是单纯地在聊那个最近很火的都市传说。
+s		但是当我听到白月高中以前真的失踪过人的时候，我才意识到，这个都市传说可能并非凭空而造。
+p	changxia	c	normal	confused	speak_angry	
+s	@	怎么了周腾，干嘛摆出这样严肃的表情？你是有什么东西落在学校里没拿么？
+s	周腾	没有没有，只是刚刚在听隔壁的几个学生聊天，他们聊得话题还挺有意思的。
+p	changxia	c	happy	sad	speak	
+s	@	你这也不像是觉得有意思的表情啊，哪有人在听到有意思的事情之后露出这幅苦瓜脸的…
+s	周腾	哎呀，我只是一时半会不知道该用什么词形容他们聊天的内容而已，总之…
+s	周腾	常夏，我们学校以前有失踪过学生吗？
+p	changxia	c	normal	confused	speak_angry	
+s	@	怎么突然问这个？
+s	周腾	就只是好奇而已，因为刚刚听到隔壁聊起这些了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	唔……具体的其实我也不是很清楚，不过很久以前，大概08年那会，白月高中确实有学生失踪过。
+s	周腾	居然还真有吗！？
+p	changxia	c	happy	sad	speak	
+s	@	都说了具体的我也不是很清楚啦，我也是听别人说的。
+p	changxia	c	normal	normal	speak_angry	
+s	@	说是有一个男学生，开学报道的时候因为暑假作业没写完，被老师给狠狠地批评了一顿。
+s	@	这个男学生一开始是准备找收作业的课代表求情的，希望她能帮忙包庇一下，不收自己的作业。
+s	周腾	但这种事情一般人应该不会答应的吧，毕竟一个班就那么多人，少了谁的作业，老师只要稍微查一下就能够搞清楚。
+s	周腾	要是搞出了什么幺蛾子，可能还会影响到课代表。
+p	changxia	c	normal	normal	speak	
+s	@	话虽如此，不过…这个课代表可是这个男学生的女朋友哦。
+s	周腾	两个人居然是情侣吗……
+p	changxia	c	normal	normal	speak_angry	
+s	@	但是，这个课代表却并没有帮男学生包庇，而是给了他一本暑假作业，要他趁老师还没来之前赶紧补完。
+s	@	男学生一开始的时候很生气，但后来也想明白了，毕竟不交作业确实很容易被老师发现。
+s	@	于是呢，男学生就回到了自己的座位上，开始拼了命的赶作业。
+p	changxia	c	normal	normal	smile	
+s	周腾	然后呢？
+p	changxia	c	normal	normal	speak_angry	
+s	@	然后的情况就是，作业实在是太多了，完全补不完。而且那天老师似乎是知道会有学生在教室里补作业，还提前来教室了。
+s	周腾	总感觉和我们班的老师有点像……
+s	@	老师一眼就看到了在补作业的男同学，于是就当着全班同学的面狠狠地批评了他一顿。
+s	@	据说，这个男同学的家境有些差，家庭矛盾也很严重，父母经常吵架。
+p	changxia	c	normal	sad	speak_angry	
+s	@	这个老师那天说了很多很难听的话，有不少话都是和他家人有关的，带有一定的侮辱性……
+p	changxia	c	normal	normal	confused	
+s	周腾	...这是变相体罚吧？这种人真的不配当老师。
+p	changxia	c	normal	sad	speak_angry	
+s	@	唉…后来呢，这个男同学就被老师留在学校里补作业，说不补完不让回家。
+s	@	直到晚上七点多钟，他爸拿着棍子气冲冲地跑到学校里来找他，这个事情才算是告一段落。
+p	changxia	c	happy	angry	confused	
+s	周腾	你说了这么多，这也和‘失踪’完全搭不上边啊。
+p	changxia	c	happy	angry	speak_angry	
+s	@	你先别急听我说完嘛…！
+p	changxia	c	normal	normal	speak_angry	
+s	@	后来第二天正式开学的时候，班上所有的学生都到了，就这个男学生没到。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	老师生气地连忙打电话给他家长，结果…电话那边传来的却是男学生父亲满是哭腔的声音。
+s	@	也是这之后，老师才知道了男学生失踪的事情。
+p	changxia	c	normal	normal	speak_angry	
+s	@	一开始，大家都以为男学生是在学校里失踪的。但是监控表明，男学生那天晚上补完作业之后就被自己父亲给拖出学校了。
+p	changxia	c	normal	normal	confused	
+s	周腾	也就是说，并不是在学校里失踪的？
+p	changxia	c	normal	normal	speak_angry	
+s	@	嗯。后来警方就去调查校外街道的监控，发现男学生一直到回家都是没有出任何问题的。回家之后，男学生就再也没有出现在周边的监控里了。
+p	changxia	c	normal	normal	confused	
+s	周腾	说不定男学生就是因为被批评了，所以躲在家里不愿意出去上学呢？
+p	changxia	c	happy	sad	speak	
+s	@	你傻啊周腾，人家男学生的父亲都说了自己的孩子不见了，男学生要是躲在家里的话，他爹能不知道吗？
+s	周腾	照你这么说，那男学生岂不是在家里失踪的？这不合理啊…！
+p	changxia	c	normal	normal	speak_angry	
+s	@	是啊。所以后来，大家就认为这个男学生是不是因为心理承受能力不足，跳楼自杀了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	但事实是，男学生家的周边并没有任何草坪有被重物砸过的痕迹。周边的邻居也没有在那段时间听到任何重物落地的声音。
+s	@	既没有痕迹，也没有声音，再加上周边那么多的监控，没有一个监控捕捉到了男学生坠落的场景，所以基本就排除了自杀的可能。
+p	changxia	c	normal	normal	confused	
+s	周腾	不是在外面失踪的，也不是自杀的，难不成是……
+p	changxia	c	normal	normal	speak_angry	
+s	@	我知道你在想什么，你想说，凶手可能是男学生的父亲本人对吧？
+p	changxia	c	normal	normal	confused	
+s	周腾	……
+p	changxia	c	normal	sad	speak_angry	
+s	@	怎么说呢，警方也是和你想的一样的，但是很可惜，警方没能在男学生的家里找到任何有关男学生被杀害的证据。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你想想看。一个男高中生要是在家里被杀了，肯定多多少少会留下些线索吧。
+s	@	这个线索可能是残留的血液或毛发，也可能是被藏起来的腐烂的尸体。哪怕男学生的父亲残忍到把尸体分尸成小碎块冲进下水道，警方也能找到些许痕迹。

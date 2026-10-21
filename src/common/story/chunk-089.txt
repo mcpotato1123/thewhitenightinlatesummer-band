@@ -1,0 +1,128 @@
+p	changxia	c	normal	normal	speak_angry	flush
+s	@	所以，你、你就在我的床上睡就好了。
+p	changxia	c	normal	normal	smile	flush
+s	周腾	那你睡哪里？
+p	changxia	c	normal	sad	speak_angry	flush
+s	@	我也睡床上啊，我…我们两个人一起，不可以吗……？
+j	11399
+p	changxia	c	normal	sad	confused	flush
+s		常夏眼巴巴地望着我，听完这句话之后，我能感觉到自己浑身麻麻的，鸡皮疙瘩止不住地往外冒。
+s	周腾	这样果然还是有点……我就睡沙发吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	不行！今天外面这么热这么闷，你睡客厅还得把客厅的空调给打开。
+p	changxia	c	normal	angry	confused	
+s	周腾	那怎么了？
+p	changxia	c	normal	angry	speak_angry	
+s	@	开两个空调浪费电啊，你和我睡一起，我们就可以只开一个空调了。
+s	@	省电又省心，你也不用委屈地去睡沙发，一举两得啊。
+p	changxia	c	normal	angry	confused	
+s	周腾	……
+p	changxia	c	normal	angry	speak_angry	
+s	@	总之没有商量的余地，你今晚就得和我睡一张床！
+p	changxia	c	normal	normal	speak_angry	
+s	@	啊，但是我得警告你，睡觉的时候不许翻来覆去的啊。
+p	changxia	c	normal	normal	confused	
+s	周腾	为什么？
+p	changxia	c	normal	normal	speak_angry	
+s	@	因为我就睡在你边上啊，你块头这么大，要是不小心压在我身上了怎么办？
+p	changxia	c	normal	normal	confused	
+s	周腾	不会的，我会小心一些的。
+p	changxia	c	normal	angry	confused	
+s	@	……
+s		常夏没有回话，只是瞪了我一眼，然后挪动了一下自己的位置，刻意和我拉开了两个身位的距离。
+s		看来，是我又说错什么话让她生气了。
+h	changxia
+s		……
+s		晚上十点，深夜档电视剧开始放映。
+s		平时觉得还算有趣的都市情感剧，放到现在也变得有些枯燥无味了。
+s		整个人莫名地有些燥热，明明客厅还开着空调。
+s		脑子里一直在思考着等会要回房睡觉的事情，明明自己不应该想这些的。
+s		常夏这边倒是心情平静得不得了，就好像什么事情都没有发生一样。
+s		就是无论是看电视还是玩手机，她都要抱着自己的那个笔记本，就连洗澡的时候都要把笔记本放回房间里藏好。
+s		说到底不就是一个本子嘛，上面能写些什么特别的东西呢？
+s		但人都是有好奇心和叛逆心的，越是不让我做的事情，我就越是想要去做。
+s		我必须得找一个机会看一眼常夏的笔记本上到底写了些什么东西。
+s		更何况这个笔记本也是我送给常夏的生日礼物，好歹也是自己花钱送给她的东西，就看那么一两眼上面的内容，也不会怎么样吧。
+s		应该不会吧……
+p	changxia	c	normal	surprise	speak_angry	
+s	@	你为什么要露出这样子的表情，好怪啊…
+p	changxia	c	normal	confused	speak_angry	
+s	@	不会又在打我本子的主意吧？
+p	changxia	c	normal	confused	confused	
+s	周腾	没有没有，怎么可能呢~
+p	changxia	c	normal	confused	speak	
+s	@	真的没有？
+p	changxia	c	normal	confused	smile	
+s	周腾	当然没有啦，我像是那么喜欢窥探别人秘密的人么。
+p	changxia	c	normal	normal	speak	
+s	@	还挺像的。
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+s	周腾	但我真的挺不理解的，如果上面真的没有什么无关紧要的东西，为什么不愿意给我看呢？
+p	changxia	c	happy	angry	speak_angry	
+s	@	我、我肯定也有我自己的原因啊……！
+p	changxia	c	normal	normal	speak	
+s	@	这样吧，如果这次歌手大会我能够拿到第一名，我就给你看这个本子上的所有内容。
+p	changxia	c	normal	normal	smile	
+s	周腾	第一名吗……
+s		如果我没记错的话，之前初中时候的歌手大会，常夏拿的是第二名吧。
+s		等等，是第一名还是第二名来着？
+p	changxia	c	happy	angry	speak_angry	
+s	@	怎么不说话了，不相信我是吧…！
+p	changxia	c	normal	normal	speak_angry	
+s	@	作为我的教练，结果却不相信我的实力。不管怎么样，你至少也说几句好听的场面话啊~
+p	changxia	c	normal	normal	confused	
+s	周腾	倒不是这些事情，主要是…
+s	周腾	本子是你的，比赛也是你的，你要是真的不想让我看的话，完全可以故意放水拿到低名次吧。
+p	changxia	c	normal	normal	sad	
+s	@	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	那…我答应你，这次比赛，我一定一定会拿到第一名。
+p	changxia	c	normal	normal	confused	
+s		常夏突然对着我立下了约定，向我伸出了自己的小拇指，做出了拉钩的动作。
+s		一切都来得有些突然，明明刚刚还不打算让我看笔记本的。
+s	周腾	你就敢这么确定，这次一定可以拿到第一名？
+p	changxia	c	normal	normal	speak	
+s	@	不是有你在么？你可是我的教练啊~
+p	changxia	c	normal	normal	smile	
+s	周腾	就算是教练，也是名存实亡的那种吧。我五音不全又不会唱歌，给不了你多少帮助的。
+p	changxia	c	normal	angry	speak_angry	
+s	@	才不是这样呢！你啊，只要在我的身边一直陪着我……
+p	changxia	c	normal	normal	speak	flush
+s	@	就是对我最大的帮助了~
+j	11485
+b	black
+s		……
+s		和“初中常夏”相识后的第十天，深夜。
+s		外面的大雨没有要停歇的样子，反而越下越烈。激烈的雨滴拍打在玻璃窗上，听起来让人心神不宁。
+s		当然也有可能，让我心神不宁的并不是外面的雨声……
+s		……
+s	@	呼…呼啊……
+s		房间里漆黑一片，什么都看不到。我就这样平躺在常夏的床上，既不敢转身调整身位，也不敢随意发出声响打扰常夏。
+s		这个平稳的呼吸声，应该是睡着了吧。
+s		……说实话，我从来没有想过今天会发生这样子的事情。
+s		即使是冒着大雨跑到常夏家来避雨，我也没有想过今天会落到在这里留宿的下场。
+s		我倒并不是有什么担忧的事情，只是…虽然常夏现在的心智还是初中时候的心智，但她的外表和体型仍旧是高中生的样子。
+s		换句话说，抛开心智不谈，至少她现在看起来是很“成熟”的，各方面的成熟。
+s		就算是认识了这么久，和这样的女孩子同睡一张床，果然还是有点……
+s	@	你睡着了么？
+s		睡在我一旁的常夏突然动了动身子，对我轻声地说道。
+s		不过她并没有侧过身来，而是背对着我。
+s	周腾	我以为你睡着了呢。
+s	@	你就躺我旁边呢，这种情况怎么可能那么容易就睡着啊……
+s	周腾	都说了我睡沙发就好，结果非要我和你睡一张床，现在好了，睡不着了又开始怪我…
+s	@	我哪有怪你啊~
+s		常夏嘟囔着朝着我这边靠近了一些，将自己的手伸了过来，挽住了我的胳膊。
+s		明明上床之前还嘱咐我，让我不要乱翻身压到她，结果现在自己倒是主动凑了过来。
+s		头部感受着空调的冷气，而被子里则是舒适的温度，两头的温差让我有些恍惚。
+s		常夏身上穿着贴身睡衣，所以身体也是十分的温暖，挽着我的那只胳膊…甚至有些发烫。
+s		除了胳膊的触感之外，我还感受到了一些不太好描述的柔软，这让我心神不宁的感觉再一次加剧了……
+s	@	抱我，周腾……
+s	周腾	怎么像小孩子一样，抱在一起会很热的。
+s	@	我怕冷，不可以吗？
+s	周腾	怕冷还把空调开20度啊，怕冷还非要和我盖同一床空调被啊…
+s		虽然嘴上这么嫌弃着，但我还是侧过身来轻轻地抱住了常夏。
+s		大概是感知到了我的动作，常夏的行为有些变本加厉了。她将一条腿搭在了我的身上，整个人紧紧地贴住了我。
+s		这种感觉，就好像两个人真正“坦诚相见”地抱在了一起一样，也是从这一刻开始，我才真正的意识到了贴身睡衣的真正用途。
+s	@	你身上好烫啊…
+s	周腾	还不都是你害的……

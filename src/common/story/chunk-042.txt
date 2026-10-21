@@ -1,0 +1,128 @@
+s	@	既然店长说了去就会有真相，那就去呗。
+s	@	就算真出事了，好歹也知道真相了啊，对吧周腾？
+s		常夏话罢，转过头望着我笑了笑，但我心情却怎么也平复不下来。
+p	gecheng	c	happy	sad	speak	
+s	葛城	随你们便吧……如果真要去的话，到时候保持联系，至少我还能第一时间想点办法。
+p	gecheng	c	normal	normal	speak	
+s	葛城	哦还有一件事，31号晚上余洛琛组了个局，提前约了一个餐厅，说是要开学前大家最后一起聚个餐。
+s	葛城	位置就在城口江滩前的那个商业街，你们都是老江城人了，应该知道地方。
+s	葛城	具体什么餐厅过几天再告诉你们。
+p	gecheng	c	normal	normal	smile	
+s	周腾	刚不是还说了31号要去星期八赴约吗，时间会不会来不及？
+p	gecheng	c	happy	sad	speak	
+s	葛城	你们早些去不就完了，店长不是说打烊前去都可以吗？
+p	gecheng	c	normal	normal	happy	
+s	葛城	正好，如果你们没有出任何事就回来了，我们就改成吃庆功宴。
+p	gecheng	c	happy	normal	happy	
+s	葛城	如果没能回来的话，那就……开席！当然只是开玩笑啦~
+s	周腾	别说这么不吉利的话！
+p	gecheng	c	happy	sad	happy	
+s	葛城	都说了只是开玩笑嘛。总之你们到时候没事就行，希望最后只是我想多了。
+j	5397
+d	8月31日 周三下午
+d	8月31日 周一上午
+b	street_morning
+s		临近开学，学校附近的小店又开始变得热闹起来了……
+s		穿着白月高中校服的学生有说有笑地穿行在各个店铺之间，把街道挤得水泄不通。
+s		这对于做小吃生意的老板们来说固然是好事，毕竟人越多，赚得也就越多。但是对于开车路过这条街的司机来说就有些令人烦躁了。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	嗯…？周腾，怎么这么早就在这里等着了？
+p	changxia	c	normal	surprise	confused	
+s		靠着墙壁一边喝奶茶一边看街景发呆的我，眼前的视线突然被遮挡了大半，我知道是谁来了。
+s		系着双马尾的少女褪下了露脐装换上了校服，一时间让我有些不太适应。但好在熟悉的声音和面孔能让我尽快回过神来。
+p	changxia	c	normal	confused	speak_angry	
+s	@	不是约好了中午十二点半在校门口集合吗，这还不到十二点呢。
+p	changxia	c	normal	confused	confused	
+s	周腾	想什么呢，我就是单纯中午出来买饭而已，提前半个小时就在这里等着未免也太蠢了。
+p	changxia	c	normal	normal	speak	
+s	@	我这么说还不是因为某只猪以前干过这种蠢事。
+p	changxia	c	normal	normal	smile	
+s		常夏白了我一眼，但表情却是笑着的。我也知道她刚刚嘴里说的猪是在指我。
+p	changxia	c	normal	normal	speak	
+s	@	喝什么呢。
+p	changxia	c	normal	normal	smile	
+s	周腾	四块钱就能买一大杯的植脂末超不健康色素冲粉珍珠奶茶。
+p	changxia	c	normal	normal	speak	
+s	@	不喝‘茶千道’了？
+p	changxia	c	normal	normal	smile	
+s	周腾	今天是报道日啊，你看看那边围着的学生的数量，排半个小时队能不能买到一杯都还不清楚。
+s	周腾	偶尔喝一喝这种色素奶茶其实也还可以的，至少它便宜，而且不用排队。
+p	changxia	c	happy	normal	speak	
+s	@	给我来一口~
+p	changxia	c	happy	smile	speak	
+s	周腾	我喝过的……
+p	changxia	c	normal	normal	speak	
+s	@	我用吸管另一头不就好了。
+p	changxia	c	normal	normal	smile	
+s		还没等我反应过来，常夏便一把抢过了我手中有着鲜艳颜色的冲兑奶茶。
+s		不过她并没有像自己所说的那样，把吸管拿出来用另一头我没喝过的地方去喝奶茶，而是直接对着嘴开始大口吸了起来。
+s		速度之快，就连我都来不及去阻止。
+s	周腾	说好的用另一头呢？
+p	changxia	c	happy	normal	speak	
+s	@	嗯，搞忘记啦~
+p	changxia	c	happy	sad	speak	
+s	@	你也别用这种复杂的眼神看我啊，我不嫌弃你的！
+s	周腾	问题的主次是不是搞反了…
+p	changxia	c	normal	normal	speak	
+s	@	对了，你这杯不是珍珠奶茶吗，为什么我刚刚喝那么一大口都没喝到珍珠？
+s	周腾	被我喝光了。
+p	changxia	c	happy	sad	speak	
+s	@	呃……采访一下周腾同学，你是怎么做到把杯里的珍珠全部吸光，还能让让杯里的奶茶剩一大半的？
+p	changxia	c	normal	angry	speak_angry	
+s	@	等一下！先别说答案，让我猜猜……
+p	changxia	c	happy	angry	speak	
+s	@	你是不是喝奶茶的时候，把吸上来的珍珠留在了嘴里，其余的奶茶全顺着吸管吐回去了！？
+s	周腾	啊对没错就是这样，不仅吐回去了，我还用吸管在里面吹泡泡呢，咕噜咕噜可好玩了。
+p	changxia	c	happy	sad	sad	
+s	@	……
+s	周腾	怎么，后悔喝我的奶茶了？
+p	changxia	c	happy	sad	speak	
+s	@	没有，我相信周腾你不是那种龌龊的人，但你最好还是解释一下下……
+p	changxia	c	happy	sad	smile	
+s	周腾	事实是那扣得要死的奶茶店老板，一整杯奶茶就只放那么一小勺珍珠，而且还是那种没有完全煮好的珍珠，里面甚至是夹生的。
+s	周腾	当然我也不好去指责一杯四块钱的奶茶哪里哪里做得不好了。
+p	changxia	c	normal	confused	speak	
+s	@	这么善良啊？这四块钱的奶茶他最少赚你三块五哦~
+p	changxia	c	normal	confused	smile	
+s	周腾	我知道，但我是真没精力去找人老板的茬了。
+s		8月末，江城正热的时候，一群人顶着大太阳在操场上听了西瓜肚校长足足两个小时的讲话，换谁来都会没精力吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	所以呢，你中午就只喝一杯奶茶？
+p	changxia	c	normal	normal	confused	
+s	周腾	折腾一上午我是真没胃口了。
+p	changxia	c	happy	normal	speak	
+s	@	但我感觉……胃口大开——!！
+p	changxia	c	normal	sad	sad	
+s	@	被太阳晒了一上午，能量早就消耗殆尽了，要是再不大吃特吃一顿的话，我可能会走着走着就倒在马路中间了。
+s	周腾	说得像你平时胃口不大开一样。
+p	changxia	c	normal	angry	speak	
+s	@	那又怎么了，能吃是福，能吃还不长肉更是我与生俱来的天赋！
+p	changxia	c	normal	normal	speak	
+s	@	走，陪我去排队买炸炸吃~
+h	changxia
+s		常夏就这样抓着我的手腕一路狂奔到了马路对面的炸串店门口。
+s		有些让人意外的是，这家店门口并没有学生在排队。或者说…学生只是简单地围在了店面周围，并没有规律地排成队。
+s		大概了解了一下情况之后才知道，因为各种各样的原因，这家老店已经开始使用小程序线上点单了。
+p	changxia	c	normal	normal	confused	
+s	周腾	这家炸炸在这儿都开了快10年了吧，怎么突然就开始用线上点单了？
+p	changxia	c	normal	normal	speak_angry	
+s	@	不奇怪吧，稍微大一点的店不都是线上点单的？
+p	changxia	c	normal	normal	confused	
+s	周腾	倒不是说奇怪，只是觉得作为一家老店，用线上点单这种方式让人有些反直觉了。
+p	changxia	c	normal	angry	speak_angry	
+s	@	要我说早就该线上点单了，大热天的一堆学生挤在门口排队，油烟味和酸汗味都能把人给熏吐，谁爱闻谁闻去。
+h	changxia
+s		常夏一边吐槽着，一边用手机扫了店面墙壁上贴着的二维码，开始点起了单。
+s		至于我，则是躲在了阴凉处玩起了手机，刷着论坛与视频网站。
+s		江城的夏天是出了名的热，相对应的，讨论和夏天相关话题的江城人也一直都很多。
+s		甚至就连‘白月公园’的怪谈板块里也都开始讨论起了避暑的问题，倒是前段时间大火的和8月32号有关的都市传说变得鲜有人论。
+p	changxia	c	normal	normal	confused	
+s	周腾	对了常夏，其实有一个问题我想问你很久了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你说。
+p	changxia	c	normal	normal	confused	
+s	周腾	就是，嗯…你为什么会叫常夏这个名字呢？
+p	changxia	c	normal	normal	speak_angry	
+s	@	因为我爸妈给我取的啊。
+p	changxia	c	normal	normal	confused	
+s	周腾	我就是想问为什么取这个名嘛……

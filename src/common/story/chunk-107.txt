@@ -1,0 +1,128 @@
+s	周腾	唉，你就别道歉了，放你鸽子的是我，怎么搞得像是你做错事了一样。
+p	changxia		normal	normal	confused	
+s		我叹了口气，顺手把书包丢在了床边的空地上。常夏见状先是愣了会，随后便把我的书包从地上拿了起来，放在了椅子上靠好。
+s	周腾	没事，书包放地上就行。
+p	changxia		normal	angry	speak_angry	
+s	@	地上脏啊。你老是这点习惯不好，走两步就能把书包放好，非要甩在地上。
+p	changxia		normal	angry	confused	
+s	周腾	平时习惯了吧，再就是今天太累了。
+p	changxia		normal	normal	speak_angry	
+s	@	开学第一天，上完课放学了就和小奏出去玩，当然累啊。
+p	changxia		normal	normal	confused	
+s	周腾	你怎么知道的？
+p	changxia		normal	normal	speak_angry	
+s	@	放学的时候在教学楼下碰到她了，刚好看到她上楼找你。
+s	@	我以为小奏和你说了呢。
+p	changxia		normal	normal	confused	
+s	周腾	那你怎么不上来呢？
+p	changxia		normal	normal	speak_angry	
+s	@	本来是准备上来的，后来想起来自己家里还有事，所以就先走了。
+p	changxia		normal	normal	confused	
+s	周腾	家里有事还有时间来我这边啊。
+p	changxia		normal	normal	confused	
+s	@	……
+p	changxia		happy	normal	speak_angry	
+s	@	这不是事情解决了才过来的嘛。
+p	changxia		normal	normal	confused	
+s	周腾	虽然但是，我还是得解释一下。我确实和奏一起出去了，但不是出去玩的。
+p	changxia		normal	confused	speak_angry	
+s	@	不是出去玩的是干嘛的？锻炼身体，还是交流学习心得？
+p	changxia		normal	confused	confused	
+s		我有些不知道该怎么回答了，我总不能说，和辉夜奏一起出去是为了找8月32日的线索吧。
+s		至少，和常夏是不能这么说的。
+s	周腾	就只是放学顺道一起走了会儿，我这不是一下子就回来了么。
+p	changxia		normal	normal	speak_angry	
+s	@	在我看来，散步聊天都算做‘玩’的范畴，尤其是和异性在一起的时候。
+p	changxia		normal	normal	confused	
+s	周腾	那我之前初中天天和你放学一起回家的时候，岂不是都要被算作‘一起玩’了？
+p	changxia		normal	normal	speak_angry	
+s	@	怎么不算呢？就算你不这么觉得，在其他人眼里也会算啊。
+s	@	人家又不知道你和我是青梅竹马的关系，只会觉得……
+s	周腾	觉得什么？
+p	changxia		happy	angry	speak	flush
+s	@	觉得你和我有‘那种关系’呗。
+p	changxia		happy	angry	smile	flush
+s	周腾	哦，我懂了，大概会觉得我们其实是失散多年的兄妹吧。
+p	changxia		normal	angry	speak_angry	
+s	@	你就一定要说些惹我生气的话吗周腾？
+p	changxia		normal	angry	confused	
+s	周腾	就当我是在活跃气氛吧。总之，今天放你鸽子的事情，实在是对不起了。
+s	周腾	我确实是把这件事给忘掉了，最近精神状况不是特别好。
+p	changxia		normal	confused	speak_angry	
+s	@	是感觉你怎么今天好像特别累。虽然表面上看起来很正常，但做什么事情都有种被迫的感觉，就像是有什么东西在扯着你走一样。
+p	changxia		normal	normal	speak	
+s	@	看来我的直觉还是很准的嘛~
+p	changxia		normal	normal	smile	
+s	周腾	所以你今天过来，就是为了听我道歉的？
+p	changxia		normal	normal	speak	
+s	@	都说了我是来给你道歉的，当然能看到你认错我也是很高兴就是了，嗯！
+p	changxia		normal	normal	smile	
+s	周腾	真的？
+p	changxia		normal	angry	speak_angry	
+s	@	那还有假？而且扯开谁给谁道歉的问题，我就单纯来找你难道也需要理由吗？
+p	changxia		normal	angry	confused	
+s	周腾	做任何事都需要理由吧，我是这么觉得的。
+p	changxia		normal	normal	speak_angry	
+s	@	‘想见你’，这个理由足够么？
+p	changxia		normal	normal	confused	
+s	周腾	当然，当然够了……
+s		简单的三个字，让我鼻子有些发酸。一想到对我说出这句话的只是‘投影’，心里便又复杂了不少。
+p	changxia		normal	normal	speak_angry	
+s	@	等下吃完饭，要一起出去玩吗？我是说…出去走走，散散心之类的？
+p	changxia		normal	surprise	confused	
+s	周腾	……
+s	周腾	还是不了吧。
+s		我没办法答应常夏的要求，尽管内心是想答应的。
+s		她毕竟不是真正的常夏，如果浪费了过多的情感和时间在“投影”上的话……
+s		……
+p	changxia		normal	normal	speak_angry	
+s	@	嗯，改天吧，改天再说好了。虽然不知道你到底出了什么事这么累，总之……
+s	@	今天就好好休息吧。
+b	black
+j	13779
+e
+c	时间与记忆的蒙太奇
+b	white
+b	black
+s		……
+s		……
+s		……
+b	zhou_teng_bedroom_noon
+s		实在是没有想到，自己昨晚拖着那么疲累的身子睡觉，今天居然比闹钟提前一步醒来了。
+s		外面的天色依旧昏昏沉沉没有变化，虽然心里很清楚，这种情况之后大概不会再变了，但心底却总还保留着一丝希望……
+s		希望早上醒来能看到正经的日出，希望中午能被江城的太阳狠狠暴晒，希望天黑的时候外面能看到的是月亮而不是落日…
+s		希望，醒来之后发现自己真的只是做了一个很长的梦。周围一切安然无恙，世界照常运转……
+s		……
+s		我放松地伸了个懒腰，揉了揉还有些惺忪的眼睛，随后伸手将床头柜正在充电的手机拉了过来。
+s		早上7点27分，距离闹钟所设定的时间已经过去了27分钟。
+s		这下算是明白了，我并不是比闹钟提前醒了过来，而是闹钟因为某种原因没有生效。
+s		之前也经常会发生这样的事情，明明头一天晚上自己设定好了闹钟，结果等到第二天闹钟却根本不起作用。
+s		好在我习惯性的把闹钟时间设定的比较早，白月高中的早自习八点钟才开始，就算我现在出门，不吃早饭的话也是完全可以赶上的。
+s		但即便如此，我也没有太着急地从床上爬起来穿衣服洗漱。
+s		既然这里不是真正的现实，我又何必要去那么遵守这里的规则呢？
+s		投影就是投影，假的永远变不成真的，我在这边的世界准时准点去学校，又不会得到现实世界里的老师任何一句赞美。
+s		抱着这样的心态，我又躺倒在了床上，开始盯着天花板发呆。
+s		“早自习翘掉的话也没关系吧，或者干脆上午不去上课，就说自己拉肚子了和老师请个假？
+s		“不用请假应该也没事？顶多就是批评我两句而已。再不济就是让我罚站到放学结束。
+s		轻柔的敲门声突然传了过来，声音不大，但却把我吓得从床上坐直了身子。
+s	？？？	别睡觉啦，快起床小懒虫！
+s	周腾	啊？
+s	？？？	诶，门没锁啊，那我进来咯。
+s	？？？	应该…没关系吧？反正我也不是第一回到你房间来了。
+p	changxia	c	normal	normal	smile	
+s		卧室的木门缓缓被推开，出现在门口的是带着满脸笑容的双马尾少女。
+s		这种情景好像有些熟悉，是我的错觉么？
+p	changxia	c	normal	normal	speak	
+s	@	原来周腾你已经醒了啊。
+p	changxia	c	happy	normal	speak	
+s	@	赶紧起来吧，开学第一天可别迟到了~
+p	changxia	c	happy	normal	smile	
+s	周腾	你没睡醒吗常夏？
+p	changxia	c	normal	angry	speak_angry	
+s	@	什么意思？我不比你清醒多了啊，你衣冠不整头发乱糟糟的，好歹我这边是穿戴整齐啊。
+p	changxia	c	normal	angry	confused	
+s	周腾	你是真傻还是假傻啊，还是在故意逗我？不会就因为我昨晚没答应陪你出去散步吧……
+p	changxia	c	normal	confused	speak_angry	
+s	@	我昨晚，有来找你出去散步吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	……？

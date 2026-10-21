@@ -1,0 +1,128 @@
+s	@	不过你的指甲倒是修剪地挺好的，不短不长，也挺干净，这方面是加分项哦。
+p	changxia	c	normal	normal	speak	
+s	@	中指末端连接手掌的地方好像长茧了，是不是握笔写字太多了？要不找个时间我帮你修一下吧。
+s	周腾	常夏……
+p	changxia	c	normal	normal	speak	
+s	@	怎么啦？
+p	changxia	c	happy	normal	smile	
+s	周腾	不是说好了掰……
+p	changxia	c	normal	normal	speak	
+s	@	嘘~
+p	changxia	c	normal	normal	smile	
+s		还没等我把话说完，常夏便用另一只手的食指按在了我的嘴唇上。
+p	changxia	c	normal	normal	speak	
+s	@	身为男生，要学会看气氛说话。
+s	@	就这样，再保持一会吧……
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+s		当常夏的这句话传到我的耳朵里之后，我才彻底明白…
+s		这场掰手腕比赛，是我输了。
+p	changxia	c	normal	normal	speak	
+s	@	话说回来，刚刚在冰箱里找食材给你做饭的时候，你猜我找到了什么？
+p	changxia	c	normal	normal	smile	
+s	周腾	找到什么了？
+p	changxia	c	happy	normal	speak	
+s	@	找到了初中那会儿、我们俩人一起合力都没吃完的超大份冰激凌！就是我中奖了的那个！！
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+p	changxia	c	normal	confused	speak_angry	
+s	@	虽然不知道…为什么那个大碗冰激凌这么多年了还被你放在冰箱里。
+s	@	可能是你忘记吃了？也可能是吃不完就干脆一直放着了…？
+s	@	又或者…单纯就是你为了留作纪念？虽然表面上看起来没有变质，但不管怎么想，现在肯定都不能吃了。
+p	changxia	c	normal	normal	speak	
+s	@	不过我还是很高兴，看到你对我们之间的事情那么上心。
+s	@	原来，那些我觉得很珍贵的回忆，在你眼里…同样也很重要……
+s	@	虽然把冰激凌一直放在冰箱里好几年这件事真的很笨啦，但…
+p	changxia	c	happy	normal	speak	
+s	@	谢谢你，周腾，我真的…真的真的非常开心~
+p	changxia	c	happy	normal	smile	
+s		常夏握着我手的力气又加大了几分，她来回地抚摸着我的手背，就像是在抚摸心爱的宝物一样。
+s		莫名地，我有些鼻子发酸了，眼睛也变得湿润了起来。
+s		我啊，根本就不记得这些事情了啊……
+s		就像是什么滥情的负心汉一样，把这些事情都给忘得一干二净了啊……
+s		如果那些以前的事情只是“投影”自我生成的“架空记忆”，我或许都会好想一些。
+s		可偏偏……常夏却在我的冰箱里翻出了以前没吃完的冰激凌，找出了那份所谓的“回忆的证明”。
+s		这不就是在说，做错事的那个人其实是我吗…？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	你、你怎么突然哭了…！?
+s	周腾	没怎么…就只是有点……
+p	changxia	c	normal	sad	speak_angry	
+s	@	不会是我玩笑开过头了吧，那个掰手腕…我就只是想逗逗你的……
+p	changxia	c	normal	sad	confused	
+s		常夏有些不安地松开了我的手，缩了回去。还没等她完全把手抽开，我便再一次地抓紧了她的手，和她十指相扣。
+p	changxia	c	normal	sad	speak_angry	
+s	@	周腾……
+p	changxia	c	normal	sad	confused	
+s	周腾	你也稍微看下气氛嘛…
+s	周腾	不要…在我最需要你的时候松手啊……
+s		莫名地，从自己的嘴里说出了像是失恋了的女孩子才会说出来的话。
+s		眼泪彻底决堤了，我再也无法控制自己的情绪，只能任凭眼泪在脸颊上肆意流淌。
+p	changxia	c	normal	normal	confused	
+s	@	……
+p	changxia	c	normal	normal	speak	
+s	@	没事的，没事的~
+s	@	我就在这里，哪里都不会去……
+j	9793
+b	black
+s		……
+b	zhou_teng_bedroom_noon
+p	changxia		normal	normal	smile	
+s		一下午过去了，外面的天色也总算是和时间对应了起来。
+s		常夏仍在我的床边坐着，一整个下午都呆在我的卧室里，没有离开过……
+s	周腾	你一开始还说照顾我一会儿就去学校的，结果现在都还没走，再晚一点都要放学了。
+p	changxia		normal	angry	speak_angry	
+s	@	你很想让我走吗，这么嫌弃我…？
+p	changxia		normal	angry	confused	
+s	周腾	哪有嫌弃你啊，只是怕你被老师批评而已。
+p	changxia		normal	angry	speak_angry	
+s	@	没事的，哎呀…你老担心这些干什么，总不可能就因为请了一次假，我就得被请家长吧！
+p	changxia		normal	angry	confused	
+s	周腾	那倒也是。
+p	changxia		normal	normal	confused	
+s		我装作平静地对着常夏说出了这句话。
+s		傍晚的阳光洒在身上十分暖和，让我想起了某个夏天的晚饭后，自己也是像这样躺在卧室里。
+s		常夏也和现在一样，坐在床边照顾感冒的我。
+s		她一边刷着手机，一边和我分享自己在学校里的各种见闻。
+s		什么隔壁班某某又考试作弊被抓住了啊，什么谁谁谁偷偷谈恋爱被老师发现了啊……
+s		诸如此类的话题还有很多，但大多都是一个模子里刻出来的。常夏说不腻，我也听不腻。
+s		那个夏天的时间，和窗帘的影子一样拉得很长。
+s		但具体是哪个夏天发生的事，我记不太清了。或许是高一的时候？又或许是初中的事情…？
+s		我不知道，只知道自己的脑海里一直有着这样的一份记忆。
+p	changxia		normal	normal	speak_angry	
+s	@	现在感觉怎么样了，休息了一下午，身体恢复完全了吗？
+p	changxia		normal	normal	confused	
+s	周腾	差不多了吧，至少肚子不饿了~
+p	changxia		normal	normal	speak_angry	
+s	@	我猜也是，你看你下午都吃了多少东西。
+s	@	两大袋薯片，三条脆脆米巧克力，两桶泡面，还有我给你做的粥，给你买回来的面……
+p	changxia		normal	surprise	speak_angry	
+s	@	哇，不说不知道，现在统计一下才发现……你居然吃了这么多东西？你的肚子真的不会爆炸吗？
+p	changxia		normal	surprise	confused	
+s	周腾	不会，甚至我还能再吃两袋薯片。
+s		我表面上用着打趣的语气和常夏说话，实际上我说的是事实。
+s		8月32里，能量流失的速度比我想象地还要快很多很多，我必须得大量进食才能保持自己的身体不出问题。
+s		现在想起来还后怕，如果昨天没有和常夏在商业街逛逛吃吃补充能量的话，是不是今天早上我就死在床上了……？
+s		当然，今天没出事情也是多亏了常夏。
+s		除了早上给我带了汤面做了粥之外，常夏还用手机给我点了很多零食外卖。
+s		也就是我刚刚吃掉的那些。
+p	changxia		normal	normal	speak	
+s	@	反正给你买了很多很多，你要是饿了还想吃你就继续吃吧。
+p	changxia		normal	normal	smile	
+s	周腾	花了多少钱来着？
+p	changxia		normal	confused	speak_angry	
+s	@	问这个干嘛？
+p	changxia		normal	confused	confused	
+s	周腾	我把钱给你啊，你帮了我这么多，还给我买了这么多零食，我总不能一分钱不给吧。
+s	周腾	当然我现在手机坏了，只能给你现金。
+p	changxia		normal	angry	speak	
+s	@	得了吧你~你好好养病，把身体调养好就行了，又不是第一天认识，搞这么见外干什么。
+p	changxia		normal	normal	speak_angry	
+s	@	如果你一定想感谢我的话，那就……
+p	changxia		normal	normal	smile	
+s		常夏突然朝我靠近了几分，把脸颊凑了过来。一时间内，我有些没反应过来是什么情况。
+p	changxia		normal	sad	confused	
+s		可当我意识到、或者说猜到了常夏的意图之后，她却又把脑袋给缩了回去。
+p	changxia		normal	sad	speak_angry	
+s	@	我、我可能得先回去吃饭了，刚刚我爸发短信说我来着……
+p	changxia		normal	sad	confused	
+s	周腾	哦…那你赶紧回去吧？

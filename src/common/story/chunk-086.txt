@@ -1,0 +1,128 @@
+p	changxia	c	normal	angry	speak	
+s	@	哎呀，女生不就是这样的嘛，因为选择困难症想不到自己要吃什么，索性最后就还是吃自己熟悉的食物了。
+p	changxia	c	normal	normal	speak	
+s	@	要不就你替我做选择？
+p	changxia	c	normal	normal	smile	
+s	周腾	那我想想……
+s	周腾	吃旁边超市门口的那家炸鸡柳吧，他家炸鸡柳还挺好吃的。
+p	changxia	c	normal	normal	speak_angry	
+s	@	不要，我不爱吃炸鸡柳。
+p	changxia	c	normal	normal	confused	
+s	周腾	是你刚刚要我替你做决定的！
+s		常夏的话让我有些气愤，但我又想到…大部分女孩子可能都是这样的？瞬间又释然了不少。
+s		更何况我自己也偶尔会犯选择困难症。
+p	changxia	c	happy	sad	speak	
+s	@	哎呀，你这不是刚好说到了一个我不太爱吃的东西嘛。
+p	changxia	c	happy	sad	smile	
+s	周腾	哪里不爱吃了，你昨天中午不是吃了炸鸡柳的吗？
+p	changxia	c	normal	normal	speak	
+s	@	就是因为昨天吃过了所以今天才不能吃啊，天天吃这么油腻的食物会长胖的~
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+s		没错，现在确实是我还是初中生的时候。
+s		常夏的发言再次证明了这一点，这绝对不是什么高中生版本的常夏会对我说出来的话。
+s	周腾	那你到底要吃什么？
+p	changxia	c	normal	normal	speak	
+s	@	想吃你。
+p	changxia	c	normal	normal	smile	
+s	周腾	啊…？
+s		我一时间还以为我耳朵出了问题。
+s		常夏这种性格，居然会出说这种话……！？
+s		然而，事情好像和我想的并不一样，常夏只是抓起了我的手臂，轻轻地在我的手腕处咬了一口，留下了一串牙印。
+p	changxia	c	happy	normal	speak	
+s	@	谢谢招待~
+p	changxia	c	happy	normal	smile	
+s	周腾	啊？哦…哦……
+p	changxia	c	normal	surprise	speak_angry	
+s	@	怎么了，感觉你的脸好红，中暑了？
+p	changxia	c	normal	surprise	confused	
+s	周腾	我还以为你刚刚那话的意思是……
+p	changxia	c	normal	surprise	speak_angry	
+s	@	是什么…？
+p	changxia	c	normal	surprise	confused	
+s	周腾	哎呀不管了！我管你爱不爱吃长不长胖，今天就吃鸡柳，必须给我吃炸鸡柳！
+j	11052
+b	black
+s		……和“初中常夏”见面的第六天。
+s		今日无事，只有枯燥无味的课程。
+s		在“小世界”里没有意外本应该是件值得庆祝的事情，但我却隐隐感到不安。
+s		什么意外都没有，也意味着我什么线索都找不到。
+s		虽然自身所处的地方还是我高中时候的样子，但咖啡馆、汤面馆、便利店这些我所熟知的店铺全都关门打烊了。
+s		本来还想着能继续从店长手里拿到一些线索，结果星期八咖啡根本就没有开门。
+s		店长…现在怎么样了，是永远地留在了8月32日里了吗？
+s		辉夜奏成功了吗，如果成功了，葛城和余洛琛有没有好好地逃出去呢？
+s		如果没能成功，他们现在又会在哪呢…？
+b	classroom_afternoon
+s		人一旦无聊起来，脑子里就会止不住地去想这些乱七八糟的事情。
+s		最让人难以接受的是，这些事情你只能想，却拿不出一丁点的解决办法。
+s		我想要改变现状，想要从这个“小世界”里离开，但就目前来看，我除了继续推进自己的“初中故事”以外，没有任何其他选择。
+p	changxia	c	happy	sad	speak_angry	
+s	@	自习课好无聊……
+p	changxia	c	normal	sad	speak_angry	
+s	@	周腾你说，为什么最后一节课要弄成自习呢？没有老师来上课直接放我们回家不好吗？
+p	changxia	c	normal	sad	confused	
+s		常夏噘着嘴巴，将自己的中性笔放在了上嘴唇和鼻子之间夹了起来。
+s		大概平衡了好几秒钟，中性笔终于还是掉在了地上，发出了清脆的响声。
+s		班上安静写作业的学生立马朝着我和常夏的方向望了过来。
+s		少部分好学生咂了咂嘴，摆出了一副有些不爽的表情；而大部分人则是心领神会意味深长地笑了笑，就好像是明白了什么事情一样。
+p	changxia	c	normal	normal	confused	
+s		常夏不是很在乎这些，只是弯下腰把中性笔捡了起来，装作一副什么都没有发生的样子，继续装模作样的翻起了书本。
+p	changxia	c	happy	sad	speak_angry	
+s	@	还好老师不在教室里巡逻，要不然我刚刚又得被骂了。
+p	changxia	c	happy	sad	confused	
+s	周腾	你还知道羞耻啊，自习课上搞这么大动静…
+p	changxia	c	normal	normal	speak_angry	
+s	@	不就是笔掉地上了吗，又不是什么大事~
+p	changxia	c	normal	normal	confused	
+s		对着我丢出这句话之后，常夏突然从抽屉里拿出了一个外包装十分精美的笔记本，开始用笔在上面写起了什么东西来。
+s		这个笔记本，我好像在什么地方看见过……
+s		常夏的那张手机壁纸，自己抱着的是不是就是这个笔记本？
+s	周腾	你这个笔记本看起来挺新的啊，是哪里搞来的？
+p	changxia	c	normal	confused	speak_angry	
+s	@	啊…？你上课把脑袋上糊涂了？
+p	changxia	c	normal	confused	confused	
+s	周腾	怎、怎么了，我不就是问问吗。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	这是你去年送我的生日礼物啊，你花了很多零花钱才买到的，不记得了？
+p	changxia	c	normal	surprise	confused	
+s	周腾	……
+s		我意识到自己好像说错了什么话，连忙闭上了嘴，没有再继续说下去了。
+s		原来，搞了半天…这个本子是我送她的生日礼物么？
+s		“去年的生日礼物”，换句话说，这个本子至少已经用了一年了，但常夏手里的本子看起来依旧还是很新。
+s		不过常夏这边似乎也并没有怀疑什么事情，大概是觉得我在开玩笑吧，只是对着我浅浅地笑了一下。
+s	周腾	你在写什么东西呢？
+p	changxia	c	happy	sad	speak_angry	flush
+s	@	诶诶诶！你、你不准看…！
+p	changxia	c	happy	sad	sad	flush
+s		还没等我把脑袋凑过去，常夏便像是一只受了惊的小兔子一样跳了起来，连忙关上了本子放进抽屉。
+s		这个动静，可比之前中性笔掉在地上的响声要大多了。果不其然，再一次地吸引到了全班学生的注意力。
+s		部分学生扭过头来开始看着我们坏笑，部分学生则是一边发着怪声起哄一边拍着手。
+s		我不太理解为什么这些学生会有这样子的举动，但当我扭头看向坐在我一旁满脸通红的常夏时……
+s		我大概也能理解为什么这些学生会这样了。
+h	changxia
+s		……
+s		不变的夕阳光从窗外照进来，有关初中的记忆又找回了一些。
+s		在学生们的起哄声之下，我有些感慨，也有些忍不住地鼻子发酸。
+s		初中这三年，我和常夏所一起经历的，可能比我想的还要多得多……
+b	black
+j	11116
+s	@	‘公主与王子的童话，结局半真半假……’
+s	@	虽然已经决定好了比赛要唱这首歌，但为什么要写这样的词呢？
+s		……
+s		……和“初中常夏”相识后的第八天，距离歌手大会正式开始还有两周。
+s		但这还是我们第一次开始正式的歌唱训练……
+b	chess_club_afternoon
+s		因为班主任陈老师也十分看重这次的歌手大会，所以放学前的最后一节自习课直接空了出来，让我和常夏去空教室单独进行歌唱练习。
+s		至于其他的学生，不少人都想来参观我们的排练，但陈老师还是果断地拒绝了他们的要求。
+s		我直到现在都还记得，自己和常夏当众站起身来朝着教室门口走去的时候，班上那个起哄的样子……
+s		至于这个“空教室”为什么是围棋社，或许也和“小世界”的混乱有关吧。
+p	changxia	c	normal	normal	speak	
+s	@	对这个歌词你就没有什么想说的吗？
+p	changxia	c	normal	normal	smile	
+s	周腾	说什么？
+p	changxia	c	happy	angry	speak	
+s	@	所以我刚刚说的话你一句也没听见是吧~
+p	changxia	c	happy	angry	smile	
+s		常夏生气地掐了一下我的手肘，不痛不痒。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你看这句歌词，不觉得很别扭吗？

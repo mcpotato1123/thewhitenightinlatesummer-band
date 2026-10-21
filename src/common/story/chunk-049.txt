@@ -1,0 +1,128 @@
+s		没想太多，我便给出了自己的回答。
+p	changxia	c	normal	angry	speak_angry	
+s	@	又没做完！？这次开学就高三了，好歹得有点紧迫感吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	你别告诉我你又准备去教室抄葛城的…！
+p	changxia	c	normal	angry	confused	
+s	周腾	葛城……葛城！？
+p	changxia	c	normal	sad	speak_angry	
+s	@	怎么了突然，大喊大叫的…别吓我啊！
+s	周腾	那个……我肚子突然好不舒服，我先去那边的公共厕所蹲个坑！
+p	changxia	c	happy	sad	speak	
+s	@	肚子痛？好吧好吧那你快去，我在门口等你。
+p	changxia	c	happy	sad	smile	
+s	周腾	要不常夏你先去学校吧，我估计我得蹲好一会才行。
+p	changxia	c	normal	sad	confused	
+s	@	……
+p	changxia	c	normal	sad	speak_angry	
+s	@	你真的不要紧吗？在你家的时候我就觉得你怪怪的，现在又弄这一出。
+s	@	你要真的病了可别强撑着啊，我陪你去医院。
+p	changxia	c	normal	sad	confused	
+s	周腾	不用，真的就只是肚子痛而已！
+p	changxia	c	normal	confused	speak_angry	
+s	@	真的…？
+p	changxia	c	normal	confused	confused	
+s	周腾	哎呀是真的，你快去学校吧，别因为我迟到了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	那、那我先走了啊，中午下课我再来找你。
+p	changxia	c	normal	normal	confused	
+s	周腾	没问题~
+h	changxia
+s		在常夏完全消失在我的视野里之后，我才松了口气地走进了公厕。
+s		那个帖子我还记得……
+s		“你知道吗？在8月31日留下深刻遗憾的人，可能会在当天晚上十二点过后，被困在8月32日，永远与现实脱轨......”
+s		时间刚好对上了，如果遗憾指的是常夏的意外车祸，那有没有一种可能……
+s		并不是只有我一个人进入了“8月32日”……？
+s		同时符合条件的应该还有余洛琛、葛城、辉夜奏和常夏父母，只要我现在给他们几个人依次打电话问话，便能弄清楚刚刚问题的答案。
+j	6309
+s		没有思考太多，我首先拨通了葛城的电话号码。
+s		从听筒传来的“嘟嘟声”让人有些烦躁，甚至让我产生了一丝想要砸门的冲动。
+s		我知道急也没用，我也知道…就算我再怎么急，有些事情的结果也不可能会如我的心意那样而发生变化。
+s		正如我所预料到的那样，电话无人接通……
+s		葛城大概是还在睡觉？又或者是手机开勿扰模式了没有接到电话？
+s		也可能他已经去学校了，所以不太好看手机…？
+s		……
+s		我给自己找了一万种葛城没有接电话的理由，唯独没往他没有进入8月32日的这方面去想。
+s		或者说，其实我早就想到了，单纯只是我自己不愿意接受这种事实。
+s		在这之后，我给余洛琛还有辉夜奏打了电话，最后得到的结果都是“暂时无人接听”。
+s		一种很矛盾的情绪从我的心底涌了上来。我既感到不安，又感到一丝庆幸。
+s		不安是因为，此时此刻的我无法联系上任何人。我必须得做好孤身在8月32日里寻找离开方法的心理准备。
+s		之所以感到庆幸，也是因为我无法联系上任何人。
+s		如果真的只有我一个人被困在了8月32日，倒也算是能接受的结果了。
+s		至少这证明了其他人还安全的活在现实世界里，不是么？
+s		又沉思了五分钟左右，我才放平心态，推开了公共厕所的门。
+s		污浊的空气涌进了我的鼻腔，外面的天色依旧昏沉，昏沉的不像是早上。
+s		路上的学生和上班族就这样从我身边擦肩而过，他们就像是没事人一般地有说有笑，丝毫不觉得此时此刻的光景有任何问题。
+s		当然，我也见到了一些熟面孔。
+s		那些我每天上学路上都会碰到的卖菜的老婆婆，依然在路边摆着摊；便利店的店员也还是那几个年轻人，他们在看到我之后也会主动和我打声招呼。
+s		这里和现实差别很大，但又好像没什么差别。
+s		然而，“他们”并不是他们，只是所谓的复制体，就像是从现实世界照到这里的投影。
+s		在这些路人的眼中，我是穿着校服准备去学校的学生；在常夏的眼中，我是疑似生病没有好好赴约、有着奇怪举动的青梅竹马。
+s		在“他们”眼里，我也是“影子”，可只有我知道，我还是我。
+s		所有人一如既往地做着自己的事，唯独只有我、有着两个世界的记忆，夹杂在中线上的我……
+s		成为了最突兀、最扭曲、也最不合群的那颗铁钉……
+p	changxia	c	normal	sad	speak_angry	
+s	@	怎么样，肚子好些了么？
+p	changxia	c	normal	sad	sad	
+s	周腾	常夏…？
+s	周腾	我不是让你先回学校去吗，你怎么还在这里。
+p	changxia	c	normal	sad	speak_angry	
+s	@	这不是因为放心不下你嘛。
+s	@	毕竟你今天给我的感觉太奇怪了。没准时赴约就算了，还又认错日期，又突然说什么肚子痛……
+p	changxia	c	normal	sad	sad	
+s	周腾	……抱歉，让你担心了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	所以，好些了吗？
+p	changxia	c	normal	sad	confused	
+s		……
+s		“没有，反而更糟了。”，我本想这么对着常夏回答，我甚至…现在就想抱住常夏，狠狠地在她怀里大哭一顿，但我还是忍住了。
+s		最后，只能从嘴里吐出一句违心的谎话。
+s	周腾	没事，已经好多了，可能是昨天吃坏肚子了吧~
+p	changxia	c	normal	normal	confused	
+s	@	……
+j	6355
+s		常夏望着我，似乎有什么话想说。但在沉思了许久之后，还是没有选择从嘴里吐出一个字。
+s		就像往常一样，常夏再一次地看穿了我的谎言。
+s		每当她无言地望着我时，基本就是代表着她已经摸清了我的真实想法。只是出于礼貌或者其他更复杂的原因，才没有选择当面揭穿我。
+p	changxia	c	normal	normal	speak_angry	
+s	@	那要不，现在去药店买些胃药？
+p	changxia	c	normal	normal	confused	
+s	周腾	现在药店还没有开门吧，要买也只能等到放学了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	你撑得到那个时候吗。
+p	changxia	c	normal	normal	confused	
+s	周腾	当然，说不定连胃药都不用吃就好了呢。
+p	changxia	c	normal	normal	smile	
+s		听完我的话常夏只是笑了笑，之后便快步地朝着学校的方向走去了。
+h	changxia
+s		路上学生很多，如果不紧跟着常夏的脚步，搞不好就会走丢在人群中。
+s		虽说就算真的走丢了也不会出事，之后在学校里还是可以见到，但现在的我，在经历了“那件事”之后……
+s		一刻也不想让常夏从自己的视线范围内消失。
+s		抱着这样的想法，我加速地追了上去…
+p	changxia	c	normal	normal	speak	
+s	@	看起来你精神状态还可以嘛，根本就不像是吃坏了肚子的样子。
+p	changxia	c	normal	normal	smile	
+s	周腾	为什么这么说？
+p	changxia	c	normal	normal	speak	
+s	@	因为我走得这么快你都可以追上来啊，你要真肚子不舒服，肯定跑两步就得蹲在地上哀嚎了。
+p	changxia	c	normal	normal	smile	
+s	周腾	这还不是因为我意志力足够坚定！忍着肚子痛也要追上你的步伐。
+p	changxia	c	happy	angry	speak	
+s	@	还‘追上我的步伐’呢！学什么文艺电影台词啊…
+p	changxia	c	normal	normal	speak	
+s	@	难道无论我走到哪里，你都会跟着我一起吗？
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+s		我迟疑了，我没想到自己会在这个问题上迟疑。
+s		我并非是没有想好自己的答案，而是单纯地觉得有些可悲和可笑……
+s		现在在我面前站着的常夏，只是具‘影子’罢了。真正现实世界里的常夏直到现在都还生死未卜。
+s		那场意外车祸实在是来得太突然了，尽管我第一时间不在现场，但也还是看到了常夏那副血淋淋的样子……
+s		如此夸张的伤势，即使医生真的能够将常夏从死门关拉回来，她的下半辈子也多半只能在床上度过了。
+s		在知晓这些事情的情况下，我究竟应该抱着什么样的心情去面对常夏刚刚说出来的那句话呢？
+p	changxia	c	normal	sad	speak_angry	
+s	@	你、你别愣着不说话啊，搞得我也有些不好意思了。
+p	changxia	c	normal	sad	confused	
+s		常夏大概也是意识到了气氛的尴尬之处，她刻意地撇开了脑袋，假装若无其事地看起了周围的风景。
+s	周腾	没事没事，先去学校吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	嗯，开学第一天就迟到的话，确实影响有些不太好呢。

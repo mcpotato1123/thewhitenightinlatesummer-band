@@ -1,0 +1,128 @@
+p	kanade		normal	surprise	confused	
+s	周腾	我只是怕这个称呼，会让你觉得尴尬……
+p	kanade		normal	sad	surprise	
+s	辉夜奏	我…其实也不知道这样算不算尴尬。
+s	辉夜奏	刚刚听你突然这么喊我的时候，身上有种麻麻的感觉。
+p	kanade		happy	sad	surprise	
+s	辉夜奏	额头和脸也变得有些烫烫的……
+p	kanade		happy	sad	smile	
+s	周腾	是、是嘛，这应该就是尴尬的感觉吧，哈哈哈……
+s		我有些不自然地对着辉夜奏笑了起来。
+s		事实上，奏的那种反应并不算尴尬，我刚刚的反应才是如假包换的尴尬。
+s		……
+p	kanade		normal	normal	confused	
+s		话题结束之后，气氛变得有些怪异。
+s		辉夜奏就这样半低着头坐在我床边，什么也不做，什么也不说。
+s		或许是在休息吧，毕竟她刚刚也说到过自己的身体提不起劲。
+s	周腾	那个，你不去学校么？
+p	kanade		normal	normal	speak	
+s	辉夜奏	不去，我就在这里照顾你。
+p	kanade		normal	normal	confused	
+s	周腾	可是你…你身体也很不舒服吧，别说照顾我了，你自己要不要紧都还是个问题。
+s	周腾	而且你在这里也什么都做不了啊，玩不了手机，也没力气买东西做饭。
+s	周腾	咱俩总不能就一直坐在这里干瞪眼吧。
+p	kanade		normal	normal	speak	
+s	辉夜奏	就这样一直看着你，其实也挺不错的~
+j	16410
+p	kanade		normal	normal	smile	
+s	周腾	那我也还是希望你能够好好休息，就算不愿意去学校，也得回家去好好睡觉。
+p	kanade		normal	sad	speak	
+s	辉夜奏	可是我已经没力气走路了，走到你家来我就用了一大半的力气了。
+p	kanade		normal	normal	speak	
+s	辉夜奏	反正都是睡觉，要不…
+p	kanade		happy	normal	speak	
+s	辉夜奏	我就睡在前辈你这里吧。
+p	kanade		happy	normal	confused	
+s	周腾	啊？等等…！小奏你、你要干嘛——！？
+s		辉夜奏缓缓站起了身来，有些吃力地掀开了我的被子，将一条腿搭在了我的床上。
+s		本以为她是想爬到床上来，但最后也仅仅只是放上来了一条腿，另一条腿迟迟没有动作。
+p	kanade		normal	normal	speak	
+s	辉夜奏	前辈被吓到了吗。
+p	kanade		normal	normal	confused	
+s	周腾	坦率地说，确实被吓到了……
+p	kanade		normal	normal	speak	
+s	辉夜奏	前辈放心好了，即使是我也是有基本的常识的。
+s	辉夜奏	女孩子不能随随便便地就和男孩子躺在一张床上，这点我还是知道的。
+p	kanade		normal	normal	confused	
+s	周腾	你既然知道刚刚还那么做…！
+p	kanade		normal	normal	speak	
+s	辉夜奏	只是想看看前辈的反应而已。
+p	kanade		normal	normal	confused	
+s	周腾	现在看到了，你满意了吗？
+p	kanade		normal	sad	speak	
+s	辉夜奏	没有。
+p	kanade		normal	sad	confused	
+s	周腾	啊？
+p	kanade		normal	sad	surprise	
+s	辉夜奏	我本以为那样做可以让你恢复力气打起精神的，但是你的脸色还是好差。
+p	kanade		normal	sad	confused	
+s		辉夜奏重新安稳地坐回到了床边上，经过刚刚那么一折腾，她看起来也越来越疲惫了。
+s	周腾	恢复不了才正常吧，病人又不会因为你在他面前跳了个舞他就痊愈了。
+p	kanade		normal	normal	speak	
+s	辉夜奏	说不定呢，8月32日都真实存在了，那么出现更离奇一些的事情也不是没有可能吧。
+p	kanade		normal	normal	confused	
+s	周腾	你这已经是属于心想事成的范畴了好不好！
+s	周腾	不过话又说回来，我…其实真的很担心现在的状况。
+p	kanade		normal	normal	speak	
+s	辉夜奏	担心什么？
+p	kanade		normal	normal	confused	
+s	周腾	这是我们第四轮还是第五轮8月32日了来着？嘶，我有点不太记得了。
+s	周腾	但我知道的是，大家最近的身体状况越来越差了。
+s	周腾	不是会突然地觉得肚子饿，就是浑身没力气打不起精神。
+s	周腾	走不动路，除了睡觉什么事情都不想做。
+s	周腾	其实前几天我就发现这个情况了，余洛琛也好，葛城也好，包括小奏你也好……大家都在抱怨这个事情。
+s	周腾	一开始我觉得状况还不算严重，所以也没有太在意。
+s	周腾	直到今天连下床都困难的时候，我才意识到了问题的严重性。
+p	kanade		normal	surprise	speak	
+s	辉夜奏	果然啊……
+p	kanade		normal	surprise	confused	
+s	周腾	果然…？果然什么？
+p	kanade		normal	normal	speak	
+s	辉夜奏	其实从第二天开始，我就觉得不对劲了，但是因为害怕影响到大家的心情，所以就迟迟没有说出来自己的担忧。
+p	kanade		normal	normal	confused	
+s	周腾	我能理解的，就是那种无助感吧。
+s	周腾	看着自己和身边的人身体一天天越来越差，自己却什么都做不到。
+s	周腾	8月32日虽然一直在循环，但身体照这个情况恶化下去，鬼知道之后会发展成什么样哦。
+p	kanade		normal	normal	sad	
+s	辉夜奏	……
+s		辉夜奏没有回答我，不过这一次我倒是希望她不要说话。
+s	周腾	如果学校里的大家都出问题了的话，反倒更好理解，毕竟还可以说是在食堂里吃坏了肚子啊，或者是和学校其他有关的原因什么的。
+s	周腾	但让我有些不理解的是，出问题的好像只有我们四个人，学校里的大家都没事，常夏看起来也还是活蹦乱跳的。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	大概确实是只能影响到我们吧，毕竟我们的四个人的手机到这边来也坏掉了嘛。
+p	kanade		normal	normal	confused	
+s	周腾	坏掉的手机……
+s		辉夜奏的话让我沉思了一会。我突然想起来，葛城新买的那个手机好像是可以正常使用的。
+s	周腾	也许不是我们的手机坏掉了，只是我们的手机没办法用这边的充电器充电？
+s	周腾	同样的，既然8月32日的充电器没办法正常使用……
+s	周腾	那8月32日的食物和水，是不是也没有办法给我们提供正常的能量补给——！？
+j	16483
+p	kanade		normal	normal	sad	
+s	辉夜奏	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	不应该吧，如果真的是这样的话，四天吃不了饭喝不了水我们早就起不来床了。
+s	辉夜奏	至、至少，我今天还有力气能够走到你家里来。
+p	kanade		normal	normal	sad	
+s	周腾	目前我也只是猜测，你硬要我用切实的证据来证明这个事情的合理性，我也没办法拿出来。
+s	周腾	也许不是补充不了能量，只是能够转化且被我们使用的能量太少了呢？
+s	周腾	举个例子，以前我们吃饭，可能只要吃一份汉堡套餐就吃饱了。
+s	周腾	但是在这边，可能得吃四份、甚至是十份汉堡套餐才能给身体补充足够的能量。
+s	周腾	当然这还是最好的情况，如果只靠加倍进食就能够满足身体的能量需求，那8月32日也没什么好可怕的。
+s	周腾	就怕……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	就怕它会在你不知不觉中耗光你所有的体力，除了些许的饥饿感之外，你感觉不到什么其他的不适感。
+s	辉夜奏	一些小说和电影里不是经常会有这种设定吗，就是那种失去了痛觉的人类。
+s	辉夜奏	无论受了多么严重的伤都感觉不到痛，但是一旦伤势达到了致命的程度，当事人就再也没法正常行动了。
+s	辉夜奏	最终平静的死去……
+p	kanade		normal	normal	sad	
+s		辉夜奏的一番话让我有些毛骨悚然，这是在暗示我们的结局么？
+s	周腾	幸亏及时意识到了这一点，要不然之后会发生什么样的事情，简直不敢想……
+p	kanade		normal	normal	speak	
+s	辉夜奏	意识到了这件事情，又能怎么办呢。
+p	kanade		normal	normal	confused	
+s	周腾	啊……
+p	kanade		normal	normal	speak	
+s	辉夜奏	你有任何解决办法吗，其他人有任何解决办法吗？大家都无能为力。
+s	辉夜奏	发现问题很容易，但是解决问题却很麻烦。
+s	辉夜奏	尤其是在明确地知道了这个问题无法被解决之后。那种绝望的感觉……
+s	辉夜奏	所以之前，我才没有第一时间告知你们…

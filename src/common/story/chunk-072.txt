@@ -1,0 +1,128 @@
+s	@	还有，你一个大男生干嘛要双手交叉放在身前啊，感觉怪扭捏的。
+g	cg8
+s	周腾	这、这是因为…
+g	cg8
+s	@	因为？
+s	@	算了不管这些，赶紧夸我！随便什么词就行~
+g	cg8
+s	周腾	……
+s	周腾	还挺大……
+g	cg8
+s	@	……
+g	cg8
+s	@	啊…？
+s	@	我是不是听到了什么很不得了的…评价……
+g	cg8
+s		常夏的脸一下子涨红了起来，也是这个时候我才意识到，我不小心把自己心里最真实的想法给说出了口。
+s	周腾	我、我是说，看起来还挺大家闺秀的？哈哈…
+g	cg8
+s	@	哦，哦……
+s	@	大家闺秀应该形容在这种时候吗…？怎么感觉怪怪的。
+g	cg8
+s	周腾	哎呀，我也是第一时间想出来的这个词嘛，总之就是很好看，很喜欢！
+g	cg8
+s	@	不管怎么样，还是谢谢你的夸奖啦~
+j	9241
+b	black
+s		…
+s		……
+s		…………
+b	street_afternoon
+p	changxia	c	happy	sad	speak_angry	
+s	@	总感觉今天有点玩得过火了，浑身好酸痛啊……
+p	changxia	c	happy	sad	sad	
+s		从水上乐园出来之后，常夏就一直在抱怨着，明明刚才往我身上泼水的时候还挺起劲的。
+p	changxia	c	normal	normal	speak	
+s	@	不过应该还好吧，至少水没有弄在你校服上面。
+p	changxia	c	normal	normal	smile	
+s	周腾	校服都脱了，肯定不会弄湿啊。
+p	changxia	c	normal	normal	speak	
+s	@	那也是我叫你脱的。不过…
+s	@	稍微有些没想到呢……
+p	changxia	c	normal	normal	smile	
+s	周腾	没想到什么？
+p	changxia	c	normal	confused	speak	
+s	@	没想到你的身材还挺好的…？嗯，也不是说很好吧，就是看起来很舒服，很干净的感觉。
+p	changxia	c	normal	confused	smile	
+s		常夏突然停下了脚步，戳了戳我的肚子，然后对着我吐舌头卖起了萌来。
+p	changxia	c	happy	normal	speak	
+s	@	嘿嘿~
+p	changxia	c	happy	normal	smile	
+s	周腾	有什么好戳的…而且哪里身材好了啊，我又没有腹肌。
+p	changxia	c	normal	confused	speak	
+s	@	男生又不是一定得要有腹肌才能叫做身材好，就好比女生，又不是必须得胸大才能说性感。
+p	changxia	c	normal	confused	smile	
+s	周腾	……
+s		常夏的话让我再一次地想起了刚刚还在水上乐园时发生的一些事情。
+s		因为地板比较滑，常夏在玩水的时候直接滑到摔在了我身上。
+s		虽然我和她的身体都没有什么大碍，甚至连一点皮外伤都没有受，但……
+s		她压在我身上时，那个“壮观的景象”，还是给我的心灵带来了不小的震撼……
+p	changxia	c	normal	confused	speak	
+s	@	你怎么又不说话了？噫……
+s	@	你是不是又在想些什么不得了的事情呀~
+p	changxia	c	normal	confused	smile	
+s		常夏用胳膊肘轻怼了我两下，语气里充满了挑逗和戏谑，就连看着我的眼神都变得意味深长了起来……
+s	周腾	我什么都没想。
+p	changxia	c	normal	confused	speak	
+s	@	骗人！鬼才信呢，你脸都红了还说什么都没想。
+s	@	想了就想了嘛，大大方方地说出来，你今天可是我的男朋友，怕什么啊~
+p	changxia	c	normal	confused	smile	
+s	周腾	是的是的~我对不起你~我肮脏的大脑又忍不住地回想起了那种事情，对不起，下次一定不会了！
+p	changxia	c	happy	sad	speak	
+s	@	哇…倒也没必要这样子道歉吧，虽然听起来还是很敷衍。
+p	changxia	c	normal	normal	speak_angry	
+s	@	不过我是不会太计较这种事情的，反正……
+s	@	反正一两个月过后，又或者半年过后，你也还是会把今天的事情给忘掉的吧。
+s	@	就像你忘记了我们初中时候的那些事情一样。
+p	changxia	c	normal	normal	confused	
+s	周腾	……
+s	周腾	我不会忘记的。
+p	changxia	c	normal	confused	speak_angry	
+s	@	虽然这次没有撒谎，但你上次也是这么说的…
+p	changxia	c	happy	sad	speak	
+s	@	哎呀都怪我，你看我…怎么又开始说这种扫兴的话了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	今天难得翘课出来好好放松一下，好久都没和你两个一起玩得这么开心了，结果我……
+p	changxia	c	normal	surprise	confused	
+s	周腾	对不起。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	干嘛说对不起呀……
+p	changxia	c	normal	surprise	confused	
+s	周腾	如果那些经历真的存在，我会想办法去把他们回想起来的。
+p	changxia	c	normal	normal	smile	
+s		常夏没有说话，只是对我甜甜地笑了笑。
+p	changxia	c	normal	normal	speak	
+s	@	我呀…并不是那种贪得无厌的女孩子，能像今天这样和你一起……
+s	@	我就已经很满足很高兴了。
+p	changxia	c	normal	normal	smile	
+s	周腾	……
+p	changxia	c	normal	normal	speak	
+s	@	好了，送我回家吧，我的男朋友~
+b	black
+j	9319
+e
+c	好像快要消失一般
+b	white
+b	black
+s		这个时间点地铁上的人并不多，我和常夏也是成功地找到位置坐了下来。
+s		但让我有些意外的是，从上地铁到下车出地铁站，常夏都没有开口说话。
+s		而是一边戴着耳机听着音乐，一边看着车窗外，不知道在想些什么心事。
+s		常夏就是这样，当你觉得你不了解她的时候，她会告诉你自己的心思其实就那么简单。
+s		当你觉得你足够了解她了的时候，她却又表现出一幅摸不透的样子。
+b	street_afternoon
+p	changxia	c	normal	normal	confused	
+s		外面的空气果然要比地铁站里的清新一万倍，尽管地铁站里有空调，但车厢里聚集起来的汗臭味儿实在是让人难以忍受。
+s		不知道是不是在水上乐园玩得太尽兴了，肚子突然饿了起来。
+s		这种饥饿感来得十分突然且强烈，就连我自己都没有预料到。
+s		要不是在逛街的时候吃了冰激凌补充了能量，搞不好现在就直接昏倒在路边了。
+s	周腾	是回学校还是直接把你送回家？
+p	changxia	c	normal	normal	speak_angry	
+s	@	直接回家吧，我就说我有点身体不舒服，请假回来休息。
+p	changxia	c	normal	normal	confused	
+s	周腾	嗯。
+s		常夏跟在我身旁，半低着头，似乎在酝酿着什么。
+s		这种低气压的气氛让我有些不太舒服。
+p	changxia	c	normal	normal	speak_angry	
+s	@	周腾，我是不是已经死了。
+p	changxia	c	normal	normal	confused	
+s	周腾	啊？

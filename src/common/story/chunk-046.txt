@@ -1,0 +1,128 @@
+h	yuluoshen
+s		余洛琛笑着跑开了，葛城则是留在原地等候，有些无奈地叹了口气。
+p	gecheng	r2	normal	normal	speak	
+s	葛城	是我听错了吗，她刚刚是不是‘啧’了一声？
+b	black
+s		……
+b	street_night
+p	yuluoshen	c	normal	normal	speak	
+s	周腾	余洛琛？
+s	余洛琛	你终于来了，可把我等死了！
+p	yuluoshen	c	normal	normal	close	
+s	周腾	这不是还早吗，我们还是提前来的呢。对了，葛城呢？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	在路边上等着呢，明明他自己也来得那么早，还说我。
+p	yuluoshen	c	normal	normal	close	
+s	@	你俩吵架了？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	没有，就是我抱怨了几句，然后他有些不耐烦而已。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	抱怨什么了？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	……没什么。
+p	yuluoshen	c	normal	confused	speak	
+s	余洛琛	等下，我怎么没看见奏，刚刚还看到了的？
+h	yuluoshen
+p	kanade	c	sad	sad	confused	
+s	辉夜奏	唔呜……
+s	余洛琛	啊！我看到你啦！怎么躲周腾后面啊，快过来让姐姐我摸摸头~
+p	kanade	c	happy	sad	speak	
+s	辉夜奏	你、你别过来——！！
+h	kanade
+s		在来的路上，辉夜奏就一直在和我吐槽余洛琛的事情，说什么老被她摸头揉脸的。
+s		本以为今天人多余洛琛会收敛一些，结果和我想的情况恰恰相反……
+p	yuluoshen	r	happy	normal	speak	
+s	余洛琛	哎呀别跑哇！我就摸一下而已，又不会少一块肉，小小奏快过来~
+h	yuluoshen
+p	changxia	c	normal	normal	speak	
+s	@	原来余洛琛和小奏关系这么好？
+p	changxia	c	normal	normal	smile	
+s	周腾	因为奏老是来班上找我，然后余洛琛也总是来我们班找我和葛城聊天，时间久了关系自然而然地就变熟了。
+s	周腾	不过嘛，虽然余洛琛很爱和奏玩，但是奏却有点害怕余洛琛。
+p	changxia	c	normal	confused	speak_angry	
+s	@	害怕…？就因为刚刚那种情况？
+p	changxia	c	normal	confused	confused	
+s	周腾	很正常啊，要是我一见到你就把你当毛绒玩具一样摸头揉脸盘头发，你难道不会害怕我吗？
+p	changxia	c	happy	normal	speak	
+s	@	嗯…不如说我还挺期待这种情况会发生一次的？
+p	changxia	c	happy	normal	smile	
+s	周腾	？？？
+p	changxia	c	normal	normal	speak	
+s	@	开玩笑的啦，我大概能理解小奏为什么会害怕了。
+h	changxia
+p	kanade	c	happy	sad	surprise	
+s	辉夜奏	周腾！快…快救我——！！
+p	kanade	c	happy	sad	confused	
+s		还没等我反应过来，不知是从哪儿窜出来的奏，躲在了我的背后面。
+s		我下意识地挡在她前面护住了她，意料之中地换来了余洛琛的皱眉和白眼。
+h	kanade
+p	yuluoshen	c	normal	angry	speak	
+s	余洛琛	周腾，你到底是和谁一伙的？
+p	yuluoshen	c	normal	angry	close	
+s	周腾	我？我……我秩序中立行不行？
+p	yuluoshen	c	normal	angry	speak	
+s	余洛琛	不行，给我让开！
+p	yuluoshen	c	normal	angry	close	
+s		我有些犹豫要不要让开，但辉夜奏似乎也察觉到了这一点，抓着我衣服的手更紧了。
+s	周腾	这…情况就是这么个情况，我也很难办啊，
+p	yuluoshen	c	normal	angry	speak	
+s	余洛琛	难办？那就别办了！
+s		余洛琛朝着我快步冲了过来，然而她的目标似乎并不是我身后的辉夜奏……
+p	yuluoshen	c	happy	angry	speak	
+s	余洛琛	揉不了小小奏的脸，我还揉不了你的吗！？
+s		余洛琛用着暴躁的手法，疯狂地搓着我那并不算柔嫩的脸蛋，出门前细心整理了一番的头发也被她弄得乱糟糟的。
+s		这次算是切身体会到，为什么辉夜奏会那么害怕余洛琛了。
+h	yuluoshen
+s		……
+p	gecheng	c	happy	normal	happy	
+s	葛城	我是说你们几个怎么半天不过来，原来隔这玩儿‘老鹰捉小鸡呢’？
+p	gecheng	c	happy	sad	happy	
+s	葛城	呃，不过遭殃的不是‘小鸡’而是‘鸡妈妈’，还是让我有些意外的……
+s	余洛琛	谁要这个笨蛋挡着不让开，捉不到小鸡那我不就只能拿鸡妈妈开刀嘛？
+s	周腾	一定要给我变性成鸡妈妈吗，鸡爸爸可不可以……
+p	gecheng	c	normal	normal	speak	
+s	葛城	行了行了，别鸡妈鸡爸了~准备一下去店里吃饭，我中午都没怎么吃东西的，还被留下来打扫了半天教室，快饿死了……
+h	gecheng
+p	changxia	c	normal	normal	confused	
+s	@	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	那个，要不你们先进去点菜？我这边临时有点事情要办……
+p	changxia	c	normal	normal	confused	
+s	余洛琛	怎么了，出什么大事了吗？
+p	changxia	c	happy	sad	speak	
+s	@	不是什么大事啦，就是…‘星期八咖啡’的店长今天不是最后一天开店嘛。
+p	changxia	c	normal	normal	speak	
+s	@	他离开江城之前说要送我一台便捷咖啡机和几袋子咖啡豆，要我现在过去拿一下。
+p	changxia	c	normal	normal	smile	
+s	余洛琛	‘星期八’之后就关门了？我还是第一次知道这事儿，还有……
+s	余洛琛	就不能吃完饭再去嘛，非得现在去？
+p	changxia	c	happy	sad	speak	
+s	@	可能店长马上就要走了吧，时间上来不及。再说了…人家送我东西，我总不能让人家一直在店里等着我吧。
+p	changxia	c	happy	sad	smile	
+s	周腾	下午去咖啡厅的时候他怎么不给你？
+s	辉夜奏	怪我，是我当时走得太急了。
+s		辉夜奏主动揽责，仔细想想也确实是这个原因就是了。
+p	changxia	c	normal	normal	speak	
+s	@	总之我就先过去了，反正来回也不是很远，打个车一去一回很快的~
+p	changxia	c	normal	normal	smile	
+s	周腾	那个…等一下！
+p	changxia	c	normal	normal	speak_angry	
+s	@	怎么了？
+p	changxia	c	normal	normal	confused	
+m	……6000我陪你一起去吧。6001路上小心，早点回来。6010
+j	6017
+v	tsangxia_love	+1
+s	余洛琛	你就别去捣乱了……
+s	余洛琛	礼物本身也不是送给你的，你要是去了，人家店长还得考虑要不要给你也送点什么，好歹有点眼力见嘛~
+s	周腾	也是。
+p	changxia	c	normal	normal	speak	
+s	@	没事啦，我很快就回来的，到时候咖啡豆也分给你一些，或者来我家也可以，我用店长送的机器亲自给你手冲咖啡！
+h	changxia
+s		笑着丢下这句话之后，常夏便朝着马路的另一头跑去了……
+j	6017
+v	kanade_love	+1
+p	changxia	c	normal	normal	speak	
+s	@	我会的，你们先去点菜吧。菜要是先上来了就先吃，不用等我~
+h	changxia
+s		笑着丢下这句话之后，常夏便朝着马路的另一头跑去了。
+s		辉夜奏看着她消失的方向，过了许久才回过神来……

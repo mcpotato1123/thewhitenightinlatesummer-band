@@ -1,0 +1,128 @@
+p	changxia	c	normal	normal	speak	
+s	@	理由的话，他们倒也和我说过，原因挺简单的。
+s	@	一是因为我在夏天出生，二是因为我爸妈是在夏天相识相恋的，至于第三点嘛……
+s	@	我妈说她非常非常喜欢吃冰激凌、喝冰饮，然后又特别特别喜欢穿清凉的小裙子和各种夏装。
+s	@	她就经常说什么，要是这个世界上一年四季都是夏天就好了，甚至还让我们以后再也不准说‘春夏秋冬’这个词，要改成‘夏夏夏夏’！
+p	changxia	c	happy	normal	speak	
+s	@	于是她一拍脑门一想，诶！要不我们的女儿就叫‘常夏’吧！
+p	changxia	c	normal	normal	speak	
+s	@	喏，就是这样了。
+p	changxia	c	normal	normal	smile	
+s	周腾	原来你的名字，背后有着这么恶毒的含义啊……
+s	周腾	要真每一天都是夏天的话，那江城估计遍地都是‘熟人’了。
+p	changxia	c	happy	normal	speak	
+s	@	谢邀，这个冷笑话老掉牙了，想个新的~
+s	周腾	我脑容量有限，想不出来了。
+p	changxia	c	normal	normal	speak	
+s	@	不过话说回来，我倒并非不能理解我妈啦，你想想看……
+s	@	要是你喜欢的东西全部都集中在一个季节里，或者说只能出现在这个季节里，那你也会希望这个季节一直存在吧？
+p	changxia	c	normal	normal	smile	
+m	……5524感觉还挺有道理的！5525感觉还挺有道理的！！5533感觉还挺有道理的！！！5541
+j	5549
+p	changxia	c	happy	normal	speak	
+s	@	对吧，很简单的道理啊，我就知道周腾你能理解~
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+h	changxia
+s		不知道为什么，虽然想反驳常夏的发言，但却又找不到太好的角度。
+s		脑子有些乱，大概是上午的开学典礼让人有些体力不支了吧。
+j	5549
+p	changxia	c	happy	normal	speak	
+s	@	对吧，很简单的道理啊，我就知道周腾你能理解~
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+h	changxia
+s		不知道为什么，虽然想反驳常夏的发言，但却又找不到太好的角度。
+s		脑子有些乱，大概是上午的开学典礼让人有些体力不支了吧。
+j	5549
+p	changxia	c	happy	normal	speak	
+s	@	对吧，很简单的道理啊，我就知道周腾你能理解~
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+h	changxia
+s		不知道为什么，虽然想反驳常夏的发言，但却又找不到太好的角度。
+s		脑子有些乱，大概是上午的开学典礼让人有些体力不支了吧。
+j	5549
+b	black
+s		……
+j	5552
+b	street_noon
+s		和常夏一起随便吃了点炸串聊了会天，时间很快地过去了，但气温却一点不见降。
+s		等我们再次回到校门口，才发现辉夜奏早就躲在了一旁的树荫下等候多时了。
+s	辉夜奏	周腾，还有常夏姐，没想到你们出来的这么早~
+p	kanade	c	happy	normal	smile	
+s		辉夜奏小跑着朝着我和常夏走来，看起来心情似乎不错。
+p	kanade		normal	normal	smile	
+s		她先是打量了一会常夏那还带着些许油光的嘴角，随后又盯着她的眼睛看了半天，就好像是在施展什么读心术似的。
+p	kanade		normal	surprise	speak	
+s	辉夜奏	我本以为常夏姐今天还是会给周腾做便当吃，没想到……
+p	kanade		normal	angry	speak	
+s	辉夜奏	你们两个人居然偷偷跑到学校外面吃大餐了！
+p	kanade		normal	angry	confused	
+s	@	校门口的小摊是什么很高级的美食吗……还有，只是一起吃个饭而已，不至于用‘偷偷’这个词来形容吧。
+p	kanade		normal	angry	speak	
+s	辉夜奏	首先，对于我来说，除了食堂的饭菜之外，其他小摊的食物都可以被称之为大餐。
+s	辉夜奏	其次，今天可是开学报道的日子。按道理来说我们三人不是应该聚在一起好好吃一顿才对吗？
+p	kanade		normal	angry	confused	
+s	周腾	今晚不是提前约好了要和余洛琛她们一起聚餐吗，所以中午就随便吃了。另外话说回来……
+s	周腾	奏，是我的错觉吗，你是不是在刻意模仿常夏的说话方式？
+p	kanade		normal	surprise	speak	
+s	辉夜奏	啊？没有啊……
+s	周腾	不知道为什么，总感觉你今天说话的语气和措辞都有些像常夏。
+s	@	没有吧，哪里像我了？小奏不是一直都是这样的吗？
+s	周腾	哪里一直这样啊！
+p	kanade		normal	normal	speak	
+s	辉夜奏	我看啊，是周腾和常夏姐天天黏在一起太久了，所以看其他女生才会觉得像是常夏姐吧。
+p	kanade		normal	normal		
+s	周腾	没有，我是真的觉得有点……
+s		不知道是从哪个瞬间开始，辉夜奏和常夏带给了我一种微妙的违和感。
+s		我说不清楚是哪里出了问题，但就是觉得有些奇怪。
+p	kanade		normal	normal		smile
+s		可能是我沉默太久了，辉夜奏朝着我靠近了两步，笑着望向了我。
+p	kanade		normal	normal		smile
+s		她没有作声地将双手背在身后，只是看着我。稍有些厚实的刘海遮住了她的右眼，这是我第一次从辉夜奏身上感觉到了“神秘”。
+s	周腾	没事没事，不说这个了，我们还是赶紧去‘星期八’吧，今天说好了要和店长见面的。
+s	@	嗯，赶紧把事情解决吧。
+p	kanade		normal	normal	speak	
+s	辉夜奏	说起和店长见面……为什么要选这个时间？今天是开学报道的日子吧，下午不是还有一些事要处理吗？
+p	kanade		normal	normal	confused	
+s	@	哦，说是这么说，其实中午就可以走了，反正下午也只是抓一些学生来打扫卫生什么的，你走了也没关系。
+s	@	这些是周腾告诉我的。
+s	周腾	你就一定要在结尾加上这么一句么，搞得我像是什么坏学生一样。
+p	kanade		happy	normal	speak	
+s	辉夜奏	我觉得周腾是好学生哦，好学生就应该把时间花在其他更值得花的地方上，对吧？
+p	kanade		happy	normal	smile	
+s	周腾	我就当奏你是在夸我好了……总之，出发吧，无论等会情况怎么样，都得给这个事情画上个句号了。
+p	kanade		normal	normal	smile	
+s		常夏和辉夜奏互视了一眼，轻轻地点了点头。
+h	kanade
+s		一切事情因“8月32日”这个都市传说而起，但整个故事却没有涉及到任何和都市传说有关的要素。
+s		没有灵异事件，没有超自然现象，没有生离死别……只有越来越火热的气温，和漫长又短暂的假期……
+s		我的“暑假”，是不是有些跑题了呢？
+b	black
+s		…
+s		……
+s		…………
+b	street_noon
+s		从学校到咖啡厅并没有花费多长的时间，我承认，在来这里的路上还是有些让人紧张和兴奋的。
+s		当然，这种感觉并没有持续多久，现实给我狠狠地泼了一盆凉水……
+p	kanade	l	normal	surprise	speak	
+p	changxia	r	normal	normal	confused	
+s	辉夜奏	‘本店已打烊’？不是说好了今天见面吗，我们这是被店长给耍了？
+p	kanade	l	normal	surprise	confused	
+p	changxia	r	normal	normal	speak_angry	
+s	@	看样子应该是的了，店里连一个人都没有，灯也是关着的。
+p	kanade	l	normal	normal	speak	
+p	changxia	r	normal	normal	confused	
+s	辉夜奏	所以说，困扰了我们一整个暑假的事情，真的就只是一场闹剧？
+p	kanade	l	normal	surprise	confused	
+p	changxia	r	normal	normal	speak_angry	
+s	@	以店长的性格来说，会开这种玩笑也不是完全不可能……
+p	kanade	l	normal	surprise	confused	
+p	changxia	r	normal	normal	confused	
+s	周腾	……
+s	周腾	要不，现在赶回学校去帮忙打扫卫生？应该还来得及。
+s	店长	……
+s	店长	我听到你们的声音了，门没锁，直接进来吧。
+p	kanade	l	normal	normal	smile	
+p	changxia	r	normal	normal	confused	

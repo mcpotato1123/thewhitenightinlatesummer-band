@@ -1,0 +1,128 @@
+s	周腾	……
+s		葛城的话让我有些不知道该怎么回答，不过仔细想想，我和他下了这么多局围棋，赢的那一方好像基本都是我。
+s	周腾	如果你只是想找高段位的棋手的话，那我建议你去找辉夜老师，他段位和水平可比我们俩都高太多太多了。
+p	gecheng	c	happy	sad	speak	
+s	葛城	你以为我不想找啊！老师有那么多学生要教，每天都很忙的好不好…
+s	周腾	那我这边也很忙啊。
+p	gecheng	c	normal	normal	speak	
+s	葛城	忙着干嘛？忙着每天睡觉睡到中午起，然后早餐中餐一起吃；忙着打一天游戏，然后晚上熬夜不睡觉？
+s	周腾	行了行了，有时间的话我就陪你好吧，别像个蚊子一样一直在我耳边叫了。
+p	gecheng	c	normal	normal	speak	
+s	葛城	你说的啊周腾！你要是骗人的话，你……你以后吃食堂的盖浇饭必吃出蟑螂苍蝇！
+s	周腾	如果我真的在食堂的盖浇饭里吃出了蟑螂，那遭殃的应该不只是我，而是整个学校的学生才对吧？
+p	gecheng	c	happy	sad	smile	
+s	葛城	……
+h	gecheng
+b	classroom_afternoon
+s		专心去做一件事的时候，时间总是会过去的特别快，四十五分钟的晚自习，和葛城聊着聊着就差不多过去了。
+s		虽然时钟显示距离下课时间还有一分钟左右，但是教室里的学生却已经变得躁动兴奋了起来。
+s		他们中的大多数人早已将自己书桌上的东西收拾的干干净净，有的甚至已经背好了书包、屁股离开座位做出了预备起跑的动作。
+s		葛城这边也不例外。距离下课时间还剩不到五分钟的时候，葛城就已经将书包背了起来。
+s	周腾	我很好奇，你这么急是要赶着去投胎么？
+p	gecheng	c	normal	angry	speak	
+s	葛城	你说话攻击性能不能别这么强，我这么急肯定是因为等会有事啊！
+p	gecheng	c	normal	angry	sad	
+s	周腾	让我猜猜看，是不是你爹又要你回去帮忙做饭？
+p	gecheng	c	normal	confused	speak	
+s	葛城	你怎么知道？
+p	gecheng	c	normal	confused	sad	
+s	周腾	大哥！我又不是第一天认识你了，这种事情我怎么可能会猜不出来啊…
+p	gecheng	c	happy	sad	speak	
+s	葛城	没办法啊，我妈本身厨艺不是很行，我爸下班之后也懒得做饭，所以大部分时候就都让我来了。
+s	葛城	我也不想做饭好不好……
+p	gecheng	c	happy	sad	sad	
+s	周腾	我倒是觉得你还挺乐在其中的？这么喜欢做饭，不如去找常夏申请一下加入料理社？
+p	gecheng	c	happy	sad	happy	
+s	葛城	都说啦我也被逼无奈~。
+p	gecheng	c	happy	sad	smile	
+s		面对着嘴硬的葛城，我只是有些无奈地笑了笑。与此同时，最后一节课的下课铃也跟着响了起来。
+s		葛城那边没有多说什么，只是在拍了拍我的肩膀之后，就跟着大批拥挤的学生一起冲出了教室。
+h	gecheng
+s		仅仅不到半分钟的时间，教室里便走空到只剩下几个人。
+s		……
+s	@	啊…我还以为周腾你已经走了呢，没想到居然还在教室里。
+s		熟悉又温柔的声音从我的正前方传来，这突然的声音让我收拾书包的速度都慢下了几分。
+s	周腾	常夏…？你怎么突然跑过来了？
+p	changxia	c	happy	sad	speak	
+s	@	呃，其实也没什么，就是想着…
+p	changxia	c	normal	normal	speak_angry	
+s	@	我们是不是……好久都没有放学一起走过了？
+b	black
+s		……
+b	classroom_afternoon
+p	changxia	c	normal	normal	sad	
+s		一开始刚看到常夏的时候，我还觉得有些意外。
+s		现在听完常夏的话之后，我才意识到，自己确实有很长一段时间没有和常夏一起放学回家了。
+b	classroom_afternoon
+s		自打上了高中以来，我和常夏相处的时间就变得越来越少了。
+s		一方面是因为学业的问题。升入高中之后，学习上的压力要比初中时来得更多。
+s		虽说我不是那么热爱学习的人，但在面对升学的困境时，我也不得不做出妥协。
+s		常夏那边自不用说。她从小到大都是那种很认真的人。无论是面对自己的爱好也好，还是面对学习也好，常夏都会尽自己最大的努力去把一件事情给做到最佳。
+s		另一方面则是社团那边的事情了……
+s		常夏热爱料理，在升入白月高中之后便立马加入了学校的料理社。
+s		只可惜常夏刚加入料理社的那段时间，社团内部的部分人员和社长之间出现了些许矛盾，害得社团差点解散。
+s		好在常夏这边个人能力和组织能力都十分的强，帮着社长一起处理了社团内各种各样的大小琐事，也赢得了不少社团成员的人心。
+s		最终在高二的时候，常夏成功的当选上了料理社的副社长。
+s		在料理社社长刚准备换届的那段时间，社团里有不少人都推选常夏去竞选新一轮的料理社社长，但最后都被常夏用“没有时间”这个看似简单又敷衍的理由给搪塞了过去。
+s		最后没有办法，因为实在是有些拗不过常夏的性子，料理社的大家只好推选了另外一个有能力的人当上了社长。
+s		现在在我看来，常夏没有选择当社长或许是对的。光是当个副社长就已经耗费掉了常夏这么多的业余时间，要是她真的当上社长的话，或许我就没有多少和常夏见面的机会了。
+b	classroom_afternoon
+p	changxia	c	normal	normal	confused	
+s	常夏	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	周腾，你在想什么呢？
+p	changxia	c	normal	normal	confused	
+s		见我许久没有说话，常夏朝着我这边靠近了几步。
+s	周腾	啊！没有没有，我其实是在想…
+s	周腾	好像我们确实很久都没有一起放学回家了呢……
+p	changxia	c	normal	sad	speak_angry	
+s	@	我知道，但这也是没办法的事情…
+p	changxia	c	normal	normal	speak_angry	
+s	@	当上副社长了之后，我几乎每天都要定时定点的去给社团的成员上料理课。
+p	changxia	c	normal	sad	confused	
+s	周腾	可我如果我没记错的话，这些事情应该是由社长来做的吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	是啊，按照常理来说是这样。
+s	@	但社长那边因为是高三的缘故，学业上的压力实在是有些大。
+s	@	他每天大部分的时间都用来刷题和复习了，就连睡觉休息的时间都被压缩了不少，更别说来社团给大家上料理课了。
+p	changxia	c	normal	normal	confused	
+s	周腾	所以——你就替她把这些事情都做完了？
+p	changxia	c	normal	angry	speak_angry	
+s	@	我不做的话还有谁能做？我好歹也是料理社的副社长吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	社长那边因为忙不做事就算了，那我这边要是再不做些什么的话，社团可真就要解散了。
+p	changxia	c	normal	normal	confused	
+s		常夏用着一副理所应当的语气对着我说完了这段话。我本想说些什么话来劝劝她放弃副社长的位置，但思考了半晌之后，那些话也还是没能说出口。
+s	周腾	你啊，应该多花点时间在自己身上。
+s	周腾	我知道你很喜欢做菜，很喜欢和料理有关的事情。但就算是自己爱好的事情，做多了也会觉得累和厌烦的。
+p	changxia	c	normal	sad	speak_angry	
+s	@	这么说来，我好像确实觉得有点……
+p	changxia	c	normal	normal	speak_angry	
+s	@	最近教社团成员做菜的时候，我的注意力大不如前了，做的时候也没有那种高兴的感觉。
+p	changxia	c	normal	normal	confused	
+s	周腾	所以我才说……
+p	changxia	c	normal	normal	smile	
+p	changxia	c	happy	normal	speak	
+s	@	所以，我亲爱的周腾同学，等会要不陪我去喝杯咖啡放松一下？
+p	changxia	c	normal	normal	smile	
+s		还没等我说完，常夏便用着略带调侃的语气对着我说出了刚刚那段话。
+s	周腾	刚好我也很久没去了，今天难得放学一起走，就陪你一起去咖啡厅坐会儿好了。
+p	changxia	c	happy	normal	speak	
+s	@	好耶~Gogogo——！！我要喝他们家新出的‘生椰海盐拿铁’！！
+p	changxia	c	happy	normal	smile	
+s		在得到我肯定的答复之后，常夏便像个小孩子似的，朝着教室门口一蹦一跳地飞奔了过去。
+h	changxia
+s		然而，教室门口却有人突然出现，和正在往前冲的常夏撞了个正着。
+p	kanade	r	happy	sad	surprise	
+p	changxia	l	circle	sad	speak_angry	
+s	辉夜奏	唔呜~痛痛痛……
+s	@	啊啊！不、不好意思！我不是故意的，我只是没太注意教室门口的情况而已……
+p	changxia		normal	surprise	speak_angry	
+s	@	诶？小奏…？
+s		出现在教室门口的并非是什么陌生学生，而是我和常夏都再熟悉不过的人…
+s		白色蘑菇头短发、看起来有些柔弱的身体、还有那张缺乏表情的脸……集齐这些特点与一身的人，也只有可能是辉夜奏了。
+p	changxia	l	normal	sad	speak_angry	
+s	@	对不起小奏，我、我应该没有撞伤你什么地方吧…！
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	没有，只是鼻子稍微有些痛，很快就好了。
+s		在简短地回复完常夏的话之后，辉夜奏很快地注意到了站在常夏身后不远处的我。

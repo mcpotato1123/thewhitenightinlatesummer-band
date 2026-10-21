@@ -1,0 +1,128 @@
+s		店长低沉的声音从店里传了过来，或许是因为我有些太紧张了，这声线让我忍不住地打了个寒颤。
+p	changxia	r	normal	surprise	speak_angry	
+s	@	没事吧，周腾？
+p	changxia	r	normal	surprise	confused	
+s	周腾	没事的……
+p	changxia	r	normal	normal	speak_angry	
+s	@	嗯，那就赶紧进去吧。
+p	changxia	r	normal	normal	confused	
+s		面无表情地对着我说完关心的话之后，常夏便先一步的推开了咖啡厅的大门，摸着黑走了进去。
+h	changxia
+s		按照以往来看，碰到这种类似的情况常夏确实会对我稍加关心，只是在语气上会更加的积极一些。
+s		但今天不知道是怎么回事，常夏的状态好像有些怪怪的，眼神暗淡、无精打采，就连说话的语气也变得冷冷的。
+s		仔细回想一下，我今天好像也并没有做什么惹她生气的事情啊。
+p	kanade	l	normal	normal	speak	
+s	辉夜奏	哎呀，别发呆了，赶紧进去吧！
+s	周腾	啊？
+p	kanade	l	normal	normal	smile	
+s		我愣了一会，看向了站在我身后的辉夜奏。
+s		她也同样地望向了我，只是脸上的笑容让我有些心里发毛……
+s		这种状况，对吗？还是说…是我的问题？难道真的是我在害怕店长的事情，所以看什么都会觉得奇怪？
+p	kanade	l	normal	surprised	speak	
+s	辉夜奏	为什么这样看着我？
+p	kanade	l	normal	surprised	confused	
+s	周腾	只是觉得……不，没什么。
+s	周腾	倒是奏，你不害怕么？
+p	kanade	l	normal	normal	speak	
+s	辉夜奏	没有啊，我反而觉得很快就要解脱了呢。
+p	kanade	l	normal	normal	smile	
+s	周腾	解脱？
+p	kanade	l	happy	normal	speak	
+s	辉夜奏	是啊，困扰了我们这么久的事情马上就要结束了，很快就又能回到正常的校园生活了，这难道不是一种解脱吗？
+p	kanade	l	happy	normal	smile	
+s	周腾	……
+s	周腾	先进去吧。
+b	coffee_afternoon
+p	dianzhang					normal
+s		推开厚重的玻璃门，前来迎接我们的是穿着干净正装的店长。至于常夏……
+h	dianzhang
+p	changxia	r	normal	normal	confused	
+s		她早早地便选了个最靠近吧台的位置坐下来，双手搭在膝盖上，半低着头闷不做声。
+p	kanade	l	normal	normal	confused	
+s		店里的灯已经被打开了。辉夜奏抢先一步的坐在了常夏的旁边，而我只好就便坐在了两人的对面。
+h	changxia
+h	kanade
+p	dianzhang					speak
+s	店长	我给你们每个人都做了杯咖啡，口味都是按照你们平时的喜好去调的。
+p	dianzhang					normal
+s		店长一边说着，一边将托盘放在了木桌上，按照喜好将咖啡分别摆在了不同人的面前。
+s		我先是看了眼咖啡，随后又瞟了眼店长，但最后也没好说什么。
+p	dianzhang					speak
+s	店长	钱的问题不用担心，这次我请客。反正今天过后‘星期八’也不复存在了。
+p	dianzhang					normal
+s	周腾	我想问的不是这个……
+p	dianzhang					speak
+s	店长	我知道你们这个时间点会过来，所以就按着钟提前做好了。
+s	店长	我在这儿开咖啡厅也不是一年两年了，什么时候学生有空、客流量最大，我还是门儿清的。
+p	dianzhang					normal
+s	周腾	店长还真厉害。
+p	dianzhang					speak
+s	店长	如果连这种事都搞不清楚的话，‘星期八’早一百年前就倒闭了。另外……
+s	店长	你们三个也别老盯着那咖啡看了，直接喝就是了，我没下毒。
+p	dianzhang					normal
+s	周腾	……
+s	@	……
+s	辉夜奏	……
+s		咖啡厅里陷入了几秒钟的沉默，谁都没有先开口发言。
+s		事实上，在店长说出刚刚那句话之前，咖啡厅里的气氛还算是正常。我虽然事先也有想过店长投毒的可能性，不过也就只是想了想……
+s		本来一切都好，但在店长说出刚刚那段话之后，很多事情就变味了。
+s		至少，这三杯咖啡是真的没人敢去碰了。
+p	dianzhang					speak
+s	店长	嗯……算了，不喝也罢，说正事吧。
+s	店长	我就直接明说了。所谓的‘8月32日’是存在的，至少我认为是这样。
+s	店长	我知道有些事情你们很难接受，觉得是奇思妙想也好，天马行空也罢。
+s	店长	很多时候，只有你亲眼看到了事情的发生，你才会去逼迫自己相信这一切。
+p	dianzhang					normal
+s	周腾	意思是，店长去过‘那个地方’？
+p	dianzhang					speak
+s	店长	没有，或者说…我不知道我有没有去过。
+p	dianzhang					normal
+s	周腾	那就是看到其他人进去过？
+p	dianzhang					speak
+s	店长	这就更不可能了。
+p	dianzhang					normal
+s	周腾	那这说到底不也还是猜测吗，毕竟店长你没去过，也没看见别人进去过…
+p	dianzhang					speak
+s	店长	可我如果告诉你，我原本应该是个‘死人’呢？
+p	dianzhang					normal
+s	周腾	？？
+s		店长的说辞跳跃性实在太大，以至于我一时半会没能理清楚他到底在说什么。
+s		我们难道不是在聊都市传说的事情吗？
+p	dianzhang					speak
+s	店长	我还在留学的那段时间，日本八王子市的民间攀岩爱好团体组织了一场极限攀岩比赛，因为一些人际上的关系，我也被邀请参赛了。
+s	店长	长话短说吧。比赛中途，我的保护设施突然出现了严重故障，在救援人员到达之前，我因体力不支先一步地从高处摔落。
+s	店长	摔下去的时候落点距离地面有多高，我已经记不太清了，但那绝对不是人类能够存活下来的高度。
+s	店长	就是在这种摔下去都能变成肉泥的高度，我活了下来。准确来说……
+s	店长	是先死了一次，然后又活了过来。
+p	dianzhang					normal
+s	辉夜奏	是不是因为下落的时候有树木作为缓冲，所以才导致伤不致命？
+p	dianzhang					speak
+s	店长	那如果我说，我连骨折都没有，甚至就连皮都没有破呢？你还会觉得刚刚的假设合理吗？
+p	dianzhang					normal
+s	辉夜奏	……
+s	周腾	难道店长比赛那天，是8月31号……？
+s		店长没说话，只是点了点头，但却让我心里一紧。
+p	dianzhang					speak
+s	店长	如果单单只是这样，说服力还不够。但在我出事之后，我的女友……
+s	辉夜奏	等一下——！！
+h	dianzhang
+p	kanade	c	normal	angry	confused	
+s		辉夜奏突然大声地打断了店长的话，将所有人的目光吸引到了她的身上。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	就算是这样，这也完全有可能是巧合吧。人在体力不支的时候出现什么幻觉都有可能，说不定店长你根本就没出事，而是被救援人员带回去了呢？
+p	kanade	c	normal	angry	confused	
+s	店长	……
+s		不知道为什么，辉夜奏的情绪突然变得异常激动。店长看着她，散发着一种我说不出来的情绪。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	走吧周腾、常夏姐，别在这里浪费时间了！话都说到这份上了，这都市传说就不可能是真的了！
+p	kanade	c	normal	angry	confused	
+s	@	啊？但是……
+p	kanade	c	happy	angry	speak	
+s	辉夜奏	别但是了，这一听就知道是编的啊！
+p	kanade	c	happy	angry	confused	
+s		辉夜奏瞪了店长一眼，她的反应有些太过度了，过度的让我有些不知所措。
+s	店长	走之前，我还有个问题想问。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	什么问题？
+p	kanade	c	normal	angry	confused	
+s	店长	别紧张，不是什么不得了的问题。就是……

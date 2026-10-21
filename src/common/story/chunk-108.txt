@@ -1,0 +1,128 @@
+s		我承认，我有些被吓到了。常夏的演技实在是太好了，她的表情太自然了，以至于刚刚真的有那么几秒钟我当真了。
+s		按道理来说，常夏不应该是会做出这种恶作剧的人啊。这倒像是奏会做的事情。
+s	周腾	行了行了，我睡一觉又没把人睡坏，昨天不是才刚开学报道嘛。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	今天开学啊，今天才是32号，昨天还在放暑假呢。
+p	changxia	c	normal	surprise	confused	
+s	周腾	来来来，你自己看手机！
+p	changxia	c	normal	confused	confused	
+s		我有些烦躁的将手机递给了常夏，让她自己去查看日期。
+p	changxia	c	normal	confused	speak_angry	
+s	@	好像没电关机了。
+p	changxia	c	normal	confused	confused	
+s	周腾	怎么可能，我昨晚才充了电的好不好！
+p	changxia	c	normal	surprise	speak_angry	
+s	@	但是确实没电了啊……
+p	changxia	c	normal	surprise	confused	
+s		常夏又将手机递回给了我。正如她所说的那样，无论我怎么按弄侧边的开机键，手机都无法正常开机，反倒在屏幕上显示出了需要充电的标识。
+p	changxia	c	normal	confused	speak_angry	
+s	@	是不是你昨晚睡觉的时候插头没插好？就是你以为你充上电了，但其实没充上。
+p	changxia	c	normal	confused	confused	
+s	周腾	可能吧……
+p	changxia	c	normal	normal	speak	
+s	@	没事，我的手机还有电。喏，给你看日期~
+p	changxia	c	normal	normal	smile	
+s		常夏朝着我走近了几步，坐在了床边上，鼓捣着手机把日期界面点了开来。
+p	changxia	c	normal	normal	speak	
+s	@	你看，是8月32号吧。都说了是今天开学。
+p	changxia	c	normal	normal	smile	
+s	周腾	你改日期了？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	我、我哪有改日期啊！哎呀我真的没有骗你，今天真的8月32号，真的开学，不信你等会跟我上街看看就知道了。
+s	@	外面全都是穿着校服背着书包返校的学生呢！
+j	13857
+b	black
+s		如果不是亲眼看到，我大概永远都不会相信常夏刚刚的那些话吧。
+b	street_afternoon
+s		整齐穿着校服吃着早饭聊着天的学生，把人行道堵得水泄不通。这是只有开学那天才能够看到的景象。
+s		这附近并不是只有白月高中一所学校，前往各个学校报道的学生在同一时间经过这条必经之路，这里才会堵成这样。
+s		热闹吗？是挺热闹，但我感受到的更多的情绪却是害怕……
+s		开学的盛况固然壮观，但它不应该出现在这个时间点，不应该出现在我的视线范围之内。
+s		今天是9月1号，每个学校的上课时间都是有所差别的，错峰出行的学生不可能让这条街这么拥挤。
+p	changxia	c	normal	angry	speak_angry	
+s	@	这下相信了吧，都说了今天开学今天开学，你还非要反驳我！
+p	changxia	c	normal	angry	confused	
+s		常夏的语气有些生气，但此时我已经很难在把注意力放在她的身上了。
+p	changxia	c	normal	angry	speak_angry	
+s	@	喂，周腾！我和你说话呢，你好歹回应两句啊…！
+p	changxia	c	normal	sad	speak_angry	
+s	@	啊，你……不要紧吧？
+p	changxia	c	normal	sad	sad	
+s	周腾	我没事~
+s		平时的习惯，导致我下意识地就对着常夏抛出了这句话。但……
+s		怎么可能没事，看到这种几乎能颠覆我世界观的景象，我究竟要做多少心理准备才不会被吓到啊……
+p	changxia	c	normal	sad	speak_angry	
+s	@	你脸都有点发白了，说没事谁信啊！总不可能…
+s	@	总不可能就因为我说今天是开学的日子你就破防了吧？
+p	changxia	c	normal	sad	sad	
+s	周腾	……
+p	changxia	c	normal	sad	speak_angry	
+s	@	你、你稍微回应一下我啊，别不说话了，这样我真挺害怕的…！
+p	changxia	c	normal	normal	speak_angry	
+s	@	这样吧，要不去旁边的便利店借个充电宝好了。
+s	@	手机没充进去电可能是你的插头接触不良吧，便利店的充电宝肯定没问题的~
+s	@	等手机重启之后，你自己看看日期，就能够搞清楚今天到底是多少号了。
+p	changxia	c	normal	normal	confused	
+s		我没有说话，只是愣着点了点头。常夏示意我在原地等待，随后小跑着冲向了便利店。
+h	changxia
+s		不到两分钟，常夏便手拿充电宝赶回来了。
+p	changxia	c	normal	angry	speak	
+s	@	哼哼，我们打个赌。手机重启之后，如果是9月1号的话，中午你就请我喝一杯星期八咖啡的新品。
+p	changxia	c	normal	normal	speak	
+s	@	如果是8月32号的话，我就，嗯…就随便答应你一个要求好了，对！随便什么都行！
+p	changxia	c	normal	normal	smile	
+s		丢下这句话之后，常夏便熟练地给我的手机插上了充电宝。
+s		只是……
+p	changxia	c	normal	surprise	confused	
+s		……
+p	changxia	c	normal	confused	speak_angry	
+s	@	嘶，为什么啊？不应该的吧……
+s	@	为什么连便利店的充电宝都不能给你的手机充上电呢？
+p	changxia	c	normal	confused	confused	
+s		看着依然黢黑一片的手机屏幕，我心中的不安感上升到了最顶点。
+s		对于现代人来说，还有什么情况比手机没电了更让人焦虑呢？如果有的话，大概就是自己的手机再也充不了电吧……
+s		常夏似乎不信邪，她反复地插拔着数据线，前后差不多快有二十次了，但手机屏幕上却依然没有显示出对应的充电动画。
+s		随后，她又从书包里拿出了自己的手机，开始给自己的手机充电。
+s		这一次，充电宝倒是没有失效，常夏的手机屏幕上很自然地显示出了正在充电的标识。
+p	changxia	c	normal	sad	speak_angry	
+s	@	唉，那估计就是你手机问题了。充电宝能给我的充，不能给你的充，意思不就是你的手机坏掉了嘛~
+p	changxia	c	normal	confused	speak_angry	
+s	@	所以你怎么搞的？手机掉水里了？也不应该啊，你这个款式的手机我记得有防水功能的。
+p	changxia	c	normal	confused	confused	
+s	周腾	可能就是坏了吧，但具体原因是什么我也不清楚。
+p	changxia	c	normal	normal	speak_angry	
+s	@	那你现在准备怎么办？手机用不了了不得难受死啊，最主要的是你的脑子…呃，好像也有点……
+s	@	你真的不是在逗我玩儿吗周腾？你真的不记得今天是8月32号吗？
+p	changxia	c	normal	normal	confused	
+s	周腾	我……
+s		我既有些想点头赞成，又想摇头表示反对。
+p	changxia	c	normal	normal	speak_angry	
+s	@	这样吧，记忆不会骗人，昨天可是最后一天暑假，你回想一下昨天发生了什么不就行了？
+p	changxia	c	normal	normal	confused	
+s	周腾	没事没事，我可能…就是有些没休息好吧，精神状况不是很好，所以才把日期记错了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	呼……那就行，你差点吓死我了，你知道你刚和我说话时候的表情有多认真吗？
+s	@	信誓旦旦地说今天就是9月1号，我都差点以为是自己搞错了~
+j	13930
+p	changxia	c	normal	sad	confused	
+s		差点以为自己搞错了吗……
+s		我在心里暗自重复常夏刚刚的话语，可越是重复就越是无法冷静。
+s		按道理来说，今天不管怎么样都应该是9月1号了，哪怕告诉我是8月33号我都能够接受。
+s		结果常夏就这样像个没事人似的，跑到我家里，说着和昨天差不多的话叫我起床，拉着我去学校报道……
+s		等等，是不是有什么地方被我忽略了？
+s	周腾	那个，常夏……
+p	changxia	c	normal	normal	speak_angry	
+s	@	怎么了？
+p	changxia	c	normal	normal	confused	
+s	周腾	我是不是昨天和你约好了，今天早上七点钟要在学校附近的老汤面馆一起吃早饭？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	哇……
+p	changxia	c	normal	angry	speak_angry	
+s	@	你这不是记性挺好的嘛…！所以说你刚刚弄出来那么多事情其实都是骗我的！？
+p	changxia	c	normal	angry	confused	
+s	周腾	我可能确实没休息好，但我手机坏了是真事啊，我总不可能为了逗你把手机故意弄坏吧。
+p	changxia	c	normal	confused	speak_angry	
+s	@	这倒是。不过说实话，如果不是你提醒我，我都差点把吃面这事儿给忘了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我今早准时在面馆等了你有一会儿吧，看你半天没来，想着你是不是又睡过头了，所以才跑到你家去找你的。
+p	changxia	c	normal	normal	speak	

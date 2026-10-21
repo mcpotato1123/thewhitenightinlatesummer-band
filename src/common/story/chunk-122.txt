@@ -1,0 +1,128 @@
+p	kanade		normal	normal	speak	
+s	辉夜奏	你很在意这一点吗？
+p	kanade		normal	normal	smile	
+s	周腾	其实也不是……好吧，还是有些在意。
+p	kanade		normal	normal	speak	
+s	辉夜奏	因为这个称呼很‘特别’吧。
+p	kanade		normal	normal	confused	
+s		辉夜奏拨弄着自己的头发，若有所思地说道。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我和你第一次正式见面的时候，不就是用这两个字来称呼你的吗？
+p	kanade		normal	normal	confused	
+s	周腾	但那只是客套的尊称吧，我们已经认识这么久了，直接用本名称呼不是更好吗？
+p	kanade		normal	normal	surprise	
+s	辉夜奏	怎么说呢。就好像有人喜欢用拍照来记录生活，有人喜欢写日记来记录情感，我也有自己一套记录事物的方法。
+s	辉夜奏	只要对着你喊出‘前辈’这两个字，过往的经历便会浮现在我脑海。
+s	辉夜奏	我用这种方式来纪念那段时光，我也希望…我可以永远记得那段时光。
+p	kanade		normal	normal	confused	
+s	周腾	这样……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	在我看来，特殊的称呼代表着特殊的关系，尽管‘前辈’是尊称…
+s	辉夜奏	但身边用前辈来称呼你的可只有我这么一个人。
+s	辉夜奏	一听到前辈这两个字，周腾你就能想起我，这不就代表着我们之间有着关系特殊嘛。
+p	kanade		normal	normal	smile	
+s		辉夜奏的话让我有些心跳加速，此前和奏独处的时候也偶尔会有这种情况发生。
+s		但像今天这么激烈的情况，还真是头一回。
+s		刚才应该多吃两口冰激凌降降温的……
+p	kanade		normal	normal	speak	
+s	辉夜奏	倒是前辈让我觉得很不理解呢。
+p	kanade		normal	normal	confused	
+s	周腾	哪里不理解了？
+p	kanade		normal	normal	speak	
+s	辉夜奏	我总觉得，你一直在和所有人保持距离。
+p	kanade		normal	normal	confused	
+s	周腾	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	你和常夏姐是认识了那么久的青梅竹马，但是你对她的称呼却一直是‘常夏’
+s	辉夜奏	你和葛城也是很好的朋友，但你也是一直葛城葛城的喊他。
+s	辉夜奏	还有余洛琛和你的关系好像也不错吧，而且她好像对你还有点……
+p	kanade		normal	normal	confused	
+s		辉夜奏顿了顿，没把话说完。
+p	kanade		normal	normal	speak	
+s	辉夜奏	总之，你称呼余洛琛的时候也是喊她本名。
+s	辉夜奏	包括对我也是……
+s	辉夜奏	我有时候经常会想，难道就真的没有一个人能够走进你心里么？
+s	辉夜奏	他们和前辈你相处了那么久，可你却从没有给他们取过哪怕一个昵称或者一个外号。
+s	辉夜奏	如果称呼代表着特殊关系，那这是不是可以说明……
+s	辉夜奏	这么久以来，没有任何一个人能够跟你算得上是亲密呢？
+p	kanade		normal	normal	confused	
+s		江风吹得我有些头痛，辉夜奏的话像是针一般地刺进了我的耳朵，让我有些难受不安。
+s		我从来没有过这种想法，我也从来就没有考虑过，如果不叫昵称的话会出现什么样的后果。
+s		我和常夏认识了十年，十年来我一直以本名称呼她，这已经成为了一种习惯。
+s		对其他的朋友也是，我习惯性地用本名去称呼他们。
+s		但习惯如此，就一定对么…？
+s		尽管这不是我故意的行为，但就像奏所说的那样，我这种若隐若现的距离感，是不是有意无意地伤害了身边很多人的心呢？
+s	周腾	其实只是我习惯了去叫大家全名而已，像你说的那些问题，我之前还真没有考虑那么多。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	大概是我想得太多了吧，但，不说其他人……
+p	kanade		normal	angry	surprise	
+s	辉夜奏	如果前辈你用全名来称呼我的话，我可是真的会生气的！
+p	kanade		normal	angry	confused	
+s		辉夜奏气鼓鼓地看着我，不知道是故意卖萌还是无意的行为。看着奏这幅模样，我甚至萌生出了用手指去戳她脸颊的想法。
+s	周腾	辉夜同学？
+p	kanade		normal	angry	speak	
+s	辉夜奏	……你是故意的吗，前辈。
+p	kanade		normal	angry	confused	
+s	周腾	只是稍微想看看你的反应罢了。
+s	周腾	以后不会这么称呼你了。
+p	kanade		normal	angry	speak	
+s	辉夜奏	可是这个称呼你已经喊出来了，我的心已经受伤了，你总得做些什么举动来补偿吧。
+p	kanade		normal	angry	confused	
+s		做些举动……来补偿？
+s		我有些不争气的咽了口口水。这个举动…难道是在指代什么特殊的事情么？
+s	周腾	你想要怎么补偿？
+p	kanade		normal	normal	surprise	
+s	辉夜奏	唔，我思考一下好了~
+s		辉夜奏趴在栏杆上，一边看着对岸的风景，一边开始思考了起来。
+s		她真的有在思考刚刚的问题吗？还是说，答案其实早就想好了，现在只是单纯地在放空大脑？
+p	kanade		normal	normal	speak	
+s	辉夜奏	想好了~作为补偿的话，以后前辈你就换一种称呼来称呼我好了。
+p	kanade		normal	normal	smile	
+s	周腾	现在这样不可以吗，我平时不就是用‘奏’来称呼你的吗？
+p	kanade		normal	normal	speak	
+s	辉夜奏	‘奏’这个字再怎么说也是我的本名嘛，而且身边人也都是这么叫我的，再换一种称呼吧。
+p	kanade		normal	normal	smile	
+s		辉夜奏的意思很明显，想让我给她取一个全新的昵称，然后用这个来称呼她。
+s		但说实话，我实在是有些不擅长取昵称这种事情。喊“奏”其实就足够让我难为情了，现在让我想昵称……
+s		实在是有些强人所难。
+s	周腾	要不就，‘亲爱的……’
+p	kanade		happy	sad	surprise	flush
+s	辉夜奏	噫啊…！
+p	kanade		happy	sad	confused	flush
+s	周腾	我是说，‘亲爱的辉夜奏同学’，这个昵称怎么样？
+s		刚刚…我是不是差点说出了什么很不得了的东西？
+p	kanade		normal	angry	surprise	flush
+s	辉夜奏	你、你是‘馬鹿’吗！哪有人昵称这么长的啊！
+p	kanade		normal	angry	confused	flush
+s	周腾	那就，‘辉夜奏同学’？
+p	kanade		normal	angry	speak	
+s	辉夜奏	……听起来更不适应了，你这不就只是单纯在我的名字后面加上了‘同学’两个字嘛。
+p	kanade		normal	normal	speak	
+s	辉夜奏	不像昵称，反倒更像是尊称。
+p	kanade		normal	normal	confused	
+s	周腾	你不是说只要称呼特殊就可以了吗，毕竟特殊称呼代表着特殊关系。
+p	kanade		normal	angry	surprise	
+s	辉夜奏	可问题是又不是只有前辈你一个人这么叫我，班上的其他人称呼我的时候也是用的‘辉夜奏同学’这五个字啊。
+p	kanade		normal	angry	surprise	
+s	辉夜奏	总之不可以，你再想一个吧……
+p	kanade		normal	angry	confused	
+s		辉夜奏好像有些生气了。
+s		虽然是我故意挑逗她在先，但没想到她反应居然这么大。
+s	周腾	那就，‘小奏’吧，感觉这个昵称不长也不短，听起来也特别可爱的感觉。
+s	周腾	怎么样，就用这个吧？
+p	kanade		normal	normal	confused	
+s	辉夜奏	……
+s		辉夜奏没有说话，再一次地趴在了栏杆上，望向了江对面。
+s		如果说之前是在思考事情，那这一次她一定是在故意冷落我。
+s		我也没有开口将话题延续下去，而是等待着奏的回答。但奏就好像是在故意闹别扭一样，愣是半天没有张嘴吐出一个字。
+s		“小奏”这个称呼，有什么问题么？
+s		我突然意识到，这个昵称好像是常夏经常用来称呼辉夜奏的，所以…辉夜奏之所以会闹别扭，是因为这个点？
+s		觉得这个称呼已经被人用过了，我再用就不特殊了？
+s	周腾	要不就‘小小奏’吧，‘小小奏’好像也挺不错的！
+s	辉夜奏	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	前辈，你是怎么看待常夏的呢？
+j	15741
+p	kanade		normal	normal	confused	
+s	周腾	为什么突然这么问。
+p	kanade		normal	normal	speak	

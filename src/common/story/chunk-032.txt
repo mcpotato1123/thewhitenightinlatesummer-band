@@ -1,0 +1,128 @@
+s	@	虽然‘辉夜’这个姓氏确实是比较的…小众和奇怪？但我保证，小奏绝对没有撒谎骗人！
+s	@	周腾也可以保证的，对吧？
+p	changxia		normal	angry	confused	
+s	周腾	啊？对的，这个我也可以保证。
+s	店长	我倒不是怀疑她在撒谎，只是我……
+s	店长	唉，就当是我自己有些不敢相信吧……
+s		店长拨弄了一下自己的发梢，他的手似乎有些颤抖。过了好一会，才转身闷不做声地继续做起了咖啡。
+s		在转身之前的那么一小段瞬间，店长用着一种极其复杂的眼神瞟了辉夜奏一眼。
+s		憎恨、后悔、欣喜……又或者是其他更复杂的某些感情？那是一种我用言语无法准确描述出来的眼神。
+s		是一种让我感到些许毛骨悚然、背脊发凉的可怕眼神……
+h	changxia
+h	kanade
+b	black
+s		……
+b	coffee_afternoon
+p	changxia		normal	normal	confused	
+p	dianzhang					speak
+p	kanade	c	normal	normal	confused	
+s	店长	你们三个的咖啡做好了，这次还需要帮你们打包吗？
+p	changxia		happy	sad	speak	
+s	@	不用了不用了！上次是因为有急事才打包的，今天没什么事，就在店里喝吧。
+s	店长	行。
+h	dianzhang
+s		店长没有继续再说什么，只是将装着咖啡的托盘轻轻推到我们面前之后，便转身自顾自地做事去了。
+p	changxia		normal	normal	speak_angry	
+s	@	我们先找个空位坐下来吧。
+s	周腾	嗯。
+h	changxia
+h	kanade
+s		不知道是不是故意的，常夏特地选了一个离吧台比较远的靠窗位置。
+s		在坐下来之前，她还刻意地朝着四周瞟了瞟，过了好一会，常夏才轻叹了口气，安稳地瘫坐在了位置上。
+p	changxia	l	normal	normal	confused	
+p	kanade	r	normal	normal	confused	
+s	周腾	喝个咖啡又不是在做强盗，干嘛鬼鬼祟祟的？
+p	kanade		normal	normal	speak	
+s	辉夜奏	常夏姐可能是在担心店长吧。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	小奏，这个时候不应该用‘担心’这个词，应该用‘怀疑’才对哦。
+p	changxia	l	normal	angry	speak_angry	
+s	@	我是觉得店长啊，刚刚的反应有些太明显了。辉夜奏这个名字就有这么奇怪吗？
+p	changxia	l	normal	angry	confused	
+s	周腾	在日本，姓辉夜的人好像确实很少，店长会觉得稀奇也很正常。但是……
+s	周腾	他刚刚那个表情，完全不像是觉得稀奇时会表现出来的表情啊……
+p	changxia	l	normal	normal	speak_angry	
+s	@	对了小奏，你们家里是不是有人和店长认识啊？
+p	kanade		normal	surprise	speak	
+s	辉夜奏	为什么突然问这个？
+p	kanade		normal	normal	confused	
+p	changxia	l	normal	confused	speak_angry	
+s	@	因为刚刚店长的表现太不正常了啊，如果不是和你们家里人认识，那他为什么一听到辉夜这两个字就这么激动？
+s	@	你看，店长以前不是在日本留过学嘛，所以我猜测……
+p	changxia	l	normal	shocked	speak_angry	
+s	@	是不是店长在日本留学的时候，也认识过你们辉夜家的人？
+s	@	然后那个人欠了店长非常多的钱，又或者是坏了店长什么好事，所以才导致店长一听到‘辉夜’这两个字就情绪化。
+p	changxia	l	normal	shocked	confused	
+s	周腾	好像还挺合理，但是好像又不是特别合理？
+p	changxia	l	normal	angry	speak_angry	
+s	@	你这说的什么话，合理就合理，不合理就不合理呗…
+p	changxia	l	normal	angry	confused	
+s		常夏有些鼓气地瞪了我一眼，之后便望向了辉夜奏。当然，我也随着视线看了过去。
+p	changxia	l	normal	surprise	confused	
+s	辉夜奏	……
+p	kanade		normal	surprise	speak	
+s	辉夜奏	你、你们这样看着我干什么，我又给不了你们什么有用的信息……
+s	辉夜奏	店长都年过半百的人了吧，他留学时候发生的事情我是不可能知道的，那个时候我都没出生呢。
+p	changxia	l	normal	shocked	speak_angry	
+p	kanade		normal	normal	confused	
+s	@	那…你爸有没有可能知道？
+p	changxia	l	normal	shocked	sad	
+s	周腾	想什么呢，知道了也不可能告诉奏吧…
+s	周腾	‘——女儿，你知道吗？其实我们家以前有个人欠了星期八的店长10万块，直到现在都还没有还！’
+s	周腾	你觉得他爸会是说这种话的人吗？
+p	changxia	l	happy	sad	speak	
+s	@	呃……
+p	kanade		happy	sad	speak	
+s	辉夜奏	虽然不像是我爸会说出来的话，但不得不说，在声线这方面，周腾模仿得还挺像的。
+p	kanade		happy	sad	smile	
+s	周腾	那当然，我好歹也在辉夜老师那里学过好一段时间的棋嘛。
+s	周腾	平时可没少被批，他的声音我算是记得很清楚了。
+p	changxia	l	normal	shocked	confused	
+p	kanade		normal	normal	speak	
+s	辉夜奏	啊，说起这个，周腾……
+s	辉夜奏	你之后都不来上课了吗？
+p	kanade		normal	normal	confused	
+s	周腾	怎么了？
+p	kanade		normal	normal	speak	
+s	辉夜奏	也没怎么……就是突然想起来，前几天葛城来上课的时候，问过我爸关于你课程安排的事情。
+s	辉夜奏	也是那天我才知道，你之后都不会来上课了。
+p	kanade		normal	normal	confused	
+s	周腾	这个啊，确实是以后都不会去了。
+p	kanade		normal	angry	speak	
+s	辉夜奏	为什么啊！？是、是我爸太严格了吗，还是和我下棋对练让你太困扰了……？
+p	kanade		normal	angry	confused	
+s		不知为何地，辉夜奏的情绪突然有些激动了起来。
+s	周腾	和这些没关系，算是自己想明白了吧。
+s	周腾	我还是想把时间花在其他地方上。
+p	kanade		normal	sad	speak	
+s	辉夜奏	周腾果然是觉得，和我一起下棋太无趣了吧……
+p	kanade		normal	sad	confused	
+s	周腾	不不不不是的！我没有这个意思…！
+s	周腾	是我自己的原因，是我本身就对围棋没有那么热爱。
+s	周腾	……以前刚被葛城拉着接触围棋的那段时间，周围人都使劲儿地夸我，说我多么多么有天赋，多么多么有潜力……
+s	周腾	所以尽管有些不情愿，但我也还是和葛城一起学了很长一段时间的围棋。
+s	周腾	然而时间长了之后我才意识到，我只是在被大家的期待给推着走。
+s	周腾	大家觉得我适合下棋，那我就去下棋；大家觉得我围棋很有天赋，那我就加倍努力。
+s	周腾	该怎么说呢，就好像…我学了这么久的围棋，就只是为了回应周围人的期待而已，而不是为了我自己。
+p	kanade		normal	angry	speak	
+s	辉夜奏	可是周腾的棋下得真的很厉害啊！不只是我随便说说而已，我爸也是真的觉得你很有天赋，包括其他学生都这么觉得…！
+s	辉夜奏	葛城也觉得你就这样放弃很可惜，每次上课都要抱怨一下你为什么不来……
+s	辉夜奏	所以说，周腾……！
+p	changxia	l	normal	angry	speak_angry	
+s	@	小奏…！！
+s	@	周腾就算下棋再怎么有天赋，想做什么和不想做什么也都是由他自己说了算，能明白吗？
+p	changxia	l	normal	angry	confused	
+p	kanade		normal	sad	confused	
+s	辉夜奏	……
+p	kanade		normal	sad	speak	
+s	辉夜奏	对不起，是我想得太少了……
+p	changxia	l	normal	sad	confused	
+s		辉夜奏撇过了头，她的表情明显有些失落。常夏这才回过神来，自己刚刚确实是没忍住地对辉夜奏发了火。
+p	changxia	l	normal	sad	speak_angry	
+s	@	我也不该语气这么冲的，对不起啊……
+p	changxia	l	normal	sad	confused	
+s	周腾	那、那个！奏，就算我以后不在辉夜老师那里上课了，我也还是可以和你一起下棋的嘛。
+s	周腾	你看，我不是还在围棋社吗，我又没退社对不对！以后来日方长嘛~
+p	kanade		normal	normal	speak	
+s	辉夜奏	嗯，我知道…

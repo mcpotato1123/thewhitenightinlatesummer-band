@@ -1,0 +1,128 @@
+s	@	你爸给你喝的应该是冰美式吧……不过这个确实很多人都难以接受就是了。
+p	changxia	l	happy	sad	smile	
+p	kanade	r	normal	sad	speak	
+s	辉夜奏	后来我爸才告诉我，那是一种叫做咖啡的东西。
+s	辉夜奏	从那以后，我就再也没有接触过咖啡…
+s	辉夜奏	和咖啡有关的任何食物，也基本被我排斥。
+p	kanade	r	normal	sad	confused	
+s	周腾	还真是一个悲惨的故事……
+p	changxia	l	happy	sad	speak	
+s	@	呃，这个该怎么说呢……
+p	changxia	l	normal	normal	speak_angry	
+s	@	你爸给你喝的那个叫做‘美式咖啡’，是不加糖也不加奶的，非常苦，很多人都喝不习惯。
+p	changxia	l	normal	normal	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	常夏姐也喝不习惯吗？
+p	changxia	l	normal	normal	speak_angry	
+s	@	我？我偶尔精神不好的时候会喝一两次吧，大部分时候我都不会碰。
+p	changxia	l	normal	normal	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	这样吗…
+p	changxia	l	normal	normal	speak	
+s	@	我想说的是，其实除了美式咖啡之外，绝大部分咖啡都很好入口的！
+p	changxia	l	happy	normal	speak	
+s	@	这次小奏你尝试过之后，说不定以后就会和我一样彻底爱上咖啡哦~
+p	changxia	l	happy	normal	smile	
+p	kanade	r	normal	normal	sad	
+s	辉夜奏	……
+p	changxia	l	normal	normal	speak	
+s	@	啊，咖啡好像快做好了，我去前台取一下。
+s	周腾	店长不是说等会亲自送过来吗？
+s	@	人家生意这么忙，让店长亲自送过来多不好意思啊。反正闲着也是闲着，我去帮你们拿过来就好。
+p	changxia	l	normal	normal	smile	
+s		在笑着对我丢下这段话之后，常夏便朝着前台的方向小跑着冲了过去。
+h	changxia
+p	kanade	c	normal	normal	confused	
+s		一时间内，座位上只剩下了我和辉夜奏两个人。
+s	辉夜奏	……
+s	周腾	……
+s		咖啡厅本应该是安静的地方，但今天来买咖啡的客人实在是有些多，整个咖啡厅里环绕着不少学生谈话聊天的声音。
+s		我一向不反感嘈杂的场所，但此时此刻…咖啡厅里哪怕一丁点的动静和窸窣的谈话声都会让我有些坐立难安。
+s		不，或许我的坐立难安，和嘈杂的环境无关……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	谢谢……
+p	kanade	c	normal	normal	sad	
+s	周腾	啊…
+s		辉夜奏的声音打破了我与她两人之间的沉默，我很快地将视线望向了一旁。
+s		然而，映入眼帘的…却是和我一样有些坐立难安的女孩子。
+s	周腾	突然道什么谢啊，我、我又没做什么值得你道谢的事情。
+p	kanade	c	normal	normal	confused	
+s		辉夜奏没有立刻回话，只是偷偷地看了我一眼，随后又将头给侧了回去。
+s		……
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	在咖啡厅里喝柠檬茶，很奇怪对吧。
+s	辉夜奏	我本来准备点杯柠檬茶将就一下，但看到你和常夏姐都点了咖啡之后，我有些犹豫了……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	幸好周腾你记得我的口味喜好，站出来替我解围点餐。要不然……
+p	kanade	c	normal	normal	sad	
+s		辉夜奏说到这里，便没有继续再说下去了。
+s		刚刚之所以主动站出来帮她点餐，也是看到了她尴尬的样子。
+s		本以为是我这边擅自主张了，没想到居然还真的帮到了她。
+s	周腾	但我要强调的是，即使是多奶多糖的榛果拿铁，也是会有一定的苦味的哦。
+s	周腾	咖啡就是咖啡，无论做成什么样子，苦涩的味道都是无法去除的。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	周腾…应该也喜欢喝咖啡吧？
+p	kanade	c	normal	normal	confused	
+s	周腾	我吗？还算是喜欢吧，不过平时喝的不多，毕竟生活费有限，哈哈……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	嗯，我知道了。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	我会去尝试的……周腾喜欢的东西，我也想试着喜欢上~
+j	1351
+p	kanade	c	happy	normal	smile	
+s	周腾	诶？
+s		辉夜奏的突然发言让我有些惊讶。我知道她的话里并没有其他的意思，毕竟辉夜奏的性格和说话方式一直都是如此。
+s		但即便是这样，刚刚辉夜奏的那番话，也依然让我有些莫名的心跳加速。
+s		……
+h	kanade
+p	changxia	c	happy	normal	speak	
+s	@	嘿嘿，咖啡来啦~
+p	changxia	c	normal	normal	speak_angry	
+s	@	啊……
+p	changxia	c	normal	confused	speak_angry	
+s	@	你们两个，这是怎么了？
+p	changxia	c	normal	confused	confused	
+s		辉夜奏刚对着我说完那句话没多久，常夏就端着放了三杯咖啡的托盘赶了回来。
+s		刚走过来的时候，常夏还满脸笑嘻嘻的，活像个开心的三岁小孩。
+s		但在看到我和辉夜奏脸上的表情之后，常夏却皱了皱眉，脸上的笑容一转而逝。
+p	changxia	c	normal	confused	speak_angry	
+s	@	我不就是去前台拿了个咖啡吗，刚刚还好好的，怎么你俩现在看起来像是吵了架一样。
+p	changxia	c	happy	sad	speak	
+s	@	呃，我也不是这个意思，我就是单纯的觉得氛围有些奇怪。
+p	changxia	c	happy	sad	smile	
+s	周腾	可、可能是你想多了吧，哪里氛围奇怪了啊，我们这不是挺好的嘛，不信你问奏。
+s		我一边说着，一边戳了戳坐在我旁边的辉夜奏的胳膊。
+s		然而辉夜奏并没有回话，反而将脑袋侧向了靠近落地窗的那边。
+p	changxia	c	normal	confused	speak_angry	
+s	@	周腾…你确定你们两个之前没有吵架或者是闹别扭？
+p	changxia	c	normal	confused	confused	
+s		常夏将咖啡平稳的放在了桌子上，然后朝着我这边凑近了过来，用着有些严肃的语气对着我质问道。
+p	changxia	c	normal	angry	speak_angry	
+s	@	我告诉你，你要是敢趁我不在场欺负我们可爱的小奏，我是绝对不会放过你的哦！
+s	@	至少，到时候我的暑假作业你可是别想抄到了！
+p	changxia	c	normal	angry	confused	
+s	周腾	都说了我们没有在吵架啦，就只是聊了会天而已，真的没有闹别扭什么的！
+p	changxia	c	normal	confused	speak_angry	
+s	@	真的？
+p	changxia	c	normal	confused	confused	
+s	周腾	我没有必要连这种事情也骗你吧……
+s		听完我的话之后，常夏虽然还是一副不太相信的表情，但暂且没有再继续问下去了，而是缓缓地走到了我的正对面，乖巧地坐回到了自己的位置上。
+s		其实刚刚，我一直都希望辉夜奏能够主动站出来帮我解释一下。
+s		然而整个过程中，辉夜奏不但没有没有开口说话，反而还侧过头去做出了一副不想看到我的样子，让我的嫌疑又加深了不少。
+s		不过说到底，以辉夜奏的这种不爱说话的性格，站出来替我解围本就是有些不太现实的事情。
+s		我相信此时此刻的辉夜奏，肯定也有些尴尬吧。
+h	changxia
+s		……
+s		咖啡厅里依然人声嘈杂。明明放学时间已经过去了很一段时间了，但咖啡厅里的人却只见多不见少。
+s		学生围坐在圆桌前，一边喝着咖啡，一边大声地谈论着各种各样的事情。
+s		男生聊游戏聊动漫，女生聊八卦聊韩剧……整个咖啡厅虽然有些闹哄哄的，但整体氛围却让人安心。
+s	周腾	这家咖啡馆一直都是这样吗？
+s		一方面是真的疑惑，一方面也是为了找话题，我还是对着常夏问出了这个我一直都很想搞清楚的问题。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊，什么叫做‘一直都是这样’？
+s	周腾	就是…一直都是这么吵吗？
+p	changxia	c	normal	normal	speak	
+s	@	这个啊，这家咖啡馆一直都是这么吵的，很正常。
+p	changxia	c	normal	normal	smille	
+s	周腾	这不太对吧，据我所知，咖啡馆不都是很安静的地方吗？这些学生这么吵，店长就不会发脾气把他们全赶出去？
+p	changxia	c	normal	normal	speak	

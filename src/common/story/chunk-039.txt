@@ -1,0 +1,128 @@
+s	辉夜奏	看一百种人与我擦肩路过，我就好像快速地度过了一百种人生。
+s	辉夜奏	他们脸上各种各样的表情，填满了我以前所有的遗憾与空隙，尽管只有一小段时间。
+s	辉夜奏	但那种感觉真的很奇妙！千百种情绪混着江风朝我吹来，那时候，我才终于明白了‘烟火气’这一词的真正含义。
+g	cg5
+s	周腾	其实江城也和东京一样啊，每天急急忙忙的人挺多的。
+s	周腾	归根结底还是因为‘压力’吧，学业的压力，事业的压力，又或者是社交的压力……
+s	周腾	大家以为走得更快就能甩掉和忘记这些压力，可走得越快，却好像离生活越远。
+s	周腾	不同国家的人面对的压力都是类似的，只是展现在外的方式不一样，江城或许没有你想得那么好。
+g	cg5
+s	辉夜奏	但就算是这样，我也还是喜欢这里。
+g	cg5
+s	周腾	为什么？
+s	辉夜奏	以前是因为城口江滩，现在嘛…
+s	辉夜奏	是因为前辈你。
+j	5008
+e
+d	8月13日 周四下午
+d	8月1日 周四下午
+d	8月1日 周六上午
+b	black
+s		……
+s		…………
+s		………………
+s	周腾	唉，又关我空调……
+s		……
+b	zhou_teng_bedroom_noon
+s		我爸什么都好，除了一个一直让我有些无奈的习惯。
+s		每到夏天，他都会在上午出门上班之前，到我房里趁我还没醒偷偷地关掉我的空调。
+s		美名其曰叫做省电，但在我看来…江城的夏天若是不开空调，一分钟都待不下去……
+s		和平时一样，每一次上午醒来都是被热醒，伸手往背后一抓，衣服早就被汗液给浸得透湿。
+s		不知道是不是天气越来越热的缘故，这段时间我的头痛愈来愈明显，并且会时不时地伴有耳鸣症状。
+s		常夏说是因为熬夜打游戏导致的，但最近我和葛城双排上分的频率并不高。
+s		更何况葛城那家伙还得去辉夜老师家里上围棋课，哪有那么多时间整天陪我荒废时间。
+s		伸了个懒腰之后，我拿起了放在床头柜上正在充电的手机，顺势看了一眼最近消息。
+s		有些出乎意料的是，一条新消息都没有……
+s		按照以往来说，常夏都会在早上九点半的时候准时给我发消息问我有没有起床，要不就是辉夜奏那边发消息问我要不要一起下棋，但今天……
+s		居然破天荒的一条消息都没有，甚至连自动推送的新闻公众号都没有发消息。
+s		我忽然有些理解奏之前说的话了。
+s		每次早上醒来，看着手机上空空如也的消息栏，那种好像被整个世界给抛弃了的感觉，真的很让人难受……
+b	street_morning
+p	changxia	l	normal	normal	smile	
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	常夏姐，今天怎么这么突然？
+p	changxia	l	normal	surprise	speak_angry	
+p	kanade	r	normal	surprise	confused	
+s	@	嗯？什么这么突然？
+p	changxia	l	normal	surprise	confused	
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	就是，约我来逛街什么的…
+p	kanade	r	normal	surprise	confused	
+p	changxia	l	happy	sad	speak	
+s	@	也没有什么特殊的理由吧，硬要说的话……
+p	changxia	l	normal	normal	speak	
+s	@	就是感觉…小奏你是外国人嘛，而且大部分时间也都在家里和学校呆着。
+s	@	所以就想着，你会不会还没有去江城这些有意思的地方玩过。
+p	changxia	l	normal	normal	smile	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	常夏姐，我已经来江城四年了。虽然父亲管我管得很严，但他也是会偶尔带我到处转转的。
+s	辉夜奏	这个地方我很早就来玩过了。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	呃…玩过了还可以再玩第二遍嘛，逛街这种事情，怎么都不嫌多不嫌累不是吗？
+p	kanade	r	happy	normal	speak	
+s	辉夜奏	确实是这样没错……
+p	changxia	l	happy	normal	speak	
+s	@	总之就别想那么多了，嗯…我先请你喝杯咖啡吧！
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	我不是很喜欢喝咖啡，常夏姐你不记得了么？
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	呃，我、我有点忘了，那去吃冰激凌吧！冰激凌总没问题吧？
+h	changxia
+h	kanade
+b	street_morning
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	normal	speak	
+s	@	喏，这个草莓味的给你，我就吃巧克力的好了。当然小奏你要巧克力味的也没问题。
+p	kanade	r	normal	normal	speak	
+p	changxia	l	normal	normal	speak	
+s	辉夜奏	我就吃草莓味的吧，我不太爱吃苦的东西。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	sad	
+s	@	嗯……
+p	kanade	r	normal	normal	speak	
+p	changxia	l	normal	normal	sad	
+s	辉夜奏	那个，常夏姐……这家冰激凌很贵的吧？我记得光一份都要四十多。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	normal	speak	
+s	@	没事，出来玩嘛，尽兴就好。
+p	kanade	r	normal	normal	speak	
+p	changxia	l	happy	normal	speak	
+s	辉夜奏	我还是把钱转给你吧。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	不用不用！搞这么客气干什么~
+p	kanade	r	normal	normal	speak	
+p	changxia	l	happy	sad	speak	
+s	辉夜奏	常夏姐都这么说了，那我也不客气了。
+s	辉夜奏	你是想要问和周腾有关的事情吧。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	speak_angry	
+s	@	你比你表面上看起来要更加敏锐啊……
+p	changxia	l	normal	normal	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	与其说我敏锐，不如说常夏姐有些太不擅长撒谎了。
+s	辉夜奏	莫名带我出来逛街，莫名请我吃很贵的冰激凌……而且脸上的表情都慌张成那个样子了。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	有那么明显么……
+p	kanade	r	normal	normal	speak	
+p	changxia	l	happy	sad	smile	
+s	辉夜奏	很明显的，常夏姐。
+s	辉夜奏	另外话说回来，比起我…常夏姐要更了解周腾才对吧？
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	sad	
+s	@	也许是吧……
+p	changxia	l	happy	sad	speak	
+s	@	我只是单纯想知道，小奏你是怎么看周腾的？呃…比如说你俩是怎么认识的？
+p	changxia	l	happy	sad	smile	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	周腾没和你说过么？
+p	changxia	l	happy	sad	speak	
+s	@	没，这种事情不太好问出口吧……
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	唔，我想想应该怎么说…？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	周腾高一来我家上围棋课的时候，我就注意到他了。
+s	辉夜奏	周围人和老师都说他天赋很好，我也偷偷观摩了几场他的棋局，他的棋确实下得很有想法。

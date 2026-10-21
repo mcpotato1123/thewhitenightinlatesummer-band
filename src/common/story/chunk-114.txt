@@ -1,0 +1,128 @@
+s		每一次在心里默念倒计时，自己的心跳都好像会咯噔一下的漏掉半拍。
+s		25……
+s		24……
+s		23……
+s		……
+s		不知道为什么，一阵莫名地困意突然朝我袭来。
+s		四肢突然变得软趴趴的，光是支撑着眼皮正常睁开，就已经耗费掉了我全身的精力。
+s		几分钟前自己还只是稍微有些困而已，怎么说都能够支撑到转点之后再睡觉，结果现在……
+s		现在……
+b	zhou_teng_bedroom_noon
+b	black
+s		……
+s	周腾	呃~嘶……
+s	周腾	头，好痛……
+b	zhou_teng_bedroom_noon
+b	zhou_teng_bedroom_noon
+s		等我再一次从床上醒来时，天已经亮了。
+s		不…外面天一直是亮着的。只是墙上的时钟告诉我，现在已经是第二天的早上了，或者是……
+s		前一天的早上？
+s		这一次，我醒来地异常得早，时间才六点半刚出头。
+s		在确认完时间之后，我做的第一件事情便是查看“坏掉”了的手机。
+s		手机仍旧处于没电关机的状态，充电器也仍然起不到任何作用。
+s		虽说自己就没抱多大希望会有奇迹发生，但侥幸心理还是让自己做出了尝试。
+s		之后要做的第二件事情，第二件事情……
+s		第二件事情是什么来着？
+s		脑袋有些痛，浑身上下就像是散架了一般难受，但我也还是回想起了昨天晚上自己的那些计划。
+s		我撒着拖鞋晃晃悠悠地走到了床头柜前，然而…却没能在床头柜上找到我所希望看到的东西。
+s		本子和笔，都不见了。
+s	周腾	……
+s		原本设想过的最坏打算，仅仅只是本子上的字迹消失。结果到头来，别说什么字迹…
+s		直接连本子本身都消失了。
+s		……8月32日，还是来了。
+j	14625
+b	street_afternoon
+p	changxia		normal	surprise	speak_angry	
+s	@	啊，我刚还想着要不要去你家里找你呢，没想到你居然准时赴约了！
+p	changxia		normal	surprise	confused	
+s	周腾	……
+p	changxia		happy	sad	speak	
+s	@	不好意思让你陪我任性啦，起这么早只为吃一碗汤面。
+p	changxia		normal	normal	speak	
+s	@	因为今天是开学第一天嘛，我想着如果不早点来的话，晚点排队的学生就太多了。
+p	changxia		normal	sad	speak_angry	
+s	@	你怎么…不说话，是还没睡醒么？
+p	changxia		normal	sad	confused	
+s	周腾	今天是多少号？
+p	changxia		happy	sad	speak	
+s	@	看样子你是真没睡醒啊……
+p	changxia		normal	normal	speak_angry	
+s	@	我都说了是开学第一天了，那今天肯定是32号啊，要不然还能是多少号？
+p	changxia		happy	sad	smile	
+s		常夏双手叉腰叹了口气，一副无奈的样子。
+s		我倒不是不相信常夏的话，我当然知道今天是8月32号，只是单纯地想要在确认一下罢了。
+s		就像是一个从来不好好复习的高中生，知道明天就要高考了，但是心里还是会想着，如果明天有突发状况高考延期就好了。
+s		知道事情不可能有转机了，但还是期望着能有奇迹的发生，大概就是这种心理。
+s	周腾	能把手机给我看一下吗？
+p	changxia		normal	normal	speak_angry	
+s	@	干嘛？
+p	changxia		normal	normal	confused	
+s	周腾	看看日期，确认一下。
+s		常夏皱了皱眉，用一种看笨蛋的眼神盯着我看了好几秒，但最后还是从包里拿出了手机，递到了我的手上。
+p	changxia		normal	normal	speak_angry	
+s	@	看完记得还我。
+p	changxia		normal	normal	confused	
+s		接过常夏的手机，我娴熟地输入了锁屏密码，进到了手机内部。
+s		虽然不解锁手机也一样可以看到日期，但我更想确认的，其实还是“相册”的事情。
+s		上次在相册里看到了一些不应该出现在这边的照片，不知道这次还能不能见到。
+p	changxia		normal	surprise	speak_angry	flush
+s	@	喂周腾！你、你怎么知道我锁屏密码！？我记得我没有和你说过吧——！
+p	changxia		normal	surprise	confused	flush
+s		常夏的脸瞬间红了起来，连忙把手机给抢了回去。
+s		确实，常夏在这一轮的8月32日还没有和我说过密码的事，但是在上一轮，很多事情都已经发生过了一次了，只是常夏的记忆被重制，不记得这些事情罢了。
+p	changxia		normal	angry	speak_angry	flush
+s	@	解锁我手机就算了，还偷偷点到相册里去看！偷看女孩子的隐私会让你觉得很爽嘛…！
+p	changxia		normal	angry	speak_angry	flush
+s	@	虽然相册里也没有什么很隐私的照片就是了，但…你、你要是想看的话，直接和我说不就好了，干嘛偷偷摸摸的……
+p	changxia		normal	angry	confused	flush
+s	周腾	没有，我只是，顺手就滑进去了。
+p	changxia		normal	angry	speak_angry	flush
+s	@	呸呸呸~这什么破理由，你觉得我会信吗？
+p	changxia		normal	surprise	speak_angry	
+s	@	还有，你、你是怎么知道我的锁屏密码是你生日的……
+p	changxia		normal	surprise	confused	
+s		常夏说话的声音越来越小，小到我都几乎快听不清最后几个字了。
+s	周腾	嗯…稍微，猜了一下？
+p	changxia		normal	angry	speak_angry	
+s	@	哪有人猜别人的手机密码往自己生日上猜的啊……
+p	changxia		normal	angry	confused	
+s	周腾	这不是猜对了嘛~
+p	changxia		normal	normal	confused	
+s	@	……
+s		常夏撇过头，许久没有说话。
+h	changxia
+s		刚刚用常夏手机的时候，我特地留了个心眼，相册里没能找到之前那些奇怪的照片。
+s		日期我也多确认了几遍，今天确实是8月32号。
+s		当然，我正是因为确信今天仍然是8月32号，所以才会在这个时间点出现在面馆门口。
+s		现在看来，无论8月32日重新来过多少次，常夏和我约在面馆门口见面的这件事都是不会变的。
+b	street_afternoon
+p	changxia	c	normal	normal	speak	
+s		如果我能准时到这边来，我就能在面馆门口碰见常夏。
+b	zhou_teng_bedroom_noon
+p	changxia	c	happy	sad	speak	
+s		如果我睡过头迟到了，那么常夏就一定会跑到我家里来叫我起床。
+b	classroom_afternoon
+s		第一节课语文老师一定会在教室里大发雷霆，说什么暑假作业没收齐，说什么我们没有学习的心思……
+b	black
+s		……
+s		“——你听说过吗，有人说，在8月31日留下深刻遗憾的人，会被困在8月32日，永远与现实脱轨……”
+s		时至今日，直到我第三次迎来相同的8月32号之后，我才算是彻底理解了……
+s		这段“都市传说”的真正含义。
+j	14704
+e
+c	真实与虚假的分界线
+b	white
+b	classroom_afternoon
+s	语文老师	咳咳……
+s	语文老师	本来啊，今天第一节打算讲新课的，现在看来不用讲了。
+s	语文老师	因为你们根本就没有学习的心思——！！
+s	语文老师	课代表十分钟前把暑假作业收上来，信誓旦旦地拿着这么薄一沓作业跟我说交齐了，怎么，我们班就24个人？
+s	语文老师	还有其他18个人的暑假作业呢！？没交的自己站起来——！！
+s		语文老师生气地将手中的一沓作业本甩在了讲台上，声音惊人得响。
+s		熟悉的说辞，熟悉的动作，甚至就连没交作业的学生数量都一模一样。
+s		这已经是我第三次听到语文老师说这段话了。
+s		8月32日到底要重来多少次才算到头，我不知道。但如果再继续重来下去的话，语文老师的这些台词我肯定是能背下来了。
+s		因为肚子实在是有些饿，所以早上和常夏一起吃面的时候，我特地点了一份大碗。
+s		但明明刚到教室没多久，第一节课才刚刚开始，我的肚子便又开始饿了起来。
+s		虽然也不是饿到无法忍受，但这种饥饿感实在是有些反常规了。
+s		是我吃得太少了？还是说……

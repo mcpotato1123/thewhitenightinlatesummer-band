@@ -1,0 +1,128 @@
+p	changxia	l	normal	normal	smile	
+p	kanade	r	happy	normal	smile	
+s		她对着我甜甜地笑了笑，我也挥了挥手对她礼貌地打了个招呼。
+p	changxia	l	normal	confused	speak_angry	
+s	@	话说回来，为什么小奏你会到二楼来？
+p	changxia	l	normal	normal	speak_angry	
+s	@	现在应该已经放学了有一段时间了吧。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	我是来找周腾的。
+p	kanade	r	normal	normal	confused	
+s	周腾	哈？找我...？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	嗯，之前说好的事情，周腾你没有忘记吧。
+p	kanade	r	normal	normal	confused	
+s		辉夜奏的话让我陷入了久久的沉思之中，我始终想不明白自己究竟和辉夜奏之间立下过什么样的约定。
+s		“说好的事情”指的是什么，我一时没能想明白。
+s	周腾	虽然但是……‘说好的事情’指的是什么？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	陪我下棋。
+p	changxia	l	normal	surprise	speak_angry	
+p	kanade	r	normal	normal	confused	
+s	周腾	啊……啊！？
+s	周腾	不对吧，我今天中午不是才陪你下过棋吗！
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	确实是这样没错，但周腾你说过…
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	只要你有时间，就可以来陪我下棋的。
+p	kanade	r	normal	normal	confused	
+s	周腾	我确实是说过这样的话，但我说的是暑假啊！我说的是等到暑假之后，有时间了再陪你下！
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	现在已经放学了吧。
+p	kanade	r	normal	normal	confused	
+s	周腾	是、是啊…
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	既然暑假前的最后一天课已经全部结束了，那现在不就是暑假了吗？
+p	kanade	r	normal	normal	confused	
+s	周腾	……
+s		辉夜奏说得好像确实没错，按道理来说确实是这样，只是……
+s		我以为辉夜奏那边会晚几天再来找我的……
+p	changxia	l	normal	confused	speak_angry	
+s	@	你什么时候答应她这种事情的，我怎么不知道…？
+p	changxia	l	normal	confused	confused	
+s		常夏突然凑到了我旁边，对着我刻意地压低了声音。
+s	周腾	其实就是今天中午的事情啦，她要我放暑假了有时间多陪她下下围棋，我没想太多就答应了。
+p	changxia	l	normal	confused	speak	
+s	@	哦…？没想太多就答应了？你确定…你不是在‘深思熟虑’之后才答应的小奏？
+p	changxia	l	normal	confused	smillle	
+s	周腾	什么意思？
+p	changxia	l	happy	angry	speak	
+s	@	没什么意思，就是觉得有些不爽而已~
+p	changxia	l	happy	angry	speak	
+s	@	我身为和你关系最好、认识最久的那个人，难道不是我最应该享受这种‘随叫随到’的待遇吗？
+p	changxia	l	happy	angry	smile	
+s	周腾	……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	你们在小声说什么呢？
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	speak	
+s	@	没什么，周腾在求我之后给他抄英语暑假作业呢。
+p	changxia	l	normal	normal	smile	
+s	周腾	啊？我有说过这些吗？？
+p	changxia	l	normal	angry	speak_angry	
+s	@	你—先—闭—嘴——！！
+p	changxia	l	normal	angry	confused	
+s		常夏用食指轻轻地点了点我的嘴唇，随后便转身微笑着看向了站在教室门口的辉夜奏。
+p	changxia	l	normal	normal	speak	
+s	@	总之，等会周腾可能没办法陪你去下棋了。
+p	changxia	l	normal	normal	smile	
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	为什么？
+p	changxia	l	happy	normal	speak	
+p	kanade	r	normal	surprise	confused	
+s	@	因为我这边事先和周腾约好啦，等会放学了要去‘星期八’喝杯咖啡放松放松。
+p	changxia	l	happy	normal	smile	
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	‘星期八’…？是那个这两年一直都很火的咖啡厅的名字吗？
+p	changxia	l	happy	normal	speak	
+p	kanade	r	normal	surprise	confused	
+s	@	没错！这可是我们白月高中的学生人尽皆知的超火爆咖啡厅！
+p	changxia	l	normal	normal	speak	
+s	@	如果小奏你玩‘白月公园’的话应该就知道，‘星期八’咖啡厅可是连续5次被选为‘白月高中周边最受欢迎的店铺’哦！
+p	changxia	l	normal	normal	smile	
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	这个我还真的不是很清楚……
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	smile	
+s	周腾	在我印象里，奏应该很少喝咖啡吧。
+p	kanade	r	happy	normal	speak	
+s	辉夜奏	还是周腾懂我，我确实很少喝咖啡。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	准确来说，我对这种苦苦的东西都有些反感。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	唔…我其实也不是很喜欢吃苦的东西，像什么苦瓜之类的我就很讨厌，但是咖啡的话我就挺喜欢的。
+p	changxia	l	normal	normal	speak	
+s	@	咖啡的香气闻起来很让人舒服，和牛奶按比例搭配，喝起来有一种柔顺的口感，那种有苦有甜的感觉就像是恋爱一样。
+p	kanade	r	normal	normal	speak	
+p	changxia	l	normal	normal	smile	
+s	辉夜奏	常夏姐有谈过恋爱吗？
+p	kanade	r	normal	normal	confused	
+p	changxia	l	happy	sad	speak	
+s	@	呃，还真没有…
+p	changxia	l	happy	sad	smile	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	既然没有，那为什么能从咖啡中喝出‘恋爱的感觉’呢？
+p	changxia	l	happy	sad	speak	
+s	@	这、这不都是看别人这么说的嘛！人家电影电视剧里面都是这么形容的，所以我也就借用了一下这种形容的方法而已啦。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	是吗。那我现在的感觉，应该就像是吃了苦瓜一样。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	confused	speak_angry	
+s	@	啊？什么意思…？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	没什么，我就是想问问…
+s	辉夜奏	我可以跟着一起来么？
+p	kanade	r	normal	normal	confused	
+s		辉夜奏的这个问题是对着常夏问出来的，但她的眼神却一直集中在我的身上。
+p	changxia	l	happy	normal	speak	
+s	@	我这边当然没问题啦！周腾呢？
+p	changxia	l	happy	normal	smile	
+s	周腾	既然来都来了，干脆就一起去咖啡厅坐坐吧，我们也很久没有像这样三个人一起聊过天了。
+p	changxia	l	normal	surprise	speak_angry	
+s	@	不过，真的不要紧么？
+p	changxia	l	normal	surprise	speak_angry	
+s	@	小奏不是不喜欢喝咖啡吗？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	没事，我喝柠檬茶就好。
+h	changxia

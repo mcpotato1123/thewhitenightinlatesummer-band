@@ -1,0 +1,128 @@
+s	辉夜奏	唔呜……
+p	changxia	cl	normal	normal	speak	
+p	kanade	cr	happy	sad	confused	flush
+s	@	好了，我气消了。但下次要是还被我发现小奏你骗我……
+p	changxia	cl	normal	confused	speak	
+s	@	我可就不是光揉脸这么简单了哦~
+p	changxia	cl	normal	confused	smile	
+p	kanade	cr	happy	sad	speak	flush
+s	辉夜奏	我、我知道了……
+p	kanade	cr	happy	sad	confused	flush
+s		听着两人的对话，我忍不住地开始想象了起来。
+s		“不光是揉脸”，那还能揉什么？
+h	changxia
+h	kanade
+b	black
+s		......
+j	1042
+e
+b	street_afternoon
+s		虽说星期八咖啡厅就在白月高中不远处，但步行走过去也还是需要将近十分钟。
+s		更何况刚刚在路上还出现了那样的情况，这导致我们的步行速度变得比预想中要更慢了一些。
+s		不过这也没什么不好的。偶尔像这样晒着夕阳在人来人往的大道上悠闲地漫步着，感觉也挺浪漫。
+s		刚刚的闹剧结束之后，常夏和辉夜奏都暂时地平静了下来。
+s		辉夜奏一边慢悠悠地往前走着，一边专注地盯着手机。她的手指在屏幕上来回地滑动着，似乎是在翻看“白月公园”上的帖子。
+s		至于常夏这边，从闹剧结束之后，她就一直在望着马路对面发呆，也不知道到底是在看些什么。
+p	changxia	c	normal	normal	confused	
+s	周腾	我说常夏，你在看什么呢？
+s	@	……
+s	周腾	喂，常夏~
+p	changxia		normal	surprise	speak_angry	
+s		我轻轻地戳了戳常夏的胳膊，她像是只受了惊的小兔子一般地抖了一机灵，随后才转过身来，将注意力放在了我的身上。
+p	changxia	c	normal	confused	speak_angry	
+s	@	你刚刚在和我说话吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	那要不然呢！
+p	changxia	c	happy	sad	speak	
+s	@	我还以为你是在和…呃……
+p	changxia	c	happy	sad	smile	
+s		常夏没有把话说完，只是抬了抬眉头，示意了一下走在我旁边的辉夜奏，之后便是一番苦笑。
+s	周腾	怎么了，这是什么意思？
+p	changxia	c	normal	normal	speak	
+s	@	看不懂我的脸色就算啦，反正也没指望你做出什么反应~
+p	changxia	c	normal	normal	smile	
+s	周腾	怎么说的我好像是木头人一样。
+p	changxia	c	happy	normal	speak	
+s	@	可不就是木头人嘛~行了行了，你有什么想说的就赶紧说吧。
+p	changxia	c	happy	normal	smile	
+s	周腾	其实也没什么，就是有点好奇，你为什么一直要往对面看…？
+p	changxia	c	normal	confused	speak_angry	
+s	@	啊…？
+p	changxia	c	normal	confused	confused	
+s	周腾	从刚刚开始就一直是这样，你望着马路对面一声不吭的，不清楚地还以为你因为刚刚的事闹别扭了呢。
+p	changxia	c	normal	angry	speak_angry	
+s	@	我像是那么小气的人么……
+p	changxia	c	normal	angry	confused	
+s		常夏白了我一眼，之后便恢复到了正常的表情，对着我开始解释了起来。
+p	changxia	c	normal	normal	speak	
+s	@	你不觉得马路对面有什么变化吗？
+p	changxia	c	normal	normal	smile	
+s	周腾	变化？
+s		我顺着常夏手指的地方望了过去，乍一看，好像没有什么区别。但是当我仔细地进一步观察了一会之后，我才发现……
+s		对面的那条街道，相比以往好像确实发生了些许变化。
+h	changxia
+b	street_afternoon
+s	@	对面的那家老汤面馆最近生意越来越好了。一开始的时候，因为店铺装修的不好看，所以一直都没能吸引很多学生过去用餐。
+s	@	好像也就是这几天的事情吧，这家面馆找人重新装修了一下店铺，换了新的招牌。
+s	@	这稍微一装修啊，就有不少学生跑过去吃面。
+s	@	因为这家面馆的味道本身就很好，所以这么一来，口碑和名声也就很快地传开了。
+s	周腾	原来是这样吗，我最近确实有听到周围人在谈论面馆的事情，不过一直都没太在意。
+s	@	对吧，还有那家面馆旁边的鲜花店，最近也进了不少新东西回来。
+s	@	你看到它店门口摆的铃兰花了吗，那个就是最近的新货。
+b	vase
+s	周腾	铃兰花？这种花不是只会在五月六月的时候开吗，现在都六月底了，花期应该过了吧。
+s	@	是这样没错，大部分的铃兰花花期早就结束了。
+s	周腾	那花店门口用花瓶装着的是……
+s	@	当然是假的铃兰花啊，笨蛋周腾~
+b	street_afternoon
+p	changxia	c	normal	normal	smile	
+s	周腾	怎么可能，一般的花店是不会卖假花的吧……
+p	changxia	c	normal	normal	speak	
+s	@	按照常理来说确实如此，大部分花店确实不会卖假花，毕竟这样容易招来一些不必要的麻烦。
+s	@	但是呢……
+s	@	有需求就会有人供给，有人想要买假的铃兰花，那么花店自然也会想办法去进假铃兰花的货。
+p	changxia	c	normal	normal	smile	
+s	周腾	我不是特别明白，假花有什么意思。既没有香气，摸起来的手感也很差。
+p	changxia	c	normal	normal	speak	
+s	@	但它是铃兰花啊。
+s	周腾	啊？
+p	changxia	c	normal	normal	speak_angry	
+s	@	我问你，假如有一个人很喜欢很喜欢铃兰花，但是铃兰花的花期已经过去了，那么这个人应该怎么办？
+s	周腾	那就耐心等待，等明年铃兰花花期到了，再去买铃兰花。
+s	周腾	或者是，去买假铃兰花……
+p	changxia	c	happy	normal	speak	
+s	@	看来你的脑子也不是那么木头嘛~
+s		常夏轻轻地点了点我的额头，对着我用着有些俏皮的语气说道。
+p	changxia	c	normal	normal	speak	
+s	@	虽说你刚刚提到的两种方法都可行，但事实就是，大部分人不会耐心等待。
+s	@	很喜欢铃兰花的人，一定会想尽办法让自己买到铃兰花，即使这个是假的也没关系。
+s	@	假的铃兰花虽然没有香气，但却可以用合适的香水来补足代替。
+s	@	假的铃兰花摸起来手感可能会很差，但只要舍得花钱去买质量更高，做工更好的假铃兰花，这些问题也不是不能解决。
+p	changxia	c	normal	normal	smile	
+s	周腾	这么一说好像确实如此。
+p	changxia	c	normal	normal	speak	
+s	@	假的铃兰花虽然有很多缺点，但这些缺点都是可以想办法去弥补的。
+s	@	这个时候再去想想看假铃兰花的优点：不会凋零、不会死亡，能够永远保持自己最好看的状态，也可以一直陪在养花人的身边……
+s	@	假花不需要打理，只要买的时候付钱就能一劳永逸。而真花需要阳光雨露，需要专门护理。
+s	@	即使你放学后，每天都拖着疲惫的身躯去为真花施肥浇水，它也可能会在你不经意之间枯萎。
+s	@	而假花呢，无论你以什么态度对它，无论你把它放在家里的哪个角落，它都对你一如既往，绽放自如。
+p	changxia	c	normal	normal	smile	
+s	周腾	你说得我都想去买一束假铃兰花回家养着看了。
+p	changxia	c	normal	normal	speak	
+s	@	那…如果是周腾的话，会更喜欢真花还是假花呢？
+p	changxia	c	normal	normal	smile	
+m	……1138更喜欢真花1139更喜欢假花1159
+j	1178
+s	周腾	大概…我会更喜欢真花一些吧。
+p	changxia	c	normal	normal	speak	
+s	@	理由呢？
+p	changxia	c	normal	normal	smile	
+s	周腾	其实我也说不太清楚理由，可能是因为我更喜欢养花的这个过程…？
+s	周腾	你想想看，花刚买回来的时候，大部分都还是花苞的状态吧。
+s	周腾	随着自己每天的精心照料，花苞也会一点一点地盛开，开出好看的花朵...
+p	changxia	c	happy	normal	speak	
+s	@	唔……看不出来，周腾你还是个挺浪漫的人啊~
+p	changxia	c	happy	normal	smile	
+s	周腾	常夏呢，更喜欢真花还是假花？
+p	changxia	c	happy	normal	speak	
+s	@	我？我更喜欢能吃的花…！

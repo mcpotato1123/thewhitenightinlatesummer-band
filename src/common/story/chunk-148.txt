@@ -1,0 +1,128 @@
+s		我本想开口反驳辉夜奏的说法，说什么心灵感应都是用来骗人的玄学。
+s		但在经历了这么多事、摆脱了一次又一次的生死过后，我对这些事情的看法也不再是全盘否定了。
+s		也许就如辉夜奏所说，我们之间真的有所谓的“心灵感应”呢。
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+s	周腾	能重新见到你，真好。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	……我也是。
+p	kanade		happy	sad	confused	
+s		辉夜奏突然朝着我抱了过来，双手紧紧地环住了我的腰。
+s		她将自己的小脑袋埋在我的怀里，来回地磨蹭着，活像是一只猫咪。
+p	kanade		happy	sad	surprise	
+s	辉夜奏	我好想你，前辈……
+s	辉夜奏	今天上午从家里醒来的时候，我真的好害怕……
+p	kanade		normal	sad	surprise	
+s	辉夜奏	害怕自己是不是还呆在‘小世界’里，害怕是不是只有自己一个人逃出来了……
+s	辉夜奏	打电话你也不接，发短信你也不回，你知道我有多担心你吗…！
+p	kanade		sad	sad	surprise	
+s	辉夜奏	要是再也见不到你，再也见不到你的话…我真的会……
+p	kanade		sad	sad	sad	
+s		辉夜奏没有把剩下的话说话，而是在我怀里小声地抽泣着。
+s		我看不到她的表情，只能看到她因为磨蹭而弄乱的发丝。
+s		我小心地用手指梳理着她的头发，抚摸着她的脑袋，就像是真的在给一只小猫顺毛一样。
+s		辉夜奏似乎也对此乐在其中，缓了好几分钟之后，心情才算是平复了下来。
+p	kanade	c	sad	normal	smile	
+s		她抬起头来望了我一眼，眼眶红红的，但还是对我甜甜地笑了。
+p	kanade	c	sad	normal	speak	
+s	辉夜奏	星期八咖啡，不会再开门了啊。
+p	kanade	c	sad	normal	confused	
+s	周腾	嗯…店长，应该是永远地留在那个夏天了。
+s	周腾	不过这也正是他所期望的事情。对他来说，失去了目标的人生已经没有任何意义了。
+p	kanade	c	sad	normal	speak	
+s	辉夜奏	和我很像呢。
+p	kanade	c	sad	normal	confused	
+s	周腾	为什么这么说…？
+p	kanade	c	sad	normal	speak	
+s	辉夜奏	我没有办法想象，自己的生活如果没有前辈的话，会变成什么样子……
+p	kanade	c	sad	normal	sad	
+s	周腾	别这么说，难道我不在了你就过不下去了吗？
+p	kanade	c	sad	normal	speak	
+s	辉夜奏	唔…可能会每天哭丧着脸，然后魂不守舍地继续过下去吧。
+p	kanade	c	sad	sad	speak	
+s	辉夜奏	前辈忍心看我变成这样子吗？
+p	kanade	c	sad	sad	sad	
+s	周腾	咳咳，当、当然不忍心了。
+s	周腾	不管怎么样，以后都不要再说这种话了…！
+p	kanade	c	normal	normal	smile	
+s		辉夜奏笑着点了点头，没有作声，但也算是一种积极的回应。
+s	周腾	对了，我今天下午，去了一趟医院。
+p	kanade	c	normal	normal	confused	
+s	辉夜奏	……
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	这样……
+s	周腾	多亏了你，她现在身体恢复得很快，除了骨折几乎没什么大碍，脸上也没留下太多伤。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	常夏姐能恢复当然是最好，但我也没做什么。
+s	辉夜奏	当时的我，只想着拼尽全力地救下你一个人，仅此而已……
+p	kanade	c	normal	normal	sad	
+s		辉夜奏的表情有些不安，我大概能猜到她心里在想些什么。
+s		与其用语言来安抚人心，不如用行动证明自己。
+s		我自作主张地牵起了奏的手，和她紧紧地十指相扣在了一起。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	前辈……
+p	kanade	c	normal	surprise	confused	
+s	周腾	不要在想那些虚无缥缈的事情了，至少，我现在就在你的身边啊。
+j	19010
+p	kanade	c	normal	normal	confused	
+s		辉夜奏的指尖是冰凉的，但掌心却是温热的。
+s		就如她一直给外人的印象一样，外冷内热，生人勿近。只不过唯独在我这边，‘热’的部分会毫无保留地展现出来。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	对了，前辈家里有人吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	怎么突然问这个？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	只是突然想起来，我们认识了这么久，我好像还一次你家里都没有去过……
+p	kanade	c	happy	angry	speak	
+s	辉夜奏	呃，之前还在8月32日里的时候去的那次不算数！我说的是在现实世界里，还一次都没有…
+p	kanade	c	happy	angry	confused	
+s	周腾	没必要在这么奇怪的地方严谨吧，不都是一样的吗？
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	不一样！
+p	kanade	c	normal	angry	confused	
+s	周腾	哪里不一样了，不都是我家吗？
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	我、我也说不上来，但就是会觉得不一样，如果不去一次的话，总有一种自己好像输了的感觉……
+s		“输了”的感觉吗…
+s		如果是放在以前，我可能还会弄不清楚奏的意思。
+s		但在小世界里交换过心意之后，我大概也能感受到奏的一些担忧了。
+s		因为常夏经常到我家里做客，所以奏会觉得，自己如果不去一次，就好像输给了常夏一样。
+s		小女生会有这样的竞争意识，倒也不奇怪就是了。
+s	周腾	我明白了，那现在去我家吧。
+s	周腾	当然我爸也在家，不过不用担心，我爸不排斥我带朋友去家里的。
+p	kanade	c	happy	angry	speak	
+s	辉夜奏	前——辈——！
+p	kanade	c	happy	angry	sad	
+s		话刚说完没多久，奏就用力地掐了掐我的手掌。我这才意识到自己是说错话了。
+s		但现在就改口什么的，该说不说还是有些让人不好意思。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	算了，等会回去了收拾你。
+p	kanade	c	normal	angry	confused	
+s		奏留下了这一句意味深长的话之后，便没有再说些什么了，只是拉着我朝着我家的方向笔直地往前走，牵着我手的力度也越来越重。
+b	black
+s		……
+b	zhou_teng_bedroom_noon
+s	周腾父亲	一回来就钻进卧室，也不跟我打声招呼。
+s	周腾父亲	怎么样，小夏情况还好吧？
+s	周腾父亲	……哟？这一个人出去还变成两个人回来啦？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	叔叔好。
+p	kanade	c	normal	normal	confused	
+s	周腾父亲	哈哈哈你好你好你好，哎哟，姑娘伢长得是水灵啊。
+s	周腾父亲	我晓得你，你是辉夜家的那个，那个…千金大小姐？
+s	周腾	……
+p	kanade	c	normal	normal	confused	
+s	辉夜奏	……
+s		我从来没有想过，居然有一天能从自己老爸的嘴里听到“千金大小姐”这五个字。
+s		莫非是最近电视剧看多了？
+s	周腾父亲	不好意思不好意思，我年纪大不是蛮会说话，反正都是周腾的朋友嘛！
+s	周腾父亲	哎呀，平时都是别人姑娘主动到我们这里来找周腾，这还是头一回看到周腾自己把姑娘伢带到家里来。
+p	kanade	c	surprise	surprise	speak	
+s	辉夜奏	真的吗，他从来没有往家里带过其他女生？
+p	kanade	c	surprise	surprise	confused	
+s	周腾父亲	肯定是真的撒，我从来不骗人的！
+s		说完这句话之后，老爸对着我偷偷眨了眨眼睛。
+s		我不知道他想跟我传达什么消息，但我确实是第一次主动把女生带到家里来……
+s	周腾父亲	行了行了，你们玩你们聊，我就不打搅你们年轻人了哈，我还有事得出门。
+s	周腾	去哪？
+s	周腾父亲	呃，出门……吃饭，吃烧烤！我几个兄弟晚上约我喝酒了的。

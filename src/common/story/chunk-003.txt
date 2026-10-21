@@ -1,0 +1,128 @@
+s		一切收拾就绪之后，辉夜奏便转身朝着社团大门走了过去。
+s		只是，还没等她一只脚迈出活动室，辉夜奏就停下了脚步，突然转身望向了我这边。
+s		她的表情既有些期待又有些担心害怕，沉默着纠结了好久，辉夜奏才对着我缓缓开了口。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那个，明天就放假了啊……
+p	kanade	c	normal	normal	confused	
+s	周腾	是啊，今天是暑假放假之前的最后一天课了。
+s	辉夜奏	……
+s	周腾	怎么了？
+p	kanade	c	normal	normal	speak	flush
+s	辉夜奏	我、我其实是想问周腾你……
+s	辉夜奏	放假了之后，还能偶尔陪我下下棋么…？
+p	kanade	c	normal	normal	confused	flush
+s		辉夜奏的突然发问，算是在我的意料之中吧，我没想太多就对她做出了表态。
+m	有时间再说吧。399只要我有时间，就一定陪你。401
+j	403
+j	403
+j	414
+j	403
+s	周腾	还是…有时间再说吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这样啊，好像也是呢……
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	周腾暑假应该会有很多的安排吧，时间这个事情现在也说不太准，还是等到时候再说吧。
+p	kanade	c	normal	sad	smile	
+s		在苦笑着对我丢下这句话之后，辉夜奏便快步地走出了围棋社，消失在了我的视线范围之内。
+h	kanade
+b	black
+s		......
+j	429
+v	kanade_love	+1
+s	周腾	当然，只要我有时间就一定陪你~
+p	kanade	c	happy	normal	speak	flush
+s	辉夜奏	那太好了…！
+p	kanade	c	happy	normal	smile	flush
+s		虽然辉夜奏的表情并没有太大的变化，但我还是从她的语气当中听出了一丝兴奋和欣喜的感觉。
+p	kanade	c	normal	normal	speak	flush
+s	辉夜奏	那就说好了，到时候我会联系你的~
+p	kanade	c	normal	normal	smile	flush
+s		在高兴地对我丢下这句话之后，辉夜奏便快步地走出了围棋社，消失在了我的视线范围之内。
+h	kanade
+b	black
+s		……
+j	429
+e
+b	classroom_noon
+s		大家都在教室里忙前忙后地收拾着自己的东西，做着放假前的最后准备。
+s		虽说距离放假还有半天课的时间，但现在这种景象……说是已经放假了应该也不为过。
+p	gecheng	c	normal	normal	happy	
+s	葛城	怎么了阿腾，干嘛一进教室就黑着脸？
+p	gecheng	c	normal	normal	smile	
+s		和辉夜奏告别之后，我并没有在社团教学楼浪费太多的时间，而是早早地回到了教室。
+s		在看到我出现在教室门口之后，葛城这家伙立马带着笑意朝着我这边小跑了过来。
+s		不用说也知道葛城是来调侃我的。
+s		从初中我刚认识他那会儿，葛城就一直都是这样子的性格，我也渐渐地习惯了和他之间的这种相处模式。
+s	周腾	管那么多干什么…
+h	gecheng
+s		我并没有过多地搭理葛城，而是叹着气绕过了他，径直地朝着我的座位走了过去。
+p	yuluoshen	c	normal	normal	close	glasses
+s		然而，我那原本应该空无一人的座位，却不知什么时候被一个黑发少女给占领了。
+s		这已经是今天第二次我的位置被人给占住了……
+s	周腾	余洛琛……
+p	yuluoshen	c	normal	normal	speak	glasses
+s	余洛琛	你好像不是很愿意见到我的样子？
+p	yuluoshen	c	normal	normal	close	glasses
+s		余洛琛翘着二郎腿，双手环抱在胸前，用着一脸似笑非笑的表情看着我，让我有些不太舒服。
+s	周腾	如果你没有坐在我的位置上的话，或许我脸上的表情会更好看一些。
+s	余洛琛	……
+h	yuluoshen
+s		余洛琛听完我的话之后并没有太大的反应，沉默了一小会儿之后，她才站起了身来，朝着一旁的空位走去。
+s		而正当我准备坐下来的时候，她却又快步地跑了回来，重新地坐在了我的位置上。
+p	yuluoshen	c	normal	angry	close	
+s		一套动作是如此的行云流水，就好像是在故意地挑逗我一般。
+s	周腾	不对……
+s		不是好像，余洛琛确确实实地是在耍我，从她的表情上能够很清楚地看到这一点。
+s	周腾	你跑到我们教室来，不会就是特地为了做这种事情吧……
+p	gecheng	fl	happy	sad	speak	
+s	葛城	啊，她确实有说过今天要好好‘报复’一下你，只是我没想到，会是这样的一种‘报复’方式…
+p	gecheng	fl	happy	sad	smile	
+s	余洛琛	……
+p	yuluoshen	c	normal	angry	close	
+s		余洛琛没有回应葛城的话，反倒是看向了我这边。可当我和她对视的时候，她却又莫名其妙地将头侧向了一旁。
+p	gecheng	fl	happy	sad	speak	
+s	葛城	咳咳…总之，别太在意我刚刚的话，我今天来主要是想问问你……
+p	gecheng	fl	normal	normal	happy	
+s	葛城	今天中午，你是不是和奏一起去围棋社下棋了？
+p	gecheng	fl	normal	normal	smile	
+s	周腾	你怎么知道的，奏来告诉你了？
+p	gecheng	fl	happy	sad	speak	
+s	葛城	她怎么会主动来告诉我这种事情，这家伙平时都没几句话，问她这种问题纯属是折磨自己好吧。
+p	gecheng	fl	happy	sad	smile	
+s	周腾	所以你到底是怎么知道的啊…
+p	gecheng	fl	happy	normal	happy	
+s	葛城	当然是猜的咯~
+p	gecheng	fl	normal	normal	happy	
+s	葛城	好吧，其实也并不是什么毫无根据的乱猜。我一开始也不知道这些事情，不过嘛，我刚刚在回教室的路上碰到奏了。
+p	gecheng	fl	normal	normal	smile	
+s	周腾	然后呢？
+p	gecheng	fl	normal	normal	happy	
+s	葛城	我没上去主动和她打招呼，毕竟和她交流实在是有些太累人了。但她今天心情好像很不错的样子。
+p	gecheng	fl	normal	normal	smile	
+s	周腾	心情很不错？
+p	gecheng	fl	happy	normal	happy	
+s	葛城	是啊，虽然脸上没有太大的表情波动，不过和其他大部分时候相比，她已经‘笑得很开心’了。
+p	gecheng	fl	normal	normal	speak	
+s	葛城	要知道，这一个星期我每次碰到她她都是一副扑克脸，今天脸上笑成这样肯定是发生了什么高兴的事情！
+p	gecheng	fl	normal	normal	smile	
+s	周腾	所以…你就觉得，她是来找我下棋了？
+p	yuluoshen	c	normal	angry	speak	
+s	余洛琛	要不然呢！奏平时说话说得那么少，对人也是一副爱答不理的样子，白月广场正中心的那个大理石雕像的面部表情都要比她丰富得多。
+s	余洛琛	我也认识她有一段时间了，然而…小奏她却从来没对我这样笑过，唯独只有在和周腾你下棋的时候脸上才会露出那种高兴而又期待的表情！
+p	yuluoshen	c	normal	angry	close	
+s		余洛琛突然抢过了葛城的话茬，对着我摆出了一副有些不爽的表情，就连说话的语气都变得有些激动。
+s		虽然很不想承认，但余洛琛说的确实都是事实。
+s		和其他人相比，奏在面对自己时，脸上的表情确实要变得比以往丰富得多。
+s		余洛琛似乎一直都对这一点感到有些嫉妒和恼火……
+s	周腾	话可不能这么说啊余洛琛，什么叫做和我呆在一起的时候表情就会变得丰富的多，说不定人家奏只是刚好今天碰上了什么高兴的事情呢。
+s		我还是当面地反驳了余洛琛，尽管我并没有忘记辉夜奏刚刚在围棋社门口和我说过的话。
+p	gecheng	fl	happy	normal	happy	
+s	葛城	骗骗哥们儿可以，别把自己也给骗到啦~奏那边对你是什么态度，我们这几个平时玩得好的都看在眼里。
+p	gecheng	fl	normal	normal	speak	
+s	葛城	还记得上个星期辉夜奏中午和你在围棋社下的那场棋局吗？
+s	葛城	当时我们可都在旁边参观！我和余洛琛啊…就看着你一直皱着眉头盯着棋盘，不停地思考下一步应该怎么走，走哪里才是最好……
+p	gecheng	fl	normal	normal	smile	
+s	周腾	这不是很正常的事情吗？哪有下棋的人不看棋盘的啊，就算是下五子棋也要看清楚局势才能下出好棋，不是吗？
+p	yuluoshen	c	normal	sad	speak	
+s	余洛琛	唉，但是辉夜奏那边却一直在看你啊…
+p	yuluoshen	c	normal	sad	speak	

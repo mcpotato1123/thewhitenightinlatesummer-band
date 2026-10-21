@@ -1,0 +1,128 @@
+s		常夏望着我，脸上的表情很是失望，我很少见到她如此失望的表情。
+s		这让我越发开始怀疑自己了。
+s		不过话说回来，真的是我的记性不好吗，有没有可能常夏和店长出现了一样的问题？
+s		因为8月32日这个都市传说的消失，所以“投影”的记忆都出现了幅度不小的变动？
+s		但也不应该啊，8月32日是今年夏天才爆火出来的都市传说，今年才爆火的东西，怎么会影响到常夏初中时的记忆呢？
+s		我有些弄不清楚了。
+s		到底是常夏的“投影”出现了新的记忆，还是说…单纯只是我这边忘记了初中的事情……
+j	8584
+p	changxia	c	happy	sad	speak	
+s	@	没关系没关系！今天出来玩就不说这些了~
+p	changxia	c	happy	sad	smile	
+s		常夏撇开了话题，虽然有些生硬。
+p	changxia	c	normal	normal	speak	
+s	@	要不要吃冰激凌，今天我请客！
+p	changxia	c	normal	normal	smile	
+s	周腾	为什么是冰激凌？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	你不爱吃吗？
+p	changxia	c	normal	surprise	confused	
+s	周腾	倒也不是，就是有些好奇吧。
+s	周腾	其实我也不知道该怎么说，总感觉请客吃‘冰激凌’这件事情，给我一种很熟悉的感觉。
+p	changxia	c	normal	confused	speak_angry	
+s	@	很熟悉…？嗯~看来你也不是什么事情都忘记了嘛。
+p	changxia	c	normal	normal	speak	
+s	@	之前初中的时候，我们俩为了庆祝歌手大赛拿到名次，来这边吃庆功宴。
+s	@	当时这附近有一家冰激凌店刚开业，正在做抽奖的活动，排队的人也超级多。
+s	@	我当时为了凑热闹就拉着你一起抽奖，结果你猜怎么样！
+p	changxia	c	normal	normal	smile	
+s	周腾	怎么样了？
+p	changxia	c	happy	normal	speak	
+s	@	我抽到了一等奖！奖品是可以吃到他们这里每一种口味的冰激凌——！
+p	changxia	c	happy	normal	smile	
+s	周腾	还有这种事！？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	你忘了吗？我、我还以为你还记得这件事呢。
+p	changxia	c	happy	normal	speak	
+s	@	总之，他们那家店是按球计费的，口味种类也特别多。当时兑奖的时候，店员小姐姐不知道从哪里掏出来了一个超级大碗。
+s	@	每个口味的冰激凌都给我舀了一个球！
+p	changxia	c	normal	normal	smile	
+s	周腾	一等奖设置成这个是不是有些不太好，冰激凌弄那么多也吃不完啊，还不如换成其他的实体奖品。
+p	changxia	c	normal	confused	speak	
+s	@	道理是这个道理没错，但那个时候我还觉得…挺有意思的？可能因为是初中生吧，所以也没想那么多。
+p	changxia	c	normal	normal	smile	
+s	周腾	那你说的那份超大碗冰激凌，后来怎么样了？
+p	changxia	c	normal	normal	speak	
+s	@	和你两个人一起吃了一半，剩下一半……给你打包拿回去放冰箱里冻着了。
+p	changxia	c	normal	normal	smile	
+s	周腾	这样啊……
+s		常夏的话让我若有所思。
+s		其实听她讲以前的事情其实还怪有趣的，毕竟…
+s		和这些事情有关的记忆，我是真的没能在自己的脑海里翻找到……
+s		只能像是听故事一样，以一个旁观者的角度去感受情感。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	所以，你是真的不记得了…？
+p	changxia	c	normal	surprise	sad	
+s		常夏望着我，那种眼神…似乎只要我给出了否定的回答，她就会立马哭出来一样。
+s		但事实就是事实，不记得就是不记得，我甚至不知道这些事情究竟是被我遗忘了，还是说单纯只是投影的记忆被替换了。
+s	周腾	抱歉……
+p	changxia	c	normal	sad	speak_angry	
+s	@	我、我还以为你是在开玩笑的呢，没想到居然是真的忘记了…
+s	@	按道理来说也不可能啊，初中离现在也不是很久远啊。
+s	@	这种比较重大的事情，不管怎么想都能记得个大概吧。
+s	@	还是说……
+s	@	这么久以来，我和你所共度的时光，在你眼里都是无关紧要、可以被随意抛在脑后的存在吗……？
+p	changxia	c	normal	sad	smile	
+s		常夏的声音有些莫名地发抖，尽管她脸上的表情还在微笑着。
+s		我能感受到，她是真的在害怕。
+m	不管怎么样，这种时候，我都应该做些什么才好……8644抓紧她的手。8645思考一下自己接下来的措辞8646
+j	8648
+j	8648
+j	8679
+j	8648
+s		头脑发热、还是气氛使然…？或许两者都有吧。
+p	changxia	c	normal	surprise	sad	
+s		我没想太多，上前抓住了常夏的手，皮肤的触感柔软且温热。
+s		有那么一瞬间我有些后悔，后悔自己为什么没能早点这么做……
+p	changxia	c	normal	surprise	speak_angry	
+s	@	周腾…？
+p	changxia	c	normal	surprise	sad	
+s	周腾	以前的事情我可能记得不太清楚了，虽然我也搞不清楚究竟是什么原因……
+s	周腾	我也还记得你之前和我抱怨，说什么‘我们已经很久很久没有没有创造新的回忆了’……
+p	changxia	c	normal	sad	speak_angry	
+s	@	我有说过这些么？好像…有吧……
+p	changxia	c	normal	sad	sad	
+s	周腾	总之，未来还有这么长，我们还有很多机会去创造新的回忆啊，过去的事情如果实在记不起来了，也没关系吧？
+p	changxia	c	normal	angry	speak_angry	
+s	@	不行……
+s	@	过去和未来，我一个都不想扔下。
+p	changxia	c	normal	angry	sad	
+s	周腾	那就尽数全收好了。
+s	周腾	我会听你讲完以前所有的事情，那些我记得的、我不记得的、我很乐意听你再讲一遍~
+p	changxia	c	normal	normal	confused	
+s	@	……
+p	changxia	c	normal	normal	smile	
+s	@	嗯…！
+s		不知道自己的安慰有没有起到作用，但常夏脸上的表情确实变得舒展一些了。
+s		其实，刚刚说出那些话的时候，我也在犹豫不决。
+s		我也在想，自己真的有必要做到这种程度么…？
+s		明明站在我面前的这个少女只是“投影”而已，我干嘛要对她的情绪百般照顾，甚至让自己的情绪都被她牵动呢？
+s		但我还是第一时间向她伸出了自己的手。没有过多的理由，就只是这么去做了。
+s		……
+s		我是不是，有些越来越不像自己了？
+j	8785
+s	周腾	对不起，我有些不记得了，所以……
+s	周腾	但我、我也不是说不重要的意思，只是……
+s		我想了很多很多，最后还是说出了这样冰冷的话。
+s		但即使我撒谎也没有任何意义吧，常夏她无论什么时候都能看出我的谎言。
+s		本来还想抓住常夏的手，稍微安抚一下她。现在看来，需要安全感的人反而是我自己吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我知道了……
+s	@	毕竟‘失忆’也是没有办法的事情呢……
+p	changxia	c	normal	normal	confused	
+s	周腾	……
+h	changxia
+s		翘课出来玩本来应该高高兴兴的，但在我说完这段话之后，气氛就变得有些古怪了。
+s		之后逛街结束之后，常夏也是早早和我告别，一个人坐地铁回了家……
+s		……
+j	8711
+b	street_afternoon
+p	changxia	c	normal	sad	smile	
+s	周腾	对不起，我有些不记得了，所以……
+s	周腾	但我、我也不是说不重要的意思，只是……
+s		我想了很多很多，最后还是说出了这样冰冷的话。
+s		但即使我撒谎也没有任何意义吧，常夏她无论什么时候都能看出我的谎言。
+s		本来还想抓住常夏的手，稍微安抚一下她。现在看来，需要安全感的人反而是我自己吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我知道了……
+s	@	毕竟‘失忆’也是没有办法的事情呢……

@@ -1,0 +1,128 @@
+s	辉夜奏	不过当时因为各种原因，很长一段时间我都没有和他有过主动交流。
+s	辉夜奏	直到有一次，周腾主动找到了我。
+p	changxia	l	normal	surprise	speak_angry	
+p	kanade	r	normal	normal	confused	
+s	@	主动？
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	也不完全是吧。其实后来我才知道，是我爸爸私下找的他，给了他一个任务。
+s	辉夜奏	大概就是让周腾在我入学白月高中之前，多带我在学校转转，熟悉熟悉校园什么的。
+p	kanade	r	happy	normal	speak	
+s	辉夜奏	差不多就是那段时间，我和周腾才开始一点一点变熟的~
+p	kanade	r	happy	normal	smile	
+p	changxia	l	normal	normal	sad	
+s	@	……
+p	changxia	l	normal	normal	speak_angry	
+s	@	原来你们这么早就认识了。
+p	kanade	r	normal	normal	speak	
+p	changxia	l	normal	normal	confused	
+s	辉夜奏	很早吗？很长一段时间都是我单方面认识他，真正认识他还是因为我爸的‘任务’。
+p	changxia	l	normal	normal	sad	
+s	@	和他说的不一样啊……
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	常夏姐，你刚刚说什么了吗？
+p	changxia	l	happy	sad	speak	
+s	@	啊？我说，你们俩从某种意义上来说也可以算青梅竹马啦，毕竟也认识挺久了，哈哈哈……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	常夏姐，对‘青梅竹马’这个称呼很在意吗？
+p	changxia	l	normal	normal	speak_angry	
+p	kanade	r	normal	normal	confused	
+s	@	没有啊，只是感叹一下。
+p	changxia	l	normal	normal	confused	
+s	辉夜奏	没事的，‘青梅竹马’的话，让给常夏姐当没问题的。
+p	changxia	l	normal	normal	sad	
+p	kanade	r	normal	normal	confused	
+s	@	‘让’……吗……
+j	5155
+d	8月13日 周六上午
+d	8月13日 周三下午
+b	zhou_teng_bedroom_noon
+p	changxia	c	normal	normal	confused	
+s		事情发生的有些突然……
+s		自己卧室的房门莫名其妙地被推开，青梅竹马莫名其妙地闯入卧室，然后老爸又莫名其妙地跑过来和我小声说些奇怪的话……
+s	周腾	不是，你怎么突然来了？
+p	changxia	c	normal	normal	speak_angry	
+s	@	我不能过来吗？
+p	changxia	c	normal	normal	confused	
+s	周腾	我不是这个意思，只是……你以往来的时候都会提前给我发短信说一声的。
+s	周腾	今天就这样突然过来了，我稍微有点没心理准备。
+p	changxia	c	normal	angry	speak_angry	
+s	@	你和我见面还需要心理准备…？！
+p	changxia	c	normal	angry	confused	
+s	周腾	没有，你误会我的话了……
+p	changxia	c	normal	normal	confused	
+s	@	……
+s		常夏没有回应我，只是十分随意地坐在了我的床上。一手玩弄着我未叠的被子，一边打量着我整个卧室。
+s		我想要说些什么话来缓和气氛，但常夏的状态让我实在是有些不知道该说些什么才好了。
+s	周腾	要不…我去冰箱里帮你拿点水喝吧？
+p	changxia	c	normal	normal	speak_angry	
+s	@	我不渴。
+p	changxia	c	normal	normal	confused	
+s	周腾	那要不要吃点零食什么的？我家里还有些薯片和黄桃罐头。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我不饿，而且饭前吃零食是会发胖的。
+p	changxia	c	normal	normal	confused	
+s	周腾	……
+s		这样类似的对话，好像在什么地方也发生过？
+p	changxia	c	normal	normal	speak_angry	
+s	@	周腾应该喜欢那种身材比较纤细的女孩子吧？
+p	changxia	c	normal	normal	confused	
+s	周腾	为什么这么说？
+p	changxia	c	normal	normal	speak_angry	
+s	@	你就说喜欢不喜欢吧。
+p	changxia	c	normal	normal	confused	
+s	周腾	这……身材我觉得只要正常就好了，我其实更看重性格吧，和我合得来的性格。
+p	changxia	c	normal	normal	speak_angry	
+s	@	那我懂了，周腾应该是喜欢那种性格孤僻不爱说话，只要一说话就毒舌的那种女孩子吧？
+p	changxia	c	normal	normal	sad	
+s	周腾	……？？
+s		常夏盯着我，眼里有着一种说不出来的埋怨和愤怒。
+s		到这个时候我才意识到，五分钟前老爸说的话到底是什么意思了。
+b	zhou_teng_bedroom_noon
+s	周腾父亲	对不起啊，没提前告诉你就把小夏给放进来了。
+s	周腾父亲	虽然不知道你们两个之间发生了什么事情，但你最好还是哄哄她吧。
+s	周腾	为什么，我和她之间没什么矛盾啊。
+s	周腾父亲	她那表情都像是要吃人了，还说没矛盾呢……
+s	周腾父亲	总之，你自己看着办吧。
+b	zhou_teng_bedroom_noon
+p	changxia	c	normal	normal	confused	
+s	周腾	那个，虽然不知道我做错了什么，但……
+s	周腾	对不起常夏——！！
+p	changxia	c	normal	surprise	confused	
+s		我站起身来郑重地对着常夏鞠了一躬，动作之突然就连我自己都差点没绷住。
+s		常夏似乎是被我的突然行为给吓到了，停下了自己手里的所有动作，用着有些惊讶的表情看着我。
+p	changxia	c	normal	surprise	sad	
+s	@	你还是坐下来吧周腾，这么大个个子…站我面前怪有压迫感的……
+p	changxia	c	normal	surprise	confused	
+s	周腾	好吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	所以呢，你为什么要骗我？
+p	changxia	c	normal	normal	confused	
+s	周腾	啊？
+s		我有些不太明白常夏的话。
+p	changxia	c	normal	normal	speak_angry	
+s	@	就、就是关于你和小奏的事情啊，你撒谎了吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	你说你和小奏是因为下棋认识的，结果我跑去问小奏，她根本就不是这么说的！
+p	changxia	c	normal	angry	sad	
+s	周腾	那…奏是怎么说的？
+p	changxia	c	normal	angry	speak_angry	
+s	@	她说什么，自己和你是因为一个‘任务’认识的，是因为她爸拜托你带她提前认识校园，所以你们才熟络起来的。
+s	@	最主要的是和我说这些的时候脸上还笑嘻嘻的，不知道在高兴什么……
+p	changxia	c	normal	angry	confused	
+s	周腾	我和奏确实是这样认识的没错。
+p	changxia	c	normal	angry	speak_angry	
+s	@	那你之前为什么要骗我啊，说什么是因为下棋认识的，我当时还真信了！
+p	changxia	c	normal	angry	confused	
+s	周腾	倒也没说错吧，我和奏确实可以说是因为围棋认识的。毕竟没有围棋，我和她也不可能认识嘛。
+p	changxia	c	normal	angry	speak_angry	
+s	@	所以你还在狡辩！
+p	changxia	c	normal	angry	sad	
+s	周腾	我只是觉得那个所谓的‘任务’没有什么说的必要啊，只是带她参观了一下校园，然后一起吃了食堂和路边摊什么的……
+s	周腾	感觉也不是什么很值得提起的事情吧？
+p	changxia	c	normal	surprised	confused	
+s	@	……
+p	changxia	c	happy	normal	speak_angry	
+s	@	那些你觉得不重要的事情，可能是别人视若珍宝的回忆啊。
+p	changxia	c	happy	normal	sad	
+s	周腾	你有在说什么吗？
+p	changxia	c	normal	normal	speak_angry	

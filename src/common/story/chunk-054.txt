@@ -1,0 +1,128 @@
+p	changxia		normal	normal	speak_angry	
+s	@	但我看你的表情，确实是这么说的哦。
+p	changxia		normal	normal	smile	
+s		常夏打趣地对着我笑了笑，然后走到了我的座位旁边。
+s		她双手撑在课桌上，愣是半天都没有说出一句话，只是温柔地望着我。
+p	changxia		normal	normal	speak	
+s	@	你肚子舒服一些了吗？
+p	changxia		normal	normal	smile	
+s	周腾	啊？哦，哦……
+s	周腾	已经好很多了，谢谢关心。
+s		我本以为常夏会指责我今天中午没有等她一起吃饭，结果…上来的第一句话居然是在关心我。
+p	changxia		normal	normal	speak	
+s	@	既然已经好很多了的话，那…回家之前，陪我一起在外面走走吧~
+p	changxia		normal	normal	smile	
+j	6927
+b	street_afternoon
+s		虽然有些犹豫，但最后还是答应了常夏，决定在放学回家之前，陪她在学校附近四处逛逛。
+s		应该怎么形容我现在的心情呢…？大概是矛盾？
+s		明明知道站在自己身旁的这个常夏不是真人，只是所谓的“投影”，但自己也还是忍不住地会靠近她，去和她相处交流。
+s		毕竟无论从哪个方面来看，这个“投影”都太真了。
+s		说话语气、外貌长相、行事作风……可以说和真正的常夏已经没有任何差别了。
+p	changxia		normal	normal	speak_angry	
+s	@	说起来，我们已经高三了啊。
+p	changxia		normal	normal	confused	
+s	周腾	啊？嗯…好像确实。
+s		常夏大概是察觉到气氛的尴尬，率先发起了话题，只不过她开口说的第一句话让我有些没反应过来。
+s		思考了半晌之后我才意识到，自己已经是个高三生了，无论是在现实世界里，还是在这个所谓的8月32日里。
+p	changxia		normal	normal	speak_angry	
+s	@	总感觉你一点紧迫感都没有呢，还有不到一年就要高考了啊。
+p	changxia		normal	normal	confused	
+s	周腾	我当然知道啊。
+p	changxia		normal	angry	speak_angry	
+s	@	那你怎么还这样。
+p	changxia		normal	angry	confused	
+s	周腾	……
+s		我有些不知道该怎么回答了，总不能说是因为现在的自己根本就没有学习的心思吧。
+s		常夏在现实世界里出了车祸，自己和朋友又被困在了8月32日里，直到现在都没有找到出去的办法。
+s		在这种情况下，我怎么可能还有心思去想高考的事情？
+s		能不能活着出来参加高考都还是个未知数呢……
+p	changxia		normal	confused	speak_angry	
+s	@	你就没有什么想考的好大学么？比如说，‘江城大学’，又或者是‘江城科技大学’？
+p	changxia		normal	confused	confused	
+s	周腾	以我的成绩来说我考不上的啦。
+p	changxia		normal	confused	speak_angry	
+s	@	总得有个意向不是吗，‘江城师范大学’也挺不错的啊，有没有想过往那里考？
+p	changxia		normal	confused	confused	
+s	周腾	也没有吧…
+p	changxia		normal	normal	speak_angry	
+s	@	懂了，你是想去外地读大学吧，虽然我觉得江城本地的大学也都很不错了，但你在这住了这么久，对江城感到有些厌烦了也说不定。
+p	changxia		normal	normal	sad	
+s		常夏话说到一半有些沉默了，她的表情莫名变得有些落寞，不知道是不是想到了什么事情。
+s	周腾	你很在意我上哪个大学吗？
+s	周腾	感觉你…一直在问这种问题呢。
+p	changxia		normal	normal	speak_angry	
+s	@	我当然在意啦，提前知道你要考到哪个大学去，这样我之后也好准备嘛。
+p	changxia		normal	normal	confused	
+s	周腾	准备什么？
+p	changxia		normal	normal	speak_angry	
+s	@	准备和你考到一个大学去呀。
+p	changxia		normal	normal	confused	
+s	周腾	……
+s		虽然很早之前就听常夏说过这些话，但每次重新听到都还是会觉得有些感慨。
+s		我的成绩并不算很好，和常夏之间还是有些差距的。
+s		如果要和我考同一所大学，那对于常夏来说实在是有些没必要和不公平了。
+s		好学生就应该去好学校，至少我是这么觉得的。
+p	changxia		normal	sad	speak_angry	
+s	@	你、你稍微说两句啊，本来刚刚那句话就让人有点不好意思了，结果你还闷不做声。
+p	changxia		normal	sad	confused	
+s	周腾	我觉得，常夏你不用想着跟我上一个大学啊。
+s	周腾	你的成绩比我好那么多，最后高考结束我顶多上个普通一本，但你是可以去那种名校的。
+p	changxia		normal	angry	speak_angry	
+s	@	但我想和你上一个大学，不可以么…
+s	@	我还想和你上同一个专业，在同一个学院里呢。
+p	changxia		normal	angry	confused	
+s	周腾	这样太委屈你了，你家里也不会同意你这么搞的，能上211985干嘛非得和我一起在普通一本里。
+p	changxia		normal	normal	sad	
+s	@	……
+s		常夏愣了一小会，她看着我好像有什么话想说，但硬是半天都没有开口。
+s		最后的最后，她选择了终止话题。
+p	changxia		normal	normal	speak_angry	
+s	@	陪我去星期八喝杯咖啡吧。
+j	6994
+p	changxia		normal	normal	confused	
+s		去星期八喝咖啡吗……
+s		我暗地里思考了一番常夏刚刚说的话。按道理来说，星期八咖啡应该是处于关门状态的。
+s		8月31号那天就已经是星期八最后一次开门了，但现在都已经8月32日了。
+s		总之不管怎么样，去咖啡厅看一看肯定是没错的。
+s		如果星期八没有关门，那么从说不定可以从店长身上找到一些线索。
+s	周腾	咖啡厅，果然正常开门了。
+p	changxia		normal	surprise	speak_angry	
+s	@	果然？
+p	changxia		normal	surprise	confused	
+s	周腾	啊！我的意思是，开门了就好。
+p	changxia		normal	normal	confused	
+s		常夏没有继续追问下去，只是点了点头，随后推开了咖啡厅的玻璃大门，先一步地走了进去。
+b	black
+s		……
+b	coffee_afternoon
+p	changxia		normal	normal	smile	
+s	店长	欢迎光临，哦，没想到是你们两个？
+s		刚看到我和常夏进店，店长便笑盈盈地从吧台后面走了出来，过来迎接我们。
+s	周腾	今天人很多啊，店长你居然还有时间出来欢迎我们？
+s	店长	以前的话嘛…刚开学肯定没时间，但是现在不一样了，喏~
+s		店长用眼神示意了一下旁边吧台的位置，我这才发现，多出了几个穿着星期八专属logo服装的店员，正在帮忙一起做咖啡。
+s	周腾	居然多了好几个新员工，什么时候招的？
+s	店长	就这个暑假啊，这个暑假我一直在忙着找人手。
+s	店长	因为不光是你们白月高中的学生，其他地方来喝咖啡的人也越来越多了。
+s	店长	我跟你们讲，现在年轻人管我们星期八叫什么，叫‘可以开party的咖啡厅’！
+s	店长	这个你知道吧，我们这儿最出名的就是可以随便聊天讲话。
+s	店长	然后现在这个名头，好像是被哪个探店博主给做了个视频宣传，一下子就带火了，然后各种人都跑到我这里来喝咖啡聊天玩桌游什么的。
+s		店长看起来十分开心，看得出来这次意外走红给他的营业额带来了不小的提升。
+s		但是，情况是不是有些不太对……？
+s		探店博主的事情也好，增加人手的事情也好，一切都来得有些太突然了。
+s		明明这一整个暑假我们也没少光顾过咖啡厅，但从没听过店长讲这个事情啊。
+s		一点迹象都没有，怎么就突然爆火加员工了呢？
+s	周腾	人多了也是好事嘛，营业额增加了咖啡厅也可以越办越好。
+s	店长	那是当然，对了，你们喝什么？你俩也是老熟客了，今天我请客吧。
+p	changxia		normal	normal	speak	
+s	@	那麻烦给我来一杯生椰拿铁吧！甜度和冰度就随便好了，我都能接受~
+p	changxia		normal	normal	smile	
+s	店长	你呢？
+s	周腾	我就…还是和常夏一样吧。
+s	店长	行！
+s		收到点单之后，店长立马回头和吧台里正在做咖啡的服务员打了声招呼。
+s		我听不太清楚他们在说些什么，大致内容应该就是和做咖啡有关的。
+s		服务员面无表情地点了点头，随后紧接着转过头去做咖啡了。
+s	周腾	对了店长，你有关注过白月高中的都市传说吗？
+s	店长	‘都市传说’？好小众的词语，我已经很久没有听人说过这个词了。

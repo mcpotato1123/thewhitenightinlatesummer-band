@@ -1,0 +1,128 @@
+s	纸条	而且手机没电也联系不上你，急死我了知道吧，我生怕你是不是出事了，就差直接到你家里去找你了。
+s		这样看来，葛城所经历的事情是和我很类似的，并不是只有我一个人遇到了这种日期倒转和手机没电的情况。
+s		既然葛城没有出现什么生命危险，那么余洛琛和奏应该也没事……
+s	辉夜奏	周腾——！！！
+p	kanade	c	normal	sad	sad	
+s		刚提到辉夜奏，教室门口就突然传来了辉夜奏的呐喊声，一开始我还以为自己出幻觉听错了，直到我亲眼看见了辉夜奏气喘吁吁手扶着门框的样子。
+p	kanade	c	normal	sad	speak	
+s	辉夜奏	太好了，你在教室里…！太好了……
+p	kanade	c	normal	sad	sad	
+s	语文老师	你是哪个班上的学生？现在是上课时间不知道吗！？
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	啊…啊！不好意思老师！负责社团管理的老师找周腾……还有葛城有点事，叫我上来传个话。
+p	kanade	c	normal	surprise	sad	
+s	语文老师	唉，天天学习没精神，搞社团活动倒是一个比一个起劲。
+s	语文老师	快去快回！
+j	14096
+b	black
+s		……
+b	corridorA_afternoon
+p	gecheng	c	normal	confused	speak	
+s	葛城	不是很理解，这个时间点社团老师找我们干什么？
+p	gecheng	c	normal	confused	sad	
+s		我没有说话，只是白了葛城一眼。刚刚那句话也不知道他是在开玩笑还是认真的。
+s		其实我不太明白葛城有没有理解我眼神里的意思，但至少和我对视了几秒之后，他就没有在出声了。
+s		另外，奏的情绪比我想象中的要低迷的多，看起来有些魂不守舍，就连走路都有些晃晃悠悠的。
+s		我知道，什么社团管理的老师找我们有事其实都是借口。但这一路上辉夜奏愣是一个字也没说。
+s		即使是我刚认识她那会儿她最惜字如金的时候，也比现在说的话要多得多。
+s		辉夜奏不知道从哪里摸出来一把钥匙，熟练地打开了围棋社的门。
+s		随着门打开，一股好闻的书香气息飘了过来，之后……
+b	chess_club_afternoon
+p	yuluoshen	c	normal	sad	close	
+s		余洛琛便出现在了我的面前…？
+p	yuluoshen	c	happy	sad	sad	
+s	余洛琛	哈啊……太好了，周腾你没事就好，没事就好……
+p	yuluoshen	c	happy	sad	close	
+s		余洛琛情绪有些激动，嘴里不停喃喃念叨着。
+p	yuluoshen	c	normal	sad	close	
+s		她似乎还想张开手扑过来抱住我，或许是觉得不太合适吧，这个动作仅仅只是做了个开头就没有后续了。
+s	葛城	那我呢？我、我也没事啊！怎么见到我反而就没有那么意外和庆幸了？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	哦，太好了，葛城你也没事。
+p	yuluoshen	c	normal	normal	close	
+s	葛城	前后的语气差距也太大了吧！
+p	yuluoshen	c	normal	normal	close	
+s		葛城一如既往大心脏地开起了玩笑，即使是在这种大家都很悲观的情况下，他也能随时随地地活跃气氛。
+s		我很佩服他这一点，但也正是因为这一点，我稍微有些猜不透他的真实想法。
+s	周腾	所以…你怎么会在围棋社？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	问我吗？
+p	yuluoshen	c	normal	normal	close	
+s	周腾	刚刚只有你一个人在社里吧？
+p	yuluoshen	c	normal	normal	surprise	
+s	余洛琛	你的第一句话不是担心我，居然是问我为什么会在这里。说实话，我稍微有些伤心呢。
+p	yuluoshen	c	normal	normal	smile	
+s		余洛琛没有立刻向我解释，反倒是学着葛城的样子开起了玩笑。
+s	辉夜奏	是我去班上把余洛琛叫来的。用的同样的理由。
+s		辉夜奏不知道什么时候找了个沙发瘫靠在上面，她看起来很是疲惫，眼睛也红红的，像是刚哭过一样。
+p	yuluoshen	c	normal	sad	speak	
+s	余洛琛	小奏刚找到我的时候着急地不行，二话不说就把我从班里拉了出来。
+s	余洛琛	还好我们班老师通情达理，随便找了个和社团有关的理由就放我们走了。
+p	yuluoshen	c	normal	normal	happy	
+s	余洛琛	看到小奏的时候，我其实是松了一口气的。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	为什么？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	我也不知道该怎么说，总之就是发生了很多事情吧。
+s	余洛琛	首先是我的手机好像坏了，无论怎么样都充不进电。因为要来学校所以也没时间去修。
+p	yuluoshen	c	normal	normal	close	
+s	葛城	你手机也坏了——！？
+p	yuluoshen	c	normal	surprise	happy	
+s	余洛琛	啊…？
+p	yuluoshen	c	normal	surprise	close	
+s		余洛琛简单地表示了一下自己的疑惑，随后继续说了下去。
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	再就是……周围所有人都和我说今天是8月32号开学报道的日子。
+p	yuluoshen	c	normal	surprise	speak	
+s	余洛琛	但，8月32号不是昨天吗？
+p	yuluoshen	c	normal	surprise	close	
+s		听到这里，虽然大部分事情都和我的猜想相符，但我还是感觉一阵头皮发麻。
+s	周腾	所以说，是我们所有人都碰到了日期错乱和手机没电的问题，而不是只有我一个人？
+s	葛城	所有人…？意思是你手机也坏了！？
+s	周腾	我没和你说过吗？
+s	葛城	你哪里和我说过了，上课时候我传给你的纸条你就再也没有传回来过好不好！
+s	葛城	来围棋社的路上你也没和我说，一个两个都不说话，只有我被蒙在鼓里……
+s	周腾	反正你现在知道咯。
+s	葛城	我真是……！那辉夜奏呢，奏也遇到这些事情了？
+s		围棋社里三个人一齐看向了奏，倒是奏这边像是断了魂似的躺在沙发上休憩，过了好久才回话。
+s	辉夜奏	肯定是因为碰到了这些事情，所以我才急着来找你们的啊。
+j	14169
+s		这下事情总算是弄清楚了。虽然我早就猜到了会是这个结果，但葛城这边应该没有想到会这么严重。
+s	葛城	以前我在家里搞错日期，我妈总会开玩笑用江城话和我说，‘你活转了是吧’。
+s	葛城	这下好了，这下真的‘活转了’，日期直接往前倒退了……
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	我倒是没有那么惊讶吧。说实话，8月32日真实存在这件事就已经够让人吃惊了。
+s	余洛琛	在这个基础上已经有一定的心理预期了，发生什么事情都不奇怪。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	那要发生什么样的事情才会让你觉得奇怪？
+p	yuluoshen	c	normal	normal	happy	
+s	余洛琛	这个问题，你是在开玩笑地问我，还是认真地问我？
+p	yuluoshen	c	normal	normal	close	
+s	周腾	一半一半吧。
+p	yuluoshen	c	normal	normal	surprise	
+s	余洛琛	我想想……
+p	yuluoshen	c	normal	normal	close	
+s		余洛琛陷入了沉思，过了好久才笑着对我说出了刚刚那个问题的答案。
+p	yuluoshen		happy	normal	speak	
+s	余洛琛	如果我之后再也揉不到小奏的脸了，我大概才会觉得奇怪和不适应吧~
+p	yuluoshen		happy	normal	smile	
+s	葛城	现在不也揉不到么…
+s		葛城一边说着一边朝着辉夜奏看去，辉夜奏没有说话，但是脸上稍有些害怕和惊恐的表情已经说明了一切。
+s	周腾	刚刚的回答是开玩笑还是认真的？
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	一半一半吧~
+p	yuluoshen		happy	sad	smile	
+s		余洛琛苦笑着重复了一遍我之前的回答，多半是在打趣我吧，我也就没把话题继续下去了。
+p	yuluoshen		normal	normal	close	
+s	葛城	行了行了，都这个时候你们还有心情开玩笑吗。还是赶紧说正事吧。
+s	周腾	你刚刚开玩笑的时候我都没说你，怎么轮到我们活跃气氛就不行了？
+s	葛城	我道歉，我认错好吧，暂且先结束支线剧情，我要推主线~
+s		辉夜奏不知道是休息够了还是怎么，听了葛城的话之后也算是坐直了身子，顺带整理了一下自己的头发。
+s	辉夜奏	今天把大家叫到围棋社这边来，一方面是想看看大家是否还安全，另一方面就是，可以交流一下各自获得的信息之类的。
+s	辉夜奏	既然大家都遇到了类似的问题，那讲起来应该就方便许多了。
+p	yuluoshen		normal	normal	surprise	
+s	余洛琛	怎么有种班主任在开班会的感觉，是我的问题吗？
+p	yuluoshen		normal	surprise	close	
+s	葛城	还真有点，辉夜奏也是越来越成熟了，有小大人的样子了呢。
+s	周腾	……
+s	辉夜奏	日期倒转的事情先暂且不说，先看看手机的事情吧。

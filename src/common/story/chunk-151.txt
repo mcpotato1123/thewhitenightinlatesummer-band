@@ -1,0 +1,76 @@
+h	changxia
+p	kanade		normal	normal	confused	
+s	余洛琛	啊，我刚看到小奏！怎么躲在周腾后面呀，快过来让我摸摸~
+p	kanade		normal	normal	confused	
+s		余洛琛在看到小奏之后，立马来了精神。她飞快地朝着辉夜奏冲了过去，但奏似乎并没有逃开的打算。
+s		而是就这样呆站在原地，任凭余洛琛蹂躏自己的脸蛋。
+s	余洛琛	……
+s	余洛琛	小奏，你为何不避？
+p	kanade		normal	normal	speak	
+s	辉夜奏	因为不怕。
+p	kanade		normal	normal	confused	
+s	余洛琛	呃，我之前揉你脸的时候，你不是都会吓得到处乱跑吗？
+p	kanade		normal	normal	speak	
+s	辉夜奏	没事，想揉就揉吧，没关系的。
+p	kanade		normal	normal	confused	
+s		辉夜奏的回答让余洛琛有些摸不着头脑，她愣站在原地，停下了自己手中的动作。
+s		我还是头一回看到她这样怀疑人生的表情。
+s	葛城	人家辉夜奏早就脱敏了，天天被周腾揉脸，肯定习惯了。
+s	葛城	唉，果然谈恋爱可以改变一个人的性格。以前奏半天不肯说一句话，现在简直是和谁都能聊在一起。
+s	余洛琛	谈、谈恋爱…？
+s	葛城	你不知道吗？奏和周腾已经交往一个月了。
+s	余洛琛	啊……
+s	@	啊……
+s	葛城	等等！原来你们都不知道的吗？我记得周腾之前还说过这个事情的。
+s	@	我、我之前在住院啦，这些事情没太关注。
+s	余洛琛	我一直都在备战高考呢，也没太注意这方面的事……
+s		气氛变得有些古怪，余洛琛半低着头没有作声，常夏的脸色看起来也有些别扭……
+s	葛城	我是不是说错话了？
+s		葛城看向了我，对着我灵魂质问道。
+s	周腾	没事，本来就是早就公开了的关系。
+h	kanade
+s		……
+s		这么多人去常夏家里吃饭，桌子坐得下吗？
+s		这个问题似乎不该我来考虑，但此时此刻不思考一些什么东西的话，总感觉心里闷闷的。
+s		大家一齐朝着常夏家的方向走着。余洛琛和常夏走在最前面，一边带队一边笑着聊天。
+s		葛城走在最中间刷着手机，时不时还突然地发出一些大笑，不知道在看些什么内容……
+s		至于我和小奏，则是走在了队伍的最后面。
+s		辉夜奏十分自然地牵起了我的手，似乎完全不担心走在我们前面的几个人。
+s		她的手掌一如既往地柔软，让人安心。
+p	kanade		normal	normal	speak	
+s	辉夜奏	前辈，你最近还有在刷‘白月公园’的怪谈板块吗？
+p	kanade		normal	normal	confused	
+s	周腾	怎么问这个？
+p	kanade		normal	normal	speak	
+s	辉夜奏	没什么，就是最近又有一些怪谈好像爆火了。
+p	kanade		normal	normal	confused	
+s		辉夜奏一边说着，一边把手机递给了我，上面显示着的是一条热度超高的怪谈帖子。
+s	周腾	你听说过吗，有人说……
+s	周腾	在8月31号晚上开车肇事逃逸的人，可能会被关进8月32日，永远与现实脱轨……
+s	周腾	……
+s	周腾	这是什么最新的魔改版本吗？
+p	kanade		normal	normal	confused	
+s		辉夜奏耸了耸肩，表示自己也不知情。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	虽然内容看起来很荒谬，但你应该知道这个都市传说讲的是什么事情吧。
+p	kanade		normal	normal	confused	
+s	周腾	店长的神秘失踪……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	嗯，虽然你我都知道背后的真相是什么，但果然还是有些感叹呢。
+s	辉夜奏	因为一条都市传说，我们走上了这段故事…
+s	辉夜奏	在故事的最后，我们的经历又误打误撞地引出了全新的都市传说。
+p	kanade		normal	normal	speak	
+s	辉夜奏	不觉得这种缘分很浪漫吗？
+p	kanade		normal	normal	smile	
+s	周腾	我倒是希望这种‘浪漫’还是不要在我的生活里出现了……
+s	周腾	我现在最希望的，就是小奏你可以平平安安地好好生活下去，把以前想做但没能做的事情都做一遍补回来。
+p	kanade		normal	surprise	surprise	
+s	辉夜奏	真的吗，前辈真的是这样想的？
+p	kanade		normal	surprise	confused	
+s	周腾	当然，骗你干什么。
+p	kanade		happy	normal	speak	
+s	辉夜奏	那等会儿吃完饭之后，我就跟着你一起回家啦~
+h	kanade
+e
+e
+e

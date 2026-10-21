@@ -1,0 +1,128 @@
+s	@	周腾你看，我说的没错吧。我就知道小奏早晚有一天也会变成和我一样的‘咖啡星人’的~
+s	周腾	你什么时候和我说过的，我怎么不记得？
+p	kanade		normal	normal	speak	
+s	辉夜奏	除此之外，来星期八其实还有一个原因。
+s	辉夜奏	我、我不知道该不该说，或者说…我不知道该怎样才能说清楚。
+p	changxia		normal	normal	confused	
+p	kanade		normal	normal	confused	
+s		辉夜奏的话让我和常夏面面相觑，不知道该作何反应。
+p	kanade		normal	normal	speak	
+s	辉夜奏	你们有过那种经历吗？就是…会在某个特定的时间段特别想去做某件事情。
+s	辉夜奏	没有理由，就是单纯地很想去做某件事，就好像冥冥之中有人操控着你去这么做一样。
+s	辉夜奏	可以说是第六感？总之，就是会有种自己必须要做一次这件事的感觉。
+s	辉夜奏	很奇怪吧，明明连自己都搞不清楚理由和动机是什么，但就是莫名地想去做某件事。
+p	kanade		normal	sad	speak	
+s	辉夜奏	就好像，是忘记了什么一样……
+p	kanade		normal	sad	smile	
+s		辉夜奏苦笑着揉了揉自己的太阳穴，然后望向了我。
+s		我看着她的深蓝色眼眸，身体忍不住的打了个寒颤。
+s		就在视线交融的那一瞬间，好像有千百个辉夜奏站在我面前，不断地重复着她刚刚说过的那句话，而我却无法做出任何回答。
+s		直到，我的思绪重回现实。
+s	周腾	……
+p	changxia		normal	normal	speak_angry	
+s	@	周腾，你昨晚又和葛城一起熬夜上分了？
+s	周腾	啊，为什么这么说？
+p	changxia		normal	angry	speak_angry	
+s	@	因为你刚刚又在发呆啊！真是的…
+s	@	放假了也要规律作息好好休息才行啊，你这出神的状态我都见两三回了。
+s	@	你要是真因为熬夜倒在路上了，我和小奏可拉不动你。
+h	changxia
+h	kanade
+b	black
+s		……
+s		看来，最近确实得好好休息一下了。
+j	4003
+e
+b	coffee_afternoon
+p	changxia		normal	normal	confused	
+p	dianzhang					speak
+p	kanade	c	normal	normal	confused	
+s	店长	欢迎光临，请问要喝点什么？
+s	店长	嗯……
+s	店长	你们来了。
+p	dianzhang					normal
+s		刚一进门，店长磁性的声音便传了过来。但在发现来店里做客的是我和常夏之后，店长的态度和语气却变得有些微妙了。
+s		常夏与我对视了几秒，但谁都没有先开口说话。
+s		气氛有些窒息，我们都知道是因为那天的事情才变成这样，但事已至此也没有什么办法。
+p	dianzhang					speak
+s	店长	话说，你们旁边的这位小姑娘，之前好像和你们一起来过一次吧？
+p	changxia		normal	shocked	speak	
+p	dianzhang					normal
+s	@	啊…？对的对的！刚放假那一天她和我们一起来的~
+p	changxia		normal	shocked	smile	
+p	dianzhang					
+s	店长	我对她印象还挺深的，毕竟在咖啡厅里问‘有没有不苦的咖啡’的人，我一年也遇不到几次。
+p	dianzhang					
+s		店长用着半开玩笑的语气说出了刚刚那句话，但这反而让我有些更不自在了。
+p	dianzhang					
+s	店长	怎么样，小夏有没有想好喝什么？
+p	changxia		happy	normal	speak	
+s	@	这次的话，我和周腾就随便好了~
+p	changxia		happy	normal	smile	
+p	dianzhang					speak
+s	店长	随便？
+p	changxia		normal	normal	speak	
+s	@	就是类似于开盲盒的那种感觉啦，店长你做什么我们就喝什么。
+p	changxia		normal	normal	smile	
+p	dianzhang					
+s	店长	明白了，那…剩下这一位呢？
+p	dianzhang					
+s		店长将目光聚集在了辉夜奏的身上，期待着她的回答。
+s	周腾	奏，菜单上有什么你想喝的吗，还是说要我给你推荐？
+p	kanade		normal	normal	speak	
+s	辉夜奏	光看菜单上这些咖啡的名字的话，我全都想喝。
+s	辉夜奏	但肯定有些咖啡是我喝不习惯的那种，所以……
+p	kanade		happy	normal	speak	
+s	辉夜奏	还是周腾给我推荐吧。
+p	kanade		normal	normal	confused	
+s	周腾	我知道了，那就麻烦店长给她做一杯‘香草拿铁’吧，正常糖正常冰就好。
+p	dianzhang					speak
+s	店长	没问题。
+h	dianzhang
+p	changxia		normal	normal	smile	
+p	kanade	r2				
+s		在收集完我们所有人的订单之后，店长便转身走进了吧台，开始制作起了咖啡。
+s		不知道是不是我的错觉，我总觉得店长像是有什么话想说一样。
+s	店长	那个，我突然想起来，你们刚刚称呼你们的这位朋友为‘奏’。这是她的昵称吗？
+p	kanade		normal	normal	speak	
+s	辉夜奏	不是的，这是我的名字。
+p	kanade		normal	normal	confused	
+s		还没等我开口，辉夜奏便抢先回答了店长的话。
+s	店长	单名一个‘奏’字吗，那姓是什么呢？啊……
+s	店长	抱歉，我没有其他的意思，我只是单纯好奇你的名字。
+s	店长	毕竟作为小夏的朋友，你以后肯定经常会被她带到咖啡厅来的，所以趁着这个机会认识和熟络一下也挺好。
+s	店长	我虽然年纪大了，但还是很愿意和年轻人交朋友的~
+p	changxia		normal	normal	speak	
+s	@	店长的话，和我们一样叫她‘奏’或者‘小奏’就好了。
+p	changxia		happy	normal	speak	
+s	@	小奏你应该不会介意的吧？
+p	changxia		happy	normal	smile	
+p	kanade		normal	normal	smile	
+s		辉夜奏浅笑着摇了摇头，没有作声。
+p	changxia		normal	normal	speak	
+s	@	让我想想，应该怎么说呢？
+s	@	小奏和我们不一样，她是从日本过来留学的，现在正在读高一。
+s	@	虽然是日本人，但她的中文已经说得非常好了，甚至有时候还会不自觉地带上一点江城口音呢~
+s	店长	哦？居然是日本过来的留学生吗？这么看来，我们还挺有缘分的嘛~
+p	kanade		normal	normal	speak	
+s	辉夜奏	有缘分…？
+p	kanade		normal	normal	confused	
+s	店长	我和你其实是差不多的情况，只不过我是从这里去了日本上学，而小奏你是从日本过来留学的。
+s	店长	不瞒你们说，店长我的语言天赋也是一级的哦~当时在日本上学的时候，身边的同学和导师都夸我日语说得好呢！
+p	kanade		normal	normal	confused	
+s	辉夜奏	……
+s		虽然这已经是辉夜奏第二次和店长见面了，但辉夜奏毕竟是十分怕生的人，对于店长这突如其来的热情态度，她可能有些不太适应。
+s	周腾	不管怎么样，还是礼貌点上去好好自我介绍一下吧？
+s		见辉夜奏仍旧不为所动，我便转头对她说了两句，她这才朝着吧台走了两步，一脸郑重地看向了店长。
+s	辉夜奏	……
+p	kanade		happy	normal	speak	
+s	辉夜奏	那个……刚刚实在是不好意思！我叫辉夜奏，以后会常来这里光顾的，所以还请店长多多指教——！
+s	店长	多多指教，小奏~
+s	店长	等一下，你刚刚说你叫…‘辉夜奏’？
+p	kanade		normal	surprise	speak	
+s	辉夜奏	是、是的，有什么问题吗…？
+s	店长	不是不是……嘶，你应该没有撒谎吧，你真的姓辉夜！？
+p	kanade		normal	surprise	confused	
+s		店长的语气突然变得激动了起来，这突如其来的转变让我有些不安。
+p	changxia		normal	angry	speak_angry	
+s	@	小奏怎么可能会骗人啊，就算要骗人也不会在自己的姓氏上做文章吧！

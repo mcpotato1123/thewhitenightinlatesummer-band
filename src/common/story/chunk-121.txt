@@ -1,0 +1,128 @@
+p	kanade	c	normal	normal	smile	
+s		话虽这么说，但奏似乎完全没有听进去。还没来得及等我摆手拒绝，盛满了冰激凌的勺子便伸到了我的嘴边。
+s		勺子上的冰激凌仿佛被施了魔法似的，一直在对着我说“快吃吧，快吃吧~”
+s		可总感觉只要吃下了这一口冰激凌，我和辉夜奏的关系便会发展到很奇怪的处境。
+s		但事已至此，说什么也无法拒绝了吧。
+s		气氛已经烘托到这种地步了，不吃下这一口冰激凌实在是有违男子汉大丈夫的身份！
+s		我大口地咬住了奏递过来的勺子，尽可能地让自己的吃相看起来豪迈一些。
+p	kanade	c	normal	surprise	confused	
+s		辉夜奏好像也被我的突然举动给吓到了，连忙往后撤了半步。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	这、这只是冰激凌而已，又不是毒药…
+s	辉夜奏	为什么你要露出这副视死如归的表情…？
+p	kanade	c	normal	surprise	confused	
+s		我没有说话，因为我嘴里全是冰激凌。
+p	kanade	c	normal	sad	surprise	
+s	辉夜奏	果然，让前辈你吃冰激凌还是有些太勉强了？
+s	辉夜奏	其实前辈完全不爱吃冰激凌的吧，只是因为照顾我的心情，所以才一直忍着没说。
+p	kanade	c	normal	sad	confused	
+s	周腾	没有不爱吃，只是冰激凌太凉了，吃一大口冻得我舌头有些发麻。
+s	周腾	还有，不要叫我前辈，叫我本名就行了。
+p	kanade	c	normal	angry	surprise	
+s	辉夜奏	冰激凌都堵不住你的嘴吗，看来刚刚那一口还是给得太少了…
+p	kanade	c	normal	normal	confused	
+s		辉夜奏又擓了一大勺冰激凌朝我递了过来，这次我稍微学聪明了些，提前和辉夜奏拉开了距离，让她没有把冰激凌强行塞到我嘴里的机会。
+s		只是让我有些意外的是……
+s		在我拒绝吃进这一口冰激凌之后，辉夜奏反倒是把这勺冰激凌塞进了自己的嘴里。
+s		整个过程十分自然，自然到让我都有些不适应。
+s	周腾	奏，你……
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	怎么了？
+p	kanade	c	normal	normal	confused	
+s	周腾	没什么，就是…那个……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	前辈应该不会这么小气吧，好歹也是我出钱买的单~
+s	辉夜奏	这么多种口味的冰激凌，我当然也想尝几口啊。
+p	kanade	c	normal	normal	smile	
+s	周腾	不、不是这个问题。
+p	kanade	c	surprise	surprise	speak	
+s	辉夜奏	那是什么问题？
+p	kanade	c	surprise	surprise	confused	
+s		辉夜奏睁着大眼睛一脸无辜地看着我，指望我能给出一个像样的答案。然而……
+s		“间接接吻”什么的，这个词实在是不好意思说出口。
+s		或者说“间接接吻”本来就不是什么了不得的事情，只是我个人有些把它看得太重了？
+s		别人遇到这种事情第一时间想到的是卫生问题，而我遇到这种事情第一时间想到的居然是“间接接吻”……
+s		身为阴暗宅男还真是抱歉……
+p	kanade	c	surprise	surprise	speak	
+s	辉夜奏	所以到底怎么了？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	哦，我知道了。
+p	kanade	c	normal	normal	confused	
+s		辉夜奏似懂非懂地点了点头，随后又往自己嘴里放了一勺冰激凌，嚼吧嚼吧了起来。
+s		我本想伸手阻止她，但为时已晚。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	没关系的，和前辈的话，我不介意的。
+s	辉夜奏	而且刚好也可以帮前辈减少一些拉肚子的风险。
+p	kanade	c	normal	normal	confused	
+s	周腾	你倒是先把你自己碗里的冰激凌吃完再说这话啊……
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	总归是要吃掉的，先吃还是后吃无所谓吧。
+p	kanade	c	normal	normal	confused	
+s	周腾	算了，随便你吧。
+p	kanade	c	normal	normal	smile	
+s		辉夜奏甜甜地笑了笑，把超大碗冰激凌还给了我。看着勺子上沾留着的冰激凌液体，我没忍住地咽了口口水。
+s		怎么突然有一种我是变态的感觉？
+s		还是说这其实才是我的本性，只是之前一直都没有暴露出来…？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	走吧前辈。
+p	kanade	c	normal	normal	smile	
+s	周腾	啊，去哪？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	去江滩逛逛，我们很久没去了吧？
+s	辉夜奏	记得上次和你一起去那里的时候，我还不是白月高中的学生呢。
+p	kanade	c	normal	normal	smile	
+s	周腾	还是上次那个观景台吗？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	差不多吧，不过，这次我找了一个更好的视角~
+b	black
+s		……
+b	riverside
+p	kanade		normal	normal	confused	
+s	周腾	你是怎么找到这个位置的？
+p	kanade		normal	normal	speak	
+s	辉夜奏	嗯，用眼睛找到的。
+p	kanade	c	normal	normal	confused	
+s	周腾	我是说怎么发现的…
+p	kanade		normal	normal	speak	
+s	辉夜奏	用眼睛发现的。
+p	kanade	c	normal	normal	confused	
+s	周腾	……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	要是前辈不喜欢这种幽默感的话，我以后就还是少说些好了。
+p	kanade	c	normal	normal	confused	
+s	周腾	也没有讨厌吧，只是觉得有些不适应。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	哪里不适应了？
+p	kanade	c	normal	normal	confused	
+s	周腾	各方面吧，感觉你以前不是这么开朗的一个人，也不会随口就说出一些奇怪的冷笑话。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	前辈，人是会变的哦。
+p	kanade		normal	normal	smile	
+s	周腾	好熟悉的台词。
+p	kanade		normal	normal	speak	
+s	辉夜奏	让你想起了两个月前的暑假时光？
+p	kanade		normal	normal	smile	
+s		熟悉的江风，熟悉的黄昏，熟悉的人潮……不过站在身边的少女却有些不一样了。
+s		倒也没有什么长相上的变化，只是性格上感觉确实像是换了个人似的。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我之前不是和你说过，我刚来江城那会儿，我爸会带着我到处玩嘛。
+s	辉夜奏	上了高中之后，我自己也会用有限的时间偶尔到处转转。
+s	辉夜奏	这个观景台就是我偶然间发现的‘秘密基地’。
+p	kanade		happy	normal	speak	
+s	辉夜奏	怎么样，视角是不是很不错？
+p	kanade		happy	normal	smile	
+s		我点了点头，然后朝着江对面望了过去。
+s		这个视角既可以看到江对面的繁华高楼，又能够近距离地欣赏到长江大桥，不得不说，确实是个观景的好地方。
+s		按道理来说，现在这个时间应该还是烈日当头才对。
+s		但因为8月32日无时无刻不处在黄昏之中，所以整个大桥和江面也是被恰到好处了铺上了一层金色的光辉，变得更加好看了。
+s		这算是…给我们这些逃不出8月32日的人的一点小小的心理安慰么？
+p	kanade		normal	normal	surprise	
+s	辉夜奏	对不起啊，其实我撒了个小小的谎。
+s	辉夜奏	今天叫你一起旷课，不是出来找线索的。
+p	kanade		normal	normal	smile	
+s	周腾	我早就知道了。
+s	周腾	哪有人找线索是一边吃巨无霸冰激凌，一边逛商业街来找的啊。
+p	kanade		happy	normal	speak	
+s	辉夜奏	敏锐如前辈，察觉到这一点好像也不奇怪呢~
+p	kanade		happy	normal	smile	
+s	周腾	不过话说回来，为什么你又开始叫我前辈了？

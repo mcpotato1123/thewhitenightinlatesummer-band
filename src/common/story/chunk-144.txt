@@ -1,0 +1,128 @@
+s	周腾	你就不怕我会看到你手机里的隐私吗？
+p	kanade		happy	normal	speak	
+s	辉夜奏	想看就看嘛，我们都认识这么久了，还在乎这些事情吗？
+p	kanade		happy	normal	smile	
+s		我愣了一会，最后还是拗不过辉夜奏的性子，收下了她的手机。
+h	kanade
+s		她继续朝着商业街深处走去，而我则是一边端详着她的手机，一边跟在她的身后。
+s		手机壳并不是那种可爱风格的，而是简单的纯色软壳。屏幕上的保护膜完好无损，甚至就连划痕都没有，估计保护膜也是经常更换。
+s		那手机壁纸会是什么样的呢？
+s		……
+s		我紧张地咽了口口水，尽管奏已经给了我所谓的“隐私查看权”，但真到这种时候，心里也还是会有些背德感。
+s		按亮屏幕，手机上出现的，是一个扎着双马尾、穿着校服的乖巧少女。
+s		年龄不大，笑容也是十分阳光，唯一让人有些在意的是少女怀中紧紧抱着的东西。
+s		一个包装精美的笔记本，没有拆开封皮，应该是刚拿到手。
+s		这应该是……初中时候的照片，笔记本看着有些眼熟，但具体什么来历我也记不太清。
+s		等等，这到底是谁的照片…？
+s		为什么我会觉得有些熟悉，但是却想不起来到底是谁？
+s		本想对着辉夜奏把这件事问清楚，但在激烈的心理斗争之下，最后也还是不了了之。
+s		也许这张壁纸，只是奏随便在网上找的网图呢。
+p	kanade		normal	normal	confused	
+s	周腾	嘶…密码是多少来着？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你知道的，你肯定知道。
+p	kanade		normal	normal	confused	
+s	周腾	你从来没有和我说过你的手机密码啊。
+p	kanade		normal	angry	surprise	
+s	辉夜奏	那你就猜一下嘛，反正你肯定知道的！
+p	kanade		normal	angry	confused	
+s		这句话让我稍微觉得有些烦躁。
+s		不完全是因为奏，主要我真的没有心思和脑力再去当这个所谓的“开锁大师”了。
+s		或许是运气，或许是直觉，我抱着试一试的心态输入了我的生日。
+s		手机，就这样解锁了，而这一刻刚好全程被辉夜奏给看了下来。
+p	kanade		normal	normal	speak	
+s	辉夜奏	挺好挺好，看来我的前辈脑子也不是那么笨嘛~
+j	18467
+b	black
+s		……
+b	street_afternoon
+s		和辉夜奏的约会来得比想象中要顺利得多。
+s		本以为在过程中，双方都会因为各种各样的事情而比较尴尬，结果不然……
+s		辉夜奏表现得比我预料中的还要主动。她会告诉你接下来要去哪家店逛，哪里人流量不算多也不算少。
+s		她也知道你喜欢吃什么，会带着你排队买你喜欢吃的东西、会主动朝着你贴近，但是距离把控地又非常合适，不会让人觉得太过于冒犯和不好意思。
+s		整场约会下来，我基本是在被辉夜奏给牵着鼻子走。不…用这个词来形容好像有些不太好。
+s		但她确实有些…太过于熟练了？
+s		她表现出了比以往还要强烈十倍的开朗和贴心，‘红鹤楼’的高级导游都没有她这么热情。
+s		虽说我也在享受这种相处状态就是了，但这种稍微有些反常的表现，实在是让我有些担忧。
+p	kanade		happy	normal	speak	
+s	辉夜奏	饭也吃啦，街也逛得差不多了，接下来……
+p	kanade		happy	normal	smile	
+s	周腾	接下来就准备回家？
+p	kanade		happy	sad	speak	
+s	辉夜奏	呃…你是在开玩笑的吧，对吧前辈？
+p	kanade		happy	sad	smile	
+s		说实话，我也不知道我到底是不是在开玩笑。毕竟在我看来，饭也吃了，街也逛了，接下来不就只能回家了吗？
+s		难道还能有什么后续…？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你想一想，人在吃饱喝足之后，会想一些什么事情？
+p	kanade		normal	normal	confused	
+s	周腾	我的话，吃饱喝足之后就会犯困了。
+p	kanade		normal	normal	speak	
+s	辉夜奏	一整个暑假还没睡够啊……我感觉我已经说得很明显了啊…
+s	辉夜奏	总之，接下来跟我去一个地方~
+p	kanade		normal	normal	smile	
+s	周腾	城口江滩？
+p	kanade		surprise	surprise	speak	
+s	辉夜奏	你知道…？
+p	kanade		surprise	surprise	confused	
+s	周腾	我是江城人我为什么不知道，呃…其实我也是随便猜的，反正脑子里第一时间就蹦出来这个答案了，然后就顺着说出来了。
+p	kanade		surprise	normal	confused	
+s	辉夜奏	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	跟着我，别走丢了。
+p	kanade		normal	normal	confused	
+b	riverside
+p	kanade		normal	normal	smile	
+s	周腾	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	感觉怎么样，这里的风景很好看吧~
+p	kanade		normal	normal	smile	
+s		辉夜奏站在我身边，朝着大桥对面望去。微风拂过她银白色的发丝，给了我一种陌生而又熟悉的感觉。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我知道你是江城人，你也肯定来过很多次城口江滩。
+s	辉夜奏	但这个位置的观景台，你应该是第一次来吧？
+s	辉夜奏	离桥的距离不算远也不算近，江对面的繁华风景也可以看得清清楚楚。
+s	辉夜奏	我很喜欢这个位置，所以这次想着带你来看看。
+p	kanade		normal	normal	smile	
+s		奏看着我，似乎在期待我给出什么回答。
+s		但看着眼前的风景，我的大脑却开始变得混乱了起来。
+s	周腾	我…好像并不是第一次到这个观景台来。
+p	kanade		normal	surprise	surprise	
+s	辉夜奏	啊。
+p	kanade		normal	surprise	confused	
+s	周腾	我好像，还和一个女孩子一起来过这里，但我记不得‘她’是谁了。
+s		我的记忆有些模糊了，似乎就在前不久，我也和一个女孩子一起站在这里看过江景。
+s		好像是奶茶色长发，还是白色短发来着？又或者…两者都是？
+s		我到底在想些什么……
+s		恍惚中，我的面前出现了两个人的影子，但最后这两个人的影子又聚焦在了一个人的身上。
+s		“她们”是同一个人吗？还是说…
+s		“她们”选择变成了同一个人……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	那个人，就是我啊。
+p	kanade		normal	normal	sad	
+s	周腾	我和你不是才第一次到这边来么？
+p	kanade		normal	normal	speak	
+s	辉夜奏	说不定你在某个梦里和我一起来过这边呢。
+p	kanade		normal	normal	sad	
+s	周腾	怎么可能，我…应该没有做过这样的梦。
+p	kanade		normal	normal	speak	
+s	辉夜奏	梦醒来就会忘记的，所以，你一定也和我一起来过这里，只是被你忘掉了。
+s	辉夜奏	但是没关系，现在我们不是重新站在这里了吗？
+s	辉夜奏	来这里和你一起看江景的事情，在我心里已经预演过一千遍一万遍了哦。
+s	辉夜奏	我一直都想和你一起到这里来，吹吹这里的江风，看看繁华的高楼大厦。
+s	辉夜奏	我喜欢这种感觉，既脱离于现实，但又依附于现实。
+s	辉夜奏	周围发生的事情都与我无关，但又让我有了‘活着’的实感。
+p	kanade		normal	normal	smile	
+s	周腾	……
+p	kanade		normal	normal	surprise	
+s	辉夜奏	前辈，如果说…一定要让你记住此刻，你会用什么样的方法呢？
+p	kanade		normal	normal	smile	
+s	周腾	大概，会是拍照吧。
+s	周腾	照片可以存在手机里，只要拿出来看一看，就能回想起之前的记忆。
+p	kanade		normal	normal	speak	
+s	辉夜奏	很标准的答案呢。
+s	辉夜奏	但我……
+p	kanade		happy	normal	speak	
+s	辉夜奏	会用这样的方法~
+p	kanade		normal	normal	smile	
+s		……

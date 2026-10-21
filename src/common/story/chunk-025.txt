@@ -1,0 +1,128 @@
+s	@	……
+p	changxia		happy	sad	speak	
+s	@	唉…就有那么难注意到么？看这里啦，我的衣服…
+p	changxia		happy	sad	smile	
+s		常夏叹了口气，无奈地指了指自己。顺着手指的方向望去，我才注意到…
+s		常夏好像换上了一套我从没有见过的夏装。
+p	changxia		normal	normal	speak	
+s	@	今天刚到的快递，我拆开之后就立马穿上出门来找你了，怎么样，还不错吧？
+p	changxia		normal	normal	smile	
+s	周腾	贵吗，多少钱买的？
+p	changxia			angry	speak_angry	
+s	@	我是在问你好不好看啦，你关心价格干什么啊。
+p	changxia			angry	confused	
+s	周腾	怎么说呢？感觉…更清凉一些了？
+p	changxia		happy	sad	speak	
+s	@	这不是废话嘛，夏装要是不够清凉的话，可是会被江城的夏天给热死的…
+p	changxia		happy	sad	smile	
+s	周腾	那就行，凉快就好，总之挺适合你的。
+p	changxia			angry	speak_angry	
+s	@	你能别老说这些车轱辘话么……
+p	changxia			angry	confused	
+s	周腾	什么意思？
+p	changxia		normal	angry	speak_angry	
+s	@	意思是你就不能夸夸我吗？要知道…这件衣服刚到我就穿出门了，除了我爸妈之外，周腾你可是第一个看到我穿这件衣服的人！好歹给我点感想啊！气死我了…
+p	changxia		normal	normal	confused	
+s	周腾	所以说，刚刚生气其实并不是因为我吓了你？
+p	changxia		normal	normal	speak_angry	
+s	@	……一半一半吧。
+p	changxia		normal	normal	confused	
+s	周腾	要说感想的话，除了漂亮我好像确实不知道该怎么形容了？毕竟我词汇量一直就那样，你知道的…
+s	周腾	而且说实话，你穿什么都很好看啊，你好不好看和衣服又没什么关系。再说了……
+s	周腾	要是常夏你每换一件衣服都要我重新夸一次的话，你不会觉得很假吗？
+p	changxia		happy	normal	speak_angry	
+s	@	女孩子就是这样子的生物啊，想多听听别人夸自己，哪怕不是真心话也好。
+s	@	啊！但我还是得问问…
+p	changxia		normal	normal	speak	
+s	@	你刚刚那句话是真心的吧…？
+p	changxia		normal	normal	smile	
+s	余洛琛	我觉得不是。
+p	changxia		normal	surprise	confused	
+s	周腾	？？
+s		一个有些熟悉的声音从我和常夏的身旁传了过来。
+s		黑色长发，金框眼镜，再加上那副好像别人欠了她几万块钱的表情……
+s		当然，她这幅表情只有在看着我的时候才会这样。
+s		我知道她是谁。见到她让我有些意外，但我并不想在这个时间点碰见她。
+j	3246
+p	changxia	l	normal	surprise	speak	
+p	yuluoshen	r2	normal	normal	close	
+s	@	啊！我知道你！你是那个，那个那个……谁来着？
+p	yuluoshen				speak	
+s	余洛琛	余洛琛，我们之前见过面的。
+p	yuluoshen				close	
+p	changxia		happy		speak	
+s	@	对对对！文学社的余洛琛，我现在想起来了~
+s	周腾	你们俩居然认识么？
+p	changxia				speak	
+s	@	怎么说呢，算是认识吧，但是见面的次数很少，大多数时候都是通过其他人的嘴里知道的。
+p	changxia				smile	
+p	yuluoshen				speak	
+s	余洛琛	我倒是对常夏印象还挺深的。之前‘百团大会’的时候，她帮了我们文学社很多忙。
+s	余洛琛	那天因为招新的事情，大家中午都忙到没有时间吃饭。料理社就在我们隔壁，当时常夏做了很多小糕点来当做招新的礼物发放。
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	我记得我们有个社员不懂事，直接跑到料理社的摊子前找常夏去要点心了。
+p	yuluoshen		happy	sad	smile	
+p	changxia		normal	normal	speak	
+s	@	也是那个时候我才知道，他们文学社的人中午忙到连饭都没吃，所以我就给他们每个人都发了一盘蛋糕~
+p	yuluoshen		normal	normal	smile	
+s	周腾	常夏姐果真是菩萨心肠。
+p	changxia		happy	angry	speak_angry	flush
+s	@	都说了让你不要学奏说话了…！
+p	changxia		normal	normal	speak	
+s	@	不过话又说回来，我和余洛琛其实也就只见过那一次面，之后就再也没碰到过了。
+p	changxia		normal	normal	smile	
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	今天算是第二次见面了，虽然我只是碰巧路过。
+p	changxia		happy	sad	speak	
+s	@	而且，我觉得我那次也没帮什么很大的忙啦，社里蛋糕还有很多，总归是要一点一点发出去的。
+s	@	没想到给你留下了这么深的印象~
+p	changxia		happy	sad	smile	
+s		常夏有些不好意思地笑了笑，但余洛琛却有些欲言又止。
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	……呃，其实，印象深也不光是因为这件事情。
+p	changxia		normal	surprise	speak_angry	
+s	@	啊？
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	因为我认识葛城嘛……他经常会和我说一些你和周腾两个人之间的事情，说你们是青梅竹马…？
+s	余洛琛	葛城老说你和周腾之间怎么怎么的，所以……我其实很早就听过你的名字了。
+p	yuluoshen		normal	normal	smile	
+p	changxia		normal	normal	speak	
+s	@	这样啊，不过我有些好奇，葛城说我和周腾之间‘怎么怎么’的，这个‘怎么怎么’是啥意思？
+p	changxia		normal	normal	smile	
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	就、就是指各种事情啊，比如说，你经常会做便当给周腾吃，还有……
+p	changxia		normal	normal	confused	
+p	yuluoshen		normal	normal	close	
+s	周腾	打住打住…葛城怎么连这种事都和你说啊。
+p	changxia		normal	normal	confused	
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	这又不是什么见不得光的事。
+p	changxia		normal	normal	confused	
+p	yuluoshen		normal	normal	close	
+s	周腾	……
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	不过和葛城没关系，是我自己问他的。但葛城这人也确实挺漏勺的，我一问他就全说出来了。
+p	yuluoshen		normal	normal	smile	
+s		余洛琛话罢，朝着站在我旁边的常夏微微笑了笑。
+p	changxia		happy	sad	smile	
+s		常夏没有说话，只是尴尬地笑着点了点头。
+p	changxia		normal	normal	smile	
+p	yuluoshen		normal	normal	speak	
+s	余洛琛	对了周腾，你就没有什么想说的吗？
+p	yuluoshen		normal	normal	smile	
+s	周腾	啊…？说什么？哦，哦！
+s	周腾	你的新夏装很好看，非常适合你。衣服上的小装饰十分小巧可爱，和你非常搭配。
+s	周腾	眼镜虽然没有什么变化，但是戴起来比在学校里的时候好看多了，可能是阳光反射的原因吧，看起来金光闪闪的。
+s	周腾	鞋子也换新的了吧，款式配色都和衣服很搭。比起以前的知性气质，现在少女的俏皮感更多了。
+p	yuluoshen		happy	sad	smile	
+s	余洛琛	……
+p	changxia		happy	sad	smile	
+s	@	……
+p	yuluoshen		happy	sad	speak	
+s	余洛琛	虽然我想问的不是这个，但你也……太熟练了一点吧。
+s	余洛琛	因为刚刚才在常夏那里栽过跟头，所以现在条件反射了？
+p	yuluoshen		happy	sad	smile	
+s	周腾	也不能这么说…
+p	changxia		normal	normal	speak_angry	
+s	@	好了好了！这个奇怪的话题就到此为止了，我和周腾还有事情，就先走了。
+p	changxia		normal	normal	confused	

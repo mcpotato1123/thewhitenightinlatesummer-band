@@ -1,0 +1,128 @@
+s		辉夜奏轻叹了口气，似乎对我刚刚的话感到有些气愤。
+s	周腾	我只是不想麻烦你而已......
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	你看你，又在说这种话了，什么‘害怕麻烦我’啊，‘不想让我费心’啊，这种话听得我耳朵都快起茧了，你也不嫌烦啊。
+p	kanade	c	normal	angry	confused	
+s	周腾	那我应该怎么说？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	来，我教你怎么说，我说一句你学一句~
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	——‘谢谢小奏，我最喜欢吃小奏做的饭了~’
+p	kanade	c	happy	normal	smile	
+s	周腾	谢谢小奏，我......
+s	周腾	不行不行，实在是太羞耻了...！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这有什么可羞耻的，人家动漫电影里的台词不都是这么说的吗。
+p	kanade	c	happy	normal	smile	
+s	周腾	可这是现实生活啊！这是现实又不是动漫，当面说出这种话还是很让人不好意思的好不好...
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	哎~算了算了，不和你纠结这些了。饭盒你拿过去吧，赶紧吃饭，一会别饿死在食堂里了。
+p	kanade	c	normal	normal	speak	
+s		话罢，辉夜奏将饭盒轻轻地推到了我的面前。可还没来得及等我伸手去拿，走这边却将饭盒给收了回去，用着一种意味深长的眼神看着我。
+s	周腾	怎、怎么突然把饭收回去了，不是说是特地为我准备的么？
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	当然是为你准备的，但是在吃之前，你先得回答我一个问题。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	老实交代！你刚刚一直盯着手机那么投入地在看些什么东西？和你说话你也不理...
+p	kanade	c	normal	angry	confused	
+s	周腾	......
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	怎么不说话？喔，我知道了，你刚刚是在看一些少儿不宜的东西对吧！所以才心虚了不敢告诉我对吧！
+p	kanade	c	normal	angry	confused	
+s	周腾	谁没事会在学校里看这种东西啊！我刚刚就只是看了一眼学校论坛上最近发的帖子而已......
+s		说完这段话之后，我又低头看了一眼自己的手机，然而……
+s		刚刚看的那条帖子却已显示被删除。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	学校论坛...？你说的是那个叫做“白月公园”的论坛么？
+p	kanade	c	normal	surprise	confused	
+s		我没有回话，只是轻轻地点了点头。
+s		但此时让我更加在意的是刚刚那条帖子，怎么前一秒还好好的，突然就被删除了呢？
+s		等等，刚刚那条帖子写的什么内容来着？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	‘白月公园’啊...我还以为前辈你这样的性格，不会关注这种东西呢。
+p	kanade	c	normal	normal	confused	
+s	周腾	一开始确实没怎么关注，不过用这个论坛的学生实在是太多了，甚至连部分老师也潜入了进去。
+s	周腾	我虽然是比较怕麻烦，也不是很喜欢这种网上发帖的聊天方式，但总归还是要紧跟潮流的嘛。
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	所以让我看看！
+p	kanade	c	normal	angry	confused	
+s		辉夜奏一个不注意跳到了我身边，低头观察起了我手机屏幕上的内容。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	帖子已被删除？怎么我一来就删除了……
+s	辉夜奏	这是什么板块的帖子？
+p	kanade	c	normal	surprise	confused	
+s		辉夜奏伸手自作主张地滑动着我的屏幕，然而…白月公园却突然卡住，闪退了出去。
+s		再一次点进软件，刚刚的板块和帖子全都消失不见了。
+s		但当我想回想起刚刚究竟看了些什么内容时，却怎么也想不起来……
+j	17849
+p	kanade	c	normal	surprise	surprise	
+s	辉夜奏	居然闪退了，感觉你是不是该换手机了？
+p	kanade	c	normal	surprise	confused	
+s	周腾	不至于吧，我的手机一直都是很流畅的，也就偶尔会卡一两次，刚刚那种闪退的情况真不多见！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	所以你到底看的什么帖子？
+p	kanade	c	normal	normal	confused	
+s	周腾	就、就一普通的帖子啊，说实话我也不记得了。
+p	kanade	c	normal	angry	surprise	
+s	辉夜奏	你是金鱼吗，这才过去多久就不记得了？
+s	辉夜奏	算了，不想说也没事，反正看的也是一些见不得人、少儿不宜的帖子吧。
+p	kanade	c	normal	angry	confused	
+s		辉夜奏有些生气地坐回到了座位上，刻意和我避开了眼神，假装若无其事地朝着其他地方望去。
+s		尽管她不愿意和我对视，但我的视线却仍聚焦在辉夜奏的身上。
+s		柔顺的银白色短发、令人羡慕的白皙皮肤和精致五官……
+s		明明我和辉夜奏都认识这么久了，结果直到今天我才意识到，辉夜奏确实要比同龄的女生好看和精致不少……
+h	kanade
+s		……
+s		身为奏的青梅竹马，我和她认识了也有快十年的时间了。
+s		她从小学便和父亲一起来中国生活，那个时候我就和她认识了。
+s		之后初中又碰巧与她成为同桌、关系熟络之后又一起去了同一所高中，最后像现在这样坐在食堂里面对面地聊天……
+s		不过因为年龄的问题，她一直比我小一年级，这也是为什么辉夜奏一直称呼我为“前辈”的缘故。
+s		我和辉夜奏之间能并肩走到现在，并不是一直都一帆风顺，中间也有过不少的波折和矛盾。
+s		好在目前的生活已经平稳下来了不少，虽说还是有很多不尽人意和遗憾的地方，但也基本在我能够接受的范围之内。
+s		就这样，我和辉夜奏有说有笑地在食堂里吃完了饭，之后便各回各班准备午休了。
+s		虽然不知道为什么，但辉夜奏这次做的便当味道有些怪怪的，难以下咽……
+b	classroom_afternoon
+d	6月30日 周五傍晚
+s		教室里出奇地安静，绝大多数吃完饭的学生都已经趴在桌子上休息了，只有少数精力旺盛的学生还在小声讲话聊天。
+s		白月高中的校园生活虽然没有其他省示范高中那样枯燥无趣，但学业上的压力也还是不小的。
+s		正因如此，这一个小时左右的休息时间才显得弥足珍贵。
+s		……
+s		而我，选择了坐在自己的位置上发呆，既没有睡觉，也没有去操场晃悠。
+s		我也不知道自己为什么要这样，总感觉…自己好像有什么要做的事情忘记了，但却又怎么都想不起来。
+s		或许是因为暑假要到了，所以精神上提前松懈了？
+s		……
+s		我就这样发了一中午的呆，什么也没做，就只是发呆，发呆……
+s		离上课还有不到二十分钟的时间，教室里睡觉的学生也渐渐醒了过来。
+p	gecheng	c	normal	confused	speak	
+s	葛城	嘶，周腾……？
+s	葛城	你中午没出去么？
+p	gecheng	c	normal	confused	sad	
+s		刚睡醒的葛城一睁眼就看到了我，揉了揉自己的眼睛。
+s	周腾	去哪？
+p	gecheng	c	normal	surprise	speak	
+s	葛城	就、就出去啊……
+p	gecheng	c	normal	surprise	sad	
+s	周腾	对啊，出去去哪啊，我有说过我中午要出去吗？
+p	gecheng	c	normal	confused	speak	
+s	葛城	好像确实没有，但我好像就是感觉你今天中午应该会出去啊。
+s	葛城	为什么会有这种感觉……
+p	gecheng	c	normal	confused	sad	
+s	周腾	你睡糊涂了吧，做梦梦到我出去了？
+p	gecheng	c	normal	angry	speak	
+s	葛城	没有，不是做梦…！哎呀算了，我也说不上来，反正就是……
+p	gecheng	c	happy	sad	happy	
+s	葛城	没什么没什么，就当我什么都没说吧~
+p	gecheng	c	happy	sad	smile	
+s		葛城摆了摆手，没打算把话题继续下去了。我觉得有些奇怪，但也没有多说些什么。
+h	gecheng
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	哟，周腾你在教室里啊。
+s	余洛琛	我还以为你今天中午又去和…和……
+p	yuluoshen	c	happy	sad	speak	
+s	余洛琛	呃，我想说什么来着？
+p	yuluoshen	c	happy	sad	smile	
+s	周腾	所以我的行程都被你们给安排好了是吗，中午要去哪，要和谁一起，都安排好了？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	不是很懂你在说什么，我只是看到你还在教室里比较惊讶而已。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	惊讶什么，我不能在教室里午休吗？

@@ -1,0 +1,128 @@
+s	@	但就是很奇怪，在经过了一个多月的调查之后，警方什么证据都没能找到，什么线索也没能发现，男学生的父亲也没有过任何异常的行为。
+p	changxia	c	normal	sad	speak_angry	
+s	@	这个男学生就像是人间蒸发了一般，凭空地消失在了这个世界。
+p	changxia	c	normal	normal	speak_angry	
+s	@	案件最后以失败告终，男学生的父亲每天以泪洗面，学校也将这件事的热度打压了下来。十几年过后，知道这件事的人也越来越少，即使真相尚未被找到，但已经没人在乎了。
+p	changxia	c	normal	normal	confused	
+s	周腾	原来是这样的一个故事，不过话说回来，你不是说‘具体的其实你也不是很清楚’吗，我看你了解的挺清楚的啊。
+p	changxia	c	normal	confused	speak_angry	
+s	@	这也不能算了解的很清楚吧，很多细节都是别人告诉我的。
+p	changxia	c	normal	confused	confused	
+s	周腾	所以‘别人’是谁？
+p	changxia	c	normal	normal	speak_angry	
+s	@	我认识的几个白月高中08届的学姐，他们和这个男同学一个班的，所以才对这个事情了解的比较多。
+p	changxia	c	normal	surprise	speak_angry	
+s	@	啊，对了！还有一个很有意思的事情，这个我就不知道是真是假了。
+p	changxia	c	normal	surprise	confused	
+s	周腾	什么事情？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	据说那个女课代表啊，中秋节晚上在学校里补课的时候，在教室外的走廊上看到了那个男同学！
+p	changxia	c	normal	confused	speak_angry	
+s	@	但仅仅只是一瞬间，之后女课代表再想去找他的时候，却再也找不到了。
+p	changxia	c	normal	confused	confused	
+s	周腾	你这…虽然不太愿意承认，但确实说的我都有些害怕了……
+p	changxia	c	normal	normal	speak_angry	
+s	@	后来女课代表就和全班人说了这个事情，可惜身边人都以为她出幻觉了，觉得她是不是因为对男学生太愧疚了，所以才出现了这种状况。
+s	@	毕竟女课代表说在走廊看到了男同学，但监控画面里却并没有男同学的身影。
+s	@	既然监控里没有，那肯定也就是不存在咯。
+p	changxia	c	normal	normal	confused	
+s		听完常夏所讲的男学生的故事，我只是笑着耸了耸肩。
+s		虽然常夏不会骗我，但这个故事大概率是假的。
+s		或许是当时的学生茶余饭后编出来的怪谈，又或者是谁谁谁改编了某个国外的都市传说。
+s		谁知道呢，但这么离奇的事情，绝对不可能是真的。
+h	changxia
+s		……
+s		一边这么想着，我一边喝了一口自己杯中的咖啡。
+s		相比最开始的时候，杯子里的液体变得更多了。或许是因为冰块早就全部融化了的缘故。
+s		被稀释了的苦涩液体顺着口腔进入了我的喉咙，一边品尝着咖啡，我一边回味着刚刚常夏所讲的那个奇怪故事。
+s		忽然地，我意识到了一些奇怪的巧合。
+s		男学生是在开学报道的那天晚上失踪的，而白月高中历来开学报道的时间…
+s		不正是八月三十一号么？
+j	1706
+e
+c	星星也有眼睛吗
+b	white
+b	coffee_afternoon
+p	changxia	l	normal	sad	speak_angry	
+p	kanade	r	normal	normal	confused	
+s	@	怎么了周腾，脸色怎么一下子变得这么难看？
+p	changxia	l	normal	sad	confused	
+s	周腾	没，我只是在想一些事情……
+s	周腾	常夏，你还记得之前我提到的在白月公园上面看到的那个怪谈么？
+p	changxia	l	normal	normal	speak_angry	
+s	@	当然记得啊，就是那个什么，‘在8月31日里留下深刻遗憾的人，会被永远地困在8月32日，对吧？’
+p	changxia	l	normal	normal	confused	
+s	周腾	对对对，就是这个！
+p	changxia	l	normal	confused	speak_angry	
+s	@	可那又怎么了，这怪谈有什么奇怪的地方么？
+p	changxia	l	normal	confused	confused	
+s	周腾	你不记得了吗，你刚刚说的那个失踪的男学生，不就是在8月31号失踪的吗！
+s	周腾	他因为被老师痛批了，再加上自己的女朋友没有替自己包庇，所以这就达成在8月31日留下深刻遗憾的条件。
+p	changxia	l	normal	normal	speak_angry	
+s	@	然后呢？
+p	changxia	l	normal	normal	confused	
+s	周腾	所以说，老师和警察找不到他，监控也没有发现他，就是因为这个男学生被永远地困在了8月32日！
+p	changxia	l	happy	sad	smile	
+s	@	……
+p	kanade	r	happy	sad	smile	
+s	辉夜奏	……
+s	周腾	你们……干嘛用这种眼神看着我？
+p	changxia	l	happy	sad	speak	
+s	@	也没什么，只是觉得，呃……
+p	changxia	l	happy	sad	smile	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	常夏姐大概是觉得，周腾可能不是会相信这种事情的人吧。
+p	kanade	r	normal	normal	confused	
+s		许久没有作声的辉夜奏总算是开了口，只是没有想到，她开口说的第一句话，就是在奚落我……
+s	周腾	我、我也不是说相信这种事情啦，只是觉得…这两件事情是不是有些太巧了？
+p	changxia	l	happy	sad	speak	
+s	@	这个世界上像这样巧的事情可多了去了，就比如说，有不少情侣都在圣诞节那天分了手，那你能说是圣诞节那天不适合约会吗？
+p	changxia	l	happy	sad	smile	
+s	周腾	……
+s		我有些不知道该怎么回答。
+p	changxia	l	normal	normal	speak	
+s	@	‘都市传说’也好，‘怪谈’也罢，这些都是不存在的事情，只是学生们茶余饭后的用来消遣的话题罢了。
+s	@	你拿一个本身就没被证明过的东西，去证明另一个有疑点的事情，不觉得有些不合理么？
+p	changxia	l	happy	sad	speak	
+s	@	当然，我也没有别的意思啦，毕竟这两件事情发生的日期都和8月31号有关，所以…
+p	changxia	l	normal	normal	speak	
+s	@	周腾你会往这方面想也是可以理解的事情。
+p	changxia	l	normal	normal	smile	
+s	周腾	我总感觉，你还是有点在嘲笑我的意思…
+p	changxia	l	happy	sad	speak	
+s	@	哪有啦！合理的推测是很正常的事情，我既没有在嘲笑你也没有在奚落你。
+p	changxia	l	happy	sad	smile	
+s	周腾	你嘴角的弧度都上扬成这样了，还说没有嘲笑我呢！
+p	changxia	l	happy	confused	speak	
+s	@	有那么明显么？
+p	changxia	l	happy	confused	smile	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	很明显的，常夏姐。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	smile	
+s		一开始听完我的话的时候，常夏还有些不以为然，直到辉夜奏站出来发了话，常夏才意识到自己嘴角上扬得有多么明显。
+s		她一边憋着笑，一遍从包里拿出了自己的手机，打开了手机的前置摄像头，开始对着自己的脸一点一点地看了起来。
+p	changxia	l	happy	normal	speak	
+s		最后，还是憋不住地笑出了声来。
+s	周腾	我就知道。
+p	changxia	l	normal	normal	speak	
+s	@	哎呀，好啦好啦，我这不也是实在忍不住了嘛！再说了…
+p	changxia	l	normal	normal	speak	
+s	@	我笑你又不是因为别的事情，只是单纯地觉得说出刚刚那番话的你还挺可爱的~
+p	changxia	l	normal	normal	smile	
+s	周腾	可爱…？
+p	changxia	l	happy	angry	speak	
+s	@	对啊，你想想看……一个平常不信天不信地，不信神鬼不信佛的人，突然开始宣布‘我觉得都市传说是真的——！’
+p	changxia	l	normal	normal	speak	
+s	@	这种反差，难道不可爱么？
+p	changxia	l	normal	normal	smile	
+s	周腾	诶诶诶…！我可没说我相信那个都市传说是真的啊！别随便拓展别人话里的意思啊。
+p	changxia	l	normal	normal	speak	
+s	@	可不就是这个意思么，你刚刚说你觉得那个男学生被困在了8月32号永远出不来，不就等同于是在说‘我相信都市传说’么？
+p	changxia	l	normal	normal	smile	
+s		无法反驳。
+s		常夏说得没错，我确实是那种不信天不信地的人。什么鬼啊仙啊，我从来就没觉得存在过。
+s		按照平时，我肯定会觉得把失踪和都市传说这两件事情连起来的人有点毛病。
+s		但不知道为什么，今天我的脑子就像是被蒙了一层雾似的，没能转过来往这方面想。
+s		现在回想起自己刚刚所说的话，还真是有些中二得不成名堂。
+s	周腾	那奏呢，奏你是怎么想的？

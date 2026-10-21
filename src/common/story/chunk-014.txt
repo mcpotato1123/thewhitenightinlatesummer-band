@@ -1,0 +1,128 @@
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	啊？周腾你是说…对男学生失踪那件事的看法吗？
+p	kanade	r	normal	normal	confused	
+s	周腾	不光是这个，还有都市传说的事情。
+s	辉夜奏	……
+s		辉夜奏并没有第一时间回答我的话，而是半低着头好像在思考着什么事情。直到过了几秒钟之后，她才一脸平静地看向了我和常夏。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	关于失踪的学生，虽然直到现在都还没有调查出事情的真相。
+s	辉夜奏	但可以肯定的是，那个男学生绝对已经死了。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	normal	confused	
+s	@	……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	至于都市传说那方面的事情。
+s	辉夜奏	我和周腾一样，不相信这些牛鬼蛇神的东西。
+p	kanade	r	normal	normal	confused	
+s	周腾	总感觉，奏的思想有些悲观呢。
+p	kanade	r	normal	surprise	speak	
+s	辉夜奏	我…？悲观……？
+p	kanade	r	normal	surprise	confused	
+s	周腾	怎么说呢，我也不知道该怎么解释。或许是你刚刚说这些话的时候语气太平静了，给人一副很无所谓的样子？
+p	changxia	l	happy	sad	speak	
+s	@	小奏她说话不一直都是这样的么…
+p	changxia	l	happy	sad	smile	
+s	周腾	好像确实呢……
+s		常夏的话让我意识到了我说辞里错误的地方。
+s		辉夜奏确实一直都是如此，做事说话都十分的冷静平静，其他人很少能从她的话里听出过多的情感。
+s		但即便如此，我依然还是觉得辉夜奏有些怪怪的，只是短时间内无法用语言描述出来。
+s	周腾	啊，我想起来了！
+p	changxia	l	normal	surprise	speak_angry	
+s	@	想起什么了…？
+p	changxia	l	normal	surprise	confused	
+s	周腾	奏的老家那边不是有很多都市传说吗，按道理来说，奏对这些都市传说应该不至于这么无感吧？
+s	周腾	呃，我的意思是，我以为奏会相信这些事情的。
+p	changxia	l	normal	normal	speak	
+s	@	这么说起来，奏的姓是辉夜吧，辉夜家族在日本不是很有名吗？听说还有些相关的传说故事来着。
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	那些都是骗人的。
+p	changxia	l	normal	normal	confused	
+p	kanade	r	normal	normal	confused	
+s	周腾	啊……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	辉夜这个姓其实没什么特别的，那些和这个姓氏有关的神话故事也好，还是都市传说也好……
+s	辉夜奏	也都是前人编写的。
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	confused	speak_angry	
+s	@	是、是这样吗？
+p	changxia	l	normal	confused	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	就好像‘嫦娥奔月’一样，大家都听说过这个故事，也知道这个故事所表达的内涵。
+s	辉夜奏	但真的会有人相信月亮上有嫦娥和月兔吗？
+p	kanade	r	normal	normal	confused	
+p	changxia	l	normal	surprise	speak_angry	
+s	@	好像确实是这个道理……
+p	changxia	l	normal	surprise	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	总之我是不相信这些的，家里人也从来没有和我说过和这些有关的事。
+s	辉夜奏	比起都市传说和神话故事，我还是更喜欢看得见摸得着的。
+s		辉夜奏在说完这句话之后，似乎往我这边瞟了一眼。
+p	kanade	r	normal	normal	confused	
+s		她没有扭头，只是目光往我这里侧了侧，随后便很快地移开了自己的视线，装作若无其事地看向了正前方。
+h	kanade
+h	changxia
+b	black
+s		...
+j	1858
+b	coffee_night
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	那个，我可能得先回去了。
+p	kanade	r	normal	normal	confused	
+s		坐在一旁的辉夜奏突然开了口，说出了一句稍微有些令人扫兴的话。
+p	changxia	l	normal	shocked	speak_angry	
+s	@	欸…？这么早就回去吗，外面天都还没黑呢。
+p	changxia	l	normal	shocked	confused	
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	常夏姐，现在已经六点半了。要是我再不回家吃饭，我爸肯定……
+p	changxia	l	normal	shocked	confused	
+p	kanade	r	normal	normal	sad	
+s		辉夜奏没有把话说完，但是看她的表情，我也能大概猜到她那没说完的话是什么。
+s	周腾	奏家里管教的比较严，不早点回去的话肯定会被说教的。
+p	changxia	l	normal	normal	speak_angry	
+s	@	这样么……
+p	changxia	l	normal	normal	confused	
+s		常夏朝着辉夜奏看了一眼，辉夜奏没有说话，只是点了点头。
+s	周腾	你又不是第一天认识奏了，这种事情应该还算清楚吧。
+p	changxia	l	normal	sad	speak_angry	
+s	@	这、这种事情我当然记得啊！我只是有些舍不得小奏，想多和她聊聊天而已，毕竟……
+s	@	奏平时在学校里很少和人一起说话吧。
+p	changxia	l	normal	sad	confused	
+p	kanade	r	normal	normal	sad	
+s	辉夜奏	……
+s		不知道是不是我的错觉，在常夏说完那句话之后，辉夜奏的脸色一下子黯淡了不少。
+s		尽管她大部分时候都是一副波澜不惊的样子……
+p	kanade	r	normal	normal	speak	
+s	辉夜奏	总之，我先回去了。
+p	kanade	r	normal	normal	confused	
+s		辉夜奏缓缓地站起了身，一手提起了自己的书包，一手拿起了桌上的咖啡杯，喝完了杯中最后残留的一点咖啡液。
+s		冰块早已全部融化。虽然我没有实际品尝，但那杯中液体的味道，估计和普通的白水已经没有任何区别了。
+s		就这样，奏背着书包径直地走出了咖啡厅的大门。只留下我和常夏两人对坐着，相视无言。
+h	kanade
+p	changxia	c	normal	sad	sad	
+s	@	……
+p	changxia	c	normal	sad	speak_angry	
+s	@	周腾，我……刚刚是不是说错话了？
+p	changxia	c	normal	sad	sad	
+s		常夏朝着我望了过来，无论是说话的语气还是脸上的表情，都充满了内疚。
+s	周腾	怎么说呢，虽然是事实，但就这样直截了当地把事实说出来，难免会让人有些难过。
+s	周腾	不过，奏应该不会把这件事太放心里去吧。
+p	changxia	c	normal	sad	speak_angry	
+s	@	希望如此吧……
+p	changxia	c	normal	sad	sad	
+s		常夏一边说着，一边扭头朝着落地窗看去。那是辉夜奏回家的方向。
+s		她就这样看着辉夜奏一点一点地被淹没在街道来往的人群之中，直到用肉眼已经完全看不到辉夜奏的影子，常夏才转过了头来，轻叹了一口气。
+s		……
+p	changxia	c	normal	normal	speak_angry	
+s	@	我们也早些回去吧。
+p	changxia	c	normal	normal	confused	
+s		我没有作声，只是轻轻点头附和。
+h	changxia
+s		夏天就是这样，白天长，黑夜短。平时早就应该天黑了的时间点，但放在夏天，外面却依然还是亮堂着的，给人一种时间上的错觉。
+p	changxia	c	normal	normal	speak	
+s	@	啊，对了周腾！
+p	changxia	c	normal	normal	smile	
+s	周腾	怎么了？
+p	changxia	c	normal	normal	speak	
+s	@	其实也没什么，就是想问问，你等会应该没有什么事情要忙吧。
+s	周腾	除了要回家吃饭之外，好像确实没有什么要忙的事情了。
+p	changxia	c	normal	sad	sad	

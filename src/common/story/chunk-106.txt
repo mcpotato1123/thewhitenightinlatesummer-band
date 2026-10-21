@@ -1,0 +1,128 @@
+s		探店博主的事情也好，增加人手的事情也好，一切都来得有些太突然了。
+s		明明这一整个暑假我们也没少光顾过咖啡厅，但从没听过店长讲这个事情啊。
+s		一点迹象都没有，怎么就突然爆火加员工了呢？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	店长，你有关注过白月高中的都市传说吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	啊？
+s		辉夜奏的突然发难吓得我差点叫出来，但她确确实实问出了我一直想问但不知道该怎么问的问题。
+s	店长	‘都市传说’？好小众的词语，我已经很久没有听人说过这个词了。
+s	店长	而且白月高中也没有什么都市传说吧，从来没听来喝咖啡的那些学生们聊过啊。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这样啊。那店长，你认识我们两个吗？
+p	kanade	c	normal	normal	confused	
+s	店长	这是什么问题？认识啊，他是周腾，经常和小夏一起来；你叫……我见过你几次，但好像不太记得你叫什么了。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我叫辉夜奏。辉夜是姓，奏是名。
+p	kanade	c	normal	normal	confused	
+s	店长	日本留学生啊！我之前也在日本留学过，不过你这个名字还挺稀奇的，辉夜是个神姓，可不多见。
+p	kanade	c	normal	normal	confused	
+s	辉夜奏	……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	对了店长，你为什么不叫老板娘来店里当帮手呢？
+p	kanade	c	normal	normal	confused	
+s	店长	老板娘？小姑娘你说话还真有意思，我之前不是提过我一直没结婚嘛。
+s	店长	之前留学的时候倒是有交过一个女朋友，不过因为一些矛盾‘人间蒸发’了。
+s	店长	可能单纯就是感情淡了吧，决定和我好聚好散，互不干扰对方的生活。
+s	店长	也挺好的，躲着我就躲着我吧，希望她和其他人一起能过得幸福。
+s	周腾	……
+p	kanade	c	normal	normal	confused	
+s	辉夜奏	……
+s	店长	怎么了你们，是不是我把气氛聊得太伤感了？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	没有没有，麻烦店长来两杯香草拿铁吧，少冰正常糖，打包谢谢。
+p	kanade	c	normal	normal	confused	
+s	店长	不喝新品吗，今天刚出的~
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	不，我就要喝香草拿铁…！
+j	13606
+p	kanade	c	normal	angry	confused	
+s		店长的表情看起来有些复杂，但还是按照辉夜奏的指示，叫自己的新员工抓紧做了两杯香草拿铁出来。
+s		拿着刚做好的咖啡，辉夜奏带着我快步地离开了咖啡厅。
+b	street_afternoon
+p	kanade	c	normal	normal	confused	
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	你看，这线索不就来了。
+s	辉夜奏	虽然我有预料过会出现这种情况，但没想到…‘事情’的严重性比我想得还要夸张。
+p	kanade	c	normal	normal	confused	
+s		我没有作声，只是附和着点了点头，顺带接住了辉夜奏递过来的香草拿铁。
+s		怎么说呢，从肉眼上看起来，咖啡的精致程度大不如前了。或许是因为新招到的员工业务还不够熟练吧。
+s		另外，奏刚刚提到的“事情”，我也并非不了解。
+s		8月32日虽然看起来和现实别无二致，但这种对比仅限于当下。一旦把时间尺度拉回到之前，便会发现……
+p	kanade	c	normal	angry	speak	
+s	辉夜奏	他们并不是我们所认识的那个‘他们’。
+p	kanade	c	normal	angry	confused	
+s	周腾	确实，表面上的伪装或许可以瞒天过海，但记忆不会。
+s	周腾	所有和8月32日有关的记忆，都被删除或者篡改了。而且这次店长听到你的名字之后，也并没有感到震惊。
+p	kanade	c	normal	normal	confused	
+s	辉夜奏	……
+s	周腾	等一下，为什么之前店长听到你的名字会觉得惊讶，这次反而不会了？
+s	周腾	总不可能是因为你的名字和8月32日有关吧……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这种猜想也太胡扯了。以前无论生意有多好，事情有多忙，店长都不会招员工。
+s	辉夜奏	这次突然招员工了，难道也是和8月32日有关吗？
+p	kanade	c	normal	normal	confused	
+s	周腾	谁知道呢，说不定是因为蝴蝶效应？
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	蝴蝶效应？
+p	kanade	c	normal	surprise	confused	
+s	周腾	你想想看，之前所有和8月32日有关的记忆都被删除或更改了，那空白的这部分记忆应该怎么办呢？总不能就一直保持空白的状态吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	你的意思是说，被替换成了新的记忆？
+p	kanade	c	normal	normal	confused	
+s	周腾	我也只是猜测，但出现这种事情的可能性还是很大的。
+s	周腾	刚刚在店里的时候，店长有提到过探店博主的事情吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	确实有。
+p	kanade	c	normal	normal	confused	
+s	周腾	之前我们暑假去了那么多次咖啡厅，从来没有听说过有探店博主这回事儿。
+s	周腾	就算真是我们不小心忽略掉了，那白月高中那么多学生总有知道的吧，真有探店博主探了星期八咖啡的话，消息早就被传得满学校都是了好不好。
+s	周腾	所以就只有一种可能，那就是记忆空白的部分，被新加的探店博主的记忆给填满了。
+p	kanade	c	normal	surprise	speak	
+s	辉夜奏	话说我们，暑假的时候也没去过很多次星期八啊，你私下到底和常夏姐一起喝过多少次咖啡……
+p	kanade	c	normal	surprise	sad	
+s	周腾	这不是重点吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	对我来说还挺重要的…？唔，总之言归正传，我明白你的意思了。
+s	辉夜奏	你想说的是，店长有很多记忆都被更改替换了，所以自身才会根据这些被替换了的记忆做出新的举动。
+p	kanade	c	normal	normal	confused	
+s	周腾	然后这些举动又会影响到更多的人和事。所以无论是对你名字的反应也好，还是招新员工也好，本质上都是因为记忆被替换了。
+s		辉夜奏没有回应我，低着头沉思了半晌。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	只看店长一个人的表现的话，目前还不能够下定论，还是得问问更多的人才行。
+s	辉夜奏	要不今天就到此为止吧。刚到8月32这边，情绪和身体状况都有些没缓过来，还是早点回家休息好了。
+j	13662
+p	kanade	c	normal	normal	confused	
+s		辉夜奏少见地主动提出了回家休息的想法，我虽还想继续调查下去，但正如奏所说的那样，身体实在是有些绷不住了……
+h	kanade
+s		在简单告过别之后，奏便离开了。
+s		我不太明白该如何解释此时此刻自身的状况，大概…就像是连续做了一百套江城密卷那样累？但这种说法又好像有些太过了。
+s		我并没有真的连续做过一百套江城密卷，我只知道自己身心俱疲。
+s		这一点，在辉夜奏走之后变得更为明显了。
+s		奏在旁边的时候，至少还有人能陪我一起聊天打趣。而奏一离开，那种孤独空虚的感觉便像是海啸一般地朝着我猛扑了过来，压得人喘不过气。
+s		自己平时明明很享受这种一个人独处的时间的，可到了这边之后，情况却变得恰恰相反。
+b	zhou_teng_bedroom_noon
+s		推开家门，饭菜的香气让我紧绷着的心情轻松了不少。
+s		老爸在厨房里专心做着晚饭，看到我回来之后，他也只是习惯性地笑着对我摆了摆手，没有多说些什么。
+s		我转身走向卧室，在吃晚饭之前，准备先躺在床上休憩一番。
+s		……
+p	changxia		normal	normal	confused	
+p	changxia		normal	normal	speak_angry	
+s	@	你回来了啊。
+p	changxia		normal	normal	confused	
+s	周腾	啊。
+p	changxia		normal	normal	speak_angry	
+s	@	和小奏一起玩得还开心吗？
+p	changxia		normal	normal	confused	
+s	周腾	你怎么突然过来了？
+p	changxia		normal	sad	sad	
+s	@	嗯…因为觉得，有些对不住你吧，有必要和你当面道个歉。
+p	changxia		normal	sad	confused	
+s	周腾	对不住我？
+p	changxia		normal	sad	sad	
+s	@	今天中午在食堂里当着大家的面，对你说了有些难听的话。
+s	@	我承认我当时真的有些生气，确实把话说得太重了些。
+p	changxia		normal	sad	confused	
+s		常夏的突然拜访让我很是意外，这已经是她今天第二次以这种意料之外的理由出现在我的房间了。
+s		不过话说回来，常夏中午说的话也并没有很过火吧。毕竟是我放她鸽子在先，对我有所埋怨也是很正常的事情。
+s		还是说，仅仅只是因为这种程度的说辞，就足以让她反思一下午？

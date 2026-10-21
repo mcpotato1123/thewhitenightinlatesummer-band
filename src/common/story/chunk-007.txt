@@ -1,0 +1,128 @@
+h	kanade
+j	898
+b	street_afternoon
+d	6月30日 周五傍晚
+s	周腾	我说…我们就一定得要像这样三个人并排走在一起吗？我感觉稍微有点挤……
+p	changxia	cl	happy	normal	speak	
+p	kanade	cr	normal	normal	smile	
+s		离开学校之后，我就一直被常夏和辉夜奏给夹在中间，就像是一块汉堡肉一样。
+s		这期间引来了不少路人的异样眼光，不过这两个家伙似乎并没有太在意这种事情。
+p	changxia	cl	normal	normal	speak	
+s	@	这样走路有什么问题吗，反正又没有挡到其他人的路。再说了…
+p	changxia	cl	happy	normal	speak	
+s	@	我之前和周腾你一起放学回家不也是这样并排走的嘛。
+p	changxia	cl	happy	normal	smile	
+s		常夏说得确实没错。之前和她一起放学回家的时候，我们也都是用这种肩并肩的方式一起并排行走的。
+s		只是，今天的情况可能有些不太一样……
+p	changxia	cl	normal	normal	speak	
+s	@	要我说啊，应该是小奏那边的问题啦。
+p	changxia	cl	normal	normal	smile	
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	为什么是我的问题？
+p	kanade	cr	normal	normal	confused	
+p	changxia	cl	happy	sad	speak	
+s	@	就…我的意思是说，我们完全没有必要三个人一起并排走啊。小奏你完全可以往后退几步或者往前走几步和我们拉开一些距离的。
+p	kanade	cr	normal	angry	surprise	
+s	辉夜奏	不要。
+p	kanade	cr	normal	angry	confused	
+p	changxia	cl	circle	sad	sad	
+s	@	拒绝地好果断……
+p	changxia	cl	circle	sad	confused	
+p	kanade	cr	normal	angry	speak	
+s	辉夜奏	如果我离周腾太远的话，周腾会听不清我说话的声音的。
+p	kanade	cr	normal	angry	speak	
+s	辉夜奏	常夏姐嗓门这么大，离远一点大家也能听见，所以…你才应该和我们拉开距离吧。
+p	changxia	cl	circle	sad	speak_angry	
+p	kanade	cr	normal	angry	confused	
+s	@	居、居然被小奏说嗓门大……我好受伤——
+p	changxia	cl	circle	sad	confused	
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	我只是在陈述事实而已。
+p	changxia	cl	normal	confused	speak_angry	
+p	kanade	cr	normal	normal	confused	
+s	@	但…话虽这么说，你走在周腾旁边的时候我也没有看你在和他聊天讲话啊？
+p	kanade	cr	happy	sad	speak	
+s	辉夜奏	当、当然说话了…！只不过我和周腾讲的是悄悄话，你听不见罢了……
+p	changxia	cl	normal	normal	speak	
+p	kanade	cr	happy	sad	confused	
+s	@	是这样吗，周腾？
+s		常夏转过头来对着我质问道，顺便又朝着我这边挤了挤。
+s	周腾	这、这种事情就别问我啦~我是无辜的，无辜的…！
+p	changxia	cl	happy	sad	speak_angry	
+s	@	真是的，这种时候也要装中立……
+p	changxia	cl	normal	normal	speak	
+s	@	算了，就让我亲自来拆穿小奏的谎言吧！
+s	辉夜奏	……
+p	changxia	cl	happy	normal	speak	
+s	@	其实呢，五分钟前从学校出来我就一直在注意小奏了！小奏的嘴巴从始至终都是紧闭着的，也就是说……
+p	changxia	cl	normal	normal	speak	
+s	@	小奏无论是和周腾正常说话还是说悄悄话，都是不可能发生的！
+p	changxia	cl	normal	normal	smile	
+s	周腾	哇哦，好厉害的推理耶。
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	其实我会腹语。
+p	changxia	cl	normal	confused	speak_angry	
+s	@	...哈？
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	其实我刚刚一直在用腹语小声的和周腾交流。
+s	辉夜奏	所以常夏姐没有看到我开口也是很正常的事情。
+p	changxia	cl	normal	surprise	speak_angry	
+p	kanade	cr	normal	normal	confused	
+s	@	真的假的！？我怎么从来没有听说过你会腹语？
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	当然是假的，我开玩笑的。
+p	kanade	cr	normal	normal	confused	
+p	changxia	cl	normal	surprise	confused	
+s	常夏	……
+s	周腾	……
+s	周腾	奏……你什么时候会开这种玩笑了？
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	最近在‘白月公园’上学会的。
+s	辉夜奏	因为白月公园上的人都很会撒谎吹牛，所以我就想着，要不要也学着吹牛试试看。
+p	kanade	cr	normal	normal	confused	
+s	周腾	为什么要突然去学习吹牛这种事…
+p	kanade	cr	normal	sad	speak	
+s	辉夜奏	因为，那个……周腾你之前说我很无趣，整天板着脸不苟言笑的，看起来有种莫名的压迫感。
+s	辉夜奏	所以我就想，用开玩笑或者吹牛的方式来活跃气氛。
+p	kanade	cr	happy	normal	speak	
+s	辉夜奏	我现在，看起来应该没有压迫感了吧？
+p	kanade	cr	normal	normal	confused	
+s		辉夜奏看着我，似乎在期待着我的回答。
+s	周腾	我倒是觉得，这样面无表情的开玩笑反而会更让人有压迫感……
+p	changxia	cl	circle	angry	speak_angry	
+s	@	啊啊啊！气死我啦——！！
+s		在一旁沉默了许久的常夏突然拦在了辉夜奏的前面。
+p	changxia	cl	circle	angry	speak_angry	
+s	@	我一开始还真的以为小奏会腹语，结果到头来居然只是在开玩笑！
+p	changxia	cl	circle	angry	confused	
+p	kanade	cr	happy	sad	smile	
+s	周腾	这不是很正常的事情吗，绝大部分人都不会腹语的好不好。
+p	changxia	cl	circle	angry	speak_angry	
+s	@	我不是说这个啦！我只是没有想到…小奏居然会撒谎骗我！
+s	@	小奏以前可是从来不会对我撒谎的！
+p	changxia	cl	circle	angry	confused	
+p	kanade	cr	normal	normal	speak	
+s	辉夜奏	常夏姐，人是会变的哦。
+p	changxia	cl	normal	confused	speak_angry	
+s	@	哈？
+s	辉夜奏	别太在意，这句话也是我在‘白月公园’上学到的。
+p	kanade	cr	normal	normal	confused	
+s	周腾	……
+p	changxia	cl	circle	angry	speak_angry	
+s	@	不行…不行不行不行！我实在是忍不住我的怒火了！
+s	@	我要发泄，我要狠狠地惩罚小奏你——！
+g	qcg_1_1
+s		常夏猝不及防地朝着辉夜奏扑了过去，开始用手掌揉搓起了辉夜奏的脸蛋。
+s		大概是因为常夏很擅长料理的缘故，她揉脸的感觉就像是在揉面团一样……
+g	qcg_1_2
+s	辉夜奏	虫吓绝…别揉惹……
+s	辉夜奏	碾要坏掉惹……
+s	@	不行！我还没有发泄够！！
+s		听完辉夜奏的话，常夏这边不但没有停手，反而还变本加厉地加快了自己的速度。
+s		不知为何，看着常夏如此这般的举动，我居然也产生了一丝想要上去揉脸的冲动想法……
+s		……
+s		大概在揉了半分多钟之后，常夏这边才消了气，重新回到了我的左手边站好。
+h	@fg
+p	kanade	cr	happy	sad	surprise	flush
+p	changxia	cl	normal	normal	smile	
+h	@fg

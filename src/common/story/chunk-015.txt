@@ -1,0 +1,128 @@
+s	@	那、那还是算了吧……
+p	changxia	c	normal	sad	confused	
+s	周腾	为什么又算了？
+p	changxia	c	happy	sad	speak	
+s	@	我本来是想叫你去我家一起吃饭，但是想着…你爸可能早就把饭做好了，所以…还是算了~
+p	changxia	c	happy	sad	smile	
+s		常夏的表情有些尴尬，这让我也有些无所适从了起来。
+s		说实在的，我不是很清楚常夏突然邀请我去她家吃饭的理由。
+s		如果我没记错时间的话，上次去她家吃饭还是在初三毕业。当时为了庆祝中考结束，常夏特地叫自己的父母准备了一大桌子菜。
+s		我记得很清楚，那次庆祝会上的一桌子菜基本都是我爱吃的，当时那餐饭，几度吃得我都有些不好意思……
+s	周腾	要不…我还是给我爸打个电话确认一下吧，说不定他还没开始做饭呢。
+p	changxia	c	normal	normal	speak_angry	
+s	@	嗯。
+p	changxia	c	normal	normal	confused	
+s		我一边翻着手机的通讯录，一边朝着咖啡厅外走去。常夏这边则没有多说些什么，只是默默地跟在了我的身后，和我一起走了出去。
+h	changxia
+b	street_night
+s		和咖啡厅里不同，外面的空气里弥漫着一股尘土的气味。
+s		虽说不上难闻，但要是和汽车的尾气味道结合在一起，那味道就有些让人难以接受了。
+s		这个时间点正是下班和放学的高峰期，所以味道相比其他时间段来说，要来的更加强烈一点。
+s		……
+s	周腾	喂爸，家里饭做好了吗？
+s	周腾父亲	哎呀，我正准备打电话和你说这个事儿呢！公司那边今天临时有点事情，所以一时半会回不来。要不…
+s	周腾父亲	晚上的饭你就自己想办法解决一下？
+s	周腾	啊，哦……
+s	周腾父亲	对了儿子，你们今天就应该放暑假了吧，回家了吗？
+s	周腾	还没呢，我还在和……
+s	周腾父亲	我猜猜看，是和小夏一起在外面闲逛？
+s	周腾	你怎么知道的？
+s	周腾父亲	嗨~她不老是跟着你嘛，只要一闲着就跑过来找你，以前初中的时候不就这样。
+s	周腾	……
+s		看来，老爸对常夏的印象还停留在原先初中的时候。
+s		那个时候我确实和常夏相处的时间非常多，不过上了高中之后就不太一样了。
+s		大家都有各自的事情要忙，无论是社团里的事情也好，还是学业上的事情也好……
+s		有太多太多的事情占据了我与常夏的闲暇时间，这是没办法的事情。
+s		虽然老爸那边还不是很清楚我和常夏之间的现状，不过从结果上来看，他也确实是猜对了就是了……
+s	周腾父亲	要不这样吧，你今晚就去小夏家里蹭顿饭呗。
+s	周腾父亲	反正她家一直都挺欢迎你的，你也挺久没去了，去一趟也挺好。
+s	周腾	这个…要不还是……
+p	changxia	c	normal	normal	speak	
+s	@	好嘞周叔！那就这么愉快地决定啦，我马上就拉着周腾去我们家吃晚饭~
+p	changxia	c	normal	normal	smile	
+s		还没等我反应过来，手中的手机就已经被常夏给抢了过去。
+s		这个时候我才意识到，常夏刚刚一直都站在我旁边，偷听着我和我爸的谈话。
+s		只是……我的注意力可能有些太集中了，所以并没有注意到她就站在一旁。
+s	周腾父亲	好好好！那我儿子今晚就交给你们家了啊！记得叫你爸妈多做几个好菜招待一下~
+p	changxia	c	normal	normal	speak	
+s	@	放心吧周叔，周腾来我们这儿我们什么时候亏待过他呀！
+p	changxia	c	normal	normal	smile	
+s	周腾父亲	行，那我就放心啦。对了，记得替我给你家那两位打个招呼啊，好久没和你爸一起喝过酒了，等我啥时候有时间了约着一起聚聚！
+p	changxia	c	happy	normal	speak	
+s	@	知道啦周叔，我之后会转告给他的，我就先挂啦~
+p	changxia	c	happy	normal	smile	
+s		在丢下这句话之后，常夏便挂断了电话，随后笑着朝着我这边看了过来。
+p	changxia	c	normal	normal	speak	
+s	@	ok啦，已经全部搞定了~
+j	1977
+p	changxia	c	normal	normal	smile	
+s	周腾	我…！不是，你干嘛擅自替我做决定啊…！
+p	changxia	c	normal	normal	speak	
+s	@	这有什么，反正你家里今晚又没人给你做饭吃，干脆就来我们家呗。
+p	changxia	c	normal	confused	speak	
+s	@	怎么，嫌我爸妈做的饭不好吃？
+p	changxia	c	normal	normal	smile	
+s	周腾	我不是这个意思，我只是……
+s	周腾	……
+s		想说的话到了嘴边却没有说出口，我抬头看了眼站在我一旁的常夏，却正巧和她的视线撞在了一起。
+p	changxia	c	normal	normal	confused	
+s		不过令我有些意外的是，常夏并没有立刻说些什么，只是苦笑了一番。沉默了许久之后，她才一边朝前走着，一边自顾自地说了起来。
+p	changxia	c	normal	normal	speak	
+s	@	还记得以前刚上初中的时候吗，那个时候周腾你老是来我家蹭饭，我不让你来你都非要来。
+s	@	每次你来我家吃晚饭呢，我妈都会给你单独做一份辣子鸡来吃，她知道你喜欢吃辣的。
+s	@	不过嘛，一开始的时候我妈是不会做川菜的，算是为了你吧，当时她可花了不少时间在网上学习。
+p	changxia	c	normal	sad	smile	
+s	周腾	……
+p	changxia	c	normal	normal	speak_angry	
+s	@	后来上了高中，你就很少再来我家了。我妈也总是在家念叨，‘周腾那小子怎么还不来蹭饭’。
+s	@	我说这些并没有什么其他的意思，我只是想说。
+p	changxia	c	normal	sad	speak_angry	
+s	@	我们家一直都很欢迎你，我爸是，我妈也是，当然……
+s	@	我也一直……希望你能再来我家吃一次晚饭……
+p	changxia	c	normal	sad	confused	flush
+s		常夏话罢，将头撇向了一旁。外面路灯微亮，我勉强能看到常夏脸上的些许红晕。
+s		其实我能明白常夏的意思，她不想让我担心和顾虑太多，毕竟只是吃个晚饭而已。
+s		归根结底，我和她之间的“隔阂”，也不过是我自己给自己找的一个借口罢了，或许真的是我自己有些太过于敏感了吧。
+p	changxia	c	happy	angry	speak_angry	
+s	@	好啦！你还要不说话到什么时候啊…！
+p	changxia	c	normal	angry	speak_angry	
+s	@	从刚刚开始就一直都是我一个人在自顾自的说话，这样很让人尴尬的！
+p	changxia	c	happy	angry	confused	
+s	周腾	对不起，我只是在想些事情而已……
+s	周腾	现在就去你家吧。
+p	changxia	c	normal	normal	smile	
+s		我对着常夏浅浅地笑了笑，在看到我脸上释然的表情之后，常夏的神情也放松了不少。
+p	changxia	c	happy	normal	speak	
+s	@	这还差不多！这样才算是我认识的那个周腾嘛~
+p	changxia	c	happy	normal	smile	
+s		……
+s		即使是到了晚上，江城的夏天也依然还是闷热的让人喘不过气。
+s		街道上人来人往，刚下班的白领、刚补习完的高三学生、刚吃完晚饭出来散步的老人……把一条条人行道堵得水泄不通。
+s		随着夜色一点一点地变深，各式各样的烧烤摊和大排档也开始营业了起来，食物的香味就这样随着夏风萦绕在我的周围。
+s		前方不远处的广场，跳广场舞的大妈们也开始活动了起来。
+s		音响里传来的土味音乐虽然不是我爱听的歌，但听久了似乎也没觉得有多难听了。
+s		江城的夏天就是如此，虽说总是热得像火炉一般，但我却怎么也讨厌不起来。
+p	changxia	c	normal	normal	speak_angry	
+s	@	对了周腾……
+p	changxia	c	normal	normal	confused	
+s	周腾	怎么了突然？
+p	changxia	c	happy	normal	speak_angry	
+s	@	其实也没什么。
+s	@	就只是单纯好奇想问问…
+p	changxia	c	normal	normal	speak_angry	
+s	@	你对…小奏的事情很了解吗？
+p	changxia	c	normal	normal	confused	
+s		常夏的问题让我一下子让我回过了神来，我思考了片刻，但始终无法给出一个肯定的答案。
+s	周腾	怎么说呢，算是了解？但其实也没那么了解…？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	嗯？
+p	changxia	c	normal	surprise	confused	
+s	周腾	我确实是知道一些关于她的事情，毕竟我初中的时候一直在她父亲那里学习围棋。
+s	周腾	辉夜奏一开始很怕生的。我刚到她家学棋那会儿，辉夜奏老是躲在房间里不出来。
+s	周腾	之后我去的次数多了些之后呢，她就会把房门半开，然后伸出个脑袋来偷偷看我下棋。
+s	周腾	再后来，随着我去她家的次数越来越多，她也就没那么拘谨了，开始从房间里走出来主动要求和我下棋。
+s	周腾	我也不知道为什么，她当时老是缠着我下棋。明明在她父亲那上课的学生有很多比我技术好的，结果她却只缠着我下。
+p	changxia	c	normal	confused	speak_angry	
+s	@	可能，只是因为觉得你下棋比较厉害？
+p	changxia	c	normal	confused	confused	
+s	周腾	拉倒吧，在那上课的学生比我段位高的人十个指头都数不过来…！

@@ -1,0 +1,128 @@
+p	changxia	c	normal	confused	speak_angry	
+s	@	不是因为你下棋厉害，那还能是因为什么原因？你总不能告诉我小奏是因为你长得帅所以才和你下棋的吧……
+p	changxia	c	normal	confused	confused	
+s	周腾	谁知道呢，说不定真的和你说的一样，毕竟第一印象还是蛮重要的~
+s		我耸了耸肩，开玩笑似的给出了自己的答复。
+p	changxia	c	happy	sad	speak	
+s	@	我只是随便说说而已，你还真觉得是真的啊……
+p	changxia	c	happy	sad	smile	
+s	周腾	我这不也是顺着你的话在往下说嘛，你放心好了，对于长相这方面，我心里还是有数的。
+p	changxia	c	normal	normal	speak	
+s	@	其实你也不用太过于贬低自己，至少在我看来嘛…
+s	@	周腾你还是挺帅的。
+p	changxia	c	normal	normal	smile	
+s	周腾	是、是嘛…
+p	changxia	c	normal	normal	speak	
+s	@	是啊，虽然你总是熬夜，爱吃辣椒，所以脸上时不时地会长痘痘。
+p	changxia	c	happy	normal	speak	
+s	@	但至少你的五官还是很标准的！两个眼睛，一个鼻子，一个嘴巴，不多也不少~
+p	changxia	c	happy	normal	smile	
+s	周腾	……
+s	周腾	我就当你是在夸我好了。
+p	changxia	c	normal	confused	speak_angry	
+s	@	说回刚刚的话题，所以…你和小奏之间的关系就只是下棋的普通朋友而已？
+p	changxia	c	normal	confused	confused	
+s	周腾	纠正一下，是普通棋友~
+s	周腾	奏家里管得太严了，我平时能和她见面的机会很少，在学校里见面也基本都是在下围棋。
+s	周腾	先不管这些，你问这个问这么清楚干什么？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	就、就只是有些好奇而已啊，而且不光是我好奇，我班上的其他人也很好奇。
+p	changxia	c	normal	normal	speak_angry	
+s	@	毕竟，小奏在学校里和你走得那么近，你俩之间的关系会成为其他人讨论的话题也是很正常的事。
+j	2080
+p	changxia	c	normal	normal	confused	
+s	周腾	讨论我和奏？这有什么可聊的。
+p	changxia	c	happy	angry	speak	
+s	@	周腾…你是真不懂还是假不懂啊，你俩走那么近，其他学生讨论的肯定是那方面的话题啊！
+s	周腾	‘那方面’?
+p	changxia	c	normal	angry	speak_angry	
+s	@	就是‘恋爱’啦，和恋爱有关的话题…！
+s	@	小奏老是有事没事就来找你，大家肯定会觉得你俩在交往在谈恋爱啊。
+p	changxia	c	happy	sad	smile	
+s	周腾	……
+p	changxia	c	normal	confused	speak_angry	
+s	@	所以呢，你和小奏真的是这种关系吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	想什么呢，我和她之间的关系没有那么复杂。
+s	周腾	她之所以经常来班上找我，也只是因为和我认识的比较早而已。
+p	changxia	c	normal	confused	speak_angry	
+s	@	是吗？
+p	changxia	c	normal	confused	confused	
+s	周腾	奏毕竟是从日本来的留学生啊，她在班上没什么朋友，对我们这里的人文和生活习惯也不是很了解。
+s	周腾	你仔细想想，假如你是一个去日本的留学生，你在那边会优先和什么人接触？
+p	changxia	c	normal	normal	speak_angry	
+s	@	大概…会和一样是从中国来的留学生接触吧，毕竟语言相通，习惯也大差不差？
+p	changxia	c	normal	normal	confused	
+s	周腾	换句话说，如果到了一个陌生的环境，你会优先和自己相对比较熟悉的人抱团在一起，对吧？
+p	changxia	c	normal	normal	speak_angry	
+s	@	当然，这是人之常情。
+p	changxia	c	normal	normal	confused	
+s	周腾	所以说奏也是一样嘛，我和她很早就因为下棋认识了。之后她入学到白月高中来，自然就会优先和比较熟悉的我相处。
+p	changxia	c	normal	confused	speak_angry	
+s	@	虽然你说的确实很有道理，我也确实找不到什么反驳的理由，但是…
+p	changxia	c	normal	angry	speak_angry	
+s	@	我总觉得没那么单纯。
+p	changxia	c	normal	angry	confused	
+s	周腾	这只能说明常夏你太恋爱脑了，看什么都觉得是在谈恋爱。
+s	周腾	平时还是少看些偶像剧比较好~
+p	changxia	c	happy	angry	speak_angry	
+s	@	为什么就能是我太恋爱脑了，不能是你太木头了呢？
+p	changxia	c	happy	angry	confused	
+s		常夏的语气有些埋怨我的意思，尤其是在说到“木头”这两个字的时候，常夏还特地提高了一下自己的声调。
+s	周腾	真的就是你想太多了，人家奏家教那么严格，整天不是被家里人逼着学习就是被逼着下棋…
+s	周腾	你觉得她会有时间去思考恋爱的事情吗？
+p	changxia	c	happy	normal	speak_angry	
+s	@	周腾你能说出这种话啊，只能说明你一点儿也不了解女生~
+p	changxia	c	happy	normal	confused	
+s	周腾	……
+s	周腾	或许吧。
+p	changxia	c	normal	normal	confused	
+s		常夏说完刚刚那段话之后，莫名地叹了一口气。她半抬着头看着前方，也不知道是在看些什么。
+s		借着微光，我勉强能看到常夏脸上那有些落寞的表情，至于为什么会露出这样的一副神情，我就不得而知了。
+s		有那么一瞬间，我觉得自己似乎从来没有真正地了解过常夏。
+s		她每天心里到底在想些什么，每天又都在做些什么。最近的学习情况怎么样，和朋友之间的关系有没有出现问题……
+s		对于这些事情，我基本是道听途说或者是完全不了解。
+s		明明常夏就在我旁边，想要了解她详细她的近况只要开口问她就好了。可真当自己排好措辞、组织好语言之后，想说的话却又在嘴边吐不出去了。
+s		……
+p	changxia	c	normal	normal	speak_angry	
+s	@	现在江城的夜晚，已经完全看不到星星了啊。
+p	changxia	c	normal	normal	confused	
+s	周腾	啊…
+s		常夏突然的一句话将我的思绪拉了回来，我先是看了看她，随后才随着她的视线往天上看了看。
+p	changxia	c	normal	normal	speak_angry	
+s	@	不知道从什么时候开始，江城的天就总是灰蒙蒙的了。
+s	@	白天也是，晚上也是；冬天也是，夏天也是……
+p	changxia	c	normal	normal	confused	
+s	周腾	我倒是没怎么注意这些事情，不过我记得没错的话，前几年的时候天上还是偶尔能看到星星的吧。
+s	周腾	可能是近些年空气质量越来越差了，再加上这片地方的商圈也越建越繁华了，所以才这样的？
+p	changxia	c	normal	normal	speak_angry	
+s	@	是啊，一些东西在慢慢变好的同时，也有一些东西在不知不觉的消失。
+s	@	大家都只会注意眼前的美好，谁又还会在乎现在江城的晚上还看不看得到星星呢？
+p	changxia	c	normal	normal	confused	
+s	周腾	……
+s	周腾	常夏你…没事吧？
+p	changxia	c	normal	confused	speak_angry	
+s	@	哈…？你这问的是什么问题？
+p	changxia	c	normal	confused	confused	
+s	周腾	也不是…只是在我的印象里，你不像是会说出这种‘非主流语录’的人。
+p	changxia	c	happy	angry	speak_angry	
+s	@	什、什么非主流语录啊，我只是感慨一下而已嘛。现代年轻人生活和学习压力这么大，晚上emo一下不是很正常的事情吗？
+p	changxia	c	happy	angry	confused	
+s	周腾	是吗…
+p	changxia	c	normal	angry	speak_angry	
+s	@	倒是周腾你，要是有什么压力和不满就尽早的发泄出来，有些东西在心里憋久了可是真的会坏掉的！
+p	changxia	c	normal	normal	speak	
+s	@	嘛，反正我是觉得……偶尔先这样感慨一下对放松心情很有帮助。
+p	changxia	c	normal	normal	smile	
+s		常夏对着我笑了笑之后便没有再说些什么了。
+s		说实话，我现在对什么“商圈繁不繁华”啊、“看不看得到星星”啊，并不在意。
+s		唯一让我有些在意的，只有这个并肩走在我旁边，一下乐呵呵一下又emo的不行的双马尾女孩。
+s		难道真的是因为我太久没有和她接触，所以变得越来越不了解她了？
+p	changxia	c	normal	normal	speak	
+s	@	别想我刚刚说的话啦。
+p	changxia	c	normal	normal	smile	
+s	周腾	诶？
+p	changxia	c	happy	normal	speak	
+s	@	那些所谓的‘非主流语录’其实都是我从‘白月公园’论坛上看来的。与其想那些，还不如猜猜看我妈今晚会做什么菜给你吃~
+p	changxia	c	happy	normal	smile	
+s	周腾	居然是从网上看来的么，等等……

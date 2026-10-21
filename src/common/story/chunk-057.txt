@@ -1,0 +1,128 @@
+s		我既有些想点头赞成，又想摇头表示反对。
+p	changxia	c	normal	normal	speak_angry	
+s	@	这样吧，记忆不会骗人，昨天可是最后一天暑假，你回想一下昨天发生了什么不就行了？
+p	changxia	c	normal	normal	confused	
+s	周腾	没事没事，我可能…就是有些没休息好吧，精神状况不是很好，所以才把日期记错了。
+p	changxia	c	normal	sad	speak_angry	
+s	@	呼……那就行，你差点吓死我了，你知道你刚和我说话时候的表情有多认真吗？
+s	@	信誓旦旦地说今天就是9月1号，我都差点以为是自己搞错了~
+j	7305
+p	changxia	c	normal	sad	confused	
+s		差点以为自己搞错了吗……
+s		我在心里暗自重复常夏刚刚的话语，可越是重复就越是无法冷静。
+s		按道理来说，今天不管怎么样都应该是9月1号了，哪怕告诉我是8月33号我都能够接受。
+s		结果常夏就这样像个没事人似的，跑到我家里，说着和昨天差不多的话叫我起床，拉着我去学校报道……
+s		等等，是不是有什么地方被我忽略了？
+s	周腾	那个，常夏……
+p	changxia	c	normal	normal	speak_angry	
+s	@	怎么了？
+p	changxia	c	normal	normal	confused	
+s	周腾	我是不是昨天和你约好了，今天早上七点钟要在学校附近的老汤面馆一起吃早饭？
+p	changxia	c	normal	surprise	speak_angry	
+s	@	哇……
+p	changxia	c	normal	angry	speak_angry	
+s	@	你这不是记性挺好的嘛…！所以说你刚刚弄出来那么多事情其实都是骗我的！？
+p	changxia	c	normal	angry	confused	
+s	周腾	我可能确实没休息好，但我手机坏了是真事啊，我总不可能为了逗你把手机故意弄坏吧。
+p	changxia	c	normal	confused	speak_angry	
+s	@	这倒是。不过说实话，如果不是你提醒我，我都差点把吃面这事儿给忘了。
+p	changxia	c	normal	normal	speak_angry	
+s	@	我今早准时在面馆等了你有一会儿吧，看你半天没来，想着你是不是又睡过头了，所以才跑到你家去找你的。
+p	changxia	c	normal	normal	speak	
+s	@	嗯~本来还想怪你的，但是一想你睡过头是因为手机坏了闹钟没响，就感觉也没那么生气了。
+s	@	这个属于不可抗力，对吧？
+p	changxia	c	normal	normal	smile	
+s		常夏对着我甜甜地笑了笑，我点了点头，对着她苦笑了回去。
+b	black
+s		……
+b	street_afternoon
+s		按照目前已知的情况来看，事情的严重性可能比我想象的要夸张得多。
+p	changxia	c	normal	normal	confused	
+s	周腾	那要不咱们现在去吃面吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	还吃毛线啊！不知道因为你手机的事情我们浪费了多少时间吗？现在去学校不迟到都算是好的。
+p	changxia	c	normal	confused	speak_angry	
+s	@	唔…迟到也不至于，走快点能提前五分钟到吧。
+p	changxia	c	normal	confused	confused	
+s	周腾	抱歉，那还是先去学校吧，中午我请你吃饭赔礼道歉~
+p	changxia	c	normal	normal	speak	
+s	@	这还差不多嘛，对了…
+s	@	我手机你拿去吧，密码你知道的。
+p	changxia	c	normal	normal	smile	
+s	周腾	给我手机干什么？
+p	changxia	c	normal	normal	speak_angry	
+s	@	你上课不玩手机么？给你用啊。
+p	changxia	c	normal	normal	confused	
+s		常夏的话让我愣了许久，看着她递过来的手机，我迟迟没有接下。
+p	changxia	c	normal	confused	speak_angry	
+s	@	睡着了？
+p	changxia	c	normal	confused	confused	
+s	周腾	不是……你把手机给我了，你怎么办？
+p	changxia	c	normal	normal	speak	
+s	@	我三好学生，品德优良~上课认真听讲不摸鱼，手机只会让我手中的笔变慢~
+p	changxia	c	normal	normal	smile	
+s	周腾	就算是这样也不能直接给我啊，这手机怎么也是个随身携带的东西，里面各种隐私内容很多的，你就放心这样交给我？
+p	changxia	c	happy	sad	speak	
+s	@	也…没什么…特别隐私的东西吧，啊，相册里好像确实有那么些隐私的东西，嗯……
+p	changxia	c	normal	sad	smile	
+s		常夏的语气怪怪的，看着我的眼神也变得怪怪的。
+s	周腾	隐私，指的是……？
+p	changxia	c	normal	normal	speak_angry	
+s	@	咳咳，这个我就不明说了，想知道的话你把手机拿着自己去看呗。
+p	changxia	c	happy	sad	speak	
+s	@	啊当然，别当着我面看，即使是我也是会不好意思的！
+h	changxia
+s		常夏将手机硬塞到了我手里，随后便朝着马路对面走去了。
+s		我就这样跟在她身后，一边走着一边来回地端详着手机。
+s		手机壳并不是那种可爱风格的，而是简单的纯色软壳。屏幕上的保护膜完好无损，甚至就连划痕都没有，估计保护膜也是经常更换。
+s		那手机壁纸会是什么样的呢？
+s		……
+s		我紧张地咽了口口水，尽管常夏已经给了我所谓的“隐私查看权”，但真到这种时候，心里也还是会有些背德感。
+s		按亮屏幕，手机上出现的，只是一个扎着双马尾、穿着校服的乖巧少女。
+s		年龄不大，笑容也是十分阳光，唯一让人有些在意的是少女怀中紧紧抱着的东西。
+s		一个包装精美的笔记本，没有拆开封皮，应该是刚拿到手。
+s		这应该是常夏初中时候的照片，笔记本看着有些眼熟，但具体什么来历我也记不太清。
+s		本想对着常夏把这件事问清楚，但在激烈的心理斗争之下，最后也还是不了了之。
+p	changxia	c	normal	normal	smile	
+s	周腾	嘶…密码是多少来着？
+p	changxia	c	normal	normal	speak	
+s	@	你知道的，你肯定知道。
+p	changxia	c	normal	normal	smile	
+s	周腾	你从来没有和我说过你的手机密码啊。
+p	changxia	c	happy	sad	speak	
+s	@	那你就猜一下嘛，反正你肯定知道的！
+p	changxia	c	happy	sad	smile	
+s		这句话让我稍微觉得有些烦躁。
+s		不完全是因为常夏，主要是现在的情况，我真的没有心思和脑力再去当这个所谓的“开锁大师”了。
+s		或许是运气，或许是直觉，我抱着试一试的心态输入了我的生日。
+s		手机，就这样解锁了，而这一刻刚好全程被常夏给看了下来。
+p	changxia	c	happy	normal	speak	
+s	@	挺好挺好，看来我们的周腾同学只是单纯地没休息好，脑子确实没坏~
+p	changxia	c	happy	normal	smile	
+b	black
+s		……
+j	7400
+s		和常夏所预料的差不多，我们并没有迟到，而是提前五分钟赶到了学校门口。
+s		校门口周围已经没有多少学生了，今天是开学报道的日子，大多数学生都早早地回到了自己的班级。
+s		正因如此，我们在门岗保安的眼里就变得特别突出，还没走进学校几步，就被拦了下来……
+s		好在常夏口才好，再加上看起来完全就是好学生的样子，所以保安并没有记下我们的班级和姓名，只是压着嗓子说了句“下不为例”之后就放行了。
+s		……
+b	corridorA_afternoon
+p	changxia	c	normal	normal	speak	
+s	@	我就先走啦，你也赶紧回班上吧，估计就差你一个了。
+p	changxia	c	normal	normal	confused	
+s		常夏与我并不在一个班级，教室所在的教学楼也和我们班的方向相反。
+h	changxia
+s		在简单地对着常夏点了点头之后，我便转身离开了。
+s		离开之前，常夏脸上的表情有些复杂，她看着我好像有什么话想说，但愣了半天也没蹦出一个字来。
+s		我多少能猜到她在担心些什么，但时间有限，比起和她继续闲聊下去，我还有更重要的事情等着我去确认……
+b	classroom_afternoon
+s		……
+s	葛城	周腾？
+s	葛城	我去！真的是你啊，周腾——！！
+s		葛城像是打了兴奋剂似的，发了疯地朝我冲来，全然不顾周围同学的眼光，更别说……
+s		语文老师还站在讲台上。
+s	语文老师	怎么，一个暑假没见面就想成这样了？
+s	语文老师	要不给你俩推荐个补习班，专门把你们两个放在一起聊个够？免得出了学校就寂寞难耐。
+s	语文老师	给我回位置坐好！
+s	语文老师	还有一分钟就上课了是看不见钟吗？

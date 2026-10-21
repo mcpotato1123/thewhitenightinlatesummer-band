@@ -1,0 +1,128 @@
+p	kanade	c	normal	normal	confused	
+s	周腾	你如实说明了？
+s		辉夜奏没说话，点了点头。
+s		也是这一瞬间，我才突然明白……为什么常夏那天会突然那么生气的跑到我家里来兴师问罪了。
+s		原来之前还发生过这样的事情。
+s	周腾	那冰激凌是怎么一回事，刚刚说的事情好像和冰激凌一点关系也没有吧？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	冰激凌的话，就是那天常夏姐问我问题之前，说要请我吃的东西。
+s	辉夜奏	因为她主动提出说要请我吃冰激凌，所以我就想……
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	常夏姐这么顺其自然地说要请我吃冰激凌，是不是因为周腾你平时很爱吃冰激凌呢…？
+p	kanade	c	happy	normal	confused	
+s	周腾	……
+s		我有些呆住了。
+s		本以为我自己已经是那种容易想得很多的人了，没想到还有比我想得更多的人。
+p	kanade	c	normal	normal	confused	
+s	周腾	就因为常夏说要请你吃冰激凌，所以你就猜测我喜欢吃冰激凌？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	这个逻辑应该没有任何问题吧。
+s	辉夜奏	毕竟你们相处那么久了，互相对对方的喜好了如指掌，也是很正常的事情吧。
+s	辉夜奏	所以脱口而出地讲出了对方喜欢的东西，也是可以理解的事情吧。
+s	辉夜奏	老实说，我很羡慕呢。
+p	kanade	c	normal	normal	confused	
+s	周腾	但我真的不是很喜欢吃冰激凌的那种人啊，呃，也不是不喜欢，就正常吧。
+s	周腾	算是那种，平时偶尔想起来就会买来吃一吃，热的时候也会买一个解暑的情况？
+s	周腾	但你要问我‘最喜欢吃的食物是什么’，冰激凌绝对不会是在考虑范围内的东西。
+j	15387
+p	kanade	c	normal	normal	surprise	
+s	辉夜奏	所以……冰激凌你还吃么？
+p	kanade	c	normal	normal	confused	
+s		辉夜奏用着一脸意味深长的眼神看着我，就好像只要我拒绝了她，下一秒她就会从不知道什么地方掏出来一把刀，然后捅进我的心脏……
+s		不对，为什么我会往这方面去想？辉夜奏又不是什么病态少女……
+s	周腾	吃啊吃啊！当然吃。免费的东西可是最好吃了~
+p	kanade	c	normal	normal	sad	
+s	辉夜奏	……
+s	周腾	更、更何况还是可爱的小奏学妹请我的呢，这下更要好好品尝了…！
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	那我们就赶紧去排队吧~
+b	street_afternoon
+h	kanade
+p	kanade	c	normal	normal	speak	
+s		——冰激凌店门前……
+s		因为不是休息日的缘故，今天排队买冰激凌的人不是特别多。
+s		当然，我这也是第一次来这家冰激凌店就是了，这家店之前排队严不严重我也不清楚。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	你好，请给我来两份冰激凌。
+p	kanade	c	normal	normal	smile	
+s	店员	小姐姐，我们这边的冰激凌是按球计费的，你看看你需要哪些口味呢？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	一份海盐香草巧克力曲奇的。
+p	kanade	c	normal	normal	smile	
+s	店员	另一份呢？
+s		辉夜奏没有立刻回话，而是转头和我对视了一眼，大概是想要询问我的口味吧。
+s	周腾	呃，我就要那个香芋加……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	给他每个口味都来一份吧。
+p	kanade	c	normal	normal	smile	
+s	周腾	啊？
+s	店员	你是认真的吗小姐姐，我们这边的冰激凌是按球收费的哦。
+s	店员	如果每种口味都要的话，一方面是价格会很贵，另一方面…我们可能也没有合适大小的容器呢。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	钱的话不用担心，至于装不装得下的问题……
+s	辉夜奏	就用你们这里最大的纸碗，能装多少口味就装多少口味吧。
+p	kanade	c	normal	normal	smile	
+s	店员	……
+s		店员尬笑着点了点头，随后便转身拿了一个最大号的纸碗，打开冰柜照做了。
+s		为了避免浪费，我本想上前阻拦店员，毕竟冰激凌打得太多肯定是吃不完的。
+s		但奏却像是下定了什么决心似的，横在了我的面前，拦断了我和店员之间的路。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	说过了我请客，我来付钱就好了。
+p	kanade	c	normal	normal	confused	
+s	周腾	我不是要付钱，我是怕冰激凌装太多了吃不完。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	吃不完可以打包带回家。
+p	kanade	c	normal	normal	confused	
+s	周腾	带回家早就化成稀奶油了吧！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	那再把它放在冰箱里冻起来不就好了。
+p	kanade	c	normal	normal	smile	
+s	周腾	……
+s		好有道理啊，一个樱花妹居然能想出这么两全其美的办法！
+s		但是这种行为是不是有点太神经了？
+s		——一段时间后……
+s	店员	您好，两位的冰激凌好了~
+s		店员先是单手将一份小碗的冰激凌放在了吧台上，随后才用双手吃力地将那一份最大碗的冰激凌给端了上来。
+s		怎么说呢？分量比我想象中的要少一些，好像是可以吃完的样子。
+s		不过球的颜色还是挺多种的，估计店员也是想了不少办法去往碗里装更多的冰激凌吧。
+s		辉夜奏麻利地用现金结完了账，然后将超大碗的冰激凌递到了我的手上。
+s		纸碗冰冰凉凉的感觉，拿起来也分量感十足。
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	赶快尝尝吧，我等着你的评价~
+p	kanade	c	happy	normal	smile	
+s	周腾	那个！在吃之前我有问题想问。
+p	kanade	c	surprise	normal	speak	
+s	辉夜奏	怎么又要问问题……
+p	kanade	c	surprise	normal	confused	
+s	周腾	就是，为什么要买这么大的量？
+s	周腾	即使真的按你说的那样吃不完可以打包回家冻起来，也实在是有些没必要吧。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	因为周腾你刚刚说，免费的东西最好吃了。
+s	辉夜奏	既然都‘最好吃了’，那肯定要吃多多的才行~
+p	kanade	c	normal	normal	smile	
+s	周腾	……
+s	周腾	可这么多一次吃完的话，拉肚子的概率会很大吧！
+p	kanade	c	happy	normal	speak	
+s	辉夜奏	不会的！因为周腾刚刚说过啦，‘是可爱的小奏学妹请我的呢，这下更要好好品尝了…！’
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	我相信即使是抱着拉肚子的风险，周腾学长也会好好吃完的吧。
+s	辉夜奏	辜负女孩子的心意可是很减分的事情哦。
+p	kanade	c	normal	normal	smile	
+s	周腾	……
+s		不知道为什么，我总感觉辉夜奏在故意报复我，但我又不知道我到底做错了什么才让她有了报复我的想法。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	为什么还不开始吃呢，学长是有什么顾虑吗？
+p	kanade	c	normal	normal	smile	
+s	周腾	还、还是别叫我学长了吧，真的很不适应。
+p	kanade	c	surprise	surprise	speak	
+s	辉夜奏	那，前辈？
+s	周腾	这个称呼虽然很熟悉，但已经不用很久了吧，还是就叫我的名字好了。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	算了，称呼怎样都无所谓了，所以你可以开始吃冰激凌了吗？
+p	kanade	c	happy	surprise	speak	
+s	辉夜奏	还是说，你是在等可爱的小奏学妹亲手喂你？
+j	15484
+p	kanade	c	happy	surprise	smile	
+s	周腾	不用了不用了！我自己用勺子吃就行…！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	啊——

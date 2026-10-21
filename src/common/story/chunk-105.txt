@@ -1,0 +1,128 @@
+p	kanade		normal	normal	confused	
+s	周腾	唉，回家吧，再不走等会楼下保安要上来赶人了。
+p	kanade		normal	normal	speak	
+s	辉夜奏	回家之前，要不要一起去别处走走？
+s	辉夜奏	说不定，能意外地找到一些线索。
+j	13446
+p	kanade		normal	normal	confused	
+s	周腾	虽然这个问题有些奇怪，但，为什么突然想跑出来找线索？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你不想回现实么？
+p	kanade		normal	normal	confused	
+s	周腾	……
+s	周腾	想吧。
+p	kanade		normal	surprise	speak	
+s	辉夜奏	嗯？居然会在这种问题上迟疑，有点出乎我意料啊。
+p	kanade		normal	normal	speak	
+s	辉夜奏	总之不管怎么样，要是想回去的话，坐以待毙肯定是不行的。你总不能指望自己只要躺着不动就会有人来救你吧。
+p	kanade		normal	normal	confused	
+s	周腾	说不定真有呢，毕竟连8月32日都真实存在了，比这更稀奇的事情也不见得就不会发生。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我就当你是在逗我开心好了。
+p	kanade		normal	normal	confused	
+s		辉夜奏叹了口气，摆出一副无奈的表情，但她的心情好像确实因此放松了不少。
+s	周腾	哦，突然想起来，我是不是应该给常夏发个消息比较好？
+p	kanade		normal	normal	speak	
+s	辉夜奏	给常夏姐发消息？为什么？
+p	kanade		normal	normal	confused	
+s	周腾	和她道个歉，毕竟今天中午确确实实是我放了她鸽子……
+s	周腾	其实本来心里也没那么过意不去的，但是听你说常夏刚刚在楼下等了我半天，后来还是走了，我就觉得…
+s	周腾	自己是不是确实伤到她心了？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你好像也没有常夏姐说得那么木头嘛。
+p	kanade		normal	normal	confused	
+s	周腾	这和木不木头应该没关系吧，做错了事情就要自我反思啊。
+p	kanade		normal	normal	speak	
+s	辉夜奏	为什么要反思呢？这个世界的常夏姐又不是真的。
+s	周腾	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	你和她道歉她原谅你了，然后呢？
+s	辉夜奏	现实世界里的常夏姐甚至连发生了什么都不知道，做得再多不也是在自我安慰吗？
+p	kanade		normal	normal	sad	
+s	辉夜奏	……
+p	kanade		normal	normal	speak	
+s	辉夜奏	抱歉，我好像又说了些不合时宜的话。
+p	kanade		normal	normal	sad	
+s	周腾	下次你要是能在说话之前就意识到这点就更好了。
+s	周腾	不过就像葛城说的那样，尽管这边的常夏只是投影，但她实在是太真实了。
+s	周腾	我没办法把她当做‘常夏’以外的人去看待。
+s	周腾	习惯、口癖、爱好……所有的行为举止都和常夏一模一样……
+s	周腾	那她就是常夏啊！
+p	kanade		normal	normal	speak	
+s	辉夜奏	所以，这就是你刚刚回答我问题时犹豫的理由？
+p	kanade		normal	normal	confused	
+s	周腾	只是感慨一下，仅此而已。
+s		我确实是犹豫了，有那么一瞬间，我想过永远留在这里。
+s		现实里的常夏因为意外车祸现在还在医院里抢救，受了那种程度的重伤，救不救得回来都还是个未知数。
+s		就算救回来了，满身的伤疤与后半生躲不掉的后遗症，这种事情……她又需要多久才能释怀呢。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我倒也不是不能理解周腾你的心情吧，
+s	辉夜奏	但说到底这不还是逃避么？
+s	辉夜奏	想要一辈子留在这里，和虚假的常夏姐一起生活。但现实里的常夏姐最需要你的时候，你却没有出现……
+p	kanade		normal	normal	confused	
+s	周腾	好了好了，别说了。
+s	周腾	不是说是来找线索的吗，怎么变成对我的心理开导了？
+p	kanade		normal	normal	speak	
+s	辉夜奏	我觉得很有必要啊，如果你连想要回去的想法都没有了，那我们找线索还有什么意义呢？
+s	辉夜奏	恐怕找的过程也只是草草敷衍了事吧。
+p	kanade		normal	normal	confused	
+s	周腾	嗯……
+p	kanade		normal	normal	speak	
+s	辉夜奏	去星期八咖啡看看吧，如果没关门的，店长说不定会是我们的突破口。
+h	kanade
+j	13513
+b	street_afternoon
+p	kanade		normal	normal	confused	
+s	周腾	咖啡厅，居然正常开门了！？
+p	kanade		normal	normal	speak	
+s	辉夜奏	确实让人有些意外。
+s	辉夜奏	如果事情的发展方向和我们所知的一样，这个时候店长应该早就离开江城了，门店的转让告示也应该贴在店门上才对。
+p	kanade		normal	normal	confused	
+s	周腾	果然，‘8月32’说是现实的‘投影’，但两者之间还是有着不小的差别的，只是我们之前一直没有发现。
+p	kanade		normal	surprise	speak	
+s	辉夜奏	说起来也奇怪，咖啡店一直就在学校附近啊，从来没有变过位置。营没营业你们路过的时候难道没有注意到么？
+p	kanade		normal	surprise	confused	
+s	周腾	你来学校的时候不也没注意到吗……
+p	kanade		normal	normal	speak	
+s	辉夜奏	也是。
+p	kanade		normal	normal	confused	
+s	周腾	大家在白月高中上了这么久的学，附近有个生意火爆的咖啡厅早就是人尽皆知的事情了。
+s	周腾	如果不是每天都去喝咖啡的话，它要是在哪一天偷偷关门了你是不可能注意到的吧。
+p	kanade		normal	normal	speak	
+s	辉夜奏	我明白了，越是习以为常的事情，就越是容易被人忽略。
+s	辉夜奏	星期八这么多年以来很少有关门闭店的时候，所以就算它还在正常营业，我们乍一看也不会觉得有什么不对的地方。
+p	kanade		normal	normal	confused	
+s	周腾	我们也是刚进到8月32号，再加上之前又发生了那么多事情，身体和精神状况都很堪忧，所以会忽略掉这么显而易见的事情也很正常。
+p	kanade		normal	normal	speak	
+s	辉夜奏	又学到新东西了呢，‘前辈’。
+s	周腾	这…说得我像是什么老师一样。还有，怎么又突然开始叫我前辈了！？
+p	kanade		normal	normal	speak	
+s	辉夜奏	怀念这个称呼了吗？
+p	kanade		normal	normal	smile	
+s	周腾	我的鸡皮疙瘩告诉我并不怀念，还是就叫我本名吧。
+p	kanade		normal	normal	speak	
+s	辉夜奏	嗯…可是，不是只有很亲密的人之间，才能够互相称呼名字吗？
+p	kanade		normal	normal	confused	
+s	周腾	这个问题之前不是讨论过了吗，这里不是日本，不需要在乎那些冗杂的规矩。
+p	kanade		normal	normal	speak	
+s	辉夜奏	虽然是这样没错，但我果然还是很在意。
+s	辉夜奏	在周腾你的眼里，我们的关系能算作‘亲密’么？
+p	kanade		normal	normal	sad	
+s	周腾	我……
+s	店长	我从刚刚开始就看到你们俩站在门口一直不进来了，怎么…喜欢晒太阳不喜欢吹空调？
+s	周腾	没有没有，只是在聊天。
+s	店长	聊天就进来聊吧，今天开学，店里我新上了几款新品，刚好给你们介绍一下。
+b	coffee_afternoon
+p	kanade	c				
+s		店长的突然出现打断了我和辉夜奏之间的谈话，虽然心里会觉得有些可惜吧，但更多感觉到的其实还是庆幸。
+s		刚刚的气氛实在是有些危险，如果放任不管任凭对话继续下去，鬼知道我会做出什么样的回答……
+s	周腾	今天人很多啊，店长你居然还有时间抽空来店外面看我们？
+s	店长	以前的话嘛…刚开学肯定没时间，但是现在不一样了，喏~
+s		店长用眼神示意了一下旁边吧台的位置，我这才发现，多出了几个穿着星期八专属logo服装的店员，正在帮忙一起做咖啡。
+s	周腾	居然多了好几个新员工，什么时候招的？
+s	店长	就这个暑假啊，这个暑假我一直在忙着找人手，因为不光是你们白月高中的学生，其他地方来喝咖啡的人也越来越多了。
+s	店长	我跟你们讲，现在年轻人管我们星期八叫什么，叫‘可以开party的咖啡厅’！
+s	店长	这个你知道吧，我们这儿最出名的就是可以随便聊天讲话。
+s	店长	然后现在这个名头，好像是被哪个探店博主给做了个视频宣传，一下子就带火了，然后各种人都跑到我这里来喝咖啡聊天玩桌游什么的。
+s		店长看起来十分开心，看得出来这次意外走红给他的营业额带来了不小的提升。
+s		但是，情况是不是有些不太对……？

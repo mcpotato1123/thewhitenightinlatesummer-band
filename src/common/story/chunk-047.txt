@@ -1,0 +1,128 @@
+j	6017
+b	black
+s		…
+s		……
+s		………
+b	street_night
+s		常夏离开之后，我并没有跟着其他人一起去餐厅点菜，而是主动留在了外面。
+s		理由嘛，说的是今天难得来这边一趟，就给他们排队一人买一杯“囍茶”。虽然他们打趣地对我瞎想的理由表示了怀疑，但也还是放任我这么去做了。
+s		奶茶确实是要买，但我也确实对常夏有些担心。
+s		这种担心是无源头的，莫名的。我说不上来自己心里为何会有一种慌张的感觉，就像谁也不知道自己哪一天晚上就会突然做噩梦一样。
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	哟，还在排队呢。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	你怎么下来了？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	口渴想喝奶茶了，所以下来看看你。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	看看我…？
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	看看你怎么还没有把奶茶给送上来。
+p	yuluoshen	c	normal	normal	smile	
+s	周腾	……
+s		我没有去接余洛琛的话，而是看了眼自己手中的小票和店门口招牌旁摆着的显示排队进程的屏幕。
+s	周腾	大概还需要二十分钟吧。
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	你明知道排囍茶的人这么多还要来买，去餐馆里喝四块钱一瓶的阿萨姆不是一样的？
+p	yuluoshen	c	normal	normal	close	
+s	周腾	难得来一次，尝个鲜。
+p	yuluoshen	c	normal	normal	surprise	
+s	余洛琛	你最好是来尝鲜的，而不是另有打算。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	不就买个奶茶而已吗，我能有什么打算。
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	行行行，就当我多嘴咯。
+s	余洛琛	反正都下来了，我陪你一起等吧。
+p	yuluoshen	c	normal	normal	close	
+s	周腾	嗯。
+s		我本还想问问她为什么不呆在上面和他们一起点餐，想了很多措辞，最后也还是没说出口。
+s		余洛琛就这样站在我旁边，目视着路前方来往的人流发呆。
+s		虽说她平时老是喜欢无理取闹和刁难我，但这次却意外地老实本分没有多嘴。
+p	yuluoshen	c	normal	surprise	speak	
+s	余洛琛	周腾，你说……这个世界上真的存在平行宇宙吗？
+p	yuluoshen	c	normal	surprise	close	
+s	周腾	啊？
+s		余洛琛冷不丁地发言让我有些没缓过神来，明明刚刚还在心里夸了她老实本分来着……
+p	yuluoshen	c	normal	surprise	speak	
+s	余洛琛	也不怕你笑话我，我这个人啊，性格有些差劲，所以老是会说一些让自己后悔的话，做一些让自己后悔的事。
+p	yuluoshen	c	normal	sad	speak	
+s	余洛琛	其实每个晚上躺在床上的时候我都会在想，如果那个时候的我不这么做……或者不说那些话就好了。
+s	余洛琛	我会后悔，我也知道过去的事情没办法改变。可为什么……每次轮到我选的时候，我却总选错呢？
+p	yuluoshen	c	normal	sad	close	
+s	周腾	干嘛突然说这种话题，这不像平时的你啊。
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	如果我说这才是真的我呢？
+p	yuluoshen	c	normal	normal	close	
+s	周腾	……
+p	yuluoshen	c	normal	normal	speak	
+s	余洛琛	开玩笑的，就是发个牢骚而已。
+s	余洛琛	如果……我是说如果啊，如果周腾你还有再选一次的机会的话，你会……
+p	yuluoshen	c	normal	normal	close	
+s	周腾	常夏来电话了。
+p	yuluoshen	c	normal	confused	speak	
+s	余洛琛	啊？
+s	周腾	估计是快到了吧，我问问看什么情况。
+h	yuluoshen
+s		说实在的，在看到常夏来电的那一刻，我心里悬着的石头才算是落了下来，一直紧绷着的情绪也变得放松了不少。
+s		直到，电话那头出现了陌生人的声音……
+s	？？？	喂您好，请问是机主的家人吗！？
+s	周腾	我是她…呃，朋友，怎么了？
+s	？？？	嘶，我看这个号码在紧急联系人里，所以就直接打过来了。
+s	？？？	长话短说，这边出车祸了，然后可能……那个…你朋友的情况不是很乐观。
+s	周腾	……
+s	？？？	总之麻烦你立刻赶过来吧！！地址在白月高中附近，我看看…旁边有几家超市，还有一家关门了的咖啡厅，店名叫‘星期八’。
+s	？？？	救护车现场已经有人帮忙叫了，真的！快点赶来，如果可以的话帮忙联系一下她的父母！
+b	black
+s		……
+b	black
+s		…
+s		……
+s		………
+s	？？	不好意思，麻烦家属在手术室外安静等候。
+s	？？	大夫——！我女儿怎么样了……她没事吧？身上没出什么大问题吧？是不是只需要缝几针就可以出院了！？
+s	？？	唉……等吧，等吧……
+s	？？	大夫，求你了，就让我进去看我女儿一眼好不好？我就想看看她啊——！！
+s	？？	行了！手术室不是外人随便就能进的，相信医生们，咱们就安心等着吧。
+s	？？	这点请放心，无论怎么样我们都一定会尽全力的，同时也希望……你们能做好两手准备。
+s		……
+b	hospital
+s		如果我没有看到现场的话，兴许我还会抱有那么一丝希望吧。
+s		可只要我一闭上眼，那满地血迹的场景便会一次又一次的出现在我的脑海里。
+s		不断地重复放映…放映……就像一记记重拳，将我连带着我的希望一起打回现实。
+s		……
+s		身体止不住的发抖，医院走廊的冷气开得比想象中还要大。
+s		护士来回踱步的声音有些吵闹，消毒水混合着不知名药物的味道，不断地涌入我的鼻腔刺激着我。
+s		可我实在是打不起精神啊，就连眼睛都快睁不开了啊……
+s		窒息和反胃的感觉一并而来，周围的声音渐渐消散，取而代之的是尖锐的耳鸣。
+s		如果……我当时和常夏一起去了，结果会不会不一样呢？
+p	yuluoshen	c	sad	normal	speak	
+s	余洛琛	擦一擦吧。
+s	周腾	……？
+p	yuluoshen	c	sad	normal	close	
+s		一旁不知道是谁朝我递来了两张纸巾，见我许久无动于衷，又自作主张地用纸巾在我脸上来回擦拭了几遍。
+b	hospital
+p	yuluoshen	c	sad	normal	close	
+s		模糊的视线渐渐恢复清晰，余洛琛挨坐在我旁边，攥着被泪水打湿的皱纸。
+s		她的眼睛红的有些吓人，但情绪却异常平静，就连看着我的眼神都柔和了不少。
+s		当然葛城也在，不过他是一个人坐在了对面的靠椅上，半低着头，一言不发……
+s	周腾	奏呢…
+p	yuluoshen	c	sad	normal	speak	
+s	余洛琛	和你一样哭成泪人了，后来被她爸接回去了。
+p	yuluoshen	c	sad	normal	close	
+s	周腾	嗯。
+p	yuluoshen	c	sad	normal	speak	
+s	余洛琛	早点回去休息吧，已经快12点了。
+s	周腾	你回去吧，我得守着。
+p	yuluoshen	c	sad	sad	speak	
+s	余洛琛	可你的身体已经撑不住了，葛城那边也是…
+p	yuluoshen	c	sad	surprise	close	
+s	余洛琛	……
+p	yuluoshen	c	sad	normal	speak	
+s	余洛琛	……我明白了。
+h	yuluoshen
+s		简单地自言自语之后，余洛琛没再说话了，好像是想明白了什么。
+s		不知道过了多久，走廊上再一次地响起了窸窣的谈话声。我努力想听清谈话的内容，但前所未有的疲劳感占据了全身，压制着我的身体。
+s	？？	两位，手术结束了，结果
+b	black
+s		…
+s		……

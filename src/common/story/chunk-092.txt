@@ -1,0 +1,128 @@
+b	black
+s		……
+s		和“初中常夏”同行的第二十一天，距离歌手大会正式开始只剩最后一天时间。
+s		……
+b	stage_lighton
+p	changxia	c	normal	surprise	sad	
+p	changxia	c	normal	surprise	speak_angry	
+s	@	彩排又推迟了！？
+p	changxia		normal	surprise	sad	
+s	周腾	没办法，我也是才接到音乐老师那边的通知。
+s	周腾	听说是一些设备出了问题吧，具体是什么设备什么问题，他们没有明说。
+p	changxia	c	normal	sad	speak_angry	
+s	@	怎么这样……
+p	changxia	c	normal	sad	confused	
+s		原定的彩排时间是中午十二点半，结果现在都已经一点半了，彩排还没有正式开始。
+s		下午上课的时间是两点整，如果不能在此之前完成彩排的话，还会耽误到下午的课程。
+s		虽然身处“小世界”的我是对课程无所谓了，但一想到回去晚了之后还要被任课老师给劈头盖脸地骂一顿，就会觉得心里很不爽。
+s		更何况被骂的不止我自己，还有常夏，和其他所有正在准备彩排走台的参赛选手。
+p	changxia	c	normal	sad	sad	
+s	@	啧，急死我了……
+s		常夏抱着我送她的笔记本，在我旁边来回踱步着，随后又绕着我焦头烂额地转了好几个圈。
+s		我知道她现在心里很焦躁，但我没想到她缓解压力的方式居然是围着我转圈…？
+s	周腾	你歌词背好了吗？
+p	changxia	c	normal	angry	speak_angry	
+s	@	我真是服了你了周腾，我不是早就告诉你我背好歌词了吗，别又给我制造焦虑啊…！
+p	changxia	c	normal	sad	speak_angry	
+s	@	唉，你现在这么一说，我还真不确定自己的歌词是不是真的背熟了。
+s	@	到时候上台唱歌的时候，我要是忘词了怎么办？
+s	@	要是前奏放完我进主歌的时候掉拍了怎么办？
+s	@	有几个高音很难唱，我应该不会唱破音吧，不会吧不会吧……
+p	changxia	c	normal	sad	sad	
+s	周腾	你担心这么多干什么，反正明天就比赛了，站在台上放开了唱就行了！
+p	changxia	c	normal	angry	speak_angry	
+s	@	说得倒是轻巧，你不是我，你才不知道我现在会有多紧张呢…！
+p	changxia	c	normal	angry	confused	
+s	周腾	我怎么就不知道了？我认识你这么久了，多少还是能感同身受的好吧…
+p	changxia	c	normal	angry	speak_angry	
+s	@	不信~
+p	changxia	c	normal	angry	confused	
+s	周腾	那…现在让我切实感受一下？
+p	changxia	c	normal	surprise	confused	flush
+s		不知道脑子突然抽了哪根筋，我将常夏搂进了自己的怀里，紧紧地贴着她，安静地感受着她的心跳起伏。
+s		就像常夏自己说的那样，她现在确实紧张地不得了……
+s	周腾	心跳地这么快，看样子确实很紧张啊。
+p	changxia	c	normal	angry	speak_angry	flush
+s	@	本来没有那么紧张的，但是你突然来这么一下……
+p	changxia	c	happy	angry	speak_angry	flush
+s	@	偷偷占我便宜，就不怕我告老师啊…？
+p	changxia	c	happy	angry	confused	flush
+s		常夏的脸颊十分可爱地泛起了红晕，我本想抬手戳一戳她的脸，结果却被她用手给按了下来。
+p	changxia	c	normal	sad	happy	flush
+s	@	好啦，别胡闹了，这里这么多老师呢，等会要是被看到了影响不好……
+s	@	当然我不是嫌弃你的意思啊，我只是想说……
+p	changxia	c	happy	sad	speak	flush
+s	@	抱抱什么的，等到比赛结束之后再说吧。
+p	changxia	c	happy	sad	smile	flush
+s	周腾	对不起…
+p	changxia	c	normal	normal	speak	
+s	@	不许和我说对不起，我和你之间的关系用不着这么客气~
+s	音乐教师	设备已经调试完毕啦！请参加歌手大会的同学们到舞台前面集合，我讲一下注意事项和等会彩排的顺序。
+s	周腾	哦？好像已经调试好了。
+p	changxia	c	happy	normal	speak	
+s	@	那我就先去舞台那边集合啦~
+p	changxia	c	normal	normal	speak_angry	
+s	@	哦，对了，这个给你。
+p	changxia	c	normal	normal	confused	
+s		常夏将自己的笔记本塞进了我的怀里，用着一脸严肃地表情看着我。
+p	changxia	c	normal	angry	speak_angry	
+s	@	帮我保管好，不许偷看！绝对绝对不许偷看！
+p	changxia	c	normal	angry	speak	
+s	@	音乐厅可是有监控的，你要是偷看了的话，我是查得出来的哦~
+p	changxia	c	normal	angry	smile	
+s	周腾	也不至于为了这种事情动用监控吧……
+p	changxia	c	normal	normal	speak_angry	
+s	@	好啦，我先过去了，你先回去上课吧。
+p	changxia	c	normal	angry	speak_angry	
+s	@	啊不，就在这里等我，哪里都不许去！等会我结束了咱俩一起回班！
+j	11854
+h	changxia
+s		话罢，常夏便小跑着离开了。只剩我一个人还在原地站着，望着主舞台上发呆。
+s		怀中的笔记本在这一刻又变得沉重了几分，我本想翻开本子偷偷看上两页，但想起常夏刚刚的话，我也还是打消了自己的这个想法。
+s		就像最好吃的巧克力和牛肉面里最大块的牛肉都要放在最后吃一样。
+s		笔记本上的内容，就等常夏比赛结束之后再揭晓吧。
+b	black
+s		……
+b	stage_lighton
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	学校对这场歌手大会的重视程度，比想象中还要低呢。
+p	kanade	c	normal	normal	confused	
+s	周腾	是啊，之前音乐厅也没有提前打扫，还是我和我搭档一起打扫的。
+s	周腾	这次彩排设备也出了问题，搞了半天才算是调试好。
+s	周腾	……
+s	周腾	等等，辉夜奏…！？你怎么在这里——！？
+s		本以为和自己抱怨搭话的只是普通的同校学生，结果转过头对上视线了之后才发现，说话的并不是什么同校学生，而是辉夜奏。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	很意外吗，说实话，一开始的时候…就连我自己都很意外……
+p	kanade	c	normal	normal	confused	
+s	周腾	不是不是，现在是什么情况？我们这是还在‘小世界’里吗？
+s	周腾	我们这算是成功了还是失败了？你知不知道…
+s	周腾	你之前拿枪顶着自己脑袋的时候，我有多害怕！！
+p	kanade	c	normal	normal	speak	
+s	辉夜奏	原来周腾也会露出这种惊慌失措的表情啊~
+s	辉夜奏？	放心好啦，辉夜奏她成功了。
+p	kanade	c	normal	normal	smile	
+s	周腾	‘辉夜奏’…她成功了……？
+s		我一时间内没能弄清楚辉夜奏话里的意思，难道这个世界上还能有两个辉夜奏不成？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	辉夜奏赌对了，她扣下扳机的那一刻，小世界便开始崩塌。
+s	辉夜奏？	按道理来说，包括我在内的大家都应该已经得救了，只不过…
+s	辉夜奏？	因为你，大家现在还处于沉睡状态，还没能立刻回身于现实。
+p	kanade	c	normal	normal	confused	
+s	周腾	因为我？那我现在是什么情况，我还在‘小世界’里吗？为什么我会再经历一次自己初中经历过的事情？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	大概是因为你，还有没能找回的记忆，和没能完成的愿望吧。
+s	辉夜奏？	或者说，是我这边还有没能完成的愿望……
+p	kanade	c	normal	normal	confused	
+s		辉夜奏的话让我越听越糊涂，但至少还有个好消息，其他人得救了是事实。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	那天在你闯到我家之前，我就已经从我爸的嘴里问出了很多事情。
+s	辉夜奏？	当然，他后面也和你解释过。
+s	辉夜奏？	辉夜族人除了有‘小世界’这种东西之外，也有一些其他能够影响到现实的能力。
+s	辉夜奏？	例如，让人‘失忆’。
+p	kanade	c	normal	normal	confused	
+s	周腾	原来，我会忘记初中的事情，是因为你……
+p	kanade	c	normal	normal	sad	
+s	辉夜奏？	……
+p	kanade	c	normal	sad	speak	
+s	辉夜奏？	抱歉，这种事情并不是我所希望看到的…

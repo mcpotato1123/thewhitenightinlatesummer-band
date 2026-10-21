@@ -1,0 +1,128 @@
+s	辉夜奏？	辉夜族人没办法操控自己的能力，我也一样，就像我不能随意关闭或者打开自己的小世界一样。
+s	辉夜奏？	这种情况严重到，你们只要和我呆在一起，就会不可避免地出现记忆丢失的问题。
+p	kanade	c	normal	sad	confused	
+s		听到这里我才意识到，之前暑假的时候老觉得自己好像忘了什么事情，感觉头痛……
+s		原来是因为辉夜奏的影响么。
+s		心情有些复杂，但我也不知道该说些什么了……
+j	11911
+p	kanade	c	normal	sad	speak	
+s	辉夜奏？	失去记忆的感觉一定很难受吧，尤其还是这种…珍贵又美好的回忆……
+p	kanade	c	normal	sad	confused	
+s	周腾	……
+p	kanade	c	normal	sad	speak	
+s	辉夜奏？	在得知到这件事情之后，我一直都很愧疚。
+s	辉夜奏？	所以我才说，其实是我自己还有没能完成的愿望……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	在小世界崩塌的最后一刻，我抓住了残留下来的一部分。
+s	辉夜奏？	然后用你脑海最深处的回忆，构成了你这几天所经历的所有事情、看到的所有景象。
+s	辉夜奏？	算是我……自我赎罪的一种表现吧。
+p	kanade	c	normal	sad	confused	
+s	周腾	奏……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	我并不是辉夜奏本人，只是她藏在心底最深处的一缕情绪。
+s	辉夜奏？	愧疚、羡慕、难过、欣喜……这所有的情绪结合在了一起，才形成了我。
+s	辉夜奏？	这场歌手大会结束之后，小世界就会彻底崩塌，大家重新从现实中苏醒过来也只是时间关系。
+s	辉夜奏？	不过我也没有什么遗憾了，那些因我而失的记忆，我也帮你全部复现了。
+p	kanade	c	normal	sad	confused	
+s	周腾	你确定全部都复现了？你怎么知道被我忘记的回忆都有哪些…？
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	这里好歹也是属于我的‘小世界’啊，窥探记忆什么的，我还是勉强能够做到的。
+p	kanade	c	normal	sad	confused	
+s	周腾	啊……
+p	kanade	c	happy	sad	speak	flush
+s	辉夜奏？	周、周腾你放心！我绝对不知道你和常夏姐同睡一张床的事情！
+s	辉夜奏？	你刚才和常夏姐抱抱的事情我也完全不知道！
+p	kanade	c	happy	sad	smile	flush
+s	周腾	你这不是全部说出来了吗……
+p	kanade	c	normal	sad	speak	flush
+s	辉夜奏？	抱歉，我、我会偷偷忘掉的……
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	不过现在这么一想，果然还是很羡慕常夏姐啊。
+s	辉夜奏？	能这么早就和你认识，能和你经历各种各样的事情……
+p	kanade	c	normal	sad	speak	
+s	辉夜奏？	‘搭档’这个名号，我其实也挺喜欢的~
+p	kanade	c	normal	sad	smile	
+s		辉夜奏望着我，笑容里藏着些许悲伤。
+p	kanade	c	normal	sad	speak	
+s	辉夜奏？	看着你和常夏姐的初中生活，就好像我自己也切身经历过这些事情一样。
+s	辉夜奏？	那些过往的缺憾，也算是在这一刻填满了呢。
+p	kanade	c	normal	normal	confused	
+s		辉夜奏站在我身旁，呆呆地望着舞台上的常夏。
+p	kanade	c	normal	normal	smile	
+s		她的眼神里充满了羡慕，但最后也还是释然了。
+s	周腾	重回现实之后，你的那些能力还会跟着你吗？
+p	kanade	c	normal	normal	confused	
+s		辉夜奏摇了摇头。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	碎掉了的花瓶，是拼不起来的。
+s	辉夜奏？	辉夜族人一生只能触发一次小世界，包括其他连带的能力也是，小世界破碎之后就不在有了。
+p	kanade	c	normal	normal	confused	
+s	周腾	也就是说，可以过上正常人的生活了？这是好事啊~
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	是啊…
+s	辉夜奏？	这到底是好事，还是坏事呢……？
+p	kanade	c	normal	normal	confused	
+s		我没能听清辉夜奏刚刚的那句话，但她大概也是在感叹和庆幸吧。
+s		无论如何，辉夜族人的“诅咒”，很快就要在她身上解除了。
+p	kanade	c	normal	normal	speak	
+s	辉夜奏？	比赛当天我还会过来的。
+s	辉夜奏？	你和常夏姐的美好结局，我也想好好见证一下~
+s	辉夜奏？	你应该不会介意的吧，周腾？
+h	kanade
+s		我浅笑着摇了摇头，看到我的反应之后，辉夜奏也满意地从我的视线范围之内消失了。
+s		舞台上的彩排进展的还算顺利，希望明天的比赛也能够顺利进行。
+s		无论最后的结果如何，明天都是最后的“谢幕演出”了。
+j	11979
+b	black
+s		……
+s		歌手大会当日。
+s		距离比赛正式开始还有不到半个小时的时间。
+b	stage_lighton
+p	changxia	c	normal	surprise	speak_angry	
+s	@	没想到，今天居然会有这么多学生过来看歌手大会。
+p	changxia	c	normal	surprise	confused	
+s	周腾	开始紧张了？
+p	changxia	c	normal	sad	speak_angry	
+s	@	很难不紧张吧！你看这底下，又有初一的又有初二的……
+s	@	甚至还有初三的学生！他们不是应该在准备中考吗？
+p	changxia	c	normal	sad	sad	
+s	周腾	劳逸结合嘛，就算是初三学生也是得好好放松一下的。
+p	changxia	c	normal	normal	confused	
+s		常夏没有回话，只是嘟囔着嘴，手撑在座椅上，看着主舞台发呆。
+s		因为常夏的节目并不是特别靠前，所以她也没有急着到后台去待命，而是陪着我一起在音乐厅后方发呆。
+s	周腾	不去再复习一下歌词，或者开开嗓什么的吗？
+p	changxia	c	normal	normal	speak_angry	
+s	@	都已经这个时候了，越训练反而越会乱了阵脚。
+s	@	练声练太多，也是会给喉咙增加负担的。
+p	changxia	c	normal	normal	confused	
+s	周腾	那也总比呆在我这里要好吧，你在这里和我聊天难道就不会给嗓子增加负担？
+p	changxia	c	normal	angry	speak_angry	
+s	@	你是在赶我走吗？
+p	changxia	c	normal	angry	confused	
+s	周腾	我是想让你保持好最佳状态，等会歌手大会好拿个冠军回来，这样我这个当教练的也能沾沾光~
+p	changxia	c	normal	angry	speak_angry	
+s	@	切~说得好听，你啊，根本就不是想看我拿冠军，只是想看我的本子吧…！
+p	changxia	c	normal	angry	confused	
+s	周腾	想看你本子上的内容和想看你拿冠军，我觉得也不排斥吧。
+p	changxia	c	normal	surprise	confused	
+s	音乐教室	请所有报名参加了歌手大会的选手，五分钟之内到后台来做准备！
+s		本来还想和常夏多交流交流感情，结果广播那头就传来了我十分不愿意听到的声音。
+s		上次就是因为这个老师，害得我和常夏打扫了一整个下午的音乐厅。累死累活一节课没上成，回班之后又被各科老师给批了个狗血淋头……
+p	changxia	c	normal	normal	speak_angry	
+s	@	唉，现在好了，你想赶我走我真得走了~
+p	changxia	c	normal	normal	confused	
+s		常夏伸了个懒腰，摆出了一副很放松的表情，然后顺手又踮着脚抚摸了一下我的头发。
+s	周腾	突然摸我头发干什么。
+p	changxia	c	normal	normal	speak	
+s	@	嘿嘿，感觉挺软的，所以想摸一下？
+s	@	我先去舞台那边啦，喏，笔记本你帮我拿好了，还是老规矩，不许偷看！
+s	@	还有…等会我比赛的时候一定要好好看完哦，不许走神！
+p	changxia	c	normal	normal	smile	
+s	周腾	会的会的，你就赶紧去好好比赛吧~
+p	changxia	c	normal	normal	speak_angry	
+s	@	还是算了，我再呆一分钟吧，我还想…再和你说说话。
+p	changxia	c	normal	sad	speak_angry	
+s	@	其实啊，我现在真的很紧张，从来没有这么紧张过……
+s	@	底下这么多学生和老师领导看着我，我真的很怕自己唱错词或者唱破音了。
+p	changxia	c	normal	sad	sad	
+s	周腾	……

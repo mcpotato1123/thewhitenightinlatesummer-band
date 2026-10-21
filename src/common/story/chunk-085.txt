@@ -1,0 +1,128 @@
+b	black
+s		……
+s	周腾	姓名，班级，都检查下填好了没有。
+s	@	没问题的，你放心。
+s	周腾	还有演唱的曲目，指导老师，也都填上。
+s	@	都填上了，你放一百个心~
+s	周腾	等会儿，你指导老师怎么填的是我？
+s	@	呃，你不是我教练吗？
+s	周腾	这是两码事啊，指导老师要填自己班主任的名字才行，就算他没有指导你也得填。
+b	classroom_afternoon
+s		距离第一次和“初中常夏”见面，已经过去了三天的时间。
+s		这期间我一边过着自己的初中生日常，一边试图寻找能够离开“小世界”的办法。
+s		只是三天过去了，办法一个都没能找到，自己倒是越来越适应初中生活了。
+s		怎么说呢？从高中回到初中，颇有一种“龙王回归”的感觉。
+s		数学题都是我做过的，英语单词都是我背过的，古诗文言文翻译也是我张口就来的。
+s		学业压力一扫而空，上课即使是偷偷打盹睡觉也没关系，因为老师点我起来回答问题，我全部都能答对。
+s		不过这也会给我带来一些困扰就是了。
+s		周围的同学说我突然之间变化好大，变得特别成熟，甚至面相上都变帅了不少…？
+s		各科老师也注意到了这些事情，有的私下找我谈话问我经历了什么，有的想让我负责当课代表，有的还想让我偶尔帮忙带带自习课……
+s		这些要求都被我一一拒绝了。
+p	changxia		normal	normal	speak	
+s	@	OK啦，按照你说的又全部检查了一遍，确实有些地方填得不是很完善，还好你看出来了。
+p	changxia		normal	normal	smile	
+s	周腾	我说吧，细心点准没错。
+p	changxia		happy	normal	speak	
+s	@	嘿嘿，那我等下大课间的时候顺便去交个表。
+p	changxia		happy	normal	smile	
+s	周腾	嗯。
+s		常夏今天看起来心情非常好，准确来说…是最近三天她的心情都看起来很不错。
+s		初中的时候常夏一直都这样吗…？
+p	changxia		normal	normal	speak	
+s	@	其实我一直都想问你，啊也不是一直吧，就是最近这几天的事…
+p	changxia		normal	surprise	speak_angry	
+s	@	我感觉你就好像是突然进化了一样，变得聪明和成熟了好多。
+p	changxia		normal	surprise	confused	
+s	周腾	是你的错觉吧。
+p	changxia		normal	angry	speak_angry	
+s	@	你把我当蠢猪啊，我又不是没长眼睛，有没有变化我难道看不出来吗？
+p	changxia		normal	normal	speak_angry	
+s	@	你看，老师上课点你起来回答问题你全都能答对，明明换做以前你还要来问我答案的。
+s	@	然后做事办事也成熟稳重了很多，感觉有点大人的样子了？
+s	@	昨天的英语随堂测试你也拿了很高的分吧，120分的卷子你考了115，就作文扣了几分。
+p	changxia		normal	confused	speak_angry	
+s	@	我说你啊，不会真的被什么东西给附体了吧？
+p	changxia		normal	confused	confused	
+s	周腾	你还真信这种事情啊。
+p	changxia		normal	confused	speak_angry	
+s	@	不是我愿意信这些事情，主要是你的变化太大了啊。
+s	@	你以前成绩虽然也不差，但也没现在这么好啊，感觉像是开挂了一样。
+p	changxia		normal	surprise	speak_angry	
+s	@	啊当然，还有一种可能，那就是……
+p	changxia		normal	angry	speak	
+s	@	这么久以来，你其实一直都在扮猪吃老虎！
+p	changxia		normal	angry	smile	
+s	周腾	没错，就是这样。
+p	changxia		normal	surprise	speak_angry	
+s	@	还真是这样啊！？我就随便说说的……！
+p	changxia		normal	surprise	confused	
+s	周腾	你就当是这样吧，不也挺好吗。
+p	changxia		normal	normal	speak	
+s	@	但不管是什么情况，我其实都觉得无所谓啦。
+s	@	周围同学说你变化很大，说你像是变了一个人，但是在我看来……
+s	@	你变了，但也没变。
+p	changxia		normal	normal	smile	
+s	周腾	这是什么新型矛盾文学吗？
+p	changxia		normal	normal	speak	
+s	@	我说真的啦，没开玩笑。
+s	@	可能你确实变厉害了吧，但在我看来，你还是我认识的那个周腾。
+s	@	你的外貌，你的言行举止，你的说话语气，还有…你对我的重视程度……
+s	@	反正就是…我觉得你还是你，只是变得更优秀了，仅此而已！
+p	changxia		normal	normal	smile	
+s	周腾	不管怎么说，还是谢谢你的夸奖了。
+p	changxia		happy	sad	speak	
+s	@	哎呀，别说谢谢这种话，我们俩都这么久的搭档了。
+p	changxia		normal	normal	speak	
+s	@	报名表也填好了，剩下的时间就是为比赛做准备了~
+p	changxia		happy	normal	speak	
+s	@	今天放学之后咱俩去庆祝一下吧！我请你吃校门口两块钱一杯的火鸡面，你想吃多少都行！
+b	black
+s		自打第一次和“初中常夏”见面以来，这已经是第五天了。
+s		歌手大会的准备培训已经开始，但常夏好像并没有特别紧张的感觉…？
+b	street_afternoon
+p	changxia	c	happy	normal	speak	
+s	@	总算放学啦！今天打算吃点什么？
+p	changxia	c	happy	normal	smile	
+s	周腾	重点不在于吃什么，而是等会在哪里训练吧。
+p	changxia	c	normal	surprise	speak	
+s	@	啊，你原来真的打算给我培训啊，我还以为你只是找个借口和我独处呢。
+p	changxia	c	normal	surprise	smile	
+s	周腾	我在你眼里就是这种假正经的人？
+p	changxia	c	normal	confused	speak	
+s	@	难道不是吗？
+p	changxia	c	normal	confused	smile	
+s	周腾	你这样说我会很伤心的。
+p	changxia	c	normal	normal	speak	
+s	@	话的重点难道不是‘和我独处’？
+p	changxia	c	normal	normal	smile	
+s	周腾	是是是，你说是就是~想和你独处也是一方面，但主要目的也是为了帮你培训嘛。
+s	周腾	我觉得以你的水平，好好练习和准备的话，拿个第一名应该是没什么问题的~
+p	changxia	c	normal	confused	speak	
+s	@	这么高看我？我还准备随便划划水就算了的，拿不拿得到名次都无所谓。
+p	changxia	c	normal	confused	smile	
+s	周腾	你要敢这么搞的话，陈老师不得骂死你。
+p	changxia	c	normal	normal	speak	
+s	@	那又怎么啦，没拿到奖那说明是人家厉害，我技不如人呗。
+s	@	与其说这个，还不如想想今晚吃什么。
+p	changxia	c	normal	normal	smile	
+s		常夏拍了拍我的肩膀，表现地丝毫没有边界感。
+s		我倒是并不抗拒这种行为，不如说还有些享受，只是…一直让我有些不清楚的是……
+s		常夏初中的时候，真的是这样的吗…？
+s		那个时候的记忆，已经没剩多少还在我的脑海里了。我依稀记得，常夏不是这么主动和开朗的女生。
+s		在我看来，她还算是一个比较内敛的人，总不可能初中毕业了，一到高中就大变样了吧。
+p	changxia	c	normal	normal	speak_angry	
+s	@	说话呀，今晚吃啥。
+p	changxia	c	normal	normal	confused	
+s	周腾	你想吃什么就吃什么。
+p	changxia	c	normal	normal	speak_angry	
+s	@	继续火鸡面？
+p	changxia	c	normal	normal	confused	
+s	周腾	昨天和前天不是刚吃了火鸡面的吗？
+p	changxia	c	normal	angry	speak_angry	
+s	@	是你说我想吃什么就吃什么的！结果我真说了你又这样…
+p	changxia	c	normal	angry	confused	
+s	周腾	你就那么喜欢吃火鸡面？
+p	changxia	c	normal	normal	speak	
+s	@	还好吧，一般般喜欢。
+p	changxia	c	normal	normal	smile	
+s	周腾	那为什么还要继续吃玩意儿啊…！

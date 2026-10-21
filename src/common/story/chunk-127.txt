@@ -1,0 +1,128 @@
+p	changxia	c	normal	sad	sad	
+s	周腾	疯了吧，都高三新学期了，你还搞这种任性的事情。
+s	周腾	我就是有点累了，可能是感冒也可能是发烧了，但总归不是死了啊。你去学校好好上课，说不定你放学我就病好了呢？
+p	changxia	c	normal	angry	speak_angry	
+s	@	我总不能放你一个人在家吧，你爸上班去了家里没人，我总得留下来照看照看你吧。
+p	changxia	c	normal	angry	sad	
+s	周腾	我有手有脚，渴了会倒水喝，饿了会点外卖，我又不是废人。
+p	changxia	c	normal	angry	speak_angry	
+s	@	可你手机坏了啊，你告诉我你怎么点外卖。
+p	changxia	c	normal	angry	sad	
+s	周腾	哎哟饿不死我的，你别操这个心啦姑奶奶，赶紧去学校上课吧。
+p	changxia	c	happy	angry	sad	
+s	@	……
+p	changxia	c	normal	angry	speak_angry	
+s	@	我放学后还会来看你的，你给我乖乖躺在床上休息，不准乱跑知道吗！
+j	16272
+h	changxia
+s		丢下这句话之后，常夏便拎着书包朝着卧室外走去了。
+s		话虽这么说，但常夏似乎还是有些放心不下我，走三步就停下来回头看我一眼，僵持了好久才从房间离开。
+s		最终，卧室再一次地只剩下了我一个人。
+s		我有些吃力地爬到了床边上，重重地躺了上去……
+s		身体机能的突然下降让我感到有些不安，但我却又怎么都想不明白为什么会出现这种状况。
+s		因为“熬夜”导致伤了身体是最不可能的，这个选项是可以最优先排除的，毕竟…8月32日到现在已经经历了四次循环了。
+s		每到晚上十二点，我便会控制不住的犯困，然后彻底睡倒在床上，直至第二天早上才能醒来。
+s		虽说睡眠时间不算多吧，但保证身体不出问题还是绰绰有余的。
+s		感冒和发烧也是不可能的，这几天也没有出现打喷嚏和流鼻涕的状况。
+s		喉咙不痛也不痒，没有什么特别异常的感觉。
+s		这么一想，越来越感觉奇怪了。
+s		身体只是单纯的没有力气没有精神，肚子也很饿，吃多少东西都感觉不顶用……
+s		难道是食堂的饭菜不干净，导致我肚子里长寄生虫了…？
+s		……
+s		正当我百思不得其解的时候，我似乎听到了些许微弱的敲门声从门外传来。
+s		敲门声并不是从卧室门口传来的，而是从位置更远的家门口处。
+s		没想太多，我踉跄着下了床跑去开门。
+s		本以为是不是常夏有什么东西不小心忘带了，所以转头回来拿东西
+s		结果，出现在我家门口的，却是让我有些意外的人。
+b	zhou_teng_bedroom_noon
+p	kanade		normal	normal	confused	
+p	kanade		normal	normal	surprise	
+s	辉夜奏	我这个时间点过来，会不会有些打扰了？
+p	kanade		normal	normal	confused	
+s	周腾	问题不是打扰不打扰吧，你不去学校反而跑到我这里来是要干什么？
+p	kanade		normal	normal	surprise	
+s	辉夜奏	这个，该怎么说呢。
+p	kanade		normal	normal	speak	
+s	辉夜奏	本来是准备直接去学校的，但今天早上起床之后，感觉身体怎么都使不上力，有种虚脱了的感觉。
+s	辉夜奏	我在想，会不会不止有我一个人出现了这种状况，所以就到你家里来看你了。
+s	辉夜奏	嗯…从结果上来看，我的猜测是正确的，前辈你的脸色也非常差。
+p	kanade		normal	normal	confused	
+s	周腾	……
+s	周腾	自己身体出问题了不好好在家里休息，反而是第一时间跑到我这里来看我。
+s	周腾	你的脑回路还真是清奇。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	前辈这是在关心我么？
+p	kanade		normal	normal	confused	
+s	周腾	我只是想说，你就不怕扑了个空吗？
+s	周腾	万一你来我家之后，发现我不在家已经去学校了，那你不是白走一段路？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你这不是在家里吗。
+p	kanade		normal	normal	confused	
+s	周腾	我说的是万一，万一啊……
+p	kanade		normal	normal	speak	
+s	辉夜奏	哪有那么多万一和如果。我既然来了，而且前辈你也刚好在家里，说明这就是命中注定的结果啊。
+s	辉夜奏	就算你真的不在家，我再走回学校去也不会浪费太多时间。
+p	kanade		normal	normal	confused	
+s	周腾	但你刚刚不是还在说自己身体无力使不上劲吗。
+p	kanade		normal	normal	speak	
+s	辉夜奏	一想到可以看见你，身体就有劲了。
+p	kanade		normal	normal	smile	
+s	周腾	……这些土味情话又是在哪里学的？又是‘白月论坛’？
+s	周腾	还是少看些这种东西吧，还有，土味情话也不要随便对人乱说，别人当真了或者误会了就不好了。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	前辈…当真了？
+p	kanade		normal	normal	smile	
+s	周腾	……
+s		我有些止不住地心跳加速……
+s		明明自己浑身使不上劲，怎么心跳却跳得这么有劲呢？
+s	周腾	呃那个，你是怎么知道我家地址的？我记得我从来没有带你到我家里来过吧。
+s		我有些尴尬地换了一个话题，但这也确实是我一直想问的问题就是了。
+p	kanade		normal	normal	speak	
+s	辉夜奏	很久之前我偷偷找你们班主任问来的。
+s	辉夜奏	我撒谎说你在我爸那里上围棋课，我要去你家里给你送本围棋教材。
+s	辉夜奏	我爸的名声好像在这边也挺响的，所以你们班主任很爽快地就告诉我了。
+p	kanade		normal	normal	confused	
+s	周腾	我怎么觉得是因为你留学生的身份才告诉你的……
+j	16342
+p	kanade		normal	normal	speak	
+s	辉夜奏	是不是因为留学生都不重要吧，对我来说结果是好的就没关系。而且…
+s	辉夜奏	我其实还挺享受这种被优待的感觉的。
+p	kanade		normal	normal	confused	
+s	周腾	享受？
+p	kanade		normal	sad	speak	
+s	辉夜奏	毕竟以前还在上小学和初中的时候，经历的一些事情都实在是太过……
+p	kanade		normal	sad	sad	
+s	周腾	好了好了！打住不要说了。
+s		还没等辉夜奏开口诉苦，我便及时地打住了她。
+p	kanade		normal	surprise	surprise	
+s	辉夜奏	为什么不让我说？
+p	kanade		normal	surprise	sad	
+s	周腾	反正也不是什么好的回忆，干嘛要说出来。
+p	kanade		normal	normal	surprise	
+s	辉夜奏	说出来的话，前辈就可以更了解我了啊。
+p	kanade		normal	normal	confused	
+s	周腾	如果了解你的前提，是逼着你让你不断揭开自己的伤疤，那我宁愿不了解这些事情。
+p	kanade		normal	normal	sad	
+s	辉夜奏	……
+s		辉夜奏沉默了一会，她的表情有些复杂，想说些什么但又如鲠在喉。
+s		仔细想想倒也不是不能理解。
+s		了解一个人的前提，需要清楚地去知道她的往事，但在陈述经历的过程中，又难免会让当事人想到一些痛苦的经历。
+s		这确实是一个很难解决的矛盾。
+s	周腾	我、我得先声明一下啊！我并不是不想了解小奏你。
+s	周腾	之前聊天时你也和我提到过以前的一些事，我也知道你以前的学生生活过得有多么的……不安。
+s	周腾	我想说的是…有些事情不是非要一口气说出来的！了解你也还会有更好的时机更好的途径，对吧？
+p	kanade		normal	normal	smile	
+s		听完我的话，辉夜奏这一次总算是笑出来了。
+s		自打进入8月32以来，大家虽然明面上没有过多的争吵和显露负能量，但彼此心里都是有一道坎的，这点我是知道的。
+s		奏也是，虽然和我待在一起有哭有笑，但我也是难得看到一次她嘴角上扬的幅度这么明显。
+s	周腾	你笑什么？
+p	kanade		normal	normal	speak	
+s	辉夜奏	你刚刚，叫我小奏了。
+p	kanade		normal	normal	smile	
+s	周腾	啊…
+s		说实话，如果不是辉夜奏提醒，我自己都不知道刚刚就这么顺口的叫出来了那个称呼。
+s		本来就这么说出来也不会有事，过去就过去了，但经辉夜奏这么一提醒，我瞬间就觉得害臊了起来。
+s		这就是所谓的“后知后觉”么。
+s	周腾	抱歉，我刚刚没想太多就喊出来了。
+p	kanade		normal	surprise	surprise	
+s	辉夜奏	前辈为什么要道歉，之前不是说好了用这个新称呼么？
